@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "browser_views": 28,
+  "csv_rows": 13808,
+  "comparisons": 65028,
+  "worst_relative_error": 0.00027418867975674636,
+  "max_relative_error_by_tolerance": {
+    "1e-06": 1.2551633273481345e-7,
+    "2e-08": 6.963318810448982e-13,
+    "0.0006": 0.00027418867975674636,
+    "1e-08": 1.6780316175016482e-9
+  },
+  "method": "circle rotation, law of cosines, perpendicular line intersection and Green boundary integral; no application imports"
+}

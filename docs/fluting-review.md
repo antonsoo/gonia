@@ -94,3 +94,48 @@ staged-tree archive, npm ci, full checks and all four browser workflows. The
 evidence is recorded after deployment.
 Previous corner, spacing and entasis browser workflows were rerun in all four
 configurations; their independent numerical checks passed.
+
+## Publication and cache replacement
+
+Source `314e600cb21d2846acde83ab833288e2a719b680` introduced the fourth room.
+Pages commit `c0e797d` published it while preserving earlier hashed assets for
+readers with a cached entry page. The [initial canonical-byte receipt](fluting-initial-hosted-bytes.json)
+matched all 36 build files. The [actual public workflows](fluting-initial-hosted-browser.json)
+and [public geometry](fluting-initial-hosted-geometry.json) passed in both
+engines and widths, including native saved files and all four offline routes.
+Browser networking was disabled for those public offline checks; the public
+origin itself remained running.
+
+The [controlled upgrade record](fluting-controlled-upgrade.json) serves the
+exact previously published three-room Pages tree `42a2ba5`, then the initial
+four-room production build on the same local origin. In both engines, holding
+one new source response or substituting its bytes with HTTP 200 kept the old
+three-room cache usable with the origin unavailable. Correct complete bytes
+then installed all four rooms. These are two-edition production-server
+experiments, not a claim about old public tabs surviving that deployment.
+
+During final review, [the public cache reproduction](fluting-cache-before.json)
+showed that an ordinary font request recreated a manually deleted cache as an
+empty cache. Both fetch branches now use read-only `caches.match` with the
+edition's cache name; only installation opens a cache. The
+[local reproduction after the fix](fluting-cache-after-local.json) leaves the
+cache absent, while the font still loads online. The
+[cache-fix browser workflows](fluting-cache-fix-browser.json) and their
+[geometry checks](fluting-cache-fix-geometry.json) retain all four offline
+rooms and exports. The saved reading's bytes are unchanged.
+
+The public replacement is Pages commit `a900f8d`, built from source `8d17755`.
+The [canonical public byte check](fluting-hosted-bytes.json) matches all 36
+files. The [public cache reproduction after the fix](fluting-cache-after-hosted.json)
+leaves the deleted cache absent in both engines.
+
+The [actual public-tab transition](fluting-hosted-upgrade.json) held the first
+four-room edition open in Chromium and Firefox at 375 px while the cache fix
+was published. Each old page rejected the new edition's readiness until a
+reload. The new cache held exactly the 35 listed resources (the worker itself
+is the 36th build file), with the previous cache absent. With browser networking
+disabled, all four rooms loaded; the Ionic gauge fitted and the Greek page
+decoded. This is an actual public four-room-to-four-room upgrade. The separate
+three-room-to-four-room experiment above uses a controlled local server.
+
+The [final public workflows](fluting-hosted-browser.json) and [their independent geometry check](fluting-hosted-geometry.json) repeat all four browser configurations against the replacement build, including 28 actual downloads and 13,808 independently checked CSV rows. The final hosted reading remains byte-identical to the reviewed example.

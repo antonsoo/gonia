@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.3.0 — 2026-10-21
+
+- Measured Parthenon entasis: five corrected offsets at true proportions,
+  an explicitly enlarged departure plot, and Penrose's printed circle and
+  hyperbola predictions. The printed numerical/prose discrepancy is retained.
+- Six reported maxima compared at actual size and equal shaft length;
+  Vitruvius III.3.13 with Greek and Latin reading notes and five source scans.
+- Shared views, numerical CSV, a self-contained illustrated reading and a
+  five-page PDF containing the unchanged source JPEGs.
+- Offline status follows installation completion, including slow scans beyond
+  the former eight-second timeout. All three workshops are cached together.
+- Pages publication retains earlier hashed assets and uses a normal push.
+
 ## 0.2.0 — 2026-10-21
 
 - Vitruvius's five column-spacing systems with linked front and plan drawings,

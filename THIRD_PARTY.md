@@ -55,6 +55,50 @@ are Greek dictionary headwords explaining the borrowed Latin architectural
 names, not a Greek original of Vitruvius's Latin text. Definitions and notes
 are newly written; no modern dictionary article is reproduced.
 
+## Entasis measurements and source pages
+
+`public/sources/entasis/penrose-039.jpg`, `penrose-040.jpg`, `penrose-041.jpg`
+and `penrose-Taf_14.jpg` are unchanged full-resolution JPEG responses from
+Heidelberg University Library's public IIIF service for Francis Penrose,
+_An Investigation of the Principles of Athenian Architecture_, second edition,
+1888. The [library manifest](https://digi.ub.uni-heidelberg.de/diglit/iiif/penrose1888/manifest.json)
+identifies the library and applies the Public Domain Mark. Original library
+footers remain in the scans. The image endpoints have the form
+`https://digi.ub.uni-heidelberg.de/iiif/2/penrose1888%3A041.jpg/full/full/0/default.jpg`;
+substitute `039`, `040`, or `Taf_14` for the other pages.
+
+`krohn-068.jpg` is printed p. 68 (PDF page 86) of the same 1912 Archive edition
+used above, rendered with `pdftoppm -scale-to 2200 -jpeg`. The text and critical
+apparatus remain complete. Its III.3.13 sentence is transcribed with joined
+line-end hyphens and normalized Greek sigma letterforms; the unaccented Greek
+word follows the printing. The English and reading notes are new.
+
+| File                       | SHA-256                                                            |
+| -------------------------- | ------------------------------------------------------------------ |
+| `penrose-039.jpg`          | `9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07` |
+| `penrose-040.jpg`          | `59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144` |
+| `penrose-041.jpg`          | `7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25` |
+| `penrose-Taf_14.jpg`       | `2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227` |
+| `krohn-068.jpg`            | `4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2` |
+| `entasis-source-pages.pdf` | `4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517` |
+
+The five-page PDF embeds these JPEG bytes without re-encoding; regenerate it
+with `python3 scripts/entasis-source-pdf.py`. The app verifies each scan's hash
+before embedding it in a saved reading. Images and tables were inspected
+directly; OCR was used only to locate passages.
+
+The five plotted rows are Penrose's corrected comparison on p. 41, not a new
+transcription of every row of plate XIV. That plate is supplied as context.
+His p. 40 six-building table supplies lengths, maxima, their reported heights
+and a separately rounded equal-length comparison. New SVGs use these numbers;
+they do not copy modern scholarly diagrams.
+
+Alain Goriely's [2026 analysis](https://arxiv.org/html/2510.16831v2) is linked
+as a contrasting interpretation of optical-correction claims. No text extract,
+figure or adapted illustration from that article is bundled. The Greek
+headwords link to Scaife ATLAS's Middle Liddell and headword records; their
+short explanations and all Latin grammar notes are newly written.
+
 ## Fonts
 
 - IBM Plex Sans, Regular and SemiBold WOFF2, from

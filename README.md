@@ -4,11 +4,14 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Two problems you can change and measure:
+Three problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
   why does Vitruvius leave a wider opening in the middle of an eustyle front?
+- [The curve inside the taper](https://antonsoo.github.io/gonia/entasis.html):
+  how do Penrose's measured Parthenon offsets differ from a straight taper,
+  a circle and his hyperbola predictions?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -71,6 +74,36 @@ The model omits structural loads, entasis and measured base/capital profiles.
 [Saved illustrated reading](examples/eustyle-altered-reading.html) ·
 [Six-page PDF](examples/eustyle-altered-reading.pdf).
 
+## Inspect a measured column edge
+
+Open [the entasis workshop](https://antonsoo.github.io/gonia/entasis.html).
+The Parthenon edge is drawn at equal horizontal and vertical scales. Beside it,
+a second drawing subtracts the straight endpoint taper and enlarges the small
+outward departures. Select one of five printed heights to connect the point,
+original offset, calculation and table row.
+
+At 15.75 feet, straight taper gives 0.342762 feet inward; Penrose's corrected
+column offset is 0.2886 feet. The difference is 16.508 mm outward from that
+taper. It remains inward of the base: entasis need not make a column wider
+than its bottom.
+
+Compare Penrose's printed circle and hyperbola predictions. The circle passes
+through the base, middle and top by construction; inspect the other two rows
+instead of mistaking those three agreements for independent evidence. The
+hyperbola's printed middle row differs by 0.0011 feet, although Penrose's prose
+says the differences do not exceed 0.001. Both readings remain visible.
+
+The workshop also compares six reported maxima at actual size and equal
+shaft length, reads Vitruvius III.3.13 with Greek and Latin vocabulary, and
+includes five complete source images. Download the numerical CSV or a
+self-contained illustrated reading; all three workshops and their source
+packets are available offline after the footer confirms the complete edition.
+
+The five points do not establish a continuous measured profile, an ancient
+construction method or an optical effect. [Source decisions](docs/entasis-design.md)
+explain these boundaries. The drawings join stations with explicit guides;
+they do not invent intermediate observations.
+
 ## Run locally
 
 Node 24 or newer:
@@ -129,7 +162,7 @@ See [verification notes](docs/verification.md) for the reviewed revision and
 the scope of those results. These checks establish the application's behavior,
 not historical certainty.
 
-This is an **idealized local corner**, not a reconstruction of a named building.
+The corner workshop is an **idealized local corner**, not a reconstruction of a named building.
 It uses one intermediate triglyph per normal column bay and square ordinary
 metopes. Column profiles are illustrative. Roof, sculpture, colour, entasis,
 load calculations and whole-building refinements are omitted. The equal-width
@@ -147,6 +180,16 @@ geometric explanation.
 - Vitruvius, _De architectura_ III.3.2–10, same edition, pp. 64–67.
   [Archive scan](https://archive.org/details/vitruviidearchit00vitr_1/page/64/mode/2up).
   Height follows the explicit nine-and-a-half reading in III.3.10.
+- Francis Penrose, _An Investigation of the Principles of Athenian
+  Architecture_, second edition (1888), pp. 39–41 and plate XIV.
+  [Heidelberg scan](https://digi.ub.uni-heidelberg.de/diglit/penrose1888/0054).
+  Five corrected offsets and two sets of predictions come from p. 41;
+  six reported maxima and shaft lengths come from p. 40.
+- Vitruvius, _De architectura_ III.3.13, Krohn (1912), p. 68.
+  [Archive scan](https://archive.org/details/vitruviidearchit00vitr_1/page/68/mode/2up).
+- Alain Goriely, “The illusion of illusions: There are no optical corrections
+  in the Parthenon,” [2026 analysis](https://arxiv.org/html/2510.16831v2).
+  Linked as a contrasting interpretation; its figures are not reused.
 - Mark Wilson Jones, “Doric Measure and Architectural Design 2: A Modular
   Reading of the Classical Temple,” _AJA_ 105.4 (2001), 675–713, especially
   fig. 2, p. 677. [DOI](https://doi.org/10.2307/507412).
@@ -159,9 +202,12 @@ geometric explanation.
 npm run check
 npm run verify:geometry
 npm run verify:spacing
+npm run verify:entasis
 npm run test:browser -- /tmp/gonia-browser-review.json
 npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
 python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
+npm run test:entasis -- /tmp/gonia-entasis-review/browser.json
+python3 scripts/entasis-oracle.py /tmp/gonia-entasis-review/browser.json
 ```
 
 The independent oracle requires Python 3. The browser review requires

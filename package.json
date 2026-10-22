@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
-  "description": "Explore the Doric corner conflict through measured drawings, Greek vocabulary and Vitruvius.",
+  "description": "Measured ancient architecture: Doric corners, Vitruvian spacing and the Parthenon's entasis.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -34,7 +34,9 @@
     "verify:geometry": "node --import tsx scripts/geometry-cases.ts | python3 scripts/geometry-oracle.py",
     "test:browser": "node scripts/browser-check.mjs",
     "verify:spacing": "node --import tsx scripts/spacing-cases.ts | python3 scripts/spacing-oracle.py",
-    "test:spacing": "node scripts/spacing-browser.mjs"
+    "test:spacing": "node scripts/spacing-browser.mjs",
+    "verify:entasis": "node --import tsx scripts/entasis-cases.ts | python3 scripts/entasis-oracle.py",
+    "test:entasis": "node scripts/entasis-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

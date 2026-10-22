@@ -1,0 +1,491 @@
+.entasis-main {
+  max-width: 1272px;
+}
+.entasis-intro {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  padding: 48px 0 40px;
+}
+.entasis-intro h1 {
+  font-size: clamp(36px, 4.6vw, 62px);
+  letter-spacing: -0.035em;
+}
+.entasis-intro p {
+  font-size: 18px;
+  max-width: 53ch;
+}
+#entasis-workshop {
+  padding: 28px;
+  background: #fffdf7;
+  border: 1px solid var(--line);
+  scroll-margin-top: 20px;
+}
+#entasis-workshop h2 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+.entasis-lead {
+  max-width: 87ch;
+}
+.entasis-controls {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr 1fr 0.9fr;
+  gap: 24px;
+  border-block: 1px solid var(--line);
+  padding: 20px 0;
+  margin: 22px 0;
+}
+.entasis-controls label {
+  display: block;
+  font-weight: 600;
+}
+.entasis-controls select {
+  width: 100%;
+  min-height: 44px;
+  background: white;
+  border: 1px solid #8a9380;
+  padding: 8px;
+  margin-top: 7px;
+}
+.entasis-controls input {
+  width: 100%;
+  min-height: 36px;
+  accent-color: var(--green);
+}
+.entasis-controls output {
+  display: block;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+.entasis-controls small {
+  display: block;
+  color: var(--muted);
+}
+.entasis-figures {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  max-width: 850px;
+  margin: auto;
+}
+.entasis-figures figure {
+  min-width: 0;
+  margin: 0;
+}
+.entasis-figures h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+.entasis-figures figcaption {
+  color: var(--muted);
+  font-size: 14px;
+  padding: 0 12px;
+}
+.entasis-plate {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font:
+    13px Plex,
+    Arial,
+    sans-serif;
+}
+.entasis-plate .plate-heading {
+  fill: var(--muted);
+  font-size: 12px;
+}
+.entasis-plate .small-label {
+  font-size: 11px;
+  fill: var(--muted);
+}
+.entasis-plate .height-label {
+  font-size: 11px;
+  fill: var(--muted);
+}
+.entasis-plate .shaft-slice {
+  fill: #e3e6d8;
+}
+.entasis-plate .datum {
+  fill: none;
+  stroke: #8a9380;
+  stroke-width: 1;
+  stroke-dasharray: 2 6;
+}
+.entasis-plate .chord {
+  fill: none;
+  stroke: #963b25;
+  stroke-width: 1;
+  stroke-dasharray: 6 5;
+}
+.entasis-plate .observed {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 1.8;
+}
+.entasis-plate .observed-dot {
+  fill: #405a43;
+  stroke: #fffdf7;
+  stroke-width: 1;
+}
+.entasis-plate .chosen-dot {
+  stroke: #27352f;
+  stroke-width: 2;
+}
+.entasis-plate .station-rule,
+.entasis-plate .grid-line {
+  fill: none;
+  stroke: #bfc3b3;
+  stroke-width: 0.65;
+}
+.entasis-plate .selected-level {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 1;
+  stroke-dasharray: 2 3;
+}
+.entasis-plate .selected-departure {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 2;
+}
+.entasis-plate .selected-label {
+  fill: #27352f;
+  font-weight: 600;
+  font-size: 12px;
+}
+.entasis-plate .dimension-line {
+  fill: none;
+  stroke: #963b25;
+  stroke-width: 1;
+}
+.entasis-plate .prediction-line {
+  fill: none;
+  stroke: #963b25;
+  stroke-width: 1.5;
+  stroke-dasharray: 5 4;
+}
+.entasis-plate .prediction-dot {
+  fill: #fffdf7;
+  stroke: #963b25;
+  stroke-width: 1.4;
+}
+.entasis-key {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 25px;
+  margin: 20px 0;
+  font-size: 14px;
+}
+.entasis-key i {
+  display: inline-block;
+  width: 25px;
+  height: 0;
+  border-top: 2px solid var(--green);
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.entasis-key .chord-key {
+  border-top: 2px dashed var(--orange);
+}
+.entasis-key .prediction-key {
+  width: 8px;
+  height: 8px;
+  border: 1px solid var(--orange);
+}
+.entasis-calculation {
+  border-block: 1px solid var(--line);
+  margin: 26px 0;
+  padding: 22px 0;
+}
+.entasis-calculation h3 {
+  margin-bottom: 12px;
+}
+.entasis-equation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  font-size: 23px;
+  font-variant-numeric: tabular-nums;
+}
+.entasis-equation span {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+}
+.entasis-calculation p:last-child {
+  margin: 12px 0 0;
+}
+.entasis-table {
+  margin: 20px 0;
+}
+.entasis-table button {
+  min-width: 62px;
+  padding: 7px;
+  border-color: transparent;
+  font-variant-numeric: tabular-nums;
+}
+.entasis-table button[aria-pressed="true"] {
+  border-color: var(--green);
+}
+.entasis-table th,
+.entasis-table td {
+  padding: 8px 10px;
+  font-variant-numeric: tabular-nums;
+}
+.entasis-table .selected-row {
+  background: #e7ebde;
+}
+.entasis-experiments {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin: 30px 0 12px;
+}
+.entasis-experiments h3 {
+  margin-bottom: 9px;
+}
+.entasis-experiments p {
+  max-width: 53ch;
+}
+.entasis-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  margin-top: 28px;
+}
+.entasis-actions p {
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+}
+.entasis-actions input {
+  width: 100%;
+  padding: 10px;
+}
+.entasis-section {
+  padding: 42px 0;
+  border-bottom: 1px solid var(--line);
+}
+.entasis-section h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+.entasis-section h3 {
+  margin: 20px 0 12px;
+}
+.entasis-section > p {
+  max-width: 88ch;
+}
+.entasis-basis {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.entasis-basis [aria-pressed="true"],
+.entasis-source-choices [aria-pressed="true"] {
+  background: var(--green);
+  color: white;
+  border-color: var(--green);
+}
+.maxima-chart {
+  margin: 24px 0;
+  display: grid;
+  gap: 13px;
+  max-width: 1000px;
+}
+.maximum-row {
+  display: grid;
+  grid-template-columns: 255px 1fr 100px;
+  gap: 18px;
+  align-items: center;
+}
+.maximum-track {
+  height: 18px;
+  border-left: 1px solid var(--line);
+}
+.maximum-bar {
+  display: block;
+  height: 18px;
+  background: #405a43;
+}
+.maximum-value {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.entasis-source-choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 24px 0;
+}
+.entasis-source-figure {
+  margin: 20px 0;
+}
+.entasis-scan-window {
+  max-height: 740px;
+  overflow: auto;
+  background: #e3decd;
+  border: 1px solid var(--line);
+}
+.entasis-scan-window img {
+  width: 100%;
+  max-width: 850px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+.entasis-scan-window.enlarged img {
+  width: 1800px;
+  max-width: none;
+  margin: 0;
+}
+.entasis-source-figure figcaption {
+  font-size: 14px;
+  margin-top: 12px;
+  max-width: 90ch;
+}
+.entasis-source-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+  margin-top: 15px;
+}
+.entasis-reading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.entasis-reading [lang="la"] {
+  font-family: Noto, Georgia, serif;
+  font-size: 22px;
+  line-height: 1.8;
+}
+.entasis-words {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 45px;
+  margin-top: 20px;
+}
+.entasis-words article {
+  border-top: 1px solid var(--line);
+  padding: 10px 0;
+}
+.entasis-words h3 {
+  font-family: Noto, Georgia, serif;
+  font-size: 24px;
+}
+.entasis-words p {
+  margin-bottom: 10px;
+}
+.entasis-evidence {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 28px;
+}
+.entasis-small {
+  font-size: 14px;
+  color: var(--muted);
+}
+.entasis-page [hidden] {
+  display: none;
+}
+@media (max-width: 900px) {
+  .entasis-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+  .entasis-intro {
+    gap: 30px;
+  }
+  .entasis-figures {
+    gap: 12px;
+  }
+  .entasis-evidence {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .maximum-row {
+    grid-template-columns: 200px 1fr 95px;
+    gap: 10px;
+  }
+}
+@media (max-width: 650px) {
+  .entasis-main {
+    padding: 0 18px;
+  }
+  .entasis-intro {
+    display: block;
+    padding: 32px 0 22px;
+  }
+  .entasis-intro h1 {
+    margin-bottom: 22px;
+  }
+  .entasis-intro p {
+    font-size: 17px;
+  }
+  #entasis-workshop {
+    padding: 18px 12px;
+  }
+  #entasis-workshop h2 {
+    font-size: 27px;
+  }
+  .entasis-controls {
+    gap: 16px 12px;
+  }
+  .entasis-controls > div:first-child {
+    grid-column: 1 / -1;
+  }
+  .entasis-controls select {
+    font-size: 14px;
+  }
+  .entasis-figures {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .entasis-figures figure {
+    max-width: 340px;
+    width: 100%;
+    margin: auto;
+  }
+  .entasis-experiments,
+  .entasis-reading,
+  .entasis-words {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .entasis-words {
+    gap: 0;
+  }
+  .entasis-equation {
+    font-size: 19px;
+    gap: 10px;
+  }
+  .entasis-section {
+    padding: 32px 0;
+  }
+  .maximum-row {
+    grid-template-columns: 1fr 95px;
+    gap: 5px;
+  }
+  .maximum-name {
+    grid-column: 1 / -1;
+  }
+  .entasis-scan-window {
+    max-height: 480px;
+  }
+  .entasis-source-choices button {
+    flex-grow: 1;
+  }
+  .entasis-key {
+    justify-content: flex-start;
+  }
+}

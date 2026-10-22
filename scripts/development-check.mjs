@@ -18,7 +18,7 @@ for (const [name, engine] of [
         if (m.type() === "error") errors.push(m.text());
       });
       page.on("pageerror", (e) => errors.push(e.message));
-      for (const entry of ["", "spacing.html"]) {
+      for (const entry of ["", "spacing.html", "entasis.html"]) {
         await page.goto(`${base}${entry}`);
         await page.evaluate(() => document.fonts.ready);
         const result = await page.evaluate(async () => {

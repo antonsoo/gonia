@@ -23,6 +23,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("public")),
     "index.html",
     "spacing.html",
+    "entasis.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -36,7 +37,11 @@ export default defineConfig(async ({ command }) => {
   const edition = command === "build" ? inputHash.digest("hex") : "development";
   return {
     base,
-    build: { rollupOptions: { input: { main: "index.html", spacing: "spacing.html" } } },
+    build: {
+      rollupOptions: {
+        input: { main: "index.html", spacing: "spacing.html", entasis: "entasis.html" },
+      },
+    },
     define: { __GONIA_EDITION__: JSON.stringify(edition) },
     plugins: [
       {

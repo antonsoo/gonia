@@ -24,6 +24,7 @@ export default defineConfig(async ({ command }) => {
     "index.html",
     "spacing.html",
     "entasis.html",
+    "fluting.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -38,8 +39,13 @@ export default defineConfig(async ({ command }) => {
   return {
     base,
     build: {
-      rollupOptions: {
-        input: { main: "index.html", spacing: "spacing.html", entasis: "entasis.html" },
+      rolldownOptions: {
+        input: {
+          main: "index.html",
+          spacing: "spacing.html",
+          entasis: "entasis.html",
+          fluting: "fluting.html",
+        },
       },
     },
     define: { __GONIA_EDITION__: JSON.stringify(edition) },

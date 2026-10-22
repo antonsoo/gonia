@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-10-22
+
+- A fourth workshop follows Vitruvius’s Doric compass construction and Ionic moving-square test, with true concave profiles, a draggable gauge and repeated 20/24-division drum sections.
+- Millimetre SVG paper templates with a 25 mm calibration bar; exact CSV coordinates and a portable illustrated reading with working embedded downloads.
+- Two complete Latin pages and Aristotle’s Greek clause, with grammar, source context and the Ionic editorial supplement retained.
+- All four rooms and sources available in one complete offline edition; earlier hashed assets retained on Pages.
+
 ## 0.3.0 — 2026-10-21
 
 - Measured Parthenon entasis: five corrected offsets at true proportions,

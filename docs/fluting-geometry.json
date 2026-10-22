@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "cases": 336,
+  "comparisons": 350464,
+  "worst_relative_error": 1.3507858748451848e-8,
+  "max_relative_error_by_tolerance": {
+    "2e-08": 6.963318810448982e-13,
+    "1e-06": 1.3507858748451848e-8,
+    "1e-08": 7.750058774515345e-9
+  },
+  "method": "circle rotation, law of cosines, perpendicular line intersection and Green boundary integral; no application imports"
+}

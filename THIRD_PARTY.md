@@ -126,3 +126,16 @@ and in `src/content.ts`; the architrave entry links to Perseus's short definitio
 Latin triglyph, metope, column and epistyle terms are attested in Vitruvius IV.2–3.
 The workshop uses dictionary headwords, not a claim that Greek and Latin noun
 genders always match.
+
+## Flute-carving workshop
+
+`public/sources/fluting/` contains three complete public-domain source pages:
+Krohn's 1912 Vitruvius, pp. 74 and 85, and Bywater's Aristotle, p. 205,
+from the 1920 printing of his edition first published in 1894. Internet Archive
+provided the scans. [Source identities and decisions](docs/fluting-sources.md)
+record the full PDFs, exact image hashes, page mapping and editorial brackets.
+The short Greek transcription was also checked against Perseus's Bywater TEI
+(CC BY-SA 4.0); that complete digital text is not bundled. All new English
+translations, grammar notes and geometric drawings are MIT, Anton Soloviev, 2026.
+The standalone HTML reading embeds Noto Serif and IBM Plex Sans with their
+complete OFL copyright and license notices inside the file.

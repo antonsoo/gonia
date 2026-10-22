@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Three problems you can inspect and measure:
+Four problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -12,6 +12,8 @@ Three problems you can inspect and measure:
 - [The curve inside the taper](https://antonsoo.github.io/gonia/entasis.html):
   how do Penrose's measured Parthenon offsets differ from a straight taper,
   a circle and his hyperbola predictions?
+- [The cut inside a column](https://antonsoo.github.io/gonia/fluting.html):
+  why does a right-angle tool fit one prescribed flute but miss the other?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -96,7 +98,7 @@ says the differences do not exceed 0.001. Both readings remain visible.
 The workshop also compares six reported maxima at actual size and equal
 shaft length, reads Vitruvius III.3.13 with Greek and Latin vocabulary, and
 includes five complete source images. Download the numerical CSV or a
-self-contained illustrated reading; all three workshops and their source
+self-contained illustrated reading; all four workshops and their source
 packets are available offline after the footer confirms the complete edition.
 
 The five points do not establish a continuous measured profile, an ancient
@@ -109,6 +111,36 @@ they do not invent intermediate observations.
 
 A [saved circle comparison](examples/entasis-circle-reading.html) and its
 [eight-page PDF](examples/entasis-circle-reading.pdf) include all five scans.
+
+## Take a carving template to paper
+
+Open [the flute workshop](https://antonsoo.github.io/gonia/fluting.html#fluting-workshop).
+Keep a groove 100 mm wide, and move the corner of a right-angle tool along it.
+The Doric square-and-compass construction gives a quarter-circle hollow;
+Vitruvius's Ionic moving-square test is consistent with a semicircle.
+
+| Same 100 mm chord            | Hollow depth | Angle from P to both edges | Second tool contact at midpoint |
+| ---------------------------- | -----------: | -------------------------: | ------------------------------: |
+| Doric compass construction   | 20.710678 mm |                135 degrees |         41.421356 mm short of B |
+| Ionic semicircle             |        50 mm |                 90 degrees |                         Meets B |
+| Doric flat-faced alternative |         0 mm |       Collinear; no hollow |         Not a hollow-gauge test |
+
+Repeat the actual concave arcs around a 20- or 24-division shaft. Choose an
+illustrative Ionic fillet width; compare the removed area and shaft diameter
+while keeping the groove chord fixed. These are model dimensions and source
+prescriptions, not measured profiles or structural predictions.
+
+Download a millimetre-scaled SVG with a 25 mm calibration bar, or a
+self-contained illustrated reading with all three complete source pages,
+fonts, Latin grammar and Aristotle's Greek nested genitives. Its embedded
+CSV and SVG downloads work from a native offline file. Physical printer
+scaling remains unverified; the generated PDF's bar measures 24.999824 mm.
+
+[Source decisions](docs/fluting-sources.md) · [Review](docs/fluting-review.md) ·
+[Saved reading](examples/fluting-reading.html) · [Five-page PDF](examples/fluting-reading.pdf) ·
+[Paper template](examples/fluting-doric-100mm.svg) · [Coordinates](examples/fluting.csv)
+
+![Doric hollow, right-angle tool and repeated section](docs/assets/fluting-chromium-1440-workshop.png)
 
 ## Run locally
 
@@ -209,11 +241,16 @@ npm run check
 npm run verify:geometry
 npm run verify:spacing
 npm run verify:entasis
+npm run verify:fluting
 npm run test:browser -- /tmp/gonia-browser-review.json
 npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
 python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
 npm run test:entasis -- /tmp/gonia-entasis-review/browser.json
 python3 scripts/entasis-oracle.py /tmp/gonia-entasis-review/browser.json
+npm run test:fluting -- /tmp/gonia-fluting-review
+python3 scripts/fluting-oracle.py /tmp/gonia-fluting-review/browser.json
+# Optional native PDF inspection (requires uv):
+uv run scripts/fluting-print-review.py /tmp/gonia-fluting-review
 ```
 
 The independent oracle requires Python 3. The browser review requires

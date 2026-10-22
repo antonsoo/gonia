@@ -1,0 +1,477 @@
+.fluting-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  padding: 65px 0 58px;
+  align-items: end;
+}
+.fluting-intro h1 {
+  font-size: clamp(43px, 5vw, 70px);
+  max-width: 680px;
+}
+.fluting-intro p {
+  max-width: 540px;
+  font-size: 18px;
+}
+.fluting-intro a {
+  font-size: 15px;
+}
+.fluting-section,
+#fluting-workshop {
+  border-top: 1px solid var(--line);
+  padding: 38px 0 44px;
+}
+.fluting-section h2,
+#fluting-workshop h2 {
+  font-size: clamp(27px, 3vw, 38px);
+  margin: 6px 0 20px;
+}
+.fluting-lead {
+  max-width: 790px;
+  font-size: 18px;
+}
+.fluting-controls {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr 1fr;
+  gap: 28px;
+  margin: 28px 0;
+}
+.fluting-controls label {
+  font-weight: 600;
+  display: block;
+}
+.fluting-controls select {
+  width: 100%;
+  padding: 10px 8px;
+  background: transparent;
+  border: 1px solid #8a9380;
+  min-height: 44px;
+  margin-top: 8px;
+}
+.fluting-controls input[type="range"] {
+  width: 100%;
+  accent-color: var(--green);
+  min-height: 34px;
+}
+.fluting-controls small {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+}
+.fluting-controls output {
+  font-weight: 400;
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+.fluting-switches {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+.fluting-switches label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+}
+.fluting-switches input {
+  width: 19px;
+  height: 19px;
+  accent-color: var(--green);
+}
+.fluting-plates {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 38px;
+}
+.fluting-plates figure {
+  margin: 0;
+  min-width: 0;
+}
+.fluting-plates h3 {
+  margin: 0 0 16px;
+}
+.fluting-plates svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+.fluting-plates figcaption {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 12px;
+  max-width: 650px;
+}
+.fluting-page svg text {
+  font:
+    3.4px Plex,
+    Arial,
+    sans-serif;
+  fill: var(--ink);
+}
+.fluting-page svg .material-label {
+  font-size: 3px;
+  fill: var(--muted);
+}
+.fluting-page svg .miss-label {
+  font-size: 2.9px;
+  fill: var(--orange);
+}
+.cut {
+  fill: none;
+  stroke: var(--green);
+  stroke-width: 0.8;
+  stroke-linecap: round;
+}
+.dimension {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 0.3;
+}
+.chord {
+  fill: none;
+  stroke: #919a88;
+  stroke-width: 0.3;
+  stroke-dasharray: 1.4 1.4;
+}
+.edge-rays {
+  fill: none;
+  stroke: var(--muted);
+  stroke-width: 0.25;
+  stroke-dasharray: 1.6 1.3;
+}
+.norma {
+  fill: none;
+  stroke: var(--orange);
+  stroke-width: 1.3;
+  stroke-linecap: square;
+  opacity: 0.85;
+}
+.right-mark,
+.miss {
+  fill: none;
+  stroke: var(--orange);
+  stroke-width: 0.35;
+}
+.gauge-point {
+  fill: var(--paper);
+  stroke: var(--orange);
+  stroke-width: 0.8;
+  cursor: ew-resize;
+  touch-action: none;
+}
+.other-profile {
+  fill: none;
+  stroke: #727e73;
+  stroke-width: 0.45;
+  stroke-dasharray: 2 1.4;
+}
+.original-circle {
+  fill: none;
+  stroke: #919a88;
+  stroke-dasharray: 5 6;
+  stroke-width: 1;
+}
+.fluting-numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin: 24px 0;
+  padding: 24px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.fluting-numbers strong {
+  font:
+    clamp(25px, 3vw, 36px) / 1.2 Noto,
+    Georgia,
+    serif;
+  display: block;
+  font-variant-numeric: tabular-nums;
+}
+.fluting-numbers span {
+  font-size: 14px;
+  color: var(--muted);
+  display: block;
+  margin-top: 7px;
+}
+.fluting-verdict {
+  font-size: 19px;
+  max-width: 850px;
+}
+.fluting-small {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 930px;
+}
+.fluting-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 0;
+}
+.fluting-actions p {
+  flex-basis: 100%;
+  font-size: 14px;
+  margin: 0;
+}
+.fluting-actions a {
+  overflow-wrap: anywhere;
+}
+.fluting-construction {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.fluting-construction svg {
+  display: block;
+  width: 100%;
+  max-height: 460px;
+}
+.construction-circle {
+  fill: none;
+  stroke: #909a87;
+  stroke-width: 0.4;
+}
+.square-lines {
+  fill: none;
+  stroke: #909a87;
+  stroke-width: 0.4;
+  stroke-dasharray: 1.5 1.5;
+}
+.fluting-readings {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+}
+.fluting-readings h3 {
+  margin-bottom: 20px;
+}
+.fluting-readings details {
+  margin: 20px 0;
+}
+.fluting-readings details p {
+  font-size: 14px;
+  margin-top: 12px;
+}
+.fluting-readings summary {
+  min-height: 44px;
+}
+.source-words {
+  font:
+    23px / 1.7 Noto,
+    Georgia,
+    serif;
+  max-width: 950px;
+}
+.greek-clause {
+  font-size: clamp(23px, 2.6vw, 31px);
+  margin-top: 25px;
+}
+.genitive-line {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 26px 0;
+  padding: 20px 0;
+  border-block: 1px solid var(--line);
+}
+.genitive-line > [lang] {
+  font:
+    25px / 1.8 Noto,
+    Georgia,
+    serif;
+}
+.genitive-line > [lang] span {
+  color: var(--orange);
+}
+.fluting-grammar {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.fluting-grammar h3 {
+  font:
+    22px / 1.5 Noto,
+    Georgia,
+    serif;
+  margin-bottom: 12px;
+}
+.fluting-source-choices {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 22px 0;
+}
+.fluting-page button[aria-pressed="true"] {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--paper);
+}
+.fluting-source-window {
+  max-height: 710px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  background: #e8e2ce;
+}
+.fluting-source-window img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.fluting-source-window.enlarged img {
+  width: 1500px;
+  max-width: none;
+}
+.fluting-source-figure {
+  margin: 0;
+  max-width: 900px;
+}
+.fluting-source-figure figcaption {
+  font-size: 14px;
+  margin: 12px 0;
+}
+.fluting-source-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+.fluting-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+.fluting-table th,
+.fluting-table td {
+  padding: 12px 16px 12px 0;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  white-space: nowrap;
+}
+.fluting-table caption {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.fluting-table-scroll {
+  overflow: auto;
+  max-width: 100%;
+  margin: 26px 0;
+}
+.fluting-page footer {
+  margin-top: 20px;
+}
+.fluting-page #fluting-warning {
+  color: var(--orange);
+}
+@media (max-width: 950px) {
+  .fluting-intro {
+    gap: 30px;
+  }
+  .fluting-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+  .fluting-controls > div:first-child {
+    grid-column: 1 / -1;
+  }
+  .fluting-plates {
+    gap: 20px;
+  }
+  .fluting-readings {
+    gap: 28px;
+  }
+  .fluting-grammar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 650px) {
+  .fluting-intro {
+    grid-template-columns: 1fr;
+    padding: 38px 0;
+    gap: 26px;
+  }
+  .fluting-intro h1 {
+    font-size: 44px;
+  }
+  .fluting-intro p {
+    font-size: 17px;
+  }
+  .fluting-plates,
+  .fluting-construction,
+  .fluting-readings {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .fluting-plates figure:last-child {
+    max-width: 430px;
+  }
+  .fluting-controls {
+    gap: 18px;
+  }
+  .fluting-numbers {
+    gap: 12px;
+  }
+  .fluting-numbers strong {
+    font-size: 23px;
+  }
+  .fluting-numbers span {
+    font-size: 12px;
+  }
+  .fluting-grammar {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .source-words {
+    font-size: 21px;
+  }
+  .fluting-source-window {
+    max-height: 520px;
+  }
+  .fluting-section,
+  #fluting-workshop {
+    padding: 30px 0;
+  }
+  .fluting-source-choices button {
+    width: 100%;
+    text-align: left;
+  }
+}
+@media print {
+  .fluting-intro,
+  .fluting-controls,
+  .fluting-switches,
+  .fluting-actions,
+  .fluting-source-choices,
+  .fluting-source-links {
+    display: none;
+  }
+  .fluting-section,
+  #fluting-workshop {
+    break-inside: avoid;
+    padding: 15px 0;
+  }
+  .fluting-plates {
+    display: grid;
+    grid-template-columns: 1.3fr 1fr;
+  }
+  .fluting-plates svg {
+    max-height: 300px;
+  }
+  .fluting-source-window {
+    max-height: none;
+    overflow: visible;
+  }
+  .fluting-source-window img {
+    width: 100%;
+  }
+  .fluting-source-figure {
+    break-before: page;
+  }
+}

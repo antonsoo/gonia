@@ -1021,3 +1021,17 @@ footer [lang] {
   outline: 3px solid var(--orange);
   outline-offset: 3px;
 }
+
+/* Four linked workshops retain room for every navigation target on narrow screens. */
+@media (max-width: 800px) {
+  .masthead {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  nav {
+    flex-wrap: wrap;
+    gap: 12px 22px;
+  }
+}

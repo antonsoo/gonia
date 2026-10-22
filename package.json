@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
-  "description": "Measured ancient architecture: Doric corners, Vitruvian spacing and the Parthenon's entasis.",
+  "description": "Measured ancient architecture: Doric corners, column spacing, entasis and Vitruvian flute carving.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -36,7 +36,9 @@
     "verify:spacing": "node --import tsx scripts/spacing-cases.ts | python3 scripts/spacing-oracle.py",
     "test:spacing": "node scripts/spacing-browser.mjs",
     "verify:entasis": "node --import tsx scripts/entasis-cases.ts | python3 scripts/entasis-oracle.py",
-    "test:entasis": "node scripts/entasis-browser.mjs"
+    "test:entasis": "node scripts/entasis-browser.mjs",
+    "verify:fluting": "node --import tsx scripts/fluting-cases.ts | python3 scripts/fluting-oracle.py",
+    "test:fluting": "node scripts/fluting-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

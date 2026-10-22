@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "pdf_engine": "1.28.2",
+  "page_width_mm": 190.16132558186848,
+  "page_height_mm": 276.94465891520184,
+  "calibration_bar_mm": 24.999823898739283,
+  "reading_pages": 5,
+  "unchanged_source_jpegs": 3,
+  "greek_and_latin_extractable": true,
+  "scope": "Native browser PDF vector dimensions and source streams; physical printer scaling unverified"
+}

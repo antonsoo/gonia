@@ -18,9 +18,12 @@ jobs:
       - run: npm run verify:geometry
       - run: npm run verify:spacing
       - run: npm run verify:entasis
+      - run: npm run verify:fluting
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/gonia-browser-review.json
       - run: npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
       - run: python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
       - run: npm run test:entasis -- /tmp/gonia-entasis-review/browser.json
       - run: python3 scripts/entasis-oracle.py /tmp/gonia-entasis-review/browser.json
+      - run: npm run test:fluting -- /tmp/gonia-fluting-review
+      - run: python3 scripts/fluting-oracle.py /tmp/gonia-fluting-review/browser.json

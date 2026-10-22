@@ -1,0 +1,50 @@
+{
+  "pdf_sources": [
+    {
+      "url": "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf",
+      "bytes": 16915191,
+      "sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+      "pdf_page_to_printed_page": {
+        "92": 74,
+        "103": 85
+      }
+    },
+    {
+      "url": "https://archive.org/download/aristotelis00aristuoft/aristotelis00aristuoft.pdf",
+      "bytes": 17659371,
+      "sha256": "8cfbdd64d3eb79257320a36e29b8897928cb2f4c85865606c42570bb2f2fb667",
+      "pdf_page_to_printed_page": {
+        "217": 205
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "krohn-074.jpg",
+      "bytes": 671362,
+      "sha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5",
+      "width": 1414,
+      "height": 2200,
+      "complete_page_visually_inspected": true
+    },
+    {
+      "file": "krohn-085.jpg",
+      "bytes": 667400,
+      "sha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a",
+      "width": 1414,
+      "height": 2200,
+      "complete_page_visually_inspected": true
+    },
+    {
+      "file": "bywater-205.jpg",
+      "bytes": 552315,
+      "sha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
+      "width": 1419,
+      "height": 2200,
+      "complete_page_visually_inspected": true
+    }
+  ],
+  "greek_clause": "ἡ γὰρ τῶν λίθων σύνθεσις ἑτέρα τῆς τοῦ κίονος ῥαβδώσεως",
+  "greek_context": "Nicomachean Ethics X.4, 1174a23-24; building activities, not profile instructions",
+  "latin_editorial_supply": "anconibus 〈angulos〉 striarum dextra ac sinistra tangat; Krohn apparatus credits Jocundus"
+}

@@ -6,16 +6,16 @@ materials retain their own provenance and terms.
 ## Latin source scan
 
 `public/sources/vitruvius-82-83.pdf` contains printed pages 82–83 from
-*Vitruvii De architectura libri decem*, edited by F. Krohn, Leipzig: B. G.
+_Vitruvii De architectura libri decem_, edited by F. Krohn, Leipzig: B. G.
 Teubner, 1912. It was extracted without changing the page content from PDF
 pages 100–101 of the Internet Archive scan
 [`vitruviidearchit00vitr_1`](https://archive.org/details/vitruviidearchit00vitr_1).
 This ancient text and 1912 edition are public domain. The source PDF and
 extracted pages were obtained and inspected on 2026-10-21.
 
-| File | SHA-256 |
-| --- | --- |
-| Original Archive PDF | `b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139` |
+| File                     | SHA-256                                                            |
+| ------------------------ | ------------------------------------------------------------------ |
+| Original Archive PDF     | `b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139` |
 | Bundled two-page extract | `8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93` |
 
 The four Latin sentences were checked visually against these pages. Line-end
@@ -36,7 +36,7 @@ All fonts are self-hosted. No font service is contacted by the application.
 ## Research and dictionaries
 
 Mark Wilson Jones, “Doric Measure and Architectural Design 2: A Modular Reading
-of the Classical Temple,” *American Journal of Archaeology* 105.4 (2001),
+of the Classical Temple,” _American Journal of Archaeology_ 105.4 (2001),
 675–713, [DOI 10.2307/507412](https://doi.org/10.2307/507412), fig. 2, p. 677,
 informs the geometric model. His figure is **not** redistributed: the app draws
 its own geometry from calculated coordinates. His account distinguishes

@@ -59,11 +59,16 @@ export async function offlineStatus(element: HTMLElement) {
       registration.active,
       navigator.serviceWorker.controller,
     ]) {
-      if (!worker || watched.has(worker)) continue;
+      if (!worker) continue;
+      // A completed replacement may be waiting when registration resolves.
+      // The worker accepts this only after its integrity-checked install succeeds.
+      if (worker.state === "installed") worker.postMessage({ type: "GONIA_ACTIVATE" });
+      if (watched.has(worker)) continue;
       watched.add(worker);
       let activated = worker.state === "activated";
       if (worker === registration.installing) failed = false;
       worker.addEventListener("statechange", () => {
+        if (worker.state === "installed") worker.postMessage({ type: "GONIA_ACTIVATE" });
         if (worker.state === "activated") activated = true;
         if (worker.state === "redundant" && !activated) failed = true;
         void inspect();

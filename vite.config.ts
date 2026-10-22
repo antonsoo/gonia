@@ -80,6 +80,10 @@ self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("gonia-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });
 self.addEventListener("message", event => {
+  if (event.data?.type === "GONIA_ACTIVATE") {
+    event.waitUntil(self.skipWaiting());
+    return;
+  }
   if (event.data?.type !== "GONIA_INSPECT" || !event.ports[0]) return;
   // A late reply from a superseded worker must not recreate its deleted cache.
   event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {

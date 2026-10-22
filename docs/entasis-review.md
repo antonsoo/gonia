@@ -122,3 +122,17 @@ The upgrade experiment requires the previously published artifact. The hosted
 script checks a saved reading against `examples/entasis-circle-reading.html`,
 source hashes, selected calculations, native controls and three offline pages.
 Public bytes and browser results are recorded separately after publication.
+
+## Public artifact
+
+The reviewed runtime `0620fb7d1840871ae409bca7c62e31aaa32dd79f` was published
+in Pages commit `42a2ba5`; source and evidence were pushed in `c0ed68e`.
+The canonical root and every one of the 29 build files matched the clean build
+by length and SHA-256 (`entasis-publication.json`). Earlier hashed assets remain
+on the deployment branch for visitors who still have the prior entry page.
+
+The actual public site passed the four Chromium/Firefox desktop/phone journeys
+(`entasis-hosted.json`): shared calculation and landing, a byte-identical saved
+reading, keyboard controls, first-visit source focus, all five source hashes,
+and navigation through all three workshops with the browser network disabled.
+These results do not claim that GitHub Actions executed the local checks.

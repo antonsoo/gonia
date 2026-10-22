@@ -9,6 +9,7 @@ import {
   writeState,
 } from "./core/corner";
 import { elevation, escapeHtml, plan } from "./drawing";
+import { offlineStatus } from "./offline";
 import { downloadStudy } from "./study";
 
 const app = document.querySelector<HTMLDivElement>("#app");
@@ -18,7 +19,7 @@ let selected: Term | null = null;
 const compact = matchMedia("(max-width: 650px)");
 app.innerHTML = `
 <a class="skip" href="#workshop">Skip to the drawing</a>
-<header class="masthead"><a class="wordmark" href="${import.meta.env.BASE_URL}"><span class="mark" aria-hidden="true">└</span> Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="#workshop">Workshop</a><a href="#reading">Read the source</a><a href="#about">About</a></nav></header>
+<header class="masthead"><a class="wordmark" href="${import.meta.env.BASE_URL}"><span class="mark" aria-hidden="true">└</span> Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="#workshop">Doric corner</a><a href="./spacing.html">Column spacing</a><a href="#reading">Read the source</a><a href="#about">About</a></nav></header>
 <main>
 <section class="introduction" aria-labelledby="title"><div><p class="eyebrow">A study in ancient Greek architecture</p><h1 id="title">Every rhythm<br>meets a corner.</h1></div><div class="intro-copy"><p>A row of columns. A rhythm of grooved blocks and square panels. Turn the corner of a Doric temple, and the two rhythms no longer agree.</p><p class="muted">Change the geometry. See what an architect has to give up.</p><a href="#workshop" class="text-link">Explore the Doric corner problem <span aria-hidden="true">↓</span></a></div></section>
 <section id="workshop" class="workshop" aria-labelledby="workshop-title">
@@ -41,7 +42,7 @@ app.innerHTML = `
 <section id="reading" class="reading" aria-labelledby="reading-title"><div class="section-heading"><h2 id="reading-title">An ancient author notices the problem</h2><span class="folio">02 / VITRUVIUS</span></div><div class="reading-intro"><p>Vitruvius describes these competing demands in <cite>De architectura</cite> IV.3.2. He is a Roman author writing about a Greek architectural tradition. He calls both compromises faulty; that is his judgment, not a verdict on the surviving buildings.</p><p class="muted">Latin from F. Krohn’s 1912 edition, pp. 82–83; punctuation adapted for sentence reading. English translation made for Gonia. <a href="${import.meta.env.BASE_URL}sources/vitruvius-82-83.pdf">Open the scanned pages (PDF)</a>.</p></div>
 ${sourcePassages.map((p, i) => `<article class="passage"><span class="passage-index">0${i + 1}</span><p lang="la">${p.latin}</p><div><p>${p.english}</p><p class="passage-note">${p.note}</p>${i === 2 || i === 3 ? `<button type="button" class="try-source" data-treatment="${i === 2 ? "widen" : "contract"}">See this at B = 2T <span aria-hidden="true">↑</span></button>` : ""}</div></article>`).join("")}
 <p class="source-caution">His half-triglyph adjustment fits the workshop when B = 2T. At other depths, the geometric discrepancy changes. This workshop does not reconstruct the full temple scheme that he goes on to prescribe.</p></section>
-<section id="about" class="about" aria-labelledby="about-title"><div class="section-heading"><h2 id="about-title">A small problem with a long history</h2><span class="folio">03 / NOTES</span></div><div class="about-columns"><div><h3 id="model">What the drawing assumes</h3><p>Two perpendicular beams of equal depth meet at their outer faces. The corner column is centred under their intersection. Triglyphs are 1 T wide; ordinary metopes are 1.5 T wide and high. Two triglyph pitches make a normal column bay of 5 T.</p><p>For a deeper beam, its half-depth exceeds a triglyph’s half-width. A regular frieze starting at the corner therefore shifts by δ = (B − T) / 2 relative to a regular colonnade. Contracting the first bay restores alignment at the next column. It leaves the corner triglyph itself off-axis.</p><p>We omit roof, sculpture, colour, entasis, load calculations and variation across a whole building. The slider is an experiment in ratios, not a catalogue of measured temple dimensions. The “equal widths” endpoint is a geometric limit, not an archaeological reconstruction.</p></div><div><h3>Sources you can follow</h3><ol class="sources"><li><a href="https://archive.org/details/vitruviidearchit00vitr_1/page/82/mode/2up">Vitruvius, <cite>De architectura</cite> IV.3.2</a>, ed. F. Krohn (Teubner, 1912), pp. 82–83. Source of the Latin passage and its two compromises. The bundled scan is public domain.</li><li><a href="https://doi.org/10.2307/507412">Mark Wilson Jones, “Doric Measure and Architectural Design 2: A Modular Reading of the Classical Temple”</a>, <cite>American Journal of Archaeology</cite> 105.4 (2001), pp. 675–713, especially fig. 2, p. 677. Basis for the corner geometry; Gonia’s drawings are newly generated from coordinates.</li><li><a href="https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n104870/">Liddell–Scott–Jones, <cite>A Greek–English Lexicon</cite></a>, via Perseus / Scaife ATLAS. Each Greek entry in the workshop links to its own dictionary source. Latin architectural terms occur in Vitruvius IV.2–3; <i lang="la">angulus</i> is the ordinary Latin word for corner.</li></ol><h3>Keep exploring</h3><p><a href="https://antonsoo.github.io/stoicheia/">Stoicheia</a> puts another ancient Greek problem on the drawing board: Euclid’s constructions, read in Greek, Latin and English.</p><p>Gonia is free, open source, and runs in your browser. Saving a study downloads a self-contained HTML document. The workshop and scanned passage are available offline after the offline indicator confirms the download.</p></div></div></section>
+<section id="about" class="about" aria-labelledby="about-title"><div class="section-heading"><h2 id="about-title">A small problem with a long history</h2><span class="folio">03 / NOTES</span></div><div class="about-columns"><div><h3 id="model">What the drawing assumes</h3><p>Two perpendicular beams of equal depth meet at their outer faces. The corner column is centred under their intersection. Triglyphs are 1 T wide; ordinary metopes are 1.5 T wide and high. Two triglyph pitches make a normal column bay of 5 T.</p><p>For a deeper beam, its half-depth exceeds a triglyph’s half-width. A regular frieze starting at the corner therefore shifts by δ = (B − T) / 2 relative to a regular colonnade. Contracting the first bay restores alignment at the next column. It leaves the corner triglyph itself off-axis.</p><p>We omit roof, sculpture, colour, entasis, load calculations and variation across a whole building. The slider is an experiment in ratios, not a catalogue of measured temple dimensions. The “equal widths” endpoint is a geometric limit, not an archaeological reconstruction.</p></div><div><h3>Sources you can follow</h3><ol class="sources"><li><a href="https://archive.org/details/vitruviidearchit00vitr_1/page/82/mode/2up">Vitruvius, <cite>De architectura</cite> IV.3.2</a>, ed. F. Krohn (Teubner, 1912), pp. 82–83. Source of the Latin passage and its two compromises. The bundled scan is public domain.</li><li><a href="https://doi.org/10.2307/507412">Mark Wilson Jones, “Doric Measure and Architectural Design 2: A Modular Reading of the Classical Temple”</a>, <cite>American Journal of Archaeology</cite> 105.4 (2001), pp. 675–713, especially fig. 2, p. 677. Basis for the corner geometry; Gonia’s drawings are newly generated from coordinates.</li><li><a href="https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n104870/">Liddell–Scott–Jones, <cite>A Greek–English Lexicon</cite></a>, via Perseus / Scaife ATLAS. Each Greek entry in the workshop links to its own dictionary source. Latin architectural terms occur in Vitruvius IV.2–3; <i lang="la">angulus</i> is the ordinary Latin word for corner.</li></ol><h3>Keep exploring</h3><p><a href="./spacing.html">The space between columns</a> follows Vitruvius’s five spacing systems. Change the front width, compare clear gaps with column axes, and find why the central entrance is wider.</p><p><a href="https://antonsoo.github.io/stoicheia/">Stoicheia</a> puts another ancient Greek problem on the drawing board: Euclid’s constructions, read in Greek, Latin and English.</p><p>Gonia is free, open source, and runs in your browser. Saving a study downloads a self-contained HTML document. The workshop and scanned passage are available offline after the offline indicator confirms the download.</p></div></div></section>
 </main><footer><span>Gonia · <span lang="grc">γωνία</span> · a corner, an angle</span><span id="offline" role="status">Preparing offline workshop…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
 
 function byId<T extends HTMLElement = HTMLElement>(id: string): T {
@@ -154,22 +155,4 @@ if (location.hash === "#workshop")
   requestAnimationFrame(() => {
     byId("workshop").scrollIntoView();
   });
-if (import.meta.env.PROD && "serviceWorker" in navigator) {
-  navigator.serviceWorker
-    .register(`${import.meta.env.BASE_URL}sw.js`)
-    .then(async () => {
-      const registration = await navigator.serviceWorker.ready;
-      const channel = new MessageChannel();
-      channel.port1.onmessage = (event) => {
-        const complete = event.data?.complete === true && event.data?.edition === __GONIA_EDITION__;
-        byId("offline").textContent = complete
-          ? "Workshop & source saved offline"
-          : "Offline download incomplete";
-        channel.port1.close();
-      };
-      registration.active?.postMessage({ type: "GONIA_INSPECT" }, [channel.port2]);
-    })
-    .catch(() => {
-      byId("offline").textContent = "Offline download unavailable; workshop still works online";
-    });
-} else byId("offline").textContent = "Development preview";
+void offlineStatus(byId("offline"));

@@ -22,6 +22,7 @@ export default defineConfig(async ({ command }) => {
     ...(await filesIn("src")),
     ...(await filesIn("public")),
     "index.html",
+    "spacing.html",
     "vite.config.ts",
     "tsconfig.json",
     "package.json",
@@ -35,6 +36,7 @@ export default defineConfig(async ({ command }) => {
   const edition = command === "build" ? inputHash.digest("hex") : "development";
   return {
     base,
+    build: { rollupOptions: { input: { main: "index.html", spacing: "spacing.html" } } },
     define: { __GONIA_EDITION__: JSON.stringify(edition) },
     plugins: [
       {
@@ -83,7 +85,8 @@ self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   if (event.request.mode === "navigate") {
-    event.respondWith(fetch(event.request).catch(() => caches.open(CACHE).then(cache => cache.match(BASE + "index.html"))));
+    const page = url.pathname === BASE || url.pathname === BASE + "index.html" ? BASE + "index.html" : url.pathname;
+    if (FILES.includes(page)) event.respondWith(fetch(event.request).catch(() => caches.open(CACHE).then(cache => cache.match(page))));
   } else if (FILES.includes(url.pathname)) {
     event.respondWith(caches.open(CACHE).then(cache => cache.match(url.pathname)).then(cached => cached || fetch(event.request)));
   }

@@ -1,6 +1,6 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "Explore the Doric corner conflict through measured drawings, Greek vocabulary and Vitruvius.",
   "type": "module",
@@ -32,7 +32,9 @@
     "test": "node --import tsx --test tests/*.test.ts",
     "check": "npm run lint && npm run typecheck && npm test && npm run build",
     "verify:geometry": "node --import tsx scripts/geometry-cases.ts | python3 scripts/geometry-oracle.py",
-    "test:browser": "node scripts/browser-check.mjs"
+    "test:browser": "node scripts/browser-check.mjs",
+    "verify:spacing": "node --import tsx scripts/spacing-cases.ts | python3 scripts/spacing-oracle.py",
+    "test:spacing": "node scripts/spacing-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

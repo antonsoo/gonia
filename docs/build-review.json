@@ -1,0 +1,149 @@
+{
+  "sourceCommit": "a44ee544f225a4f71b28a18795acf8b383ac936f",
+  "checkedAt": "2026-10-22T00:15:52.886802+00:00",
+  "node": "24.22.0",
+  "install": "npm ci",
+  "checks": [
+    "npm run check",
+    "npm run verify:geometry",
+    "node scripts/browser-check.mjs <temporary report>",
+    "npm run dev with native browser interaction"
+  ],
+  "inputSha256": "28b94f0b415854789a41c9149de03e2e18daaaaa147ae3d5dbd04b3526ea7850",
+  "inputs": [
+    {
+      "path": "index.html",
+      "sha256": "c6bc4a60a720b67a67a5b34a77efb216d12a31aeb9a0a000f124aa2e3805ef36"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "0a120cf7a371d7cc1cdc1bb039ec41d1cf66df787f5069b36c623671963a4473"
+    },
+    {
+      "path": "package.json",
+      "sha256": "e9170f1690abaa3e0e814393534b6d8ff08ad97cdb0c83ae4da849220c21ff18"
+    },
+    {
+      "path": "public/favicon.svg",
+      "sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40"
+    },
+    {
+      "path": "public/fonts/IBMPlex-OFL.txt",
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "public/fonts/IBMPlexSans-Regular.woff2",
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "public/fonts/IBMPlexSans-SemiBold.woff2",
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "public/fonts/NotoSerif-OFL.txt",
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "public/fonts/NotoSerif-Regular.ttf",
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "public/sources/vitruvius-82-83.pdf",
+      "sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93"
+    },
+    {
+      "path": "src/content.ts",
+      "sha256": "e5763c043dc2a8da591fab5a08cb03a73045d0d5737823d0b6beb66d78268ad2"
+    },
+    {
+      "path": "src/core/corner.ts",
+      "sha256": "7d2651cfda7686fa44f7c154985a9136c6ef1e3a1e49e6173c6be40296a3b0b5"
+    },
+    {
+      "path": "src/drawing.ts",
+      "sha256": "9fcdbf60516a80a05b4fe3bc52fb845635b51188921aa7eb9bd23537f9b570a6"
+    },
+    {
+      "path": "src/env.d.ts",
+      "sha256": "d5f583efc479a45dbb7d3909b762073cf99a6ecd4fea0eb213f4917fa234083a"
+    },
+    {
+      "path": "src/main.ts",
+      "sha256": "5c65549eaf034d6c9f1e8573357b9fcb12f6fbe8fabe5dec7d4cc01bbeb7b54e"
+    },
+    {
+      "path": "src/study.ts",
+      "sha256": "7df3b0a7cb01ead467706ecc54f8abcf54316e0dec065883a8af756d4bc75a5b"
+    },
+    {
+      "path": "src/style.css",
+      "sha256": "4d8671b23c483cff639a009cfe40d14155d5b687f5b71bf9c92ba4a537bc25e3"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "2aa30b26a07497765914007b09fb25220bd00a562b8a847b3a6ff78380bc5625"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "ea03c11bfeabe29027e65d684d47a806ac81be6201557a355decab7111190113"
+    }
+  ],
+  "artifactBytes": 817395,
+  "files": [
+    {
+      "path": "assets/index-CNh0fpNa.css",
+      "bytes": 12342,
+      "sha256": "d51214e841ce40f9cc5a2996e6b1a9c1b702288217e40d877a0a59bcbad574b0"
+    },
+    {
+      "path": "assets/index-CWLot36q.js",
+      "bytes": 28864,
+      "sha256": "994104ddeca1dfbd44f99fa1d556146d84759deb9e5801a1af80d0084c329b23"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 237,
+      "sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1011,
+      "sha256": "c7cadf72c3a24064818983c33d1d4d9f77186c4f7a916bda3b39a00738596462"
+    },
+    {
+      "path": "sources/vitruvius-82-83.pdf",
+      "bytes": 188664,
+      "sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 3281,
+      "sha256": "9273c39978388f8890017745b6f4524f8b08040d4f7eb7e33139099d572ce85e"
+    }
+  ]
+}

@@ -179,9 +179,9 @@ for (const [name, engine] of [
         const completeCache = workerText.match(/const CACHE = "([^"]+)"/)[1];
         assert(newCache.includes(completeCache));
         assert.notEqual(completeCache, oldCache[0]);
-        // The published old worker's inspection uses caches.open and can leave
-        // an empty cache after activation has deleted it. It must contain no
-        // old files; the new worker's inspection is read-only.
+        // A superseded worker's in-flight fetch can leave an empty cache after
+        // activation has deleted it. Such caches must contain no old files;
+        // the current worker's inspection must be read-only.
         const obsoleteCaches = await page.evaluate(
           async (current) =>
             Promise.all(

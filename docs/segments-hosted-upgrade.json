@@ -1,0 +1,32 @@
+{
+  "startedAt": "2026-10-22T23:02:11.112Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "oldEdition": "bd1c95765031f0ff40655bb329f7071306b7e9cb0f73056e5837319b041fae55",
+  "scope": "Existing real public tabs held across deployment; browser networking disabled after a complete new cache is established. Public origin remains running.",
+  "workflows": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "oldPageRejectedNewEditionReadiness": true,
+      "newCacheComplete": true,
+      "cacheFiles": 37,
+      "obsoleteCacheAbsent": true,
+      "offlineRooms": 4,
+      "ionicGaugeFits": true,
+      "greekSourceDecoded": true
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "oldPageRejectedNewEditionReadiness": true,
+      "newCacheComplete": true,
+      "cacheFiles": 37,
+      "obsoleteCacheAbsent": true,
+      "offlineRooms": 4,
+      "ionicGaugeFits": true,
+      "greekSourceDecoded": true
+    }
+  ],
+  "newEdition": "7fdfa376e4e99b21dc177876994e5f308a5df942fab87e64706fc6f2881200e0",
+  "completedAt": "2026-10-22T23:14:54.711Z"
+}

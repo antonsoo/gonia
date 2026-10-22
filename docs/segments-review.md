@@ -97,3 +97,23 @@ python3 scripts/segments-oracle.py /tmp/gonia-segments-review/browser.json
 The browser reviewer uses Chromium and Firefox at 1440 and 375 px. Publication
 claims require exact current public bytes and a separate public-browser run;
 local build success alone does not establish either.
+
+## Public files and actual existing tabs
+
+Source `cf07c2141fd4797ee579bd7c09fb91b7cc1fd262` was pushed. Pages commit
+`c5a29cf` published the same 38-file build while retaining older hashed assets.
+The [canonical byte receipt](segments-hosted-bytes.json) matches every current
+file's HTTP status, length and SHA-256. The [public browser workflows](segments-hosted-browser.json)
+and [independent public SVG/CSV check](segments-hosted-geometry.json) passed
+in all four configurations. Their actual downloaded native reading is
+byte-identical to the retained example. Both Heiberg pages decoded; the
+comparison and embedded CSV worked offline. Browser networking was disabled
+for public offline checks; the public origin remained running.
+
+The [actual held-tab upgrade](segments-hosted-upgrade.json) kept the preceding
+four-room edition open on the real public origin in Chromium and Firefox at
+375 px across deployment. Each old page withheld readiness until reload.
+The replacement cache contained exactly all 37 listed resources (the worker
+itself is the 38th build file), including the two added source pages, with
+obsolete caches absent. All four rooms then worked with networking disabled.
+This is distinct from merely observing a successful push or HTTP 200.

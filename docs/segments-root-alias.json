@@ -1,0 +1,10 @@
+{
+  "checkedAt": "2026-10-22T23:17:27.175Z",
+  "url": "https://antonsoo.github.io/gonia/",
+  "expectedFile": "index.html",
+  "httpStatus": 200,
+  "bytes": 1180,
+  "expectedSha256": "5c0795b8409ddf52e62301d07e36276c01b72c70758256f1959b20ebc351a07f",
+  "observedSha256": "5c0795b8409ddf52e62301d07e36276c01b72c70758256f1959b20ebc351a07f",
+  "state": "verified"
+}

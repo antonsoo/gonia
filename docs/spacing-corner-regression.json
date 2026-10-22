@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-22T03:02:53.238Z",
+  "scope": "Built app; native controls, linked source, saved HTML, actual offline origin failures. No historical accuracy certification.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "nativeKeyboard": true,
+      "treatments": 3,
+      "vocabulary": 5,
+      "accessibility": [
+        "shared contracted corner",
+        "align at B=3",
+        "widen at B=3",
+        "contract at B=3",
+        "highlighted vocabulary"
+      ],
+      "savedStudy": true,
+      "savedStudyExternalRequests": 0,
+      "sourceSha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "offlineRejectedOriginRequests": 6,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "nativeKeyboard": true,
+      "treatments": 3,
+      "vocabulary": 5,
+      "accessibility": [
+        "shared contracted corner",
+        "align at B=3",
+        "widen at B=3",
+        "contract at B=3",
+        "highlighted vocabulary"
+      ],
+      "savedStudy": true,
+      "savedStudyExternalRequests": 0,
+      "sourceSha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "offlineRejectedOriginRequests": 7,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "nativeKeyboard": true,
+      "treatments": 3,
+      "vocabulary": 5,
+      "accessibility": [
+        "shared contracted corner",
+        "align at B=3",
+        "widen at B=3",
+        "contract at B=3",
+        "highlighted vocabulary"
+      ],
+      "savedStudy": true,
+      "savedStudyExternalRequests": 0,
+      "sourceSha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "offlineRejectedOriginRequests": 10,
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "nativeKeyboard": true,
+      "treatments": 3,
+      "vocabulary": 5,
+      "accessibility": [
+        "shared contracted corner",
+        "align at B=3",
+        "widen at B=3",
+        "contract at B=3",
+        "highlighted vocabulary"
+      ],
+      "savedStudy": true,
+      "savedStudyExternalRequests": 0,
+      "sourceSha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "offlineRejectedOriginRequests": 10,
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "Krohn 1912 pp. 64-66; Vitruvius III.3.2, .4, .6-.7 and .10",
+  "method": "Exact rational simultaneous solution for axes, diameter and height; independent checks of the three printed eustyle front totals.",
+  "cases": 132,
+  "coordinate_and_distance_comparisons": 1064,
+  "maximum_absolute_error_m": 1.9245319506921987e-6,
+  "coordinate_tolerance_m": 1e-11,
+  "height_tolerance_m": 1e-5,
+  "measurement": "SVG circles and getBBox path height"
+}

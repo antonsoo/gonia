@@ -1,0 +1,10 @@
+{
+  "source": "Krohn 1912 pp. 64-66; Vitruvius III.3.2, .4, .6-.7 and .10",
+  "method": "Exact rational simultaneous solution for axes, diameter and height; independent checks of the three printed eustyle front totals.",
+  "cases": 144,
+  "coordinate_and_distance_comparisons": 2160,
+  "maximum_absolute_error_m": 7.105427357601002e-15,
+  "coordinate_tolerance_m": 1e-11,
+  "height_tolerance_m": 1e-11,
+  "measurement": "core model"
+}

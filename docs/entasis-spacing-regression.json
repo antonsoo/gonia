@@ -1,0 +1,2160 @@
+{
+  "checkedAt": "2026-10-22T05:53:32.960Z",
+  "scope": "Both built pages; actual rendered SVG geometry, native controls, exact embedded scans, deliberate alteration, failed source substitution and origin-disabled offline journeys. Geometry checked independently by spacing-oracle.py.",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 73.984375,
+      "geometry": [
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [1.0588235294117647, 6.352941176470588, 11.647058823529411, 16.941176470588236],
+          "diameter": 2.1176470588235294,
+          "height": 21.176470588235293
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3, 5.5, 8],
+          "diameter": 1,
+          "height": 10
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.6666666666666666, 4, 7.333333333333333, 10.666666666666666, 14, 17.333333333333332
+          ],
+          "diameter": 1.3333333333333333,
+          "height": 13.333333333333334
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000006, 3, 5.499999999999999, 7.999999999999998, 10.500000000000002, 13
+          ],
+          "diameter": 1,
+          "height": 9.999999725066864
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4864864864864865, 2.918918918918919, 5.351351351351352, 7.783783783783785,
+            10.216216216216216, 12.64864864864865, 15.08108108108108, 17.513513513513512
+          ],
+          "diameter": 0.972972972972973,
+          "height": 9.72972972972973
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999992, 3, 5.500000000000001, 7.999999999999999, 10.499999999999996, 13,
+            15.500000000000004, 17.999999999999996
+          ],
+          "diameter": 1,
+          "height": 9.999999587600295
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.8999999999999992, 6.299999999999997, 11.7, 17.1],
+          "diameter": 1.8,
+          "height": 17.09999941249582
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.5, 6.5, 9.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 3.9375, 7.3125, 10.6875, 14.0625, 17.4375],
+          "diameter": 1.125,
+          "height": 10.6875
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999967, 3.5000000000000004, 6.5, 9.500000000000002, 12.499999999999998,
+            15.500000000000004
+          ],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4090909090909091, 2.8636363636363638, 5.318181818181818, 7.7727272727272725,
+            10.227272727272727, 12.68181818181818, 15.136363636363635, 17.590909090909086
+          ],
+          "diameter": 0.8181818181818182,
+          "height": 7.7727272727272725
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 3.5000000000000013, 6.500000000000001, 9.500000000000002,
+            12.500000000000002, 15.5, 18.5, 21.5
+          ],
+          "diameter": 1,
+          "height": 9.499999793800148
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.7826086956521731, 5.869565217391303, 12.130434782608695, 17.217391304347828],
+          "diameter": 1.565217391304348,
+          "height": 14.869566239137697
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7.75, 11],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7, 11, 14.25, 17.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999967, 3.7500000000000004, 7.000000000000001, 11.000000000000002,
+            14.250000000000002, 17.5
+          ],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3673469387755103, 2.7551020408163267, 5.142857142857142, 7.530612244897959,
+            10.46938775510204, 12.857142857142858, 15.244897959183675, 17.63265306122449
+          ],
+          "diameter": 0.7346938775510204,
+          "height": 6.979591988228463
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 3.75, 7, 10.249999999999998, 14.249999999999996, 17.5,
+            20.750000000000004, 24
+          ],
+          "diameter": 1,
+          "height": 9.499999793800148
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.6923076923076911, 6.23076923076923, 11.76923076923077, 17.307692307692303],
+          "diameter": 1.3846153846153846,
+          "height": 11.7692310516847
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 4.5, 8.5, 12.5],
+          "diameter": 1,
+          "height": 8.5
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.42857142857142844, 3.8571428571428568, 7.2857142857142865, 10.714285714285714,
+            14.142857142857144, 17.57142857142857
+          ],
+          "diameter": 0.8571428571428571,
+          "height": 7.285714351769649
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.49999999999999967, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5],
+          "diameter": 1,
+          "height": 8.499999587600296
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3103448275862071, 2.7931034482758625, 5.275862068965518, 7.7586206896551735,
+            10.24137931034483, 12.724137931034486, 15.206896551724139, 17.689655172413794
+          ],
+          "diameter": 0.6206896551724138,
+          "height": 5.275862185316531
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5,
+            24.500000000000004, 28.5
+          ],
+          "diameter": 1,
+          "height": 8.499999587600295
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 6.1875, 11.8125, 17.4375],
+          "diameter": 1.125,
+          "height": 9
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 5.5, 10.5, 15.5],
+          "diameter": 1,
+          "height": 8
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3461538461538465, 3.807692307692309, 7.269230769230768, 10.730769230769228,
+            14.192307692307692, 17.653846153846157
+          ],
+          "diameter": 0.6923076923076923,
+          "height": 5.538461396188447
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000001, 5.5, 10.5, 15.5, 20.5, 25.5],
+          "diameter": 1,
+          "height": 8.000000137466568
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.25000000000000006, 2.75, 5.249999999999999, 7.75, 10.250000000000002,
+            12.750000000000002, 15.25, 17.75
+          ],
+          "diameter": 0.5,
+          "height": 3.9999999250182356
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000001, 5.500000000000001, 10.5, 15.5, 20.500000000000004, 25.5, 30.5, 35.5
+          ],
+          "diameter": 1,
+          "height": 7.999999175200591
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [
+            0.5217391304347823, 3.913043478260869, 7.304347826086956, 10.695652173913045,
+            14.086956521739129, 17.47826086956522
+          ],
+          "diameter": 1.0434782608695652,
+          "height": 9.913043397845644
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [0.49999999999999967, 3.7500000000000004, 7.000000000000001, 10.25, 13.5, 16.75],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 2,
+            "wideGap": 6,
+            "equalCentre": false
+          },
+          "axes": [
+            1.0000000000000002, 15, 29.000000000000004, 43, 57, 71.00000000000001, 85,
+            99.00000000000001
+          ],
+          "diameter": 2,
+          "height": 16.00000192453195
+        }
+      ],
+      "accessibility": [
+        "source eustyle",
+        "deliberately altered centre",
+        "chosen wide gap",
+        "source page"
+      ],
+      "alteredSharedState": true,
+      "sourceImagesExact": true,
+      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
+      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "offlineBothPagesAndExport": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "wrongSourcePageExportRejected": true,
+      "failedOfflineInstallReported": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 63.53125,
+      "geometry": [
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [1.0588235294117647, 6.352941176470588, 11.647058823529411, 16.941176470588236],
+          "diameter": 2.1176470588235294,
+          "height": 21.176470588235293
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3, 5.5, 8],
+          "diameter": 1,
+          "height": 10
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.6666666666666666, 4, 7.333333333333335, 10.666666666666666, 14, 17.333333333333332
+          ],
+          "diameter": 1.3333333333333333,
+          "height": 13.333333333333334
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000004, 3, 5.499999999999999, 7.999999999999998, 10.5, 13],
+          "diameter": 1,
+          "height": 9.9999997538905
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4864864864864864, 2.9189189189189193, 5.351351351351352, 7.783783783783786,
+            10.216216216216218, 12.64864864864865, 15.081081081081082, 17.513513513513512
+          ],
+          "diameter": 0.972972972972973,
+          "height": 9.72972919094947
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 2.9999999999999987, 5.499999999999999, 8, 10.5, 12.999999999999998,
+            15.499999999999998, 18
+          ],
+          "diameter": 1,
+          "height": 9.999999507780997
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.9000000000000004, 6.300000000000001, 11.700000000000003, 17.1],
+          "diameter": 1.8,
+          "height": 17.10000039166945
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.5, 6.5, 9.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5624999999999999, 3.9375000000000004, 7.3125, 10.687499999999998, 14.062499999999998,
+            17.437499999999996
+          ],
+          "diameter": 1.125,
+          "height": 10.687499999999998
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000004, 3.5000000000000018, 6.499999999999998, 9.500000000000002,
+            12.499999999999998, 15.500000000000002
+          ],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.40909090909090934, 2.863636363636364, 5.318181818181818, 7.772727272727274,
+            10.227272727272727, 12.68181818181818, 15.136363636363633, 17.590909090909086
+          ],
+          "diameter": 0.8181818181818182,
+          "height": 7.772726920343214
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 3.4999999999999982, 6.500000000000001, 9.5, 12.499999999999998,
+            15.5, 18.500000000000004, 21.499999999999996
+          ],
+          "diameter": 1,
+          "height": 9.4999997538905
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.7826086956521732, 5.869565217391304, 12.130434782608699, 17.217391304347828],
+          "diameter": 1.565217391304348,
+          "height": 14.86956525996407
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7.75, 11],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999994, 3.7500000000000004, 7, 10.999999999999998, 14.249999999999998,
+            17.499999999999996
+          ],
+          "diameter": 1,
+          "height": 9.499999999999998
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000004, 3.7500000000000004, 7.000000000000001, 11.000000000000002,
+            14.250000000000002, 17.5
+          ],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3673469387755102, 2.755102040816327, 5.142857142857143, 7.530612244897958,
+            10.46938775510204, 12.857142857142858, 15.244897959183671, 17.632653061224488
+          ],
+          "diameter": 0.7346938775510204,
+          "height": 6.979591554211032
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 3.749999999999999, 6.999999999999998, 10.250000000000002, 14.25,
+            17.5, 20.75, 24.000000000000004
+          ],
+          "diameter": 1,
+          "height": 9.4999997538905
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.6923076923076928, 6.230769230769232, 11.769230769230766, 17.307692307692307],
+          "diameter": 1.3846153846153846,
+          "height": 11.769230317304478
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 4.5, 8.5, 12.5],
+          "diameter": 1,
+          "height": 8.5
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.42857142857142866, 3.8571428571428568, 7.285714285714286, 10.714285714285714,
+            14.142857142857142, 17.571428571428566
+          ],
+          "diameter": 0.8571428571428571,
+          "height": 7.285714197640466
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000004, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5],
+          "diameter": 1,
+          "height": 8.499999630835749
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3103448275862068, 2.7931034482758617, 5.275862068965518, 7.758620689655174,
+            10.24137931034483, 12.724137931034482, 15.206896551724137, 17.689655172413797
+          ],
+          "diameter": 0.6206896551724138,
+          "height": 5.27586180163968
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 4.5, 8.5, 12.500000000000002, 16.5, 20.5, 24.500000000000007,
+            28.500000000000004
+          ],
+          "diameter": 1,
+          "height": 8.499999692363124
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 6.1875, 11.8125, 17.4375],
+          "diameter": 1.125,
+          "height": 9
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 5.5, 10.5, 15.5],
+          "diameter": 1,
+          "height": 8
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3461538461538456, 3.807692307692307, 7.269230769230768, 10.730769230769228,
+            14.192307692307693, 17.653846153846153
+          ],
+          "diameter": 0.6923076923076923,
+          "height": 5.538462012705176
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.4999999999999997, 5.499999999999999, 10.499999999999998, 15.5, 20.5, 25.5],
+          "diameter": 1,
+          "height": 8.00000012305475
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.24999999999999986, 2.7499999999999996, 5.25, 7.749999999999999, 10.25, 12.75,
+            15.249999999999996, 17.749999999999996
+          ],
+          "diameter": 0.5,
+          "height": 3.9999996923631236
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 5.499999999999999, 10.5, 15.499999999999998, 20.5, 25.5,
+            30.499999999999993, 35.49999999999999
+          ],
+          "diameter": 1,
+          "height": 7.999999384726247
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [
+            0.5217391304347827, 3.913043478260869, 7.304347826086955, 10.695652173913043,
+            14.086956521739129, 17.47826086956522
+          ],
+          "diameter": 1.0434782608695652,
+          "height": 9.913043397845643
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [0.5000000000000004, 3.7500000000000004, 7.000000000000001, 10.25, 13.5, 16.75],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 2,
+            "wideGap": 6,
+            "equalCentre": false
+          },
+          "axes": [
+            0.9999999999999988, 15.000000000000002, 29, 42.99999999999999, 56.99999999999999, 71,
+            85, 99
+          ],
+          "diameter": 2,
+          "height": 16.00000012305475
+        }
+      ],
+      "accessibility": [
+        "source eustyle",
+        "deliberately altered centre",
+        "chosen wide gap",
+        "source page"
+      ],
+      "alteredSharedState": true,
+      "sourceImagesExact": true,
+      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
+      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "offlineBothPagesAndExport": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "wrongSourcePageExportRejected": true,
+      "failedOfflineInstallReported": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 74,
+      "geometry": [
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [1.0588235294117647, 6.352941176470588, 11.647058823529411, 16.941176470588236],
+          "diameter": 2.1176470588235294,
+          "height": 21.176470588235293
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3, 5.5, 8],
+          "diameter": 1,
+          "height": 10
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.6666666666666666, 4, 7.333333333333333, 10.666666666666666, 14, 17.333333333333332
+          ],
+          "diameter": 1.3333333333333333,
+          "height": 13.333333333333334
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000006, 3, 5.499999999999999, 7.999999999999998, 10.500000000000002, 13
+          ],
+          "diameter": 1,
+          "height": 9.999999725066864
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4864864864864865, 2.918918918918919, 5.351351351351352, 7.783783783783785,
+            10.216216216216216, 12.64864864864865, 15.08108108108108, 17.513513513513512
+          ],
+          "diameter": 0.972972972972973,
+          "height": 9.72972972972973
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999992, 3, 5.500000000000001, 7.999999999999999, 10.499999999999996, 13,
+            15.500000000000004, 17.999999999999996
+          ],
+          "diameter": 1,
+          "height": 9.999999587600295
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.8999999999999992, 6.299999999999997, 11.7, 17.1],
+          "diameter": 1.8,
+          "height": 17.09999941249582
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.5, 6.5, 9.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 3.9375, 7.3125, 10.6875, 14.0625, 17.4375],
+          "diameter": 1.125,
+          "height": 10.6875
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999967, 3.5000000000000004, 6.5, 9.500000000000002, 12.499999999999998,
+            15.500000000000004
+          ],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4090909090909091, 2.8636363636363638, 5.318181818181818, 7.7727272727272725,
+            10.227272727272727, 12.68181818181818, 15.136363636363635, 17.590909090909086
+          ],
+          "diameter": 0.8181818181818182,
+          "height": 7.7727272727272725
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 3.5000000000000013, 6.500000000000001, 9.500000000000002,
+            12.500000000000002, 15.5, 18.5, 21.5
+          ],
+          "diameter": 1,
+          "height": 9.499999793800148
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.7826086956521731, 5.869565217391303, 12.130434782608695, 17.217391304347828],
+          "diameter": 1.565217391304348,
+          "height": 14.869566239137697
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7.75, 11],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7, 11, 14.25, 17.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999967, 3.7500000000000004, 7.000000000000001, 11.000000000000002,
+            14.250000000000002, 17.5
+          ],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3673469387755103, 2.7551020408163267, 5.142857142857142, 7.530612244897959,
+            10.46938775510204, 12.857142857142858, 15.244897959183675, 17.63265306122449
+          ],
+          "diameter": 0.7346938775510204,
+          "height": 6.979591988228463
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 3.75, 7, 10.249999999999998, 14.249999999999996, 17.5,
+            20.750000000000004, 24
+          ],
+          "diameter": 1,
+          "height": 9.499999793800148
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.6923076923076911, 6.23076923076923, 11.76923076923077, 17.307692307692303],
+          "diameter": 1.3846153846153846,
+          "height": 11.7692310516847
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 4.5, 8.5, 12.5],
+          "diameter": 1,
+          "height": 8.5
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.42857142857142844, 3.8571428571428568, 7.2857142857142865, 10.714285714285714,
+            14.142857142857144, 17.57142857142857
+          ],
+          "diameter": 0.8571428571428571,
+          "height": 7.285714351769649
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.49999999999999967, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5],
+          "diameter": 1,
+          "height": 8.499999587600296
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3103448275862071, 2.7931034482758625, 5.275862068965518, 7.7586206896551735,
+            10.24137931034483, 12.724137931034486, 15.206896551724139, 17.689655172413794
+          ],
+          "diameter": 0.6206896551724138,
+          "height": 5.275862185316531
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000003, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5,
+            24.500000000000004, 28.5
+          ],
+          "diameter": 1,
+          "height": 8.499999587600295
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 6.1875, 11.8125, 17.4375],
+          "diameter": 1.125,
+          "height": 9
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 5.5, 10.5, 15.5],
+          "diameter": 1,
+          "height": 8
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3461538461538465, 3.807692307692309, 7.269230769230768, 10.730769230769228,
+            14.192307692307692, 17.653846153846157
+          ],
+          "diameter": 0.6923076923076923,
+          "height": 5.538461396188447
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000001, 5.5, 10.5, 15.5, 20.5, 25.5],
+          "diameter": 1,
+          "height": 8.000000137466568
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.25000000000000006, 2.75, 5.249999999999999, 7.75, 10.250000000000002,
+            12.750000000000002, 15.25, 17.75
+          ],
+          "diameter": 0.5,
+          "height": 3.9999999250182356
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000001, 5.500000000000001, 10.5, 15.5, 20.500000000000004, 25.5, 30.5, 35.5
+          ],
+          "diameter": 1,
+          "height": 7.999999175200591
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [
+            0.5217391304347823, 3.913043478260869, 7.304347826086956, 10.695652173913045,
+            14.086956521739129, 17.47826086956522
+          ],
+          "diameter": 1.0434782608695652,
+          "height": 9.913043397845644
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [0.49999999999999967, 3.7500000000000004, 7.000000000000001, 10.25, 13.5, 16.75],
+          "diameter": 1,
+          "height": 9.499999381400444
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 2,
+            "wideGap": 6,
+            "equalCentre": false
+          },
+          "axes": [
+            1.0000000000000002, 15, 29.000000000000004, 43, 57, 71.00000000000001, 85,
+            99.00000000000001
+          ],
+          "diameter": 2,
+          "height": 16.00000192453195
+        }
+      ],
+      "accessibility": [
+        "source eustyle",
+        "deliberately altered centre",
+        "chosen wide gap",
+        "source page"
+      ],
+      "alteredSharedState": true,
+      "sourceImagesExact": true,
+      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
+      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "offlineBothPagesAndExport": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "wrongSourcePageExportRejected": true,
+      "failedOfflineInstallReported": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 64,
+      "geometry": [
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [1.0588235294117647, 6.352941176470588, 11.647058823529411, 16.941176470588236],
+          "diameter": 2.1176470588235294,
+          "height": 21.176470588235293
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3, 5.5, 8],
+          "diameter": 1,
+          "height": 10
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.6666666666666666, 4, 7.333333333333335, 10.666666666666666, 14, 17.333333333333332
+          ],
+          "diameter": 1.3333333333333333,
+          "height": 13.333333333333334
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000004, 3, 5.499999999999999, 7.999999999999998, 10.5, 13],
+          "diameter": 1,
+          "height": 9.9999997538905
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4864864864864864, 2.9189189189189193, 5.351351351351352, 7.783783783783786,
+            10.216216216216218, 12.64864864864865, 15.081081081081082, 17.513513513513512
+          ],
+          "diameter": 0.972972972972973,
+          "height": 9.72972919094947
+        },
+        {
+          "parameters": {
+            "system": "pycnostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 2.9999999999999987, 5.499999999999999, 8, 10.5, 12.999999999999998,
+            15.499999999999998, 18
+          ],
+          "diameter": 1,
+          "height": 9.999999507780997
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.9000000000000004, 6.300000000000001, 11.700000000000003, 17.1],
+          "diameter": 1.8,
+          "height": 17.10000039166945
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.5, 6.5, 9.5],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5624999999999999, 3.9375000000000004, 7.3125, 10.687499999999998, 14.062499999999998,
+            17.437499999999996
+          ],
+          "diameter": 1.125,
+          "height": 10.687499999999998
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000004, 3.5000000000000018, 6.499999999999998, 9.500000000000002,
+            12.499999999999998, 15.500000000000002
+          ],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.40909090909090934, 2.863636363636364, 5.318181818181818, 7.772727272727274,
+            10.227272727272727, 12.68181818181818, 15.136363636363633, 17.590909090909086
+          ],
+          "diameter": 0.8181818181818182,
+          "height": 7.772726920343214
+        },
+        {
+          "parameters": {
+            "system": "systyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 3.4999999999999982, 6.500000000000001, 9.5, 12.499999999999998,
+            15.5, 18.500000000000004, 21.499999999999996
+          ],
+          "diameter": 1,
+          "height": 9.4999997538905
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.7826086956521732, 5.869565217391304, 12.130434782608699, 17.217391304347828],
+          "diameter": 1.565217391304348,
+          "height": 14.86956525996407
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 3.75, 7.75, 11],
+          "diameter": 1,
+          "height": 9.5
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.49999999999999994, 3.7500000000000004, 7, 10.999999999999998, 14.249999999999998,
+            17.499999999999996
+          ],
+          "diameter": 1,
+          "height": 9.499999999999998
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.5000000000000004, 3.7500000000000004, 7.000000000000001, 11.000000000000002,
+            14.250000000000002, 17.5
+          ],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3673469387755102, 2.755102040816327, 5.142857142857143, 7.530612244897958,
+            10.46938775510204, 12.857142857142858, 15.244897959183671, 17.632653061224488
+          ],
+          "diameter": 0.7346938775510204,
+          "height": 6.979591554211032
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 3.749999999999999, 6.999999999999998, 10.250000000000002, 14.25,
+            17.5, 20.75, 24.000000000000004
+          ],
+          "diameter": 1,
+          "height": 9.4999997538905
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.6923076923076928, 6.230769230769232, 11.769230769230766, 17.307692307692307],
+          "diameter": 1.3846153846153846,
+          "height": 11.769230317304478
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 4.5, 8.5, 12.5],
+          "diameter": 1,
+          "height": 8.5
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.42857142857142866, 3.8571428571428568, 7.285714285714286, 10.714285714285714,
+            14.142857142857142, 17.571428571428566
+          ],
+          "diameter": 0.8571428571428571,
+          "height": 7.285714197640466
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5000000000000004, 4.5, 8.5, 12.500000000000002, 16.499999999999996, 20.5],
+          "diameter": 1,
+          "height": 8.499999630835749
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3103448275862068, 2.7931034482758617, 5.275862068965518, 7.758620689655174,
+            10.24137931034483, 12.724137931034482, 15.206896551724137, 17.689655172413797
+          ],
+          "diameter": 0.6206896551724138,
+          "height": 5.27586180163968
+        },
+        {
+          "parameters": {
+            "system": "diastyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 4.5, 8.5, 12.500000000000002, 16.5, 20.5, 24.500000000000007,
+            28.500000000000004
+          ],
+          "diameter": 1,
+          "height": 8.499999692363124
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5625, 6.1875, 11.8125, 17.4375],
+          "diameter": 1.125,
+          "height": 9
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 4,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.5, 5.5, 10.5, 15.5],
+          "diameter": 1,
+          "height": 8
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.3461538461538456, 3.807692307692307, 7.269230769230768, 10.730769230769228,
+            14.192307692307693, 17.653846153846153
+          ],
+          "diameter": 0.6923076923076923,
+          "height": 5.538462012705176
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [0.4999999999999997, 5.499999999999999, 10.499999999999998, 15.5, 20.5, 25.5],
+          "diameter": 1,
+          "height": 8.00000012305475
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.24999999999999986, 2.7499999999999996, 5.25, 7.749999999999999, 10.25, 12.75,
+            15.249999999999996, 17.749999999999996
+          ],
+          "diameter": 0.5,
+          "height": 3.9999996923631236
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": false
+          },
+          "axes": [
+            0.4999999999999997, 5.499999999999999, 10.5, 15.499999999999998, 20.5, 25.5,
+            30.499999999999993, 35.49999999999999
+          ],
+          "diameter": 1,
+          "height": 7.999999384726247
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "front",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [
+            0.5217391304347827, 3.913043478260869, 7.304347826086955, 10.695652173913043,
+            14.086956521739129, 17.47826086956522
+          ],
+          "diameter": 1.0434782608695652,
+          "height": 9.913043397845643
+        },
+        {
+          "parameters": {
+            "system": "eustyle",
+            "columns": 6,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 1,
+            "wideGap": 4,
+            "equalCentre": true
+          },
+          "axes": [0.5000000000000004, 3.7500000000000004, 7.000000000000001, 10.25, 13.5, 16.75],
+          "diameter": 1,
+          "height": 9.5000002461095
+        },
+        {
+          "parameters": {
+            "system": "araeostyle",
+            "columns": 8,
+            "basis": "diameter",
+            "front": 18,
+            "diameter": 2,
+            "wideGap": 6,
+            "equalCentre": false
+          },
+          "axes": [
+            0.9999999999999988, 15.000000000000002, 29, 42.99999999999999, 56.99999999999999, 71,
+            85, 99
+          ],
+          "diameter": 2,
+          "height": 16.00000012305475
+        }
+      ],
+      "accessibility": [
+        "source eustyle",
+        "deliberately altered centre",
+        "chosen wide gap",
+        "source page"
+      ],
+      "alteredSharedState": true,
+      "sourceImagesExact": true,
+      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
+      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "offlineBothPagesAndExport": true,
+      "pageErrors": [],
+      "externalRequests": [],
+      "wrongSourcePageExportRejected": true,
+      "failedOfflineInstallReported": true
+    }
+  ]
+}

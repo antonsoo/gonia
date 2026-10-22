@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "decimal_checks": 412,
+  "source_stations": 5,
+  "source_maxima": 6,
+  "shared_state_round_trips": 240,
+  "middle_departure_mm": "16.50848391982182628062360803"
+}

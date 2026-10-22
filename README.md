@@ -101,8 +101,14 @@ packets are available offline after the footer confirms the complete edition.
 
 The five points do not establish a continuous measured profile, an ancient
 construction method or an optical effect. [Source decisions](docs/entasis-design.md)
-explain these boundaries. The drawings join stations with explicit guides;
+and the [reviewed browser and source evidence](docs/entasis-review.md) explain
+these boundaries. The drawings join stations with explicit guides;
 they do not invent intermediate observations.
+
+![Measured offsets and enlarged departures with Penrose’s circle](docs/assets/entasis-1440.png)
+
+A [saved circle comparison](examples/entasis-circle-reading.html) and its
+[eight-page PDF](examples/entasis-circle-reading.pdf) include all five scans.
 
 ## Run locally
 

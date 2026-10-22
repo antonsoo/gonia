@@ -1,0 +1,10 @@
+{
+  "held": true,
+  "beforeRelease": "Offline download unavailable; workshop still works online",
+  "afterCompleteInstall": "Offline download unavailable; workshop still works online",
+  "cache": {
+    "names": ["gonia-e71c0c7ee1d24811030e6c62f48349ff2aa89fdf27ea7ee720ba5dcbf2a31986"],
+    "files": 28
+  },
+  "checkedAt": "2026-10-22T05:23:34.839Z"
+}

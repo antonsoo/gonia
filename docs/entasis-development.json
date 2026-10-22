@@ -1,0 +1,136 @@
+{
+  "checks": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "entry": "",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "entry": "spacing.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "entry": "entasis.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "entry": "",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "entry": "spacing.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "entry": "entasis.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "entry": "",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "entry": "spacing.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "entry": "entasis.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "entry": "",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "entry": "spacing.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "entry": "entasis.html",
+      "background": "rgb(244, 241, 232)",
+      "fonts": "loaded",
+      "overflow": false,
+      "iconType": "image/svg+xml",
+      "iconIsSvg": true,
+      "errors": []
+    }
+  ]
+}

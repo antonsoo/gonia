@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-22T06:06:58.539Z",
+  "previous": "/tmp/claude-1000/gonia-spacing-clean-final/dist",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "held",
+      "oldCache": "gonia-e8e2a4d28f80cfd9cb030264f3d01b1e57f419a2c6fa562f85adeb84dde55a91",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTwoPageEditionWorkedOffline": true,
+      "newCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "obsoleteEmptyCaches": [],
+      "newThreePageEditionWorkedOffline": true,
+      "disabledOriginRequests": 12
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "substituted",
+      "oldCache": "gonia-e8e2a4d28f80cfd9cb030264f3d01b1e57f419a2c6fa562f85adeb84dde55a91",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTwoPageEditionWorkedOffline": true,
+      "newCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "obsoleteEmptyCaches": [],
+      "newThreePageEditionWorkedOffline": true,
+      "disabledOriginRequests": 21
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "held",
+      "oldCache": "gonia-e8e2a4d28f80cfd9cb030264f3d01b1e57f419a2c6fa562f85adeb84dde55a91",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTwoPageEditionWorkedOffline": true,
+      "newCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "obsoleteEmptyCaches": [],
+      "newThreePageEditionWorkedOffline": true,
+      "disabledOriginRequests": 50
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "substituted",
+      "oldCache": "gonia-e8e2a4d28f80cfd9cb030264f3d01b1e57f419a2c6fa562f85adeb84dde55a91",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldTwoPageEditionWorkedOffline": true,
+      "newCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "obsoleteEmptyCaches": [],
+      "newThreePageEditionWorkedOffline": true,
+      "disabledOriginRequests": 40
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "cases": 603,
+  "coordinate_and_distance_comparisons": 9648,
+  "maximum_absolute_error_T": 1.7763568394002505e-15,
+  "tolerance_T": 1e-12,
+  "method": "Exact rational solution of eight positional constraints; direct distances between solved positions."
+}

@@ -80,10 +80,10 @@ export function elevation(c: Corner, selected: Term | null = null, compact = fal
     const left = x(center - 0.5);
     s += rect(left, 48, 70, 105, highlight("triglyph", "triglyph"));
     s +=
-      rect(left, 55, 5, 91, "groove") +
-      rect(left + 20, 55, 10, 91, "groove") +
-      rect(left + 40, 55, 10, 91, "groove") +
-      rect(left + 65, 55, 5, 91, "groove");
+      rect(left, 55, 70 / 12, 91, "groove") +
+      rect(left + 70 / 4, 55, 70 / 6, 91, "groove") +
+      rect(left + (70 * 7) / 12, 55, 70 / 6, 91, "groove") +
+      rect(left + (70 * 11) / 12, 55, 70 / 12, 91, "groove");
   });
   s += rect(x(0), 153, end * scale, 6, "stone");
   s += line(x(0), 15, x(0), 375, selected === "corner" ? "corner-mark" : "edge");

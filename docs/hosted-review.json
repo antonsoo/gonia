@@ -1,0 +1,54 @@
+{
+  "url": "https://antonsoo.github.io/gonia/",
+  "checkedAt": "2026-10-22T00:17:43.684Z",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLandingTop": 46.5625,
+      "nativeKeyboard": true,
+      "vocabulary": true,
+      "sourceToModel": true,
+      "savedStudyMatchesReviewedExample": true,
+      "savedStudySha256": "a5a32c81462ea572e6b976b7da2c51133b7e63f262495e5848e64a2895fd7593",
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLandingTop": 44.5,
+      "nativeKeyboard": true,
+      "vocabulary": true,
+      "sourceToModel": true,
+      "savedStudyMatchesReviewedExample": true,
+      "savedStudySha256": "a5a32c81462ea572e6b976b7da2c51133b7e63f262495e5848e64a2895fd7593",
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLandingTop": 47,
+      "nativeKeyboard": true,
+      "vocabulary": true,
+      "sourceToModel": true,
+      "savedStudyMatchesReviewedExample": true,
+      "savedStudySha256": "a5a32c81462ea572e6b976b7da2c51133b7e63f262495e5848e64a2895fd7593",
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLandingTop": 45,
+      "nativeKeyboard": true,
+      "vocabulary": true,
+      "sourceToModel": true,
+      "savedStudyMatchesReviewedExample": true,
+      "savedStudySha256": "a5a32c81462ea572e6b976b7da2c51133b7e63f262495e5848e64a2895fd7593",
+      "pageErrors": []
+    }
+  ]
+}

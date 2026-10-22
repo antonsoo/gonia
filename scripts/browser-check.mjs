@@ -135,7 +135,7 @@ try {
           if (id !== "corner") assert.ok((await page.locator("#elevation .selected").count()) > 0);
         }
         await audit("highlighted vocabulary");
-        await page.locator("nav a[href='#reading']").click();
+        await page.locator("nav a[href='#about']").click();
         assert.equal(await page.locator("#beam").inputValue(), "3");
         assert.equal(new URL(page.url()).searchParams.get("t"), "contract");
         await page.locator('[data-treatment="widen"]').click();

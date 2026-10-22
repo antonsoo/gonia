@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-22T22:33:03.674Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "expected": "creates-empty",
+  "scope": "Deleting this profile's offline cache then making an ordinary font request. A lookup should not create an empty edition cache.",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "before": ["gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c"],
+      "afterDelete": [],
+      "afterFetch": ["gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c"],
+      "files": [
+        {
+          "name": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+          "count": 0
+        }
+      ],
+      "fontStatus": 200
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "before": ["gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c"],
+      "afterDelete": [],
+      "afterFetch": ["gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c"],
+      "files": [
+        {
+          "name": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+          "count": 0
+        }
+      ],
+      "fontStatus": 200
+    }
+  ]
+}

@@ -2,6 +2,8 @@
 
 ## 0.4.0 — 2026-10-22
 
+- Cache lookups stay read-only after a cache is deleted; only a complete install creates an edition cache.
+
 - A fourth workshop follows Vitruvius’s Doric compass construction and Ionic moving-square test, with true concave profiles, a draggable gauge and repeated 20/24-division drum sections.
 - Millimetre SVG paper templates with a 25 mm calibration bar; exact CSV coordinates and a portable illustrated reading with working embedded downloads.
 - Two complete Latin pages and Aristotle’s Greek clause, with grammar, source context and the Ionic editorial supplement retained.

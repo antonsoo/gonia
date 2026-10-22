@@ -4,6 +4,10 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium, firefox } from "playwright";
 
+if (!process.stdin.isTTY)
+  throw new Error(
+    "Run this reviewer in an interactive terminal before deployment so the held browsers can be resumed.",
+  );
 const output = path.resolve(process.argv[2] ?? "/tmp/gonia-fluting-upgrade/review.json");
 const oldEdition = process.argv[3];
 if (!/^[a-f0-9]{64}$/.test(oldEdition ?? ""))
@@ -48,8 +52,8 @@ try {
     const old = await inspect(page);
     assert.equal(old.edition, oldEdition);
     assert(old.complete);
-    assert.equal(await page.getByRole("link", { name: "Fluting", exact: true }).count(), 0);
-    console.log(`${name}: public three-room edition controlled; holding old tab.`);
+    assert.equal(await page.getByRole("link", { name: "Fluting", exact: true }).count(), 1);
+    console.log(`${name}: public previous edition controlled; holding old tab.`);
   }
   console.log("Send Enter after verifying the newly published build.");
   process.stdin.resume();

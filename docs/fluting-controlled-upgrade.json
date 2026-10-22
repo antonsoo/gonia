@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-22T22:34:28.621Z",
+  "previous": "Exact published three-room gh-pages tree 42a2ba5",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "held",
+      "oldCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldThreeRoomEditionWorkedOffline": true,
+      "newCache": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+      "obsoleteEmptyCaches": [],
+      "newFourRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 13
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "substituted",
+      "oldCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldThreeRoomEditionWorkedOffline": true,
+      "newCache": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+      "obsoleteEmptyCaches": [],
+      "newFourRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 21
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "held",
+      "oldCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldThreeRoomEditionWorkedOffline": true,
+      "newCache": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+      "obsoleteEmptyCaches": [],
+      "newFourRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 50
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "substituted",
+      "oldCache": "gonia-d0619e019ecbb29ed2ca362ac75aec0da0c6490df33cd907099603415f482252",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldThreeRoomEditionWorkedOffline": true,
+      "newCache": "gonia-b5ecfb68848ea284ad9f7c48684ca113378406c042b55f01e52255df7b6d454c",
+      "obsoleteEmptyCaches": [],
+      "newFourRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 50
+    }
+  ]
+}

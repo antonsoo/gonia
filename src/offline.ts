@@ -3,35 +3,83 @@ export async function offlineStatus(element: HTMLElement) {
     element.textContent = "Development preview";
     return;
   }
-  let timer: ReturnType<typeof setTimeout> | undefined;
-  const channel = new MessageChannel();
-  let expired = false;
-  try {
-    const timeout = new Promise<never>((_, reject) => {
-      timer = setTimeout(() => {
-        expired = true;
-        reject(new Error("Offline installation or inspection timed out"));
-      }, 8000);
-    });
-    const inspect = async () => {
-      await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
-      const registration = await navigator.serviceWorker.ready;
-      if (expired) throw new Error("Offline inspection expired");
-      return new Promise<{ complete: boolean; edition: string }>((resolve) => {
+  let registration: ServiceWorkerRegistration;
+  let inspection = 0;
+  let failed = false;
+  const pending = () => Boolean(registration?.installing || registration?.waiting);
+  const inspect = async () => {
+    const attempt = ++inspection;
+    // During replacement the active worker belongs to the previous edition.
+    // Do not extend its lifetime with inspection messages while its successor
+    // is trying to activate; wait for controllerchange instead.
+    if (pending()) {
+      element.textContent = registration.active
+        ? "Downloading the updated workshop & sources…"
+        : "Downloading workshop & sources for offline use…";
+      return;
+    }
+    const worker = navigator.serviceWorker.controller;
+    if (!worker || worker !== registration.active || worker.state !== "activated") {
+      element.textContent = failed
+        ? "Offline download unavailable; workshop still works online"
+        : "Finishing the offline installation…";
+      return;
+    }
+    const channel = new MessageChannel();
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    try {
+      const saved = await new Promise<{ complete: boolean; edition: string }>((resolve, reject) => {
+        timer = setTimeout(() => reject(new Error("Offline inspection timed out")), 4000);
         channel.port1.onmessage = (event) => resolve(event.data);
-        registration.active?.postMessage({ type: "GONIA_INSPECT" }, [channel.port2]);
+        worker.postMessage({ type: "GONIA_INSPECT" }, [channel.port2]);
       });
-    };
-    const saved = await Promise.race([inspect(), timeout]);
-    element.textContent =
-      saved.complete && saved.edition === __GONIA_EDITION__
-        ? "Workshop & source saved offline"
-        : "Offline edition is updating. Reload online to finish.";
+      if (attempt !== inspection || worker !== navigator.serviceWorker.controller) return;
+      element.textContent =
+        saved.complete && saved.edition === __GONIA_EDITION__
+          ? "Workshop & source saved offline"
+          : pending()
+            ? "Downloading the updated workshop & sources…"
+            : failed
+              ? "Offline update incomplete; reload online to retry."
+              : "A different offline edition is saved. Reload online to finish updating.";
+    } catch {
+      if (attempt === inspection)
+        element.textContent = "Offline download unavailable; workshop still works online";
+    } finally {
+      clearTimeout(timer);
+      channel.port1.close();
+      channel.port2.close();
+    }
+  };
+  const watched = new WeakSet<ServiceWorker>();
+  const watch = () => {
+    for (const worker of [
+      registration.installing,
+      registration.waiting,
+      registration.active,
+      navigator.serviceWorker.controller,
+    ]) {
+      if (!worker || watched.has(worker)) continue;
+      watched.add(worker);
+      let activated = worker.state === "activated";
+      if (worker === registration.installing) failed = false;
+      worker.addEventListener("statechange", () => {
+        if (worker.state === "activated") activated = true;
+        if (worker.state === "redundant" && !activated) failed = true;
+        void inspect();
+      });
+    }
+    void inspect();
+  };
+  try {
+    registration = await navigator.serviceWorker.register(`${import.meta.env.BASE_URL}sw.js`);
+    // Download duration is not an installation failure. Observe the lifecycle
+    // so a long scan download can finish without requiring a page reload.
+    registration.addEventListener("updatefound", watch);
+    navigator.serviceWorker.addEventListener("controllerchange", watch);
+    watch();
+    await inspect();
   } catch {
     element.textContent = "Offline download unavailable; workshop still works online";
-  } finally {
-    clearTimeout(timer);
-    channel.port1.close();
-    channel.port2.close();
   }
 }

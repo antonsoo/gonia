@@ -76,9 +76,9 @@ self.addEventListener("activate", event => {
 });
 self.addEventListener("message", event => {
   if (event.data?.type !== "GONIA_INSPECT" || !event.ports[0]) return;
-  event.waitUntil(caches.open(CACHE).then(cache => cache.keys()).then(keys => {
-    const saved = new Set(keys.map(request => new URL(request.url).pathname));
-    event.ports[0].postMessage({ type: "GONIA_EDITION", edition: EDITION, complete: FILES.every(file => saved.has(file)) });
+  // A late reply from a superseded worker must not recreate its deleted cache.
+  event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {
+    event.ports[0].postMessage({ type: "GONIA_EDITION", edition: EDITION, complete: saved.every(Boolean) });
   }).catch(() => event.ports[0].postMessage({ type: "GONIA_EDITION", edition: EDITION, complete: false })));
 });
 self.addEventListener("fetch", event => {

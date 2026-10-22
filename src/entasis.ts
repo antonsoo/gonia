@@ -135,14 +135,18 @@ async function focusSourcePassage() {
   const window = get("entasis-scan-window");
   const image = window.querySelector("img");
   if (!image) return;
+  const fraction = { "39": 0.4, "40": 0.23, "41": 0.435, plate: 0.47, latin: 0.22 }[selected] ?? 0;
+  sourceFocus = fraction;
+  // Firefox can reject decode() while a newly selected lazy image has not started loading.
+  // An explicit source jump is an immediate request to read this page.
+  image.loading = "eager";
   try {
     await image.decode();
   } catch {
     return;
   }
-  if (selected !== source) return;
-  const fraction = { "39": 0.4, "40": 0.23, "41": 0.435, plate: 0.47, latin: 0.22 }[selected] ?? 0;
-  sourceFocus = fraction;
+  if (selected !== source || image !== window.querySelector("img") || sourceFocus !== fraction)
+    return;
   window.scrollTo({
     top: Math.max(0, image.clientHeight * fraction - window.clientHeight / 2),
     left: Math.max(0, (image.clientWidth - window.clientWidth) / 2),

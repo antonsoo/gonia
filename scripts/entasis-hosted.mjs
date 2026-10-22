@@ -77,7 +77,7 @@ for (const [name, engine] of [
         .evaluate(
           (el) => (el.scrollTop + el.clientHeight / 2) / el.querySelector("img").clientHeight,
         );
-      assert(Math.abs(sourceCenter - 0.435) < 0.005);
+      assert(Math.abs(sourceCenter - 0.435) < 0.005, `Source table center: ${sourceCenter}`);
       await context.setOffline(true);
       await page.reload();
       assert.equal(await page.locator("#entasis-station").inputValue(), "4");

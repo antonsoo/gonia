@@ -1,0 +1,32 @@
+{
+  "edition": "Euclidis opera omnia, vol. I, Heiberg, Teubner 1883",
+  "greek_editor_and_modern_latin_translator": "J. L. Heiberg",
+  "pdf": {
+    "url": "https://archive.org/download/euclidisoperaomn01eucluoft/euclidisoperaomn01eucluoft.pdf",
+    "bytes": 20890632,
+    "sha256": "da285c581c2dda86e2b25e20db3ce604bf6fb8765228fcd71cfc89d47a9d1c17"
+  },
+  "images": [
+    {
+      "file": "heiberg-240.jpg",
+      "printed_page": 240,
+      "pdf_page": 254,
+      "width": 1400,
+      "height": 2200,
+      "bytes": 500726,
+      "sha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+      "complete_page_visually_inspected": true
+    },
+    {
+      "file": "heiberg-241.jpg",
+      "printed_page": 241,
+      "pdf_page": 255,
+      "width": 1400,
+      "height": 2200,
+      "bytes": 503372,
+      "sha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+      "complete_page_visually_inspected": true
+    }
+  ],
+  "scope": "Opening three straight-chord-angle comparisons of III.31; later angle-of-segment clause remains in full facsimiles and is explicitly distinguished."
+}

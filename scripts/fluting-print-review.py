@@ -25,12 +25,13 @@ reading=pymupdf.open(root/'reading.pdf')
 text='\n'.join(page.get_text() for page in reading)
 assert 'κίονος' in text and 'circini' in text and 'Jocundus' in text
 assert 'in medio quadrato' in text
-# All three unchanged JPEG byte streams must survive the PDF export.
+assert 'τμήματι' in text and 'segmento maiore' in text.replace('\n',' ')
+# All five unchanged JPEG byte streams must survive the PDF export.
 import hashlib
-expected={hashlib.sha256((Path('public/sources/fluting')/f).read_bytes()).hexdigest() for f in ['krohn-085.jpg','krohn-074.jpg','bywater-205.jpg']}
+expected={hashlib.sha256((Path('public/sources/fluting')/f).read_bytes()).hexdigest() for f in ['krohn-085.jpg','krohn-074.jpg','bywater-205.jpg','heiberg-240.jpg','heiberg-241.jpg']}
 observed=set()
 for page in reading:
  for img in page.get_images():
   observed.add(hashlib.sha256(reading.extract_image(img[0])['image']).hexdigest())
 assert expected<=observed
-print(json.dumps(dict(status='passed',pdf_engine=pymupdf.VersionBind,page_width_mm=width,page_height_mm=height,calibration_bar_mm=bars[0],reading_pages=len(reading),unchanged_source_jpegs=3,greek_and_latin_extractable=True,scope='Native browser PDF vector dimensions and source streams; physical printer scaling unverified'),indent=2))
+print(json.dumps(dict(status='passed',pdf_engine=pymupdf.VersionBind,page_width_mm=width,page_height_mm=height,calibration_bar_mm=bars[0],reading_pages=len(reading),unchanged_source_jpegs=5,greek_and_latin_extractable=True,scope='Native browser PDF vector dimensions and source streams; physical printer scaling unverified'),indent=2))

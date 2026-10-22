@@ -1,0 +1,62 @@
+{
+  "checkedAt": "2026-10-22T23:06:32.157Z",
+  "base": "http://127.0.0.1:4329/gonia/",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "styles": {
+        "body": "Plex, Arial, sans-serif",
+        "plates": "grid",
+        "hatch": "rgb(64, 90, 67)",
+        "overflow": false
+      },
+      "ionicGauge": true,
+      "actualSvgDownload": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "styles": {
+        "body": "Plex, Arial, sans-serif",
+        "plates": "grid",
+        "hatch": "rgb(64, 90, 67)",
+        "overflow": false
+      },
+      "ionicGauge": true,
+      "actualSvgDownload": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "styles": {
+        "body": "Plex, Arial, sans-serif",
+        "plates": "grid",
+        "hatch": "rgb(64, 90, 67)",
+        "overflow": false
+      },
+      "ionicGauge": true,
+      "actualSvgDownload": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "styles": {
+        "body": "Plex, Arial, sans-serif",
+        "plates": "grid",
+        "hatch": "rgb(64, 90, 67)",
+        "overflow": false
+      },
+      "ionicGauge": true,
+      "actualSvgDownload": true,
+      "pageErrors": []
+    }
+  ]
+}

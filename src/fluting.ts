@@ -13,6 +13,8 @@ import { flutingSources, readingContent } from "./fluting-content";
 import { constructionDrawing, drumDrawing, profileDrawing } from "./fluting-drawing";
 import { downloadFluting } from "./fluting-files";
 import { offlineStatus } from "./offline";
+import { segmentReading } from "./segments-content";
+import { segmentCalculation, segmentFigures } from "./segments-drawing";
 
 function get<T extends HTMLElement = HTMLElement>(id: string): T {
   const el = document.getElementById(id);
@@ -29,13 +31,14 @@ get("app").innerHTML =
 <div class="fluting-controls"><div><label for="recipe">Source construction</label><select id="recipe">${RECIPES.map((r) => `<option value="${r}">${recipeNames[r]}</option>`).join("")}</select><small>Prescriptions, not a survey of surviving profiles.</small></div><div><label for="width">Chosen groove width <output id="width-value" for="width"></output></label><input id="width" type="range" min="50" max="120" step="5"><small>Modern model scale, in millimetres.</small></div><div><label for="point">Move the tool <output id="point-value" for="point"></output></label><input id="point" type="range" min="5" max="95" step="1"><small>Use arrow keys, or drag P on the drawing.</small></div></div>
 <div class="fluting-switches"><label><input id="gauge" type="checkbox">Show the fixed right-angle tool</label><label><input id="compare" type="checkbox">Overlay the other circular profile</label></div>
 <div class="fluting-plates"><figure><h3>Across a single hollow</h3><div id="profile-holder"></div><figcaption id="profile-caption"></figcaption></figure><figure><h3 id="drum-heading"></h3><div id="drum-holder"></div><figcaption id="drum-caption"></figcaption></figure></div>
-<div class="fluting-numbers" aria-live="polite" aria-atomic="true"><div><strong id="cut-depth"></strong><span>depth below A–B</span></div><div><strong id="edge-angle"></strong><span>angle between edge rays</span></div><div><strong id="gauge-miss"></strong><span id="miss-label">second contact short of B</span></div></div><p id="gauge-verdict" class="fluting-verdict"></p>
+<div class="fluting-numbers" aria-live="polite" aria-atomic="true"><div><strong id="cut-depth"></strong><span>depth below A–B</span></div><div><strong id="edge-angle"></strong><span>angle between edge rays</span></div><div><strong id="gauge-miss"></strong><span id="miss-label">second contact short of B</span></div></div><p id="gauge-verdict" class="fluting-verdict"></p><p><a href="#segment-study">Why 135° here, but 45° on the other arc?</a></p>
 <div class="fluting-controls"><div><label for="fillet">Ionic fillet <output id="fillet-value" for="fillet"></output></label><input id="fillet" type="range" min="0" max="30" step="5"><small id="fillet-hint">Chosen share of each angular pitch left on the outer circle; no ancient width is prescribed here.</small></div></div>
 <div class="fluting-table-scroll" tabindex="0" role="region" aria-label="Three source constructions; scroll horizontally"><table class="fluting-table"><caption>Same chosen groove width; shaft diameter changes with flute count and fillets. Calculations describe this model, not ancient measurements or load capacity.</caption><thead><tr><th scope="col">Construction</th><th scope="col">Depth / mm</th><th scope="col">Edge angle</th><th scope="col">Shaft Ø / mm</th><th scope="col">Area removed</th></tr></thead><tbody id="recipe-table"></tbody></table></div>
 <div class="fluting-actions"><button id="share" type="button">Copy this view</button><button id="save-template" type="button">Save paper template (SVG)</button><button id="save-reading" type="button">Save illustrated reading</button><button id="save-csv" type="button">Download coordinates (CSV)</button><button id="reset" type="button">Reset</button><p id="action-status" role="status"></p></div><p class="fluting-small">The SVG template uses millimetres and includes a 25 mm calibration bar. Print at actual size and measure the bar. Printer scaling has not been tested.</p>
 </section><section class="fluting-section"><p class="eyebrow">Recover the construction</p><h2 id="construction-heading"></h2><div class="fluting-construction"><div id="construction-holder"></div><div id="construction-note"></div></div></section>
+<section class="fluting-section" id="segment-study" aria-labelledby="segment-title"><p class="eyebrow">Euclid · the angle in a segment</p><h2 id="segment-title" tabindex="-1">Same chord. Which segment?</h2><p class="fluting-lead">A chord divides the circle into two regions. An angle in one region faces the other arc. Keep A and B fixed and compare one point on each side.</p><div class="segment-controls"><div role="group" aria-label="Construction circle"><button type="button" data-segment-recipe="doric">Doric circle</button><button type="button" data-segment-recipe="ionic">Ionic circle</button></div><div><label for="segment-point">Move both points <output id="segment-point-value" for="segment-point"></output></label><input id="segment-point" type="range" min="5" max="95" step="1"><small>The same fraction along each of the two arcs; endpoints stay fixed.</small></div></div><div id="segment-figures"></div><div id="segment-calculation" class="segment-calculation"></div><button id="save-segments" type="button">Download both arcs (CSV)</button><button id="share-segment" type="button">Copy this comparison</button><p id="segment-status" role="status"></p>${segmentReading()}</section>
 ${readingContent()}
-<section class="fluting-section" id="fluting-sources"><h2 tabindex="-1">Read the marks on the page.</h2><p>Complete public-domain pages, including their apparatus. Krohn’s Latin edition dates to 1912. Bywater’s Greek edition was first published in 1894; this scan is the 1920 printing. English translations and diagrams here are new.</p><div class="fluting-source-choices" role="group" aria-label="Printed source">${flutingSources.map((p, i) => `<button type="button" data-page="${i}">${p.label}</button>`).join("")}</div><figure class="fluting-source-figure"><div class="fluting-source-window" id="source-window" tabindex="0" role="region" aria-label="Complete printed source; scroll to read"></div><figcaption id="source-caption"></figcaption></figure><div class="fluting-source-links"><button id="source-zoom" type="button" aria-pressed="false">Enlarge scan</button><a id="source-image">Open full image</a><a id="source-original">Library source</a></div><p class="fluting-small">The Latin instructions support these geometric constructions; they do not establish that every Doric groove is a quarter-circle or every Ionic groove a semicircle. The model chooses a millimetre scale and an Ionic fillet width. It makes no claim about structural strength or ancient visual perception.</p></section></main><footer><a href="./entasis.html">Measure the curve along a flute edge</a><span id="fluting-offline" role="status">Preparing offline workshop…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
+<section class="fluting-section" id="fluting-sources"><h2 tabindex="-1">Read the marks on the page.</h2><p>Complete public-domain pages, including their apparatus. Krohn’s Latin edition dates to 1912. Bywater’s Greek edition was first published in 1894; this scan is the 1920 printing. Heiberg’s Greek Euclid and his Latin translation date to 1883. English translations and diagrams here are new.</p><div class="fluting-source-choices" role="group" aria-label="Printed source">${flutingSources.map((p, i) => `<button type="button" data-page="${i}">${p.label}</button>`).join("")}</div><figure class="fluting-source-figure"><div class="fluting-source-window" id="source-window" tabindex="0" role="region" aria-label="Complete printed source; scroll to read"></div><figcaption id="source-caption"></figcaption></figure><div class="fluting-source-links"><button id="source-zoom" type="button" aria-pressed="false">Enlarge scan</button><a id="source-image">Open full image</a><a id="source-original">Library source</a></div><p class="fluting-small">The Latin instructions support these geometric constructions; they do not establish that every Doric groove is a quarter-circle or every Ionic groove a semicircle. The model chooses a millimetre scale and an Ionic fillet width. It makes no claim about structural strength or ancient visual perception.</p></section></main><footer><a href="./entasis.html">Measure the curve along a flute edge</a><span id="fluting-offline" role="status">Preparing offline workshop…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
 function draw() {
   for (const key of ["recipe", "width", "fillet", "point"] as const)
     get<HTMLInputElement>(key).value = String(state[key]);
@@ -73,6 +76,14 @@ function draw() {
       section = columnSection(s);
     return `<tr><th scope="row">${recipeNames[recipe]}</th><td>${t.template.depth.toFixed(3)}</td><td>${recipe === "flat" ? "—" : `${t.angle.toFixed(0)}°`}</td><td>${section.diameter.toFixed(3)}</td><td>${section.removedPercent.toFixed(3)}%</td></tr>`;
   }).join("");
+  get("segment-figures").innerHTML = segmentFigures(state);
+  get("segment-calculation").innerHTML = segmentCalculation(state);
+  get<HTMLInputElement>("segment-point").value = String(state.point);
+  get<HTMLInputElement>("segment-point").disabled = state.recipe === "flat";
+  get("segment-point-value").textContent = `${state.point}% of each arc`;
+  document.querySelectorAll<HTMLButtonElement>("[data-segment-recipe]").forEach((b) => {
+    b.setAttribute("aria-pressed", String(b.dataset.segmentRecipe === state.recipe));
+  });
   get("construction-holder").innerHTML = constructionDrawing(state);
   get("construction-heading").textContent =
     state.recipe === "doric"
@@ -93,6 +104,7 @@ function change(patch: Partial<FlutingState>, record = true) {
   if (record)
     history.pushState(null, "", `${location.pathname}${flutingQuery(state)}${location.hash}`);
   get("action-status").textContent = "";
+  get("segment-status").textContent = "";
 }
 for (const id of ["recipe", "width", "fillet", "point", "gauge", "compare"] as const)
   get<HTMLInputElement>(id).addEventListener("change", () => {
@@ -110,6 +122,15 @@ for (const id of ["width", "point", "fillet"] as const)
   get<HTMLInputElement>(id).addEventListener("input", () =>
     change({ [id]: Number(get<HTMLInputElement>(id).value) }, false),
   );
+get("segment-point").addEventListener("input", () =>
+  change({ point: Number(get<HTMLInputElement>("segment-point").value) }, false),
+);
+get("segment-point").addEventListener("change", () =>
+  change({ point: Number(get<HTMLInputElement>("segment-point").value) }),
+);
+document.querySelectorAll<HTMLButtonElement>("[data-segment-recipe]").forEach((b) => {
+  b.addEventListener("click", () => change({ recipe: b.dataset.segmentRecipe as Recipe }));
+});
 get("reset").addEventListener("click", () => change({ ...FLUTING_DEFAULT }));
 window.addEventListener("popstate", () => {
   parsed = parseFluting(location.search);
@@ -143,32 +164,34 @@ get("source-zoom").addEventListener("click", () => {
   get("source-zoom").setAttribute("aria-pressed", String(on));
   get("source-zoom").textContent = on ? "Fit scan to width" : "Enlarge scan";
 });
-get("share").addEventListener("click", async () => {
-  const url = new URL(
-    `${location.pathname}${flutingQuery(state)}#fluting-workshop`,
-    location.origin,
-  ).href;
+async function copyView(fragment: string) {
+  const status = fragment === "#segment-study" ? get("segment-status") : get("action-status");
+  const url = new URL(`${location.pathname}${flutingQuery(state)}${fragment}`, location.origin)
+    .href;
   try {
     await navigator.clipboard.writeText(url);
-    get("action-status").textContent = "Link copied with these settings.";
+    status.textContent = "Link copied with these settings.";
   } catch {
-    get("action-status").textContent = "Copy this view: ";
+    status.textContent = "Copy this view: ";
     const a = document.createElement("a");
     a.href = url;
     a.textContent = url;
-    get("action-status").append(a);
+    status.append(a);
   }
-});
-for (const kind of ["template", "reading", "csv"] as const)
+}
+get("share").addEventListener("click", () => copyView("#fluting-workshop"));
+get("share-segment").addEventListener("click", () => copyView("#segment-study"));
+for (const kind of ["template", "reading", "csv", "segments"] as const)
   get(`save-${kind}`).addEventListener("click", async () => {
     const snapshot = { ...state };
-    get("action-status").textContent =
+    const status = kind === "segments" ? get("segment-status") : get("action-status");
+    status.textContent =
       kind === "reading" ? "Preparing the source pages and fonts…" : "Preparing the file…";
     try {
       await downloadFluting(kind, snapshot);
-      get("action-status").textContent = "File saved with the settings selected when you clicked.";
+      status.textContent = "File saved with the settings selected when you clicked.";
     } catch (error) {
-      get("action-status").textContent =
+      status.textContent =
         error instanceof Error ? error.message : "The file could not be prepared. Try again.";
     }
   });

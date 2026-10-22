@@ -26,6 +26,24 @@ export const flutingSources = [
     height: 2200,
     sha256: "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
   },
+  {
+    file: "heiberg-240.jpg",
+    label: "Euclid · Greek, Heiberg (1883), p. 240",
+    url: "https://archive.org/details/euclidisoperaomn01eucluoft/page/240/mode/1up",
+    note: "III.31 begins near the bottom. It distinguishes an angle IN a segment from the later angle OF a segment. The first three comparisons concern straight-chord angles.",
+    width: 1400,
+    height: 2200,
+    sha256: "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+  },
+  {
+    file: "heiberg-241.jpg",
+    label: "Euclid · Latin, Heiberg (1883), p. 241",
+    url: "https://archive.org/details/euclidisoperaomn01eucluoft/page/241/mode/1up",
+    note: "III.31 begins near the bottom. It distinguishes an angle IN a segment from the later angle OF a segment. Heiberg’s Latin is an 1883 scholarly translation. The upper diagram belongs to the preceding III.30; our paired diagram is new.",
+    width: 1400,
+    height: 2200,
+    sha256: "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+  },
 ] as const;
 export const doricLatin =
   "in medio autem quadrato circini centrum conlocetur et agatur linea rotundationis, quae quadrationis angulos tangat";

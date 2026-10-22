@@ -57,7 +57,13 @@ const server = http.createServer(async (req, res) => {
 await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
 const base = hosted ?? `http://127.0.0.1:${server.address().port}/gonia/`;
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
-const names = ["krohn-085.jpg", "krohn-074.jpg", "bywater-205.jpg"];
+const names = [
+  "krohn-085.jpg",
+  "krohn-074.jpg",
+  "bywater-205.jpg",
+  "heiberg-240.jpg",
+  "heiberg-241.jpg",
+];
 const expected = await Promise.all(
   names.map(async (f) => hash(await readFile(`public/sources/fluting/${f}`))),
 );
@@ -226,7 +232,7 @@ try {
           expected,
         );
         assert(!text.includes("<script"));
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 5; i++) {
           await page.locator(`[data-page="${i}"]`).click();
           await page.locator("#source-window img").evaluate((img) => img.decode());
           assert.equal(
@@ -291,7 +297,7 @@ try {
         await saved
           .locator(".printed-pages img")
           .evaluateAll((imgs) => Promise.all(imgs.map((i) => i.decode())));
-        assert.equal(await saved.locator(".printed-pages img").count(), 3);
+        assert.equal(await saved.locator(".printed-pages img").count(), 5);
         await saved.locator('a[href="#printed-2"]').click();
         assert.match(saved.url(), /#printed-2$/);
         const [csv] = await Promise.all([
@@ -321,7 +327,7 @@ try {
           keyboard: true,
           drag: true,
           history: true,
-          sourcePages: 3,
+          sourcePages: 5,
           offlineRooms: 4,
           nativeReading: true,
           embeddedCsvEqual: true,

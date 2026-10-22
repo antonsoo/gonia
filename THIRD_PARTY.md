@@ -139,3 +139,14 @@ The short Greek transcription was also checked against Perseus's Bywater TEI
 translations, grammar notes and geometric drawings are MIT, Anton Soloviev, 2026.
 The standalone HTML reading embeds Noto Serif and IBM Plex Sans with their
 complete OFL copyright and license notices inside the file.
+
+## Euclid's segment comparison
+
+`public/sources/fluting/heiberg-240.jpg` and `heiberg-241.jpg` are complete
+public-domain pages from Heiberg's 1883 edition of Euclid, from the University
+of Toronto / Gerstein scan at Internet Archive. Heiberg edited the Greek and
+made the modern Latin translation. [The source note](docs/segments-sources.md)
+records the original PDF identity, page mapping, transcription and the
+distinction between the angle in a segment and the angle of a segment.
+New comparison drawings, English, explanations and code are MIT,
+Anton Soloviev, 2026.

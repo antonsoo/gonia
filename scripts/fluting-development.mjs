@@ -20,6 +20,7 @@ for (const [name, engine] of Object.entries({ chromium, firefox })) {
       await page.evaluate(() => document.fonts.ready);
       assert.equal(await page.locator("#fluting-offline").innerText(), "Development preview");
       assert.equal(await page.locator("#cut-depth").innerText(), "20.71 mm");
+      assert.match(await page.locator("#segment-q-title").textContent(), /45 degrees/);
       const styles = await page.evaluate(() => ({
         body: getComputedStyle(document.body).fontFamily,
         plates: getComputedStyle(document.querySelector(".fluting-plates")).display,
@@ -32,6 +33,7 @@ for (const [name, engine] of Object.entries({ chromium, firefox })) {
       assert(!styles.overflow);
       await page.locator("#recipe").selectOption("ionic");
       assert.equal(await page.locator("#cut-depth").innerText(), "50.00 mm");
+      assert.match(await page.locator("#segment-q-title").textContent(), /90 degrees/);
       const [dl] = await Promise.all([
         page.waitForEvent("download"),
         page.locator("#save-template").click(),

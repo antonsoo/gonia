@@ -137,10 +137,36 @@ CSV and SVG downloads work from a native offline file. Physical printer
 scaling remains unverified; the generated PDF's bar measures 24.999824 mm.
 
 [Source decisions](docs/fluting-sources.md) · [Review](docs/fluting-review.md) ·
-[Saved reading](examples/fluting-reading.html) · [Five-page PDF](examples/fluting-reading.pdf) ·
+[Saved reading](examples/fluting-reading.html) · [Original carving PDF](examples/fluting-reading.pdf) ·
 [Paper template](examples/fluting-doric-100mm.svg) · [Coordinates](examples/fluting.csv)
 
 ![Doric hollow, right-angle tool and repeated section](docs/assets/fluting-chromium-1440-workshop.png)
+
+## Why 135 degrees from one arc, but 45 from the other?
+
+Open [the two-segment comparison](https://antonsoo.github.io/gonia/fluting.html#segment-study).
+The same chord divides one circle into two regions. Move P in the hollow and
+Q on the other arc. Green identifies the region containing the point; orange
+marks the arc facing it. In the Doric circle, P keeps 135 degrees and Q keeps
+45. In the Ionic circle, both keep 90.
+
+Two isosceles triangles explain P's angle as a sum of changing base angles.
+The cyclic quadrilateral explains why Q is supplementary. Read Euclid III.31's
+Greek beside Heiberg's explicitly modern Latin translation and a new English
+translation. Learn how “in the larger segment” can describe the smaller angle,
+and why “angle in a segment” differs from “angle of a segment.”
+
+The companion CSV records both points on both arcs. The new portable reading
+includes both diagrams, the calculation, all five full source pages, fonts,
+licenses and a working download of those comparison coordinates. The
+[original carving reading](examples/fluting-reading.html) is retained as its
+reviewed earlier edition.
+
+[Source decisions](docs/segments-sources.md) · [Review](docs/segments-review.md) ·
+[Complete reading](examples/segment-reading.html) · [Printable PDF](examples/segment-reading.pdf) ·
+[Both-arc coordinates](examples/segment-angles.csv)
+
+![One chord, with the larger and smaller circular segments](docs/assets/segments-chromium-1440-circles.png)
 
 ## Run locally
 
@@ -242,6 +268,7 @@ npm run verify:geometry
 npm run verify:spacing
 npm run verify:entasis
 npm run verify:fluting
+npm run verify:segments
 npm run test:browser -- /tmp/gonia-browser-review.json
 npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
 python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
@@ -249,6 +276,9 @@ npm run test:entasis -- /tmp/gonia-entasis-review/browser.json
 python3 scripts/entasis-oracle.py /tmp/gonia-entasis-review/browser.json
 npm run test:fluting -- /tmp/gonia-fluting-review
 python3 scripts/fluting-oracle.py /tmp/gonia-fluting-review/browser.json
+# With npm run preview in another terminal:
+npm run test:segments -- http://127.0.0.1:4328/gonia/ /tmp/gonia-segments-review
+python3 scripts/segments-oracle.py /tmp/gonia-segments-review/browser.json
 # Optional native PDF inspection (requires uv):
 uv run scripts/fluting-print-review.py /tmp/gonia-fluting-review
 ```

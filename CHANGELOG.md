@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.0 — 2026-10-22
+
+- A linked P/Q comparison explains 135 and 45 degree angles from the same Doric chord, with changing isosceles base angles and Euclid’s cyclic-quadrilateral reason.
+- Euclid III.31 in original Greek and Heiberg’s 1883 Latin, with complete pages and grammar distinguishing the angle in a segment from the angle of a segment.
+- Both-arc coordinate CSV, a shareable comparison, and a new portable illustrated reading with working embedded CSV and all five source pages. The earlier carving reading remains available.
+
 ## 0.4.0 — 2026-10-22
 
 - Cache lookups stay read-only after a cache is deleted; only a complete install creates an edition cache.

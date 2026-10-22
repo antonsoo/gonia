@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "cases": 728,
+  "csv_rows": 364,
+  "comparisons": 19180,
+  "max_relative_error_by_tolerance": {
+    "1e-09": 2.5822965165354797e-14,
+    "1e-06": 1.2551633332397527e-7
+  },
+  "method": "source-chord rotations, cosine-law angles and triangle base angles; actual SVG arc flags and coordinates"
+}

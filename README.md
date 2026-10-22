@@ -67,6 +67,9 @@ passage supplies no fixed numerical gap.
 These are Vitruvius's idealized instructions before his later corner-thickening
 adjustment, not measurements of a named temple. Metres provide a modern scale.
 The model omits structural loads, entasis and measured base/capital profiles.
+[Review and reproducible evidence](docs/spacing-review.md) ·
+[Saved illustrated reading](examples/eustyle-altered-reading.html) ·
+[Six-page PDF](examples/eustyle-altered-reading.pdf).
 
 ## Run locally
 

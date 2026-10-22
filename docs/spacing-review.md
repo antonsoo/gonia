@@ -1,8 +1,12 @@
 # Column-spacing workshop review
 
 Runtime revision: `43855af0393bb72341ec2b6a128d61a6f4e31891`.
-Reviewed on 2026-10-21 (Pacific time). Publication evidence is recorded
-separately in `spacing-publication.json` and `spacing-hosted.json` when available.
+Reviewed on 2026-10-21 (Pacific time). Source `af10e95` and Pages `c1d427a` were published without force-pushing.
+All 20 canonical files and the directory entry matched the reviewed build.
+The live Chromium/Firefox desktop/phone checks passed, including altered
+geometry, exact saved HTML, keyboard restoration of the wider centre, and
+offline navigation through both workshops with all four exact source images.
+See `spacing-publication.json` and `spacing-hosted.json`.
 
 ## The lesson
 
@@ -40,7 +44,7 @@ Receipts: `spacing-geometry.json`, `spacing-rendered-geometry.json`.
 
 ## Real workflows
 
-`scripts/spacing-browser.mjs` exercises Chromium 153.0.8010.12 and Firefox 153.0
+`scripts/spacing-browser.mjs` exercises Chromium 153.0.8010.12 and Firefox 155.0
 at 1440 and 375 pixels. For each it changes all five systems, all three column
 counts and both scale constraints through native controls. It also checks all
 five dimension labels, the altered central gap, an extreme wide front, shared

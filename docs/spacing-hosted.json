@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-22T03:07:42.443Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 73.984375,
+      "alteredStudyMatchesReviewedExport": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "keyboardRestoresPrescribedCentre": true,
+      "eightColumnTotal": 24.5,
+      "offlineBothPagesAndSourceHashes": [
+        "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+        "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+        "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+        "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 63.53125,
+      "alteredStudyMatchesReviewedExport": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "keyboardRestoresPrescribedCentre": true,
+      "eightColumnTotal": 24.5,
+      "offlineBothPagesAndSourceHashes": [
+        "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+        "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+        "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+        "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 74,
+      "alteredStudyMatchesReviewedExport": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "keyboardRestoresPrescribedCentre": true,
+      "eightColumnTotal": 24.5,
+      "offlineBothPagesAndSourceHashes": [
+        "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+        "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+        "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+        "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 64,
+      "alteredStudyMatchesReviewedExport": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "keyboardRestoresPrescribedCentre": true,
+      "eightColumnTotal": 24.5,
+      "offlineBothPagesAndSourceHashes": [
+        "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+        "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+        "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+        "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}

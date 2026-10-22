@@ -8,7 +8,10 @@ Before proposing a change, run:
 ```sh
 npm run check
 npm run verify:geometry
+npm run verify:spacing
 npm run test:browser -- /tmp/gonia-browser-review.json
+npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
+python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
 ```
 
 The browser review requires Playwright's Chromium and Firefox. If they are not

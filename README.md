@@ -1,8 +1,14 @@
 # Gonia
 
-**An interactive explanation of the Doric corner problem, with Greek and Latin vocabulary.**
+**Measured experiments in ancient architecture, with Greek words, Latin instructions and the printed evidence.**
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
+
+Two problems you can change and measure:
+- [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
+  way when columns and a triglyph frieze meet at a corner?
+- [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
+  why does Vitruvius leave a wider opening in the middle of an eustyle front?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -30,6 +36,37 @@ the front elevation hides.
   with both drawings, measurements, vocabulary and source passage.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
+
+## Change the entrance
+
+Open the [six-column eustyle front](https://antonsoo.github.io/gonia/spacing.html?system=eustyle&n=6&hold=front&front=18&centre=wide#spacing-workshop).
+Its six columns, four ordinary gaps and central opening add up to eighteen
+lower diameters: `6 + 4 × 2.25 + 3 = 18`. At an 18-metre front, each lower
+diameter is therefore 1 metre.
+
+Select **Try making every gap equal**. Keeping the front fixed increases
+the diameter to about 1.043 metres. Hold the diameter at 1 metre instead and
+the front contracts to 17.25 metres. The drawing, comparison, shared link and
+saved reading identify this as your alteration of the ancient prescription.
+
+Compare all five spacing systems at a common drawing scale; change between
+four, six and eight columns; distinguish clear intervals from axis-to-axis bays.
+Read the Latin, learn six Greek word-parts, and inspect the four bundled pages
+of Krohn's 1912 edition. The HTML download includes the actual page images and
+opens offline. Araeostyle spacing remains a chosen illustration: the cited
+passage supplies no fixed numerical gap.
+
+| System     | Ordinary clear gap / D | Central gap / D | Height / D |
+| ---------- | ---------------------: | --------------: | ---------: |
+| Pycnostyle |                    1.5 |             1.5 |         10 |
+| Systyle    |                      2 |               2 |        9.5 |
+| Eustyle    |                   2.25 |               3 |        9.5 |
+| Diastyle   |                      3 |               3 |        8.5 |
+| Araeostyle |         Chosen example |  Chosen example |          8 |
+
+These are Vitruvius's idealized instructions before his later corner-thickening
+adjustment, not measurements of a named temple. Metres provide a modern scale.
+The model omits structural loads, entasis and measured base/capital profiles.
 
 ## Run locally
 
@@ -104,6 +141,9 @@ geometric explanation.
 
 - Vitruvius, _De architectura_ IV.3.2, ed. F. Krohn (Teubner, 1912), pp. 82–83.
   [Archive scan](https://archive.org/details/vitruviidearchit00vitr_1/page/82/mode/2up).
+- Vitruvius, _De architectura_ III.3.2–10, same edition, pp. 64–67.
+  [Archive scan](https://archive.org/details/vitruviidearchit00vitr_1/page/64/mode/2up).
+  Height follows the explicit nine-and-a-half reading in III.3.10.
 - Mark Wilson Jones, “Doric Measure and Architectural Design 2: A Modular
   Reading of the Classical Temple,” _AJA_ 105.4 (2001), 675–713, especially
   fig. 2, p. 677. [DOI](https://doi.org/10.2307/507412).
@@ -115,7 +155,10 @@ geometric explanation.
 ```sh
 npm run check
 npm run verify:geometry
+npm run verify:spacing
 npm run test:browser -- /tmp/gonia-browser-review.json
+npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
+python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json
 ```
 
 The independent oracle requires Python 3. The browser review requires

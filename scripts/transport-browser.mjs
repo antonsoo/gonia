@@ -169,6 +169,23 @@ for (const [engine, launcher] of [
           }
         }
         await page.locator("#transport-reset").click();
+        await range(page, "#stone-width", 2);
+        await range(page, "#stone-height", 2);
+        await range(page, "#rolling-radius", 1);
+        await range(page, "#transport-angle", 45);
+        await capture(page, engine, width, "smallest-section");
+        assert.ok(
+          await page
+            .locator("#transport-height-graph svg")
+            .evaluate((svg) =>
+              [...svg.querySelectorAll("text")]
+                .filter((t) => /^\d+(?:\.\d+)?$/.test(t.textContent))
+                .every(
+                  (t) => Number(t.getAttribute("y")) >= 35 && Number(t.getAttribute("y")) <= 230,
+                ),
+            ),
+        );
+        await page.locator("#transport-reset").click();
         for (const radius of [1, 9]) {
           await range(page, "#stone-width", 12);
           await range(page, "#stone-height", 12);

@@ -59,7 +59,7 @@ export function transportDrawing(s: TransportState, prefix = "transport"): strin
 
 export function transportGraph(s: TransportState, prefix = "height"): string {
   const m = transportModel(s);
-  const max = Math.max(s.radius, m.diagonalRadius) + 1;
+  const max = Math.ceil(Math.max(s.radius, m.diagonalRadius) + 1);
   const x = (degree: number) => 55 + (degree / 360) * 510;
   const y = (h: number) => 220 - (h / max) * 170;
   const needed = (angle: number) => transportModel({ ...s, kind: "bare" }, angle).centre.y;

@@ -1,0 +1,34 @@
+[
+  {
+    "engine": "chromium",
+    "version": "153.0.8010.12",
+    "width": 1440,
+    "serviceWorkers": 0,
+    "nativeReading": true,
+    "inlineWordNote": true
+  },
+  {
+    "engine": "chromium",
+    "version": "153.0.8010.12",
+    "width": 375,
+    "serviceWorkers": 0,
+    "nativeReading": true,
+    "inlineWordNote": true
+  },
+  {
+    "engine": "firefox",
+    "version": "155.0",
+    "width": 1440,
+    "serviceWorkers": 0,
+    "nativeReading": true,
+    "inlineWordNote": true
+  },
+  {
+    "engine": "firefox",
+    "version": "155.0",
+    "width": 375,
+    "serviceWorkers": 0,
+    "nativeReading": true,
+    "inlineWordNote": true
+  }
+]

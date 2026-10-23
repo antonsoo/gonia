@@ -1,0 +1,86 @@
+{
+  "checkedAt": "2026-10-23T02:29:11.539Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "sharedLanding": 73.78125,
+      "readingSha256": "d921fe00efe64d5b032b4b1306a2e569d1814d30838fca14729fb4fca62efa71",
+      "selectedCircleDifferenceMm": 2.042,
+      "keyboardEndZero": true,
+      "sourceCenter": 0.4352899575671853,
+      "offlineThreePages": true,
+      "cachedSourceHashes": [
+        "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+        "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+        "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+        "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+        "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "sharedLanding": 63.828125,
+      "readingSha256": "d921fe00efe64d5b032b4b1306a2e569d1814d30838fca14729fb4fca62efa71",
+      "selectedCircleDifferenceMm": 2.042,
+      "keyboardEndZero": true,
+      "sourceCenter": 0.4352899575671853,
+      "offlineThreePages": true,
+      "cachedSourceHashes": [
+        "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+        "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+        "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+        "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+        "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "sharedLanding": 74,
+      "readingSha256": "d921fe00efe64d5b032b4b1306a2e569d1814d30838fca14729fb4fca62efa71",
+      "selectedCircleDifferenceMm": 2.042,
+      "keyboardEndZero": true,
+      "sourceCenter": 0.4352899575671853,
+      "offlineThreePages": true,
+      "cachedSourceHashes": [
+        "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+        "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+        "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+        "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+        "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "sharedLanding": 64,
+      "readingSha256": "d921fe00efe64d5b032b4b1306a2e569d1814d30838fca14729fb4fca62efa71",
+      "selectedCircleDifferenceMm": 2.042,
+      "keyboardEndZero": true,
+      "sourceCenter": 0.4352899575671853,
+      "offlineThreePages": true,
+      "cachedSourceHashes": [
+        "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+        "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+        "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+        "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+        "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2"
+      ],
+      "pageErrors": [],
+      "externalRequests": []
+    }
+  ]
+}

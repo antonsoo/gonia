@@ -1,0 +1,7 @@
+{
+  "model_cases": 1215,
+  "rendered_cases": 84,
+  "native_csv_samples": 7240,
+  "maximum_coordinate_difference": 1.4210854715202004e-14,
+  "method": "successive rigid rotations around actual support vertices; independent world-coordinate polygon and native CSV checks; no app imports"
+}

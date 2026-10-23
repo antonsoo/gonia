@@ -1,0 +1,10 @@
+{
+  "public_source": "487c68ac50ce3029ae6e5981340408004176d6ec",
+  "node": "v24.22.0",
+  "anonymous_github_clone": true,
+  "npm_ci": true,
+  "lint_typecheck_tests_build": true,
+  "meaningful_tests": 19,
+  "clean_dist_matches_reviewed_and_served_dist": true,
+  "production_files": 44
+}

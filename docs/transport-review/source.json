@@ -1,0 +1,18 @@
+{
+  "original_pdf_sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+  "pages_reproduced_from_original_and_bundled_pdf": [
+    {
+      "printed": 230,
+      "original_pdf_page": 248,
+      "bundled_pdf_page": 1,
+      "sha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e"
+    },
+    {
+      "printed": 231,
+      "original_pdf_page": 249,
+      "bundled_pdf_page": 2,
+      "sha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01"
+    }
+  ],
+  "bundled_assets_verified": 7
+}

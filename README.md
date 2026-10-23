@@ -224,6 +224,12 @@ and the bundled two-page PDF against the exact JPEGs. Supply `--pdf <path>` to
 use an existing copy of that original. The [source manifest](docs/transport-source-identities.json)
 records all identities and the Greek dictionary entries.
 
+The [transport review](docs/transport-review.md) retains the public browser,
+source, print and clean-install evidence. Try the actual [saved reading](examples/transport-reading.html),
+[seven-page A4 PDF](examples/transport-reading.pdf) and [complete-turn CSV](examples/transport-paconius.csv).
+
+![A Latin word explanation kept next to its sentence](docs/assets/transport-375-language.png)
+
 ## Run locally
 
 Node 24 or newer:

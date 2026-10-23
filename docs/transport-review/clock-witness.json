@@ -1,0 +1,12 @@
+{
+  "browser": "Firefox",
+  "viewport_width": 375,
+  "draft_failure": "One turn runs from 0 to 360 degrees.",
+  "actual_capture": {
+    "click_performance_now_ms": 308,
+    "first_animation_frame_timestamp_ms": 302.56,
+    "callback_performance_now_ms": 312
+  },
+  "effect": "The old draft floored negative elapsed time to -1 degree before scheduling another frame.",
+  "fix": "Use the first actual frame timestamp as baseline; clamp elapsed time and keep progress monotonic."
+}

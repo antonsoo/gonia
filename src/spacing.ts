@@ -36,7 +36,7 @@ let sourcePage: number = spacingPassages[state.system].page;
 const compact = matchMedia("(max-width: 650px)");
 get("app").innerHTML = `
 <a class="skip" href="#spacing-workshop">Skip to the spacing workshop</a>
-<header class="masthead"><a class="wordmark" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="./#workshop">Doric corner</a><a href="./spacing.html" aria-current="page">Column spacing</a><a href="./entasis.html">Entasis</a><a href="./fluting.html">Fluting</a><a href="./transport.html">Transport</a></nav></header>
+<header class="masthead"><a class="wordmark" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="./#workshop">Doric corner</a><a href="./spacing.html" aria-current="page">Column spacing</a><a href="./entasis.html">Entasis</a><a href="./fluting.html">Fluting</a><a href="./transport.html">Transport</a><a href="./colonnade.html">Temple plan</a></nav></header>
 <main class="spacing-main">
 <section class="spacing-intro"><h1>Give the entrance<br>more room.</h1><div><p>For Vitruvius, a row of columns is more than a repeating pattern. Its gaps determine the approach, its proportions and the span of the beams above.</p><p>Choose a spacing system. Keep the front fixed, or keep one column diameter fixed, and watch the rest follow.</p></div></section>
 <section id="spacing-workshop" aria-labelledby="spacing-title"><h2 id="spacing-title" tabindex="-1">The space between columns</h2><div class="system-choices" role="group" aria-label="Spacing system">${spacingSystems.map((system) => `<button type="button" data-system="${system}" aria-pressed="false"><strong>${spacingNames[system].title}</strong><span>${spacingNames[system].short}</span></button>`).join("")}</div>

@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Six problems you can inspect and measure:
+Seven problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -17,9 +17,12 @@ Six problems you can inspect and measure:
 - [Before the column stood](https://antonsoo.github.io/gonia/transport.html):
   how can wheels carry a rectangular stone, and why does a geometric fit fail
   to explain a reported failed journey?
-- [The row that is not there](docs/colonnade-review.md), new in this checkout:
+- [The row that is not there](https://antonsoo.github.io/gonia/colonnade.html):
   what happens to a temple's surrounding passage when an inner colonnade is
   omitted, and why do the text and apparatus disagree about the count?
+- [Twelve points. Two theatres.](https://antonsoo.github.io/gonia/theatre.html):
+  how can three squares produce a larger orchestra and a shallower stage than
+  four triangles drawn in the same starting circle?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -48,11 +51,47 @@ the front elevation hides.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
 
+## Move the compass; change the orchestra
+
+Open the [theatre drawing room](https://antonsoo.github.io/gonia/theatre.html).
+Follow five construction stages in Vitruvius V.6–7. Trace the Roman triangles
+and Greek squares, place the two stage lines, and move the Greek compass from
+the centre to the opposite ends of the diameter. The lower arcs have radius
+**2R**, not R. A movable cross-section makes their small extra side strips visible.
+
+![Greek construction, moved compass and source vocabulary](docs/assets/theatre-desktop.png)
+
+At a chosen 20-metre diameter:
+
+| Construction                                   | Stage depth | Constructed orchestra area |
+| ---------------------------------------------- | ----------: | -------------------------: |
+| Roman, four triangles                          |      5.00 m |                  157.08 m² |
+| Greek, three squares and three centres         |      2.93 m |                  292.49 m² |
+| Greek stage lines with a one-circle alteration |      2.93 m |                  285.62 m² |
+
+The alteration isolates the consequence of skipping the compass instruction.
+It is not presented as another historical plan. The text's vertical limits
+remain separate: at most five source feet for the Roman platform, ten to twelve
+for the Greek. No ancient foot conversion is assumed.
+
+Read ten Latin excerpts with new English and grammar; inspect five full printed
+pages, including the left/right variant in the apparatus. Compare two later
+historical interpretations. Share the construction or save its SVG, coordinates
+and a complete illustrated reading. The seven-room app works offline after
+its edition is saved.
+
+[Portable HTML](examples/theatre-reading.html) ·
+[17-page PDF](examples/theatre-reading.pdf) ·
+[SVG drawing](examples/theatre.svg) · [Coordinates](examples/theatre.csv) ·
+[Model and sources](docs/theatre-model.md) · [Review](docs/theatre-review.md).
+
+These are ideal textual plans. Seating bands and stage side edges are
+illustrative. Areas predict no audience capacity, acoustics or structural safety.
+
 ## Omit a colonnade; keep the temple's breadth
 
-The new temple-plan room is available locally at
-`http://127.0.0.1:4328/gonia/colonnade.html` after starting the app.
-[Review and publication boundary](docs/colonnade-review.md).
+Open the [temple-plan room](https://antonsoo.github.io/gonia/colonnade.html).
+[Original review](docs/colonnade-review.md) · [Current publication evidence](docs/theatre-review.md).
 
 ![The omitted inner colonnade, its counted positions and the retained outer ring](docs/assets/colonnade-1440-workshop.png)
 

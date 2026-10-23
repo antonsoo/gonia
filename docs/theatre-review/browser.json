@@ -1,0 +1,1771 @@
+{
+  "checkedAt": "2026-10-23T20:20:35.308Z",
+  "worker": "40e985a9863e602414dd4c51aee9e430573eb187ace08ab6d5638129f8fe6f0d",
+  "scope": "Native controls, drawn geometry, source hashes, saved files, printing, all seven offline rooms",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "geometry": [
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 105.31301611920794,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.0001485997081310162,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 105.31301611920794,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.0001485997081310162,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 105.31301611920794,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.0001485997081310162,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 105.31301611920794,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.0001485997081310162,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 105.31301611920794,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.0001485997081310162,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 102.83871680119756,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530303698,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 102.83871680119756,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530303698,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 102.83871680119756,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530303698,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 102.83871680119756,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530303698,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 102.83871680119756,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530303698,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 56.56438468663557,
+          "expectedArea": 56.548667764616276,
+          "relativeSampledAreaDiscrepancy": 0.00027793620328450084,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 292.5361558866887,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813077325,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 292.5361558866887,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813077325,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 292.5361558866887,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813077325,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 292.5361558866887,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813077325,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 292.5361558866887,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813077325,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 285.66310222554876,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530302371,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 285.66310222554876,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530302371,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 285.66310222554876,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530302371,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 285.66310222554876,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530302371,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 285.66310222554876,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.0001528369530302371,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 157.12329079620991,
+          "expectedArea": 157.07963267948966,
+          "relativeSampledAreaDiscrepancy": 0.0002779362032844405,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 947.8171450728713,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813076124,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 947.8171450728713,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813076124,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 947.8171450728713,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813076124,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 947.8171450728713,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813076124,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 947.8171450728713,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014859970813076124,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 925.5484512107779,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015283695303012408,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 925.5484512107779,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015283695303012408,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 925.5484512107779,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015283695303012408,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 925.5484512107779,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015283695303012408,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 925.5484512107779,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015283695303012408,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 509.0794621797201,
+          "expectedArea": 508.93800988154646,
+          "relativeSampledAreaDiscrepancy": 0.00027793620328450084,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        }
+      ],
+      "readings": [
+        "Begin with a circle",
+        "Two parallel lines make the Roman stage",
+        "The orchestra changes its use",
+        "Seven vertices for stairs; five for the scene",
+        "Replace the triangles with squares",
+        "Set the scene at a tangent",
+        "Move the compass to the ends of the diameter",
+        "More orchestra, less stage depth",
+        "Height and stair directions remain distinct",
+        "Use can require a change in proportion"
+      ],
+      "sources": [
+        {
+          "file": "krohn-106.jpg",
+          "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        },
+        {
+          "file": "krohn-107.jpg",
+          "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+        },
+        {
+          "file": "krohn-108.jpg",
+          "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+        },
+        {
+          "file": "krohn-109.jpg",
+          "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+        },
+        {
+          "file": "krohn-110.jpg",
+          "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+        },
+        {
+          "file": "leake-greek-orchestra.jpg",
+          "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+        },
+        {
+          "file": "morgan-roman-plan.jpg",
+          "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+        }
+      ],
+      "downloads": [
+        {
+          "file": "chromium-1440.html",
+          "sha256": "b76eb967f2ded5f2c461fadef89165e84799529250c53b90d591dd272787ae87"
+        },
+        {
+          "file": "chromium-1440.svg",
+          "sha256": "2ee792c2f372c3ca874e180c69e8f99235700f07100c1e01f550d42b33af3bdc"
+        },
+        {
+          "file": "chromium-1440.csv",
+          "sha256": "205c6cb26b79f7e8dd11f5208029745e9936eee272fd2ab620560cf269f04fe5"
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "screenshots": [
+        "chromium-1440-workbench.png",
+        "chromium-1440-width.png",
+        "chromium-1440-reading.png",
+        "chromium-1440-source.png"
+      ]
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "geometry": [
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 105.31299793416747,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637546615,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 105.31299793416747,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637546615,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 105.31299793416747,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637546615,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 105.31299793416747,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637546615,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 105.31299793416747,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637546615,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 102.83874320953983,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605257286,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 102.83874320953983,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605257286,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 102.83874320953983,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605257286,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 102.83874320953983,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605257286,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 102.83874320953983,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605257286,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 56.56440176274936,
+          "expectedArea": 56.548667764616276,
+          "relativeSampledAreaDiscrepancy": 0.0002782381752754838,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 292.5361053726875,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637561729,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 292.5361053726875,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637561729,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 292.5361053726875,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637561729,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 292.5361053726875,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637561729,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 292.5361053726875,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.00014842700637561729,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 285.66317558205515,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605278846,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 285.66317558205515,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605278846,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 285.66317558205515,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605278846,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 285.66317558205515,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605278846,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 285.66317558205515,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605278846,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 157.12333822985937,
+          "expectedArea": 157.07963267948966,
+          "relativeSampledAreaDiscrepancy": 0.00027823817527563454,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 947.8169814075073,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.0001484270063755261,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 947.8169814075073,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.0001484270063755261,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 947.8169814075073,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.0001484270063755261,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 947.8169814075073,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.0001484270063755261,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 947.8169814075073,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.0001484270063755261,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 925.5486888858586,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605268034,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 925.5486888858586,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605268034,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 925.5486888858586,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605268034,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 925.5486888858586,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605268034,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 925.5486888858586,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015309378605268034,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 509.07961586474437,
+          "expectedArea": 508.93800988154646,
+          "relativeSampledAreaDiscrepancy": 0.0002782381752757351,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        }
+      ],
+      "readings": [
+        "Begin with a circle",
+        "Two parallel lines make the Roman stage",
+        "The orchestra changes its use",
+        "Seven vertices for stairs; five for the scene",
+        "Replace the triangles with squares",
+        "Set the scene at a tangent",
+        "Move the compass to the ends of the diameter",
+        "More orchestra, less stage depth",
+        "Height and stair directions remain distinct",
+        "Use can require a change in proportion"
+      ],
+      "sources": [
+        {
+          "file": "krohn-106.jpg",
+          "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        },
+        {
+          "file": "krohn-107.jpg",
+          "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+        },
+        {
+          "file": "krohn-108.jpg",
+          "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+        },
+        {
+          "file": "krohn-109.jpg",
+          "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+        },
+        {
+          "file": "krohn-110.jpg",
+          "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+        },
+        {
+          "file": "leake-greek-orchestra.jpg",
+          "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+        },
+        {
+          "file": "morgan-roman-plan.jpg",
+          "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+        }
+      ],
+      "downloads": [
+        {
+          "file": "chromium-375.html",
+          "sha256": "b76eb967f2ded5f2c461fadef89165e84799529250c53b90d591dd272787ae87"
+        },
+        {
+          "file": "chromium-375.svg",
+          "sha256": "07da7df46456bcf9fc9d8dc581b602ff0c0c242f16afc4801a59b4bd7e410276"
+        },
+        {
+          "file": "chromium-375.csv",
+          "sha256": "205c6cb26b79f7e8dd11f5208029745e9936eee272fd2ab620560cf269f04fe5"
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "screenshots": [
+        "chromium-375-workbench.png",
+        "chromium-375-width.png",
+        "chromium-375-reading.png",
+        "chromium-375-source.png"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "geometry": [
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 105.3131002096767,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035178,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 105.3131002096767,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035178,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 105.3131002096767,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035178,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 105.3131002096767,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035178,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 105.3131002096767,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035178,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 102.83884935534176,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017818972,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 102.83884935534176,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017818972,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 102.83884935534176,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017818972,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 102.83884935534176,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017818972,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 102.83884935534176,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017818972,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 56.564435463253105,
+          "expectedArea": 56.548667764616276,
+          "relativeSampledAreaDiscrepancy": 0.00027883413102606965,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 292.5363894713242,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035151,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 292.5363894713242,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035151,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 292.5363894713242,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035151,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 292.5363894713242,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035151,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 292.5363894713242,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035151,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 285.6634704315049,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015412610178183639,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 285.6634704315049,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015412610178183639,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 285.6634704315049,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015412610178183639,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 285.6634704315049,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015412610178183639,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 285.6634704315049,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015412610178183639,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 157.1234318423697,
+          "expectedArea": 157.07963267948966,
+          "relativeSampledAreaDiscrepancy": 0.00027883413102587363,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 947.8179018870903,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035103,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 947.8179018870903,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035103,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 947.8179018870903,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035103,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 947.8179018870903,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035103,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 947.8179018870903,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.000149398308035103,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 925.5496441980758,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017817897,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 925.5496441980758,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017817897,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 925.5496441980758,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017817897,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 925.5496441980758,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017817897,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 925.5496441980758,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.0001541261017817897,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 509.0799191692779,
+          "expectedArea": 508.93800988154646,
+          "relativeSampledAreaDiscrepancy": 0.0002788341310260278,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        }
+      ],
+      "readings": [
+        "Begin with a circle",
+        "Two parallel lines make the Roman stage",
+        "The orchestra changes its use",
+        "Seven vertices for stairs; five for the scene",
+        "Replace the triangles with squares",
+        "Set the scene at a tangent",
+        "Move the compass to the ends of the diameter",
+        "More orchestra, less stage depth",
+        "Height and stair directions remain distinct",
+        "Use can require a change in proportion"
+      ],
+      "sources": [
+        {
+          "file": "krohn-106.jpg",
+          "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        },
+        {
+          "file": "krohn-107.jpg",
+          "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+        },
+        {
+          "file": "krohn-108.jpg",
+          "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+        },
+        {
+          "file": "krohn-109.jpg",
+          "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+        },
+        {
+          "file": "krohn-110.jpg",
+          "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+        },
+        {
+          "file": "leake-greek-orchestra.jpg",
+          "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+        },
+        {
+          "file": "morgan-roman-plan.jpg",
+          "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+        }
+      ],
+      "downloads": [
+        {
+          "file": "firefox-1440.html",
+          "sha256": "c96b8eaa21c9d11a2098307a796aa484d6f05f60e545222742fa8398c0589739"
+        },
+        {
+          "file": "firefox-1440.svg",
+          "sha256": "2ee792c2f372c3ca874e180c69e8f99235700f07100c1e01f550d42b33af3bdc"
+        },
+        {
+          "file": "firefox-1440.csv",
+          "sha256": "0ac7122a5a9f69308dd87326c3948cd4872925f50a40a055007504033e84a692"
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "screenshots": [
+        "firefox-1440-workbench.png",
+        "firefox-1440-width.png",
+        "firefox-1440-reading.png",
+        "firefox-1440-source.png"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "geometry": [
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 105.31306191029064,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208038415,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 105.31306191029064,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208038415,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 105.31306191029064,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208038415,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 105.31306191029064,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208038415,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 105.31306191029064,
+          "expectedArea": 105.29736896091339,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208038415,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 102.83881484334754,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709465052,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 102.83881484334754,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709465052,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 102.83881484334754,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709465052,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 102.83881484334754,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709465052,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 102.83881484334754,
+          "expectedArea": 102.82300164692441,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709465052,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 12,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 56.56440507235011,
+          "expectedArea": 56.548667764616276,
+          "relativeSampledAreaDiscrepancy": 0.00027829670186648456,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 292.53628308414073,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.0001490345820805515,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 292.53628308414073,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.0001490345820805515,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 292.53628308414073,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.0001490345820805515,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 292.53628308414073,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.0001490345820805515,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 292.53628308414073,
+          "expectedArea": 292.49269155809276,
+          "relativeSampledAreaDiscrepancy": 0.0001490345820805515,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 285.66337456485434,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709488273,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 285.66337456485434,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709488273,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 285.66337456485434,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709488273,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 285.66337456485434,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709488273,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 285.66337456485434,
+          "expectedArea": 285.6194490192345,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709488273,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 20,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 157.1233474231948,
+          "expectedArea": 157.07963267948966,
+          "relativeSampledAreaDiscrepancy": 0.00027829670186663033,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 947.817557192616,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208060906,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 25,
+          "drawnArea": 947.817557192616,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208060906,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 50,
+          "drawnArea": 947.817557192616,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208060906,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 75,
+          "drawnArea": 947.817557192616,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208060906,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "three",
+          "probe": 100,
+          "drawnArea": 947.817557192616,
+          "expectedArea": 947.6763206482206,
+          "relativeSampledAreaDiscrepancy": 0.00014903458208060906,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 0,
+          "drawnArea": 925.5493335901281,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709486551,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 25,
+          "drawnArea": 925.5493335901281,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709486551,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 50,
+          "drawnArea": 925.5493335901281,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709486551,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 75,
+          "drawnArea": 925.5493335901281,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709486551,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "greek",
+          "arc": "single",
+          "probe": 100,
+          "drawnArea": 925.5493335901281,
+          "expectedArea": 925.4070148223198,
+          "relativeSampledAreaDiscrepancy": 0.00015379045709486551,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 8
+        },
+        {
+          "diameter": 36,
+          "kind": "roman",
+          "arc": "three",
+          "probe": 0,
+          "drawnArea": 509.07964565115117,
+          "expectedArea": 508.93800988154646,
+          "relativeSampledAreaDiscrepancy": 0.0002782967018668336,
+          "sampledAreaTolerance": 0.0005,
+          "stairDirections": 7
+        }
+      ],
+      "readings": [
+        "Begin with a circle",
+        "Two parallel lines make the Roman stage",
+        "The orchestra changes its use",
+        "Seven vertices for stairs; five for the scene",
+        "Replace the triangles with squares",
+        "Set the scene at a tangent",
+        "Move the compass to the ends of the diameter",
+        "More orchestra, less stage depth",
+        "Height and stair directions remain distinct",
+        "Use can require a change in proportion"
+      ],
+      "sources": [
+        {
+          "file": "krohn-106.jpg",
+          "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        },
+        {
+          "file": "krohn-107.jpg",
+          "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+        },
+        {
+          "file": "krohn-108.jpg",
+          "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+        },
+        {
+          "file": "krohn-109.jpg",
+          "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+        },
+        {
+          "file": "krohn-110.jpg",
+          "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+        },
+        {
+          "file": "leake-greek-orchestra.jpg",
+          "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+        },
+        {
+          "file": "morgan-roman-plan.jpg",
+          "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+        }
+      ],
+      "downloads": [
+        {
+          "file": "firefox-375.html",
+          "sha256": "c96b8eaa21c9d11a2098307a796aa484d6f05f60e545222742fa8398c0589739"
+        },
+        {
+          "file": "firefox-375.svg",
+          "sha256": "07da7df46456bcf9fc9d8dc581b602ff0c0c242f16afc4801a59b4bd7e410276"
+        },
+        {
+          "file": "firefox-375.csv",
+          "sha256": "0ac7122a5a9f69308dd87326c3948cd4872925f50a40a055007504033e84a692"
+        }
+      ],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "screenshots": [
+        "firefox-375-workbench.png",
+        "firefox-375-width.png",
+        "firefox-375-reading.png",
+        "firefox-375-source.png"
+      ]
+    }
+  ]
+}

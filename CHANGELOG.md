@@ -1,6 +1,17 @@
 # Changelog
 
-## 0.7.0 — Unreleased (2026-10-23)
+## 0.8.0 — 2026-10-23
+
+- A seventh drawing room follows Vitruvius's Greek and Roman theatre plans:
+  triangles, squares, stage lines and three-centre orchestra arcs.
+- An adjustable cross-section compares the prescribed arcs with a learner's
+  one-circle alteration, retaining separate source-foot height limits.
+- Ten Latin passages with English and grammar, five full printed pages with
+  apparatus, and two identified later historical diagrams.
+- Shareable construction stages, SVG, coordinates, a complete portable reading
+  and a 17-page PDF; all seven rooms in one verified offline edition.
+
+## 0.7.0 — 2026-10-23
 
 - A sixth room on the omitted colonnade: retain the outer ring and cella block,
   compare two narrow lanes with a wide passage, and trace each ring's corners

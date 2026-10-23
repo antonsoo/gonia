@@ -1,0 +1,22 @@
+[
+  {
+    "file": "examples/theatre-reading.html",
+    "bytes": 3420221,
+    "sha256": "b76eb967f2ded5f2c461fadef89165e84799529250c53b90d591dd272787ae87"
+  },
+  {
+    "file": "examples/theatre-reading.pdf",
+    "bytes": 2166556,
+    "sha256": "5ac48caf64047b5653213cfbf1d0f6b9591515b1c7b27ce9e7a7d1cacfb8e19e"
+  },
+  {
+    "file": "examples/theatre.csv",
+    "bytes": 36589,
+    "sha256": "205c6cb26b79f7e8dd11f5208029745e9936eee272fd2ab620560cf269f04fe5"
+  },
+  {
+    "file": "examples/theatre.svg",
+    "bytes": 11424,
+    "sha256": "2ee792c2f372c3ca874e180c69e8f99235700f07100c1e01f550d42b33af3bdc"
+  }
+]

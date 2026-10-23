@@ -1,0 +1,28 @@
+{
+  "method": "4096-panel Simpson integration, independently parameterized upper semicircle and right-triangle lower widths; Euclidean compass distances for every probe and outline point",
+  "cases": 75,
+  "crossSections": 7575,
+  "maximumAbsoluteAreaDiscrepancy": 1.1368683772161603e-13,
+  "tolerance": 1e-8,
+  "allPassed": true,
+  "areaExamples": [
+    {
+      "diameter": 20,
+      "scheme": "roman",
+      "boundary": "three",
+      "area": 157.07963267948963
+    },
+    {
+      "diameter": 20,
+      "scheme": "greek",
+      "boundary": "three",
+      "area": 292.49269155809276
+    },
+    {
+      "diameter": 20,
+      "scheme": "greek",
+      "boundary": "single",
+      "area": 285.6194490192344
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 # Twelve points. Two theatres.
 
 This room reads Vitruvius V.6.1–3 and V.7.1–2 as instructions for an ideal
-plan, not as a reconstruction of a particular theatre. The current six-room
-Gonia checkout has no theatre or orchestra construction. The addition extends
-its measured architectural experiments beyond temple columns.
+plan, not as a reconstruction of a particular theatre. The seventh room extends
+Gonia’s measured architectural experiments beyond temple columns.
 
 The text supplies four equilateral triangles for the Latin theatre, and three
 squares for the Greek one. Both yield twelve equally spaced vertices, but the
@@ -42,7 +41,7 @@ is sqrt(2)R; the three-centre width is (sqrt(14)-2)R. The two small side strips
 are easy to overlook. A movable cross-section shows their changing width.
 
 Areas are computed analytically. An independent numerical integration of
-horizontal widths and a separately sampled polygon will verify them. No ancient
+horizontal widths verifies them. Browser sampling checks the drawn outline. No ancient
 area calculation is attributed to the author. The outer seating band is a
 chosen illustration; this passage does not determine its total extent. The
 Greek stair directions at the twelve square vertices are guides, not counts

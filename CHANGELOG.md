@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.6.0 — 2026-10-22
+
+- Stone-transport room: roll a shaft, tip a rectangular block around its corners,
+  or enclose it in wheels. Inspect actual ground intersections and full-turn
+  clearance, with a moving road ruler and a separate height graph.
+- Paconius's reported dimensions and failed journey, with explicit diameter/axis
+  interpretations and no invented steering or force explanation.
+- Five Latin excerpts, nine grammar notes, three Greek technical headwords,
+  and complete source pages 230–231, including the apparatus and printed gap.
+- Shared settings, native full-turn CSVs, verified illustrated offline readings,
+  and a complete five-room offline edition.
+
 ## 0.5.0 — 2026-10-22
 
 - A linked P/Q comparison explains 135 and 45 degree angles from the same Doric chord, with changing isosceles base angles and Euclid’s cyclic-quadrilateral reason.

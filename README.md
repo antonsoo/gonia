@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Four problems you can inspect and measure:
+Five problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -14,6 +14,9 @@ Four problems you can inspect and measure:
   a circle and his hyperbola predictions?
 - [The cut inside a column](https://antonsoo.github.io/gonia/fluting.html):
   why does a right-angle tool fit one prescribed flute but miss the other?
+- [Before the column stood](https://antonsoo.github.io/gonia/transport.html):
+  how can wheels carry a rectangular stone, and why does a geometric fit fail
+  to explain a reported failed journey?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -98,7 +101,7 @@ says the differences do not exceed 0.001. Both readings remain visible.
 The workshop also compares six reported maxima at actual size and equal
 shaft length, reads Vitruvius III.3.13 with Greek and Latin vocabulary, and
 includes five complete source images. Download the numerical CSV or a
-self-contained illustrated reading; all four workshops and their source
+self-contained illustrated reading; all five workshops and their source
 packets are available offline after the footer confirms the complete edition.
 
 The five points do not establish a continuous measured profile, an ancient
@@ -167,6 +170,59 @@ reviewed earlier edition.
 [Both-arc coordinates](examples/segment-angles.csv)
 
 ![One chord, with the larger and smaller circular segments](docs/assets/segments-chromium-1440-circles.png)
+
+## Before the column stood
+
+[Roll the stone](https://antonsoo.github.io/gonia/transport.html#transport-workshop).
+Compare a circular shaft, a bare rectangular stone and a stone turning inside
+wheels. The end view follows the centre while the road ruler moves beneath it.
+The height graph exposes the difference between rolling on a circle and tipping
+about successive corners.
+
+| Chosen 8 × 6 section | Centre height                   | Minimum full-turn clearance           |
+| -------------------- | ------------------------------- | ------------------------------------- |
+| Bare rectangle       | Rises and falls between 3 and 5 | Touches the road while tipping        |
+| Radius-6 wheels      | Constant 6                      | 1                                     |
+| Radius-4 wheels      | Attempted constant 4            | -1; blocked between the quarter-turns |
+
+The bare rectangle is a modern counterexample, not a prescribed ancient method.
+The source gives no cross-section for Metagenes's beams; these initial dimensions
+are chosen. Try a wheel that is too small: it clears at 0° and 90° but intersects
+the road in between. The red region shows the obstruction instead of presenting
+that attempted motion as physically possible.
+
+[Paconius's reported dimensions](https://antonsoo.github.io/gonia/transport.html?kind=wheels&w=8&h=6&r=7.5&angle=53&unit=feet&page=231#transport-workshop)
+give an 8 × 6 end section, a five-foot half-diagonal and a 7½-foot wheel radius
+under the stated diameter/axis readings. The resulting 2½ source feet of
+clearance do not explain why, according to Vitruvius, the rope-driven machine
+veered and had to be pulled back. This model supplies no steering, soil or force
+estimate.
+
+Five Latin excerpts, nine selectable grammar notes and three Greek technical
+headwords explain pivots, bearing rings, rollers and architraves. Complete
+Krohn pages 230–231 include the critical apparatus and the gap in the frame
+description. Enlarge and pan either the diagram or the original print.
+Keep a shared pose, download the selected position plus all 361 full-turn
+samples, or save an illustrated reading with both source pages, fonts and
+licenses embedded. All five rooms are available in the complete offline edition.
+
+The [transport model](docs/transport-model.md) gives the geometric derivation,
+source readings and limits. Its independent checker moves a complete polygon
+around successive support vertices; it does not import the app's formula.
+
+```sh
+npm run verify:transport
+npm run test:transport -- /tmp/gonia-transport
+node --import tsx scripts/transport-cases.ts | python3 scripts/transport-oracle.py /tmp/gonia-transport/review.json
+python3 scripts/transport-source-review.py
+```
+
+Build first and keep `dist/` unchanged during the browser review. It uses
+installed Playwright Chromium and Firefox, and opens actual native downloads.
+The source reviewer requires Poppler and verifies the identified original PDF
+and the bundled two-page PDF against the exact JPEGs. Supply `--pdf <path>` to
+use an existing copy of that original. The [source manifest](docs/transport-source-identities.json)
+records all identities and the Greek dictionary entries.
 
 ## Run locally
 

@@ -1,0 +1,40 @@
+{
+  "edition": "F. Krohn, Vitruvii De architectura libri decem (1912), printed pp. 230-231",
+  "original_url": "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf",
+  "original_sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+  "printed_to_pdf_pages": {
+    "230": 248,
+    "231": 249
+  },
+  "rendering": "pdftoppm -scale-to 2000 -jpeg -jpegopt quality=85 -singlefile",
+  "renderer_version": "pdftoppm version 24.02.0",
+  "files": {
+    "sources/transport/krohn-230.jpg": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e",
+    "sources/transport/krohn-231.jpg": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01",
+    "sources/transport/vitruvius-230-231.pdf": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc",
+    "fonts/NotoSerif-Regular.ttf": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+    "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+    "fonts/NotoSerif-OFL.txt": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+    "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+  },
+  "dictionary_entries": [
+    {
+      "word": "κνώδαξ",
+      "source": "LSJ via Logeion",
+      "url": "https://logeion.uchicago.edu/κνώδαξ",
+      "checked": "Rendered entries inspected in Chromium; definitions and morphology notes newly written."
+    },
+    {
+      "word": "κύλινδρος",
+      "source": "LSJ via Logeion",
+      "url": "https://logeion.uchicago.edu/κύλινδρος",
+      "checked": "Rendered entries inspected in Chromium; definitions and morphology notes newly written."
+    },
+    {
+      "word": "ἐπιστύλιον",
+      "source": "LSJ via Logeion",
+      "url": "https://logeion.uchicago.edu/ἐπιστύλιον",
+      "checked": "Rendered entries inspected in Chromium; definitions and morphology notes newly written."
+    }
+  ]
+}

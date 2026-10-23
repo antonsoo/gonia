@@ -1,0 +1,96 @@
+.transport-drawing svg,
+.transport-graph svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+svg .small-label {
+  font:
+    13px Plex,
+    Arial,
+    sans-serif;
+  fill: #5f6559;
+}
+svg .point-label {
+  font:
+    16px Plex,
+    Arial,
+    sans-serif;
+  fill: #27352f;
+}
+svg .rolling-shaft {
+  fill: #dfe4d4;
+  stroke: #405a43;
+  stroke-width: 2;
+}
+svg .wooden-wheel {
+  fill: #e3d9c536;
+  stroke: #8a724c;
+  stroke-width: 3;
+}
+svg .wheel-spoke {
+  fill: none;
+  stroke: #8a724c;
+  stroke-width: 1;
+}
+svg .transport-stone {
+  fill: #cbd3c0;
+  stroke: #405a43;
+  stroke-width: 2;
+}
+svg .stone-intrusion {
+  fill: #963b2580;
+  stroke: #963b25;
+  stroke-width: 2;
+}
+svg .road,
+svg .road-tick,
+svg .graph-axis {
+  fill: none;
+  stroke: #717c6a;
+  stroke-width: 1;
+}
+svg .road-contact,
+svg .stone-centre {
+  fill: #27352f;
+  stroke: #f4f1e8;
+  stroke-width: 1.5;
+}
+svg .height-dimension {
+  fill: none;
+  stroke: #963b25;
+  stroke-width: 1;
+}
+svg .wheel-index {
+  fill: none;
+  stroke: #963b25;
+  stroke-width: 2.5;
+}
+svg .pull-frame {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 2;
+  stroke-dasharray: 5 3;
+}
+svg .fixed-height {
+  fill: none;
+  stroke: #8a724c;
+  stroke-width: 2;
+  stroke-dasharray: 7 5;
+}
+svg .needed-height {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 2.5;
+}
+svg .phase-guide {
+  fill: none;
+  stroke: #717c6a;
+  stroke-width: 1;
+  stroke-dasharray: 2 4;
+}
+svg .graph-selected {
+  fill: #963b25;
+  stroke: #f4f1e8;
+  stroke-width: 1.5;
+}

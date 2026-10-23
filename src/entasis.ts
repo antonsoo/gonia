@@ -27,7 +27,7 @@ let source = "41";
 let sourceFocus: number | null = null;
 get("app").innerHTML = `
 <a class="skip" href="#entasis-workshop">Skip to the measured profile</a>
-<header class="masthead"><a class="wordmark" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="./#workshop">Doric corner</a><a href="./spacing.html">Column spacing</a><a href="./entasis.html" aria-current="page">Entasis</a><a href="./fluting.html">Fluting</a></nav></header>
+<header class="masthead"><a class="wordmark" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="./#workshop">Doric corner</a><a href="./spacing.html">Column spacing</a><a href="./entasis.html" aria-current="page">Entasis</a><a href="./fluting.html">Fluting</a><a href="./transport.html">Transport</a></nav></header>
 <main class="entasis-main">
 <section class="entasis-intro"><h1>The curve<br>inside the taper.</h1><div><p>A Parthenon column narrows as it rises. Yet its edge sits slightly outside a straight taper. That small addition is <em>entasis</em>.</p><p>Follow a surveyor’s numbers. Enlarge the difference. Read what the ancient text actually says.</p><a href="#entasis-workshop">Inspect the measured edge ↓</a></div></section>
 <section id="entasis-workshop" aria-labelledby="entasis-title"><h2 id="entasis-title" tabindex="-1">How much curve can five measurements show?</h2><p class="entasis-lead">Francis Penrose’s 1888 comparison records one exterior <a href="./fluting.html">flute edge</a> of the fourth east-front column from the Parthenon’s northeast corner. These five corrected offsets are measured inward from a line through the base, parallel to the column axis.</p>

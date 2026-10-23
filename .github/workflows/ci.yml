@@ -20,6 +20,7 @@ jobs:
       - run: npm run verify:entasis
       - run: npm run verify:fluting
       - run: npm run verify:segments
+      - run: npm run verify:transport
       - run: npx playwright install --with-deps chromium firefox
       - run: npm run test:browser -- /tmp/gonia-browser-review.json
       - run: npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
@@ -31,3 +32,5 @@ jobs:
       - run: npm run preview > /tmp/gonia-preview.log 2>&1 &
       - run: npm run test:segments -- http://127.0.0.1:4328/gonia/ /tmp/gonia-segments-review
       - run: python3 scripts/segments-oracle.py /tmp/gonia-segments-review/browser.json
+      - run: npm run test:transport -- /tmp/gonia-transport
+      - run: node --import tsx scripts/transport-cases.ts | python3 scripts/transport-oracle.py /tmp/gonia-transport/review.json

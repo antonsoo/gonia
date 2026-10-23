@@ -3,6 +3,44 @@
 Gonia's code, diagrams and English translations are MIT licensed. The following
 materials retain their own provenance and terms.
 
+## Rolling stone transport
+
+`public/sources/transport/` contains the complete printed pages 230–231 of
+the same public-domain Krohn 1912 edition identified below, corresponding to
+original PDF pages 248–249. The outer margin's earlier pagination is not the
+printed header's page number. The JPEGs were rendered at a 2000-pixel long edge
+with Poppler 24.02.0, quality 85. The two-page PDF retains both complete pages.
+The [source reviewer](scripts/transport-source-review.py) reproduces the same
+JPEGs from both the identified original and the bundled PDF.
+
+| File                    | SHA-256                                                            |
+| ----------------------- | ------------------------------------------------------------------ |
+| `krohn-230.jpg`         | `026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e` |
+| `krohn-231.jpg`         | `4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01` |
+| `vitruvius-230-231.pdf` | `9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc` |
+
+The five short Latin excerpts were checked against these images. Line-end
+hyphens are joined and Roman numeral capitalization normalized. The printed
+gap in the frame description remains visible; no lost dimensions are invented.
+The original apparatus is retained, including variants of Paconius's name.
+The wheel sizes are interpreted as diameters following Morgan's English
+translation ([X.2.12](https://lexundria.com/vitr/10.2.12/mg),
+[X.2.14](https://lexundria.com/vitr/10.2.14/mg)); the model explicitly assumes
+that the long dimension of the replacement base lies along the wheel axis.
+
+Greek headwords, meanings and genitives were checked against rendered LSJ
+entries in Logeion: [κνώδαξ](https://logeion.uchicago.edu/κνώδαξ),
+[κύλινδρος](https://logeion.uchicago.edu/κύλινδρος) and
+[ἐπιστύλιον](https://logeion.uchicago.edu/ἐπιστύλιον). Definitions and grammar
+notes are newly written; no modern dictionary article is bundled. These
+headwords explain the Latin technical loans, rather than supplying a Greek
+original of Vitruvius. The new English and diagrams are MIT.
+
+Saved readings verify and embed the original two JPEGs, Noto Serif and IBM
+Plex Sans, together with both full font copyright/license texts. The complete
+asset identities are in [the transport manifest](docs/transport-source-identities.json).
+
+
 ## Latin source scan
 
 `public/sources/vitruvius-82-83.pdf` contains printed pages 82–83 from

@@ -1,0 +1,444 @@
+{
+  "checkedAt": "2026-10-23T20:25:04.288Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "runtimeCommit": "c46adabcd54e9b2ac68c376f4e494ff8e1410174",
+  "files": [
+    {
+      "file": "assets/colonnade-C6ETJgZU.css",
+      "bytes": 10632,
+      "sha256": "c91a3a660779d01c47bc8ad2f13665bb80b361bb64e67fccd1dddee504cf0ef2"
+    },
+    {
+      "file": "assets/colonnade-DkR4dt4L.js",
+      "bytes": 48327,
+      "sha256": "3544e19b5fbd240dd48c835340a7559c2e082b0a099b55de2ac7994ffa7dab6b"
+    },
+    {
+      "file": "assets/drawing-BoRtX5xJ.js",
+      "bytes": 6591,
+      "sha256": "e26a26c1feb37930f42e66535fc96e5fd1a42bf36d01ba891ff76e647e75e148"
+    },
+    {
+      "file": "assets/entasis-DD-CSqla.js",
+      "bytes": 46682,
+      "sha256": "47d6c2ccaa49b730fa15d62e726fe08054f79ad81c863c4bafedeb5ff9c9d622"
+    },
+    {
+      "file": "assets/entasis-QEne2H1K.css",
+      "bytes": 6979,
+      "sha256": "77e1418f4aad62226ffe3f40bc0407611ee3f2a6051478c856879fa2dbbebe82"
+    },
+    {
+      "file": "assets/fluting-CGhQfGpT.js",
+      "bytes": 65168,
+      "sha256": "585eb5e98247c7af91bf544ec509ae859826bd16e7895d0da75223cf106651c6"
+    },
+    {
+      "file": "assets/fluting-CyDeXJNl.css",
+      "bytes": 9089,
+      "sha256": "8f36cd78fb63fb347686a753c5c5cf909b65bc5cd33552350425d77259cfa3a9"
+    },
+    {
+      "file": "assets/main-Dzy7YEQ3.js",
+      "bytes": 21617,
+      "sha256": "1dea86affc017461f18b3052c790abfcaba966545de13ddd707f407728e9e79e"
+    },
+    {
+      "file": "assets/offline-CFJLywra.css",
+      "bytes": 12540,
+      "sha256": "1e4762a46a94d2fc9a28b4c4b411d5a256cde1d4aaf5b4e2056b4602c2c69166"
+    },
+    {
+      "file": "assets/offline-Cc82ULHV.js",
+      "bytes": 2616,
+      "sha256": "164fe01f2db39e6b19f1660e1c26f412a21d83569109ff4f1450d4d5b515917b"
+    },
+    {
+      "file": "assets/spacing-C8wTAflL.css",
+      "bytes": 6883,
+      "sha256": "a06668adea502bb780f8c45cc3b3ac23874e67f224645e4914abaa6b363bfa31"
+    },
+    {
+      "file": "assets/spacing-DRwJDS7r.js",
+      "bytes": 32864,
+      "sha256": "089f5537ca60ff51180ef036ee7075ade766f835fad908d8a2f0b3566874e4b1"
+    },
+    {
+      "file": "assets/theatre-3Yndn_KY.css",
+      "bytes": 14246,
+      "sha256": "0530225b41cb206da5596bbff7065598a9edf0c20c371fc8d1155d63503d6e5a"
+    },
+    {
+      "file": "assets/theatre-CVf6PiM8.js",
+      "bytes": 59358,
+      "sha256": "fba16c5a55409cfe389e096be1fc807513b68b5434ca2aff28ae0d89ce70c0ae"
+    },
+    {
+      "file": "assets/transport-C30eYDnI.js",
+      "bytes": 45518,
+      "sha256": "8618755c1fd97e01eebc8e99881df438e0d3e54a93d10fece89543a4e247e3f3"
+    },
+    {
+      "file": "assets/transport-ElzZfsvG.css",
+      "bytes": 9779,
+      "sha256": "e11323c8324c175b2afa8c75313a48e7d6ed828328b8be67d01b5f1ec23646fa"
+    },
+    {
+      "file": "colonnade.html",
+      "bytes": 1134,
+      "sha256": "474ed9a2127636af36d22ad4d9bfb04701baf1b5115ca3b09147f18c4cdbdc80"
+    },
+    {
+      "file": "entasis.html",
+      "bytes": 1327,
+      "sha256": "f31a1e6636c1621cdbd82066387f2d0da031516b51cab31c2c5af9d506d55a0f"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 237,
+      "sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40"
+    },
+    {
+      "file": "fluting.html",
+      "bytes": 1150,
+      "sha256": "3f71613302e828bb77859b7cde700539577338cfe029acc3a9f2c66803ecafff"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "index.html",
+      "bytes": 1180,
+      "sha256": "932bf83ace01c71273ada89833cbaf61176ed3320ac8ece57835dfb364423012"
+    },
+    {
+      "file": "sources/colonnade/humann-041.jpg",
+      "bytes": 937135,
+      "sha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3"
+    },
+    {
+      "file": "sources/colonnade/humann-043.jpg",
+      "bytes": 923777,
+      "sha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b"
+    },
+    {
+      "file": "sources/colonnade/humann-055.jpg",
+      "bytes": 671649,
+      "sha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88"
+    },
+    {
+      "file": "sources/colonnade/krohn-063.jpg",
+      "bytes": 586879,
+      "sha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d"
+    },
+    {
+      "file": "sources/colonnade/krohn-066.jpg",
+      "bytes": 572025,
+      "sha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d"
+    },
+    {
+      "file": "sources/entasis/entasis-source-pages.pdf",
+      "bytes": 3867723,
+      "sha256": "4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517"
+    },
+    {
+      "file": "sources/entasis/krohn-068.jpg",
+      "bytes": 426329,
+      "sha256": "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2"
+    },
+    {
+      "file": "sources/entasis/penrose-039.jpg",
+      "bytes": 800352,
+      "sha256": "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07"
+    },
+    {
+      "file": "sources/entasis/penrose-040.jpg",
+      "bytes": 927245,
+      "sha256": "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144"
+    },
+    {
+      "file": "sources/entasis/penrose-041.jpg",
+      "bytes": 902234,
+      "sha256": "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25"
+    },
+    {
+      "file": "sources/entasis/penrose-Taf_14.jpg",
+      "bytes": 807953,
+      "sha256": "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227"
+    },
+    {
+      "file": "sources/fluting/bywater-205.jpg",
+      "bytes": 552315,
+      "sha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657"
+    },
+    {
+      "file": "sources/fluting/heiberg-240.jpg",
+      "bytes": 500726,
+      "sha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719"
+    },
+    {
+      "file": "sources/fluting/heiberg-241.jpg",
+      "bytes": 503372,
+      "sha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6"
+    },
+    {
+      "file": "sources/fluting/krohn-074.jpg",
+      "bytes": 671362,
+      "sha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5"
+    },
+    {
+      "file": "sources/fluting/krohn-085.jpg",
+      "bytes": 667400,
+      "sha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a"
+    },
+    {
+      "file": "sources/spacing/krohn-082.jpg",
+      "bytes": 404950,
+      "sha256": "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb"
+    },
+    {
+      "file": "sources/spacing/krohn-083.jpg",
+      "bytes": 392529,
+      "sha256": "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9"
+    },
+    {
+      "file": "sources/spacing/krohn-084.jpg",
+      "bytes": 400093,
+      "sha256": "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86"
+    },
+    {
+      "file": "sources/spacing/krohn-085.jpg",
+      "bytes": 392372,
+      "sha256": "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a"
+    },
+    {
+      "file": "sources/spacing/vitruvius-64-67.pdf",
+      "bytes": 376182,
+      "sha256": "bc8f455c15075825093b559beeb40a84964454d5fb27e8436d2d33f3edd8912e"
+    },
+    {
+      "file": "sources/theatre/krohn-106.jpg",
+      "bytes": 335418,
+      "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+    },
+    {
+      "file": "sources/theatre/krohn-107.jpg",
+      "bytes": 335636,
+      "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+    },
+    {
+      "file": "sources/theatre/krohn-108.jpg",
+      "bytes": 352685,
+      "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+    },
+    {
+      "file": "sources/theatre/krohn-109.jpg",
+      "bytes": 331477,
+      "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+    },
+    {
+      "file": "sources/theatre/krohn-110.jpg",
+      "bytes": 355909,
+      "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+    },
+    {
+      "file": "sources/theatre/leake-greek-orchestra.jpg",
+      "bytes": 27427,
+      "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+    },
+    {
+      "file": "sources/theatre/manifest.json",
+      "bytes": 2737,
+      "sha256": "cbb740a98f29c3af5c8846037e1c0f99e10e4ea8dcb6afdea11c536c1dcc321a"
+    },
+    {
+      "file": "sources/theatre/morgan-roman-plan.jpg",
+      "bytes": 218123,
+      "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+    },
+    {
+      "file": "sources/transport/krohn-230.jpg",
+      "bytes": 477658,
+      "sha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e"
+    },
+    {
+      "file": "sources/transport/krohn-231.jpg",
+      "bytes": 461717,
+      "sha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01"
+    },
+    {
+      "file": "sources/transport/vitruvius-230-231.pdf",
+      "bytes": 183260,
+      "sha256": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc"
+    },
+    {
+      "file": "sources/vitruvius-82-83.pdf",
+      "bytes": 188664,
+      "sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93"
+    },
+    {
+      "file": "spacing.html",
+      "bytes": 1304,
+      "sha256": "cd445fc20579a5d00ffe91eef90a0f79184c8f74d59786e5a22dafc4cebeb7fe"
+    },
+    {
+      "file": "sw.js",
+      "bytes": 10279,
+      "sha256": "40e985a9863e602414dd4c51aee9e430573eb187ace08ab6d5638129f8fe6f0d"
+    },
+    {
+      "file": "theatre.html",
+      "bytes": 1122,
+      "sha256": "fb8a1d01e8cefa291c3b10bdc9d0d0a5421542159ffb4e560596cb2ecb30bacf"
+    },
+    {
+      "file": "transport.html",
+      "bytes": 1134,
+      "sha256": "7e585065f74346e9ab1237306399b9c3cd4e9f808ef35bde74df73af1c073cb6"
+    }
+  ],
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "downloads": [
+        {
+          "file": "chromium-1440.html",
+          "sha256": "7b2e880a552e11c5d7a058588a6a36be03fb4f5edad4a4895a6c8e5da3c0cf00"
+        },
+        {
+          "file": "chromium-1440.svg",
+          "sha256": "d3c12dff2bd097ec7e2b75e625d0b5e245a412e4edb118316e13411ba477428c"
+        },
+        {
+          "file": "chromium-1440.csv",
+          "sha256": "a603f4cf003940fa2e83d0323d9aa4ae6cd83d72cc72ac34da7bb7c6147552f8"
+        }
+      ],
+      "embeddedCsvMatches": true,
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "sourceOffline": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "downloads": [
+        {
+          "file": "chromium-375.html",
+          "sha256": "7b2e880a552e11c5d7a058588a6a36be03fb4f5edad4a4895a6c8e5da3c0cf00"
+        },
+        {
+          "file": "chromium-375.svg",
+          "sha256": "fc093f57c6440af289599cfb302d30fa5a809b198934a2c115625b1c6a89f165"
+        },
+        {
+          "file": "chromium-375.csv",
+          "sha256": "a603f4cf003940fa2e83d0323d9aa4ae6cd83d72cc72ac34da7bb7c6147552f8"
+        }
+      ],
+      "embeddedCsvMatches": true,
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "sourceOffline": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "downloads": [
+        {
+          "file": "firefox-1440.html",
+          "sha256": "d0f401e194610154c4852733df25d102dad4f836deaba287c2504216e4f6e211"
+        },
+        {
+          "file": "firefox-1440.svg",
+          "sha256": "d3c12dff2bd097ec7e2b75e625d0b5e245a412e4edb118316e13411ba477428c"
+        },
+        {
+          "file": "firefox-1440.csv",
+          "sha256": "72e95c36533f4bee2e8b8683be659e149fecfd2af203e99f059c79ee8fbacf5a"
+        }
+      ],
+      "embeddedCsvMatches": true,
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "sourceOffline": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "downloads": [
+        {
+          "file": "firefox-375.html",
+          "sha256": "d0f401e194610154c4852733df25d102dad4f836deaba287c2504216e4f6e211"
+        },
+        {
+          "file": "firefox-375.svg",
+          "sha256": "fc093f57c6440af289599cfb302d30fa5a809b198934a2c115625b1c6a89f165"
+        },
+        {
+          "file": "firefox-375.csv",
+          "sha256": "72e95c36533f4bee2e8b8683be659e149fecfd2af203e99f059c79ee8fbacf5a"
+        }
+      ],
+      "embeddedCsvMatches": true,
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html"
+      ],
+      "sourceOffline": true
+    }
+  ]
+}

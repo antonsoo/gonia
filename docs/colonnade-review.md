@@ -1,8 +1,9 @@
 # The row that is not there: a sixth Gonia room
 
-Reviewed 2026-10-23. Source and build are complete locally. This work did not
-push a source branch, create a release or publish a Pages deployment. The new
-room is intentionally described as a checkout addition in the README.
+Originally reviewed locally on 2026-10-23. The colonnade room was subsequently
+published together with the seventh theatre room, with byte comparison and
+four direct browser journeys. [Current publication evidence](theatre-review.md#publication).
+The review below records the original six-room build.
 
 ## What the learner can do
 
@@ -137,8 +138,7 @@ an OCR result was not used to decide the disputed numeral.
 Inside the checkout, run `npm ci` then `npm run dev`. Open
 `http://127.0.0.1:4328/gonia/colonnade.html`. The production command is
 `npm run build`; the complete static output is `dist/`, base `/gonia/`.
-Build and browser evidence do not establish a hosted deployment. No catalogue
-entry was changed to advertise a public URL which this session did not deploy.
+The subsequent seven-room publication is recorded in the linked theatre review.
 
 Suggested repository description:
 “Measured ancient architecture: change temple plans, read Greek and Latin, and

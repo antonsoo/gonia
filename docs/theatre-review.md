@@ -90,6 +90,19 @@ node scripts/theatre-upgrade.mjs path/to/previous-dist /tmp/gonia-theatre-upgrad
 
 ## Publication
 
-Publication evidence will be added after the reviewed source and built edition
-have been pushed and exercised at the public URL. Local review establishes no
-hosted behavior by itself.
+Source commit `204c607` and Pages commit `403d72a` were pushed on 2026-10-23.
+The latter is a normal fast-forward publication retaining prior hashed assets.
+GitHub reported the branch build complete. All 63 public files, totalling
+20,556,065 bytes, matched the reviewed inventory by SHA-256.
+
+The [direct HTTPS review](theatre-review/hosted.json) exercised the public
+[theatre room](https://antonsoo.github.io/gonia/theatre.html) in both browsers
+and both widths. It switched the plans, compared the alteration, used the
+keyboard cross-section, decoded the apparatus scan, and downloaded the actual
+HTML, SVG and CSV. The coordinate link inside the standalone HTML produced
+identical CSV bytes. After disconnecting the context, every one of the seven
+public entry pages and the selected source image remained available.
+
+The colonnade room is included in the same published edition. Its original
+review below predates this publication. No package-registry release or tag is
+claimed.

@@ -3,12 +3,13 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { gunzipSync } from "node:zlib";
 import { chromium, firefox } from "playwright";
 
 const base = process.argv[2] ?? "https://antonsoo.github.io/gonia/";
 const output = process.argv[3] ?? "/tmp/gonia-hosted-entasis/review.json";
 await mkdir(path.dirname(output), { recursive: true });
-const reviewed = await readFile("examples/entasis-circle-reading.html");
+const reviewed = gunzipSync(await readFile("examples/entasis-circle-reading.html.gz"));
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const files = [
   "penrose-039.jpg",

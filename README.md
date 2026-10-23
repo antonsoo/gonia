@@ -112,8 +112,8 @@ they do not invent intermediate observations.
 
 ![Measured offsets and enlarged departures with Penrose’s circle](docs/assets/entasis-1440.png)
 
-A [saved circle comparison](examples/entasis-circle-reading.html) and its
-[eight-page PDF](examples/entasis-circle-reading.pdf) include all five scans.
+A [saved circle comparison](examples/entasis-circle-reading.html.gz) and its
+[eight-page PDF](examples/entasis-circle-reading.pdf) include all five scans. Extract the gzip HTML before opening; it retains the original captured reading bytes.
 
 ## Take a carving template to paper
 

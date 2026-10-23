@@ -119,7 +119,7 @@ node scripts/entasis-hosted.mjs https://antonsoo.github.io/gonia/ /tmp/gonia-ent
 ```
 
 The upgrade experiment requires the previously published artifact. The hosted
-script checks a saved reading against `examples/entasis-circle-reading.html`,
+script checks a saved reading against `examples/entasis-circle-reading.html.gz`,
 source hashes, selected calculations, native controls and three offline pages.
 Public bytes and browser results are recorded separately after publication.
 

@@ -24,7 +24,7 @@ export const theatreSources = [
     file: "krohn-108.jpg",
     title: "Proportion has limits",
     label: "Latin · 108",
-    note: "V.6.6–7. Near the bottom, Vitruvius asks the architect to distinguish required proportions from adjustments to site and scale. The sentence continues on p. 109.",
+    note: "V.6.6–7. Near the bottom, Vitruvius asks the architect to distinguish required proportions from adjustments to site and scale. The discussion continues on p. 109.",
     url: `${THEATRE_LATIN}/page/n125/mode/1up`,
     focus: 0.48,
   },

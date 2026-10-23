@@ -1,6 +1,6 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "description": "Measured ancient architecture: temple columns, stone transport and Greek and Roman theatre constructions.",
   "type": "module",
@@ -45,7 +45,8 @@
     "test:transport": "node scripts/transport-browser.mjs",
     "verify:colonnade": "node --import tsx scripts/colonnade-cases.ts | python3 scripts/colonnade-oracle.py",
     "test:colonnade": "node scripts/colonnade-browser.mjs",
-    "verify:theatre": "node --import tsx scripts/theatre-cases.ts | python3 scripts/theatre-oracle.py"
+    "verify:theatre": "node --import tsx scripts/theatre-cases.ts | python3 scripts/theatre-oracle.py",
+    "test:theatre": "node scripts/theatre-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

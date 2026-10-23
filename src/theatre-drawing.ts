@@ -125,7 +125,7 @@ export function theatreDrawing(input: TheatreState, narrow = false, id = "main")
         ["L", -R],
         ["R", R],
       ] as const)
-        drawing += `<circle cx="${x(xx)}" cy="${cy}" r="4" class="th-centre"/>${label(xx, -0.15 * R, name)}`;
+        drawing += `<circle cx="${x(xx)}" cy="${cy}" r="4" class="th-centre"/>${label(xx * 1.14, -0.14 * R, name)}`;
     }
   }
   if (s.step >= 1) {

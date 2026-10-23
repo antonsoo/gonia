@@ -88,7 +88,7 @@ reading/axis/accessibility corrections in the current application source
 [`487c68a`](https://github.com/antonsoo/gonia/commit/487c68a).
 All 44 canonical responses match that reviewed production build. Public byte
 hashes, browser behavior, independent geometry and source reproduction are
-separate receipts. Documentation-only commits do not alter this edition.
+separate receipts. Documentation and lint-configuration commits do not alter this application edition.
 
 The evidence covers the recorded cases and browser paths. It does not establish
 archaeological reconstruction, the account's historicity, physical pulling

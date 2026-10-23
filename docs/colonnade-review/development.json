@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "localDevelopment": true,
+      "keyboard": true,
+      "sourceImage": true,
+      "verifiedPortableExport": true,
+      "noHorizontalOverflow": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "localDevelopment": true,
+      "keyboard": true,
+      "sourceImage": true,
+      "verifiedPortableExport": true,
+      "noHorizontalOverflow": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "localDevelopment": true,
+      "keyboard": true,
+      "sourceImage": true,
+      "verifiedPortableExport": true,
+      "noHorizontalOverflow": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "localDevelopment": true,
+      "keyboard": true,
+      "sourceImage": true,
+      "verifiedPortableExport": true,
+      "noHorizontalOverflow": true,
+      "errors": []
+    }
+  ]
+}

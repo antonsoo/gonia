@@ -1,0 +1,26 @@
+{
+  "source_commit": "a8c9094",
+  "fresh_install": true,
+  "node": "26.7.0",
+  "lint": "passed",
+  "typecheck": "passed",
+  "unit_tests": 23,
+  "production_build": "passed",
+  "output_directory": "dist",
+  "base_path": "/gonia/",
+  "edition": "26785172528696adbca7ded0b578e6143bf0a6dbf16b0aaf2dd094806476fe20",
+  "service_worker_sha256": "2a93e390b5f398c7a8a992cf5e2a715248aab57b53762db775460ca7dc86722e",
+  "fresh_clone_build_matches": true,
+  "built_files": 52,
+  "built_bytes": 18520263,
+  "public_release": "not performed",
+  "public_deployment": "not performed",
+  "node24_compatibility_check": {
+    "node": "24.21.0",
+    "lint": "passed",
+    "typecheck": "passed",
+    "unit_tests": 23,
+    "build": "passed",
+    "build_identical_to_node26": true
+  }
+}

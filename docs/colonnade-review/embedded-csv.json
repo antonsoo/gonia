@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "browser": "chromium",
+      "offline": true,
+      "embeddedCsvDownloaded": true,
+      "sha256": "f944f4817f71633a740e39ae1256b8e445da943a88867ab692cd41eb29daa3d3"
+    },
+    {
+      "browser": "firefox",
+      "offline": true,
+      "embeddedCsvDownloaded": true,
+      "sha256": "f944f4817f71633a740e39ae1256b8e445da943a88867ab692cd41eb29daa3d3"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "rows": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "from": "index.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "from": "spacing.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "from": "entasis.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "from": "fluting.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "from": "transport.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "from": "index.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "from": "spacing.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "from": "entasis.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "from": "fluting.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "from": "transport.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "from": "index.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "from": "spacing.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "from": "entasis.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "from": "fluting.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "from": "transport.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "from": "index.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "from": "spacing.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "from": "entasis.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "from": "fluting.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "from": "transport.html",
+      "newRoomReachedByKeyboard": true,
+      "noHorizontalOverflow": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "examples/colonnade-reading.html": {
+      "bytes": 5705599,
+      "sha256": "ea17c4712974c8976cad3175525756e26cf14cc5ff3b3333a082be60e7c0c451"
+    },
+    "examples/colonnade-reading.pdf": {
+      "bytes": 4139679,
+      "sha256": "04d5ffc5ad3bb446ad79aa02815ffd437615dfd08bf9f992ae084c785e3a4296"
+    },
+    "examples/colonnade.csv": {
+      "bytes": 23216,
+      "sha256": "f944f4817f71633a740e39ae1256b8e445da943a88867ab692cd41eb29daa3d3"
+    }
+  },
+  "pdf_pages": 11,
+  "html_script_elements": 0,
+  "embedded_source_images": 5,
+  "csv_potential_positions": 76
+}

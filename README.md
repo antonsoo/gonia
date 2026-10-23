@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Five problems you can inspect and measure:
+Six problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -17,6 +17,9 @@ Five problems you can inspect and measure:
 - [Before the column stood](https://antonsoo.github.io/gonia/transport.html):
   how can wheels carry a rectangular stone, and why does a geometric fit fail
   to explain a reported failed journey?
+- [The row that is not there](docs/colonnade-review.md), new in this checkout:
+  what happens to a temple's surrounding passage when an inner colonnade is
+  omitted, and why do the text and apparatus disagree about the count?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -44,6 +47,48 @@ the front elevation hides.
   with both drawings, measurements, vocabulary and source passage.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
+
+## Omit a colonnade; keep the temple's breadth
+
+The new temple-plan room is available locally at
+`http://127.0.0.1:4328/gonia/colonnade.html` after starting the app.
+[Review and publication boundary](docs/colonnade-review.md).
+
+![The omitted inner colonnade, its counted positions and the retained outer ring](docs/assets/colonnade-1440-workshop.png)
+
+Keep the outer row and simplified cella block fixed. Choose **Keep both rings**,
+then **Omit the inner ring**. At the chosen 2.25-diameter clear gap, two narrow
+lanes and the former shaft position join into a 5.5-diameter strip. A separate
+detail measures between shaft faces, rather than confusing clear gaps with
+axis pitches. Phones receive a complete upright plan and passage detail.
+
+Trace the outer or inner ring one position at a time. Eight across an end and
+fifteen along a flank describe a boundary, not a filled grid. Corners count once:
+
+| Model ring | Ends, including corners | Flanks, excluding corners | Total |
+| ---------- | ----------------------- | ------------------------- | ----- |
+| Outer      | 2 × 8                   | 2 × 13                    | 42    |
+| Inner      | 2 × 6                   | 2 × 11                    | 34    |
+
+Vitruvius's editor prints **34** removed columns, but the apparatus records
+**38**. The workshop exposes the discrepancy; a regular grid cannot settle
+the textual or archaeological question. Read five Latin excerpts with six
+grammar notes, connect Greek headwords to parts, and enlarge the actual
+apparatus entry. Compare the 1904 excavation publication's preserved-state
+plan, proposed restoration and capital photograph. The restored temple has
+porch and interior columns beyond the model's rings.
+
+Save all 76 potential ring positions as CSV, including present/omitted flags,
+or save an illustrated reading with both arrangements, fonts, licenses and
+all five complete source images embedded and verified by SHA-256.
+[Offline HTML reading](examples/colonnade-reading.html) ·
+[Printable PDF](examples/colonnade-reading.pdf) ·
+[Coordinates](examples/colonnade.csv) ·
+[Model and source decisions](docs/colonnade-model.md).
+
+This is a regular geometric experiment in shaft diameters. It omits bases,
+porches, interior columns, steps and roof supports. It computes no crowd
+capacity, structural adequacy, price or measured Magnesia reconstruction.
 
 ## Change the entrance
 
@@ -331,6 +376,8 @@ npm run verify:spacing
 npm run verify:entasis
 npm run verify:fluting
 npm run verify:segments
+npm run verify:colonnade
+npm run test:colonnade -- /tmp/gonia-colonnade-review
 npm run test:browser -- /tmp/gonia-browser-review.json
 npm run test:spacing -- /tmp/gonia-spacing-review/browser.json
 python3 scripts/spacing-oracle.py /tmp/gonia-spacing-review/browser.json

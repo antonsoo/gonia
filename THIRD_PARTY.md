@@ -3,6 +3,40 @@
 Gonia's code, diagrams and English translations are MIT licensed. The following
 materials retain their own provenance and terms.
 
+## The omitted-colonnade room
+
+`public/sources/colonnade/` contains five complete public-domain source images:
+
+| Image            | Edition and role                                                  | Delivery                                  |
+| ---------------- | ----------------------------------------------------------------- | ----------------------------------------- |
+| `krohn-063.jpg`  | Krohn's 1912 Vitruvius, printed p. 63, III.2.6–7                  | Rendered from PDF page 81                 |
+| `krohn-066.jpg`  | Same edition, p. 66, III.3.8 and the XXXIV / XXXVIII apparatus    | Rendered from PDF page 84                 |
+| `humann-041.jpg` | Humann, Kohte and Watzinger (1904), fig. 29: preserved-state plan | Heidelberg full IIIF image                |
+| `humann-043.jpg` | Same publication, fig. 30: proposed restored plan                 | Heidelberg full IIIF image                |
+| `humann-055.jpg` | Same publication, fig. 38: underside of a capital                 | Heidelberg IIIF image at 1800-pixel width |
+
+The [source identities](docs/colonnade-source-identities.json) record exact
+endpoints, image hashes, original Latin PDF hash and page mapping. The Latin
+pages were rendered with `pdftoppm -scale-to 2200 -jpeg -jpegopt quality=86`.
+They retain the complete critical apparatus. The Heidelberg images are
+unchanged responses from the library's image service, with page borders and
+library credits retained. The [library manifest](https://digi.ub.uni-heidelberg.de/diglit/iiif/humann1904/manifest.json)
+attributes Heidelberg University Library and applies the Public Domain Mark.
+The library metadata and all three responses were checked on 2026-10-23.
+
+The five short Latin excerpts were checked against the actual scanned print;
+line-end hyphens are joined and the Roman numeral is capitalized. The English,
+word notes, drawings and regular-grid model are new. Greek dictionary headwords
+explain the technical vocabulary and link to Logeion; they are not a Greek
+original of Vitruvius's text.
+
+The [model note](docs/colonnade-model.md) distinguishes the regular model from
+the excavation publication's restored and preserved plans. It also identifies
+the separately linked Pavlos Lefas 2001 article and the fact that only its
+publisher's abstract was accessible. No modern figure or full text from that
+article is bundled. The portable reading embeds the complete OFL notices for
+both included fonts, as well as the source attributions and image identities.
+
 ## Rolling stone transport
 
 `public/sources/transport/` contains the complete printed pages 230–231 of

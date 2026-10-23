@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.7.0 — Unreleased (2026-10-23)
+
+- A sixth room on the omitted colonnade: retain the outer ring and cella block,
+  compare two narrow lanes with a wide passage, and trace each ring's corners
+  once. Phones receive an upright plan and a separate measured detail.
+- Five Vitruvius excerpts, six Latin grammar notes, linked Greek architectural
+  vocabulary, and the printed XXXIV / XXXVIII discrepancy without a fabricated
+  textual verdict.
+- The excavation publication's preserved-state plan, proposed restoration and
+  photographed capital, alongside complete Latin pages and apparatus.
+- Share links, a 76-position CSV and illustrated offline readings with all five
+  complete source images, fonts and licenses verified before saving.
+- Complete six-room offline inventory and navigation from each earlier room.
+
 ## 0.6.0 — 2026-10-22
 
 - Stone-transport room: roll a shaft, tip a rectangular block around its corners,

@@ -1,0 +1,58 @@
+{
+  "checkedAt": "2026-10-23T14:10:59.532Z",
+  "previous": "supplied prior five-room build",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "held",
+      "oldCache": "gonia-b83ea0b6d6ac488ec6ce9d721aaf1a5a4dc996a8de6f57f17f3e1d6236d6eb01",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldFiveRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-26785172528696adbca7ded0b578e6143bf0a6dbf16b0aaf2dd094806476fe20",
+      "obsoleteEmptyCaches": [],
+      "newSixRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 15
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "substituted",
+      "oldCache": "gonia-b83ea0b6d6ac488ec6ce9d721aaf1a5a4dc996a8de6f57f17f3e1d6236d6eb01",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldFiveRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-26785172528696adbca7ded0b578e6143bf0a6dbf16b0aaf2dd094806476fe20",
+      "obsoleteEmptyCaches": [],
+      "newSixRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 16
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "held",
+      "oldCache": "gonia-b83ea0b6d6ac488ec6ce9d721aaf1a5a4dc996a8de6f57f17f3e1d6236d6eb01",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldFiveRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-26785172528696adbca7ded0b578e6143bf0a6dbf16b0aaf2dd094806476fe20",
+      "obsoleteEmptyCaches": [],
+      "newSixRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 70
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "substituted",
+      "oldCache": "gonia-b83ea0b6d6ac488ec6ce9d721aaf1a5a4dc996a8de6f57f17f3e1d6236d6eb01",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldFiveRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-26785172528696adbca7ded0b578e6143bf0a6dbf16b0aaf2dd094806476fe20",
+      "obsoleteEmptyCaches": [],
+      "newSixRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 70
+    }
+  ]
+}

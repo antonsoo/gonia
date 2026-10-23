@@ -1,0 +1,30 @@
+{
+  "latin_pages_reproduced": [
+    {
+      "printed": 63,
+      "pdf_page": 81,
+      "sha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d"
+    },
+    {
+      "printed": 66,
+      "pdf_page": 84,
+      "sha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d"
+    }
+  ],
+  "bundled_assets_verified": 9,
+  "online_library_responses_compared": [
+    {
+      "file": "humann-041.jpg",
+      "sha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3"
+    },
+    {
+      "file": "humann-043.jpg",
+      "sha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b"
+    },
+    {
+      "file": "humann-055.jpg",
+      "sha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88"
+    }
+  ],
+  "online_rights_metadata_checked": true
+}

@@ -1,0 +1,96 @@
+{
+  "latin": {
+    "title": "Vitruvii De architectura libri decem",
+    "editor": "F. Krohn",
+    "year": 1912,
+    "printedPages": [
+      106,
+      107,
+      108,
+      109,
+      110
+    ],
+    "pdfPages": [
+      124,
+      125,
+      126,
+      127,
+      128
+    ],
+    "source": "https://archive.org/details/vitruviidearchit00vitr_1",
+    "pdfSha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139"
+  },
+  "diagrams": [
+    {
+      "file": "leake-greek-orchestra.jpg",
+      "author": "William Martin Leake",
+      "title": "Journal of a Tour in Asia Minor",
+      "year": 1824,
+      "page": 324,
+      "source": "https://www.gutenberg.org/cache/epub/78967/images/illus08.jpg",
+      "role": "Later geometric interpretation, not an ancient plan or measured survey"
+    },
+    {
+      "file": "morgan-roman-plan.jpg",
+      "title": "Vitruvius: The Ten Books on Architecture",
+      "translator": "Morris Hicky Morgan",
+      "illustrations": "Prepared under Herbert Langford Warren",
+      "year": 1914,
+      "page": 147,
+      "source": "https://www.gutenberg.org/files/20239/20239-h/images/038a.jpg",
+      "role": "Later geometric interpretation, not an ancient plan or measured survey"
+    }
+  ],
+  "rights": "Public-domain texts and historical diagrams; new English and diagrams MIT. Font licenses supplied separately.",
+  "files": [
+    {
+      "file": "krohn-106.jpg",
+      "width": 996,
+      "height": 1550,
+      "bytes": 335418,
+      "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+    },
+    {
+      "file": "krohn-107.jpg",
+      "width": 996,
+      "height": 1550,
+      "bytes": 335636,
+      "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66"
+    },
+    {
+      "file": "krohn-108.jpg",
+      "width": 996,
+      "height": 1550,
+      "bytes": 352685,
+      "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd"
+    },
+    {
+      "file": "krohn-109.jpg",
+      "width": 996,
+      "height": 1550,
+      "bytes": 331477,
+      "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a"
+    },
+    {
+      "file": "krohn-110.jpg",
+      "width": 996,
+      "height": 1550,
+      "bytes": 355909,
+      "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877"
+    },
+    {
+      "file": "leake-greek-orchestra.jpg",
+      "width": 500,
+      "height": 450,
+      "bytes": 27427,
+      "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf"
+    },
+    {
+      "file": "morgan-roman-plan.jpg",
+      "width": 1046,
+      "height": 859,
+      "bytes": 218123,
+      "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9"
+    }
+  ]
+}

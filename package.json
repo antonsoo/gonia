@@ -2,7 +2,7 @@
   "name": "@antonsoloviev/gonia",
   "version": "0.7.0",
   "private": true,
-  "description": "Measured ancient architecture: Doric corners, temple plans, spacing, entasis, flute carving and rolling stone transport.",
+  "description": "Measured ancient architecture: temple columns, stone transport and Greek and Roman theatre constructions.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -44,7 +44,8 @@
     "verify:transport": "node --import tsx scripts/transport-cases.ts | python3 scripts/transport-oracle.py",
     "test:transport": "node scripts/transport-browser.mjs",
     "verify:colonnade": "node --import tsx scripts/colonnade-cases.ts | python3 scripts/colonnade-oracle.py",
-    "test:colonnade": "node scripts/colonnade-browser.mjs"
+    "test:colonnade": "node scripts/colonnade-browser.mjs",
+    "verify:theatre": "node --import tsx scripts/theatre-cases.ts | python3 scripts/theatre-oracle.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -108,6 +108,23 @@ for (const [name, engine] of [
         assert(!pendingStatus.includes("saved offline"));
         const oldCachePresent = await page.evaluate((old) => caches.has(old), oldCache[0]);
         assert(oldCachePresent);
+        const blockedDownloads = [];
+        page.on("download", (download) => blockedDownloads.push(download));
+        await page.locator("#transport-save").click();
+        if (scenario === "held") {
+          assert.equal(await page.locator("#transport-save").isDisabled(), true);
+        } else {
+          await page.waitForFunction(() =>
+            document
+              .querySelector("#transport-action-status")
+              .textContent.includes("could not verify"),
+          );
+          assert.match(
+            await page.locator("#transport-action-status").textContent(),
+            /krohn-230.jpg/,
+          );
+        }
+        assert.equal(blockedDownloads.length, 0);
         if (scenario === "held") {
           const deadline = Date.now() + 10000;
           while (
@@ -217,6 +234,7 @@ for (const [name, engine] of [
           oldCache: oldCache[0],
           pendingStatus,
           oldFourRoomEditionWorkedOffline: true,
+          unverifiedReadingNotDownloaded: true,
           newCache: completeCache,
           obsoleteEmptyCaches: obsoleteCaches,
           newFiveRoomEditionWorkedOffline: true,

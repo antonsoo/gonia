@@ -246,7 +246,9 @@ for (const [engine, launcher] of [
             );
             throw error;
           });
+        assert.equal(await page.locator("#transport-measures").getAttribute("aria-live"), "off");
         await page.locator("#transport-play").click();
+        assert.equal(await page.locator("#transport-measures").getAttribute("aria-live"), "polite");
         const stopped = await page.locator("#transport-angle").inputValue();
         await page.waitForTimeout(300);
         assert.equal(await page.locator("#transport-angle").inputValue(), stopped);

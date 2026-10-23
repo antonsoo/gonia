@@ -72,6 +72,9 @@ function render() {
   for (const kind of ["greek", "roman"])
     get(`th-${kind}`).setAttribute("aria-pressed", String(state.kind === kind));
   get<HTMLInputElement>("th-diameter").value = String(state.diameter);
+  get("th-diameter").removeAttribute("aria-invalid");
+  get("th-input-note").textContent =
+    "12–36 m, whole metres. This is not an ancient foot conversion.";
   for (const part of THEATRE_PARTS)
     document
       .querySelector(`[data-th-part="${part}"]`)

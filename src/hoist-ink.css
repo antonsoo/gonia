@@ -1,0 +1,110 @@
+.hw-rope {
+  fill: none;
+  stroke: #315f81;
+  stroke-width: 5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.hw-rope-mark {
+  fill: white;
+  stroke: #315f81;
+  stroke-width: 1.5;
+}
+.hw-wheel {
+  fill: white;
+  stroke: #52616c;
+  stroke-width: 1.5;
+}
+.hw-axle {
+  fill: #233341;
+}
+.hw-frame {
+  fill: none;
+  stroke: #52616c;
+  stroke-width: 3;
+}
+.hw-fixed {
+  fill: none;
+  stroke: #233341;
+  stroke-width: 9;
+}
+.hw-load-frame {
+  fill: none;
+  stroke: #635483;
+  stroke-width: 4;
+}
+.hw-knot {
+  fill: #fff;
+  stroke: #233341;
+  stroke-width: 3;
+}
+.hw-force {
+  fill: none;
+  stroke: #315f81;
+  stroke-width: 2.5;
+}
+.hw-weight {
+  fill: none;
+  stroke: #635483;
+  stroke-width: 3;
+}
+.hw-t-label {
+  font:
+    600 19px Plex,
+    Arial,
+    sans-serif;
+  fill: #315f81;
+}
+.hw-heading {
+  font:
+    600 22px Plex,
+    Arial,
+    sans-serif;
+  fill: #233341;
+}
+.hw-small {
+  font:
+    17px Plex,
+    Arial,
+    sans-serif;
+  fill: #233341;
+}
+.hw-load {
+  fill: #635483;
+}
+.hw-load-text {
+  font:
+    600 22px Plex,
+    Arial,
+    sans-serif;
+  fill: white;
+}
+.hw-baseline {
+  stroke: #838e97;
+  stroke-width: 1.5;
+  stroke-dasharray: 6 5;
+}
+.hw-rise {
+  stroke: #635483;
+  stroke-width: 1.8;
+  fill: none;
+}
+.hw-drum {
+  fill: #eef3f5;
+  stroke: #233341;
+  stroke-width: 3;
+}
+.hw-orbit {
+  fill: none;
+  stroke: #8b99a4;
+  stroke-width: 1.5;
+  stroke-dasharray: 4 5;
+}
+.hw-handle {
+  stroke: #635483;
+  stroke-width: 7;
+}
+.hw-hand-force {
+  stroke: #315f81;
+  stroke-width: 5;
+}

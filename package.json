@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
-  "description": "Measured ancient architecture: temple geometry, stone transport, theatre plans and sounding vessels.",
+  "description": "Measured ancient architecture: temple geometry, transport, theatre acoustics and Vitruvius\u2019s hoists.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -48,7 +48,11 @@
     "verify:theatre": "node --import tsx scripts/theatre-cases.ts | python3 scripts/theatre-oracle.py",
     "test:theatre": "node scripts/theatre-browser.mjs",
     "verify:echea": "node --import tsx scripts/echea-cases.ts | python3 scripts/echea-oracle.py",
-    "test:echea": "node scripts/echea-browser.mjs"
+    "test:echea": "node scripts/echea-browser.mjs",
+    "verify:hoist": "node --import tsx scripts/hoist-cases.ts | python3 scripts/hoist-oracle.py",
+    "test:hoist": "node scripts/hoist-browser.mjs",
+    "test:hoist-upgrade": "node scripts/hoist-upgrade.mjs",
+    "verify:hoist-files": "python3 scripts/hoist-artifact-oracle.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.10.0 — 2026-10-24
+
+- Add a learner-operated hoist room: retain wheel count and move the tied end.
+- Derive supporting tensions, rope travel and ideal work from the actual route.
+- Compare fixed rise with fixed rope take-up and a separate windlass arm.
+- Read seven excerpts, twenty-eight Latin and Greek notes and five full pages
+  with visible editorial additions. Save complete illustrated readings, SVG,
+  CSV and editable JSON; include the ninth room in the verified offline edition.
+
 ## 0.9.0 — 2026-10-23
 
 - Add a sounding-vessel room for Vitruvius V.5: thirteen positions, seven fixed

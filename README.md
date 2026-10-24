@@ -55,7 +55,7 @@ the front elevation hides.
 
 ## Lift the load; keep the wheels
 
-The new [hoist room](hoist.html#hw-workshop) follows Vitruvius X.2.1–3.
+The new [hoist room](https://antonsoo.github.io/gonia/hoist.html#hw-workshop) follows Vitruvius X.2.1–3.
 Move the tied end from the lower block to the fixed support while keeping the
 same wheels: three upward tensions become two, or five become four. The latter
 routes are explicitly your alterations. The source supplies the route and
@@ -77,7 +77,7 @@ repository retains a [13-page PDF](examples/hoist-reading.pdf) printed from the
 The whole nine-room production edition is cached with file-integrity checks.
 
 [Source and model](docs/hoist-model.md) · [Direct review](docs/hoist-review.md).
-Publication is recorded separately after canonical hosted files are verified.
+The reviewed nine-room edition is public. [Publication evidence](docs/hoist-publication.md) identifies all 81 canonical hosted files and the separate public browser review.
 
 ## Place and hear the sounding vessels
 

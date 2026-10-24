@@ -1,0 +1,8 @@
+{
+  "sourceRevision": "cc4a123ea05ae5f42dfb4313323ea55dc539ee31",
+  "node": "24.22.0",
+  "install": "npm ci",
+  "check": "npm run check",
+  "canonicalFiles": 81,
+  "byteIdentical": true
+}

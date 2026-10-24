@@ -1,0 +1,30 @@
+{
+  "title": "Vitruvii De architectura libri decem",
+  "editor": "F. Krohn",
+  "year": 1912,
+  "source": "https://archive.org/details/vitruviidearchit00vitr_1",
+  "pdfSha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+  "printedPages": [
+    102,
+    103,
+    104,
+    105,
+    106
+  ],
+  "pdfPages": [
+    120,
+    121,
+    122,
+    123,
+    124
+  ],
+  "rendering": "New pages: pdftoppm -scale-to 1800 -jpeg -jpegopt quality=85; p.106 reuses the existing theatre asset. Full pages including apparatus.",
+  "rights": "Public domain edition. New English translations, drawings and notes MIT.",
+  "hashes": {
+    "sources/echea/krohn-102.jpg": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
+    "sources/echea/krohn-103.jpg": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",
+    "sources/echea/krohn-104.jpg": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f",
+    "sources/echea/krohn-105.jpg": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb",
+    "sources/theatre/krohn-106.jpg": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+  }
+}

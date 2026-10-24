@@ -61,18 +61,23 @@ The browser and upgrade tools create their own production server and ports.
 Do not rebuild `dist/` during their run. No browser installation, GitHub push,
 registry release or deployment is performed by these review commands.
 
-| Evidence                       | Result                                                                                 | Retained record                              |
-| ------------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------- |
-| Full project check             | Lint, strict typecheck, 34 tests and production build passed                           | Fresh install record below                   |
-| Defining differential equation | 81 combinations, ten observations each; independent RK4 integration                    | [Numerical oracle](echea-oracle.json)        |
-| Pitch row                      | All 13 frequencies checked independently with rational arithmetic                      | Same oracle                                  |
-| Production browser workflow    | Chromium and Firefox, each at 1440 and 375 pixels                                      | [Browser record](echea-browser.json)         |
-| Development workflow           | Both engines and widths; source controls and exports                                   | [Development record](echea-development.json) |
-| Live/generated audio           | Actual AudioBuffer PCM matches downloaded WAV PCM                                      | Browser record                               |
-| Audio content                  | Independent frequency estimates, RMS and free-decay pitch                              | [Audio record](echea-audio.json)             |
-| Offline operation              | All eight rooms navigated with the origin disabled; reading exported offline           | Browser record                               |
-| Interrupted update             | Held scan and substituted scan preserve old usable edition; full valid update recovers | [Upgrade record](echea-upgrade.json)         |
-| Intermediate layout            | No horizontal page overflow in all eight rooms at 900 pixels                           | [Layout record](echea-layout.json)           |
+| Evidence                       | Result                                                                                 | Retained record                                          |
+| ------------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| Full project check             | Lint, strict typecheck, 34 tests and production build passed                           | [Fresh install and build hashes](echea-clean-build.json) |
+| Defining differential equation | 81 combinations, ten observations each; independent RK4 integration                    | [Numerical oracle](echea-oracle.json)                    |
+| Pitch row                      | All 13 frequencies checked independently with rational arithmetic                      | Same oracle                                              |
+| Production browser workflow    | Chromium and Firefox, each at 1440 and 375 pixels                                      | [Browser record](echea-browser.json)                     |
+| Development workflow           | Both engines and widths; source controls and exports                                   | [Development record](echea-development.json)             |
+| Live/generated audio           | Actual AudioBuffer PCM matches downloaded WAV PCM                                      | Browser record                                           |
+| Audio content                  | Independent frequency estimates, RMS and free-decay pitch                              | [Audio record](echea-audio.json)                         |
+| Offline operation              | All eight rooms navigated with the origin disabled; reading exported offline           | Browser record                                           |
+| Interrupted update             | Held scan and substituted scan preserve old usable edition; full valid update recovers | [Upgrade record](echea-upgrade.json)                     |
+| Intermediate layout            | No horizontal page overflow in all eight rooms at 900 pixels                           | [Layout record](echea-layout.json)                       |
+
+The fresh Node 24 installation rebuilt all **72 production files** identically to
+the reviewed checkout: every SHA-256 matched, including `sw.js`. The
+[clean-build record](echea-clean-build.json) pins the source commit and lists
+every file hash. Subsequent review-record changes do not affect the build inputs.
 
 The independent integrator uses at least 160 steps per fastest cycle and stops
 exactly at the forcing cutoff. Maximum absolute displacement discrepancy was
@@ -98,7 +103,7 @@ audit. All five saved scan hashes match the bundled originals.
 
 The [saved reading](../examples/echea-reading.html) embeds its font, source pages,
 two sounds and diagrams, without runtime scripts or remote subresources. It can
-be opened locally. The [PDF](../examples/echea-reading.pdf) was generated from
+be opened locally. The 14-page [PDF](../examples/echea-reading.pdf) was generated from
 that actual browser download. Printing to paper was not tested.
 - [Full workshop screenshot](assets/echea-desktop.png)
 - [375-pixel workshop](assets/echea-mobile.png)

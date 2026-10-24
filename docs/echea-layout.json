@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "room": "index",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "spacing",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "entasis",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "fluting",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "transport",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "colonnade",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "theatre",
+      "width": 900,
+      "scrollWidth": 900
+    },
+    {
+      "room": "echea",
+      "width": 900,
+      "scrollWidth": 900
+    }
+  ],
+  "renderTimes": [
+    18.5, 14.599999964237213, 12.699999988079071, 17.30000001192093, 20.100000023841858
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "checkedAt": "2026-10-24T02:15:59.694Z",
+  "mode": "production build",
+  "buildWorker": "5e020c6bb6ba8fc4a1413896fa5fd6015a69d1b043e97f37eaeb72de463a5510",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "liveRow": {
+        "sampleRate": 24000,
+        "count": 193440,
+        "hash": "ef6316e17fc5cbd316df6108e2db82bdc047604212d4f79e44888f1f95cfd03a"
+      },
+      "liveResponse": {
+        "sampleRate": 24000,
+        "count": 52587,
+        "hash": "434348f07868e7879ea1fdf6acd21ef98f9db3529f889dc06e3a5736c1d7dbfd"
+      },
+      "sourceImages": [
+        {
+          "width": 1157,
+          "hash": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a"
+        },
+        {
+          "width": 1157,
+          "hash": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d"
+        },
+        {
+          "width": 1157,
+          "hash": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f"
+        },
+        {
+          "width": 1157,
+          "hash": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb"
+        },
+        {
+          "width": 996,
+          "hash": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        }
+      ],
+      "audio": [
+        {
+          "duration": 8.06,
+          "ready": 4
+        },
+        {
+          "duration": 2.191125,
+          "ready": 4
+        }
+      ],
+      "externalRequests": [],
+      "csp": [],
+      "pageErrors": [],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html",
+        "echea.html"
+      ],
+      "readingBytes": 4017602,
+      "axeViolations": 0,
+      "cancelledDelayedResume": true
+    },
+    {
+      "engine": "chromium",
+      "width": 375,
+      "liveRow": {
+        "sampleRate": 24000,
+        "count": 193440,
+        "hash": "ef6316e17fc5cbd316df6108e2db82bdc047604212d4f79e44888f1f95cfd03a"
+      },
+      "liveResponse": {
+        "sampleRate": 24000,
+        "count": 52587,
+        "hash": "434348f07868e7879ea1fdf6acd21ef98f9db3529f889dc06e3a5736c1d7dbfd"
+      },
+      "sourceImages": [
+        {
+          "width": 1157,
+          "hash": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a"
+        },
+        {
+          "width": 1157,
+          "hash": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d"
+        },
+        {
+          "width": 1157,
+          "hash": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f"
+        },
+        {
+          "width": 1157,
+          "hash": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb"
+        },
+        {
+          "width": 996,
+          "hash": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        }
+      ],
+      "audio": [
+        {
+          "duration": 8.06,
+          "ready": 4
+        },
+        {
+          "duration": 2.191125,
+          "ready": 4
+        }
+      ],
+      "externalRequests": [],
+      "csp": [],
+      "pageErrors": [],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html",
+        "echea.html"
+      ],
+      "readingBytes": 4017602,
+      "axeViolations": 0,
+      "cancelledDelayedResume": true
+    },
+    {
+      "engine": "firefox",
+      "width": 1440,
+      "liveRow": {
+        "sampleRate": 24000,
+        "count": 193440,
+        "hash": "ef6316e17fc5cbd316df6108e2db82bdc047604212d4f79e44888f1f95cfd03a"
+      },
+      "liveResponse": {
+        "sampleRate": 24000,
+        "count": 52587,
+        "hash": "434348f07868e7879ea1fdf6acd21ef98f9db3529f889dc06e3a5736c1d7dbfd"
+      },
+      "sourceImages": [
+        {
+          "width": 1157,
+          "hash": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a"
+        },
+        {
+          "width": 1157,
+          "hash": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d"
+        },
+        {
+          "width": 1157,
+          "hash": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f"
+        },
+        {
+          "width": 1157,
+          "hash": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb"
+        },
+        {
+          "width": 996,
+          "hash": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        }
+      ],
+      "audio": [
+        {
+          "duration": 8.06,
+          "ready": 4
+        },
+        {
+          "duration": 2.191125,
+          "ready": 4
+        }
+      ],
+      "externalRequests": [],
+      "csp": [],
+      "pageErrors": [],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html",
+        "echea.html"
+      ],
+      "readingBytes": 4017613,
+      "axeViolations": 0,
+      "cancelledDelayedResume": true
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "liveRow": {
+        "sampleRate": 24000,
+        "count": 193440,
+        "hash": "ef6316e17fc5cbd316df6108e2db82bdc047604212d4f79e44888f1f95cfd03a"
+      },
+      "liveResponse": {
+        "sampleRate": 24000,
+        "count": 52587,
+        "hash": "434348f07868e7879ea1fdf6acd21ef98f9db3529f889dc06e3a5736c1d7dbfd"
+      },
+      "sourceImages": [
+        {
+          "width": 1157,
+          "hash": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a"
+        },
+        {
+          "width": 1157,
+          "hash": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d"
+        },
+        {
+          "width": 1157,
+          "hash": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f"
+        },
+        {
+          "width": 1157,
+          "hash": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb"
+        },
+        {
+          "width": 996,
+          "hash": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0"
+        }
+      ],
+      "audio": [
+        {
+          "duration": 8.06,
+          "ready": 4
+        },
+        {
+          "duration": 2.191125,
+          "ready": 4
+        }
+      ],
+      "externalRequests": [],
+      "csp": [],
+      "pageErrors": [],
+      "offlineRooms": [
+        "index.html",
+        "spacing.html",
+        "entasis.html",
+        "fluting.html",
+        "transport.html",
+        "colonnade.html",
+        "theatre.html",
+        "echea.html"
+      ],
+      "readingBytes": 4017613,
+      "axeViolations": 0,
+      "cancelledDelayedResume": true
+    }
+  ]
+}

@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Seven problems you can inspect and measure:
+Eight problems you can inspect and measure (the eighth is in the local edition):
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -23,6 +23,8 @@ Seven problems you can inspect and measure:
 - [Twelve points. Two theatres.](https://antonsoo.github.io/gonia/theatre.html):
   how can three squares produce a larger orchestra and a shallower stage than
   four triangles drawn in the same starting circle?
+- **New local room: [Thirteen vessels. Seven notes.](echea.html)**
+  Why does Vitruvius's pitch row turn upward on its way to the theatre's centre?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -50,6 +52,47 @@ the front elevation hides.
   with both drawings, measurements, vocabulary and source passage.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
+
+## Place and hear the sounding vessels
+
+The new eighth room is available locally at
+`http://127.0.0.1:4328/gonia/echea.html`. From this checkout:
+
+```sh
+npm ci
+npm run dev
+```
+
+This room has not been pushed or deployed. The public clone and demo remain
+separate from this local edition. [Review and publication boundary](docs/echea-review.md).
+
+![The thirteen-place row, selected matching vessels and pitch reversal](docs/assets/echea-desktop.png)
+
+Vitruvius V.5.2 assigns seven pitches to thirteen positions. From either end,
+the pitches descend twice, then rise from **paramese** to **nete synhemmenon**.
+The fourth placement is not another musical fourth. Select and hear the pairs,
+then sort each half by pitch to see exactly which vessels your alteration moves.
+
+A separate resonance experiment asks what matching a frequency can establish.
+Detune a driving tone and hear the response diminish at a fixed playback gain.
+Change damping to compare a narrow steady response with slower build-up during
+a short burst. The model shows its equation and time trace; it makes no claim
+to reproduce an ancient vessel or improve a theatre's acoustics.
+- Read nine Latin excerpts with new English and language notes; inspect five
+  complete printed pages, including their critical apparatus.
+- Follow Greek note names, the mounting instruction, and Vitruvius's distinction
+  between local examples and reported evidence.
+- Save an illustrated reading with both sounds, all scans and fonts embedded,
+  or export the plan, measurements and WAV files separately.
+- Use all eight rooms offline after the edition is saved. Playback stops on
+  control changes, history navigation, a hidden tab, or a Stop action.
+
+[Saved reading](examples/echea-reading.html) ·
+[Printable PDF](examples/echea-reading.pdf) ·
+[Row sound](examples/echea-row.wav) ·
+[Matched response](examples/echea-matched.wav) ·
+[Detuned response](examples/echea-detuned.wav) ·
+[Source and model](docs/echea-model.md).
 
 ## Move the compass; change the orchestra
 

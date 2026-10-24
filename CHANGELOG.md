@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.9.0 — 2026-10-23
+
+- Add a sounding-vessel room for Vitruvius V.5: thirteen positions, seven fixed
+  pitches, mirrored placement and the paramese / nete synhemmenon reversal.
+- Compare the printed row with an explicitly altered ascending arrangement;
+  follow native keyboard controls, Greek names and exact pitch tables.
+- Explore a separately identified modern resonator with detuning, decay,
+  steady response, a finite-burst trace and cancellable audio.
+- Read nine Latin excerpts with new English and full source scans, including
+  mounting instructions, editorial variants and the author's evidence limits.
+- Save self-contained readings with audio, fonts and scans, plus SVG, CSV and
+  WAV exports. Include the new room in the verified offline edition.
+- Keep publication pending; this version is reviewed and committed locally.
+
 ## 0.8.0 — 2026-10-23
 
 - A seventh drawing room follows Vitruvius's Greek and Roman theatre plans:

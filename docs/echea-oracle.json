@@ -1,0 +1,8 @@
+{
+  "cases": 81,
+  "samples_per_case": 10,
+  "method": "RK4 integration, at least 160 steps per fastest cycle; exact drive cutoff",
+  "max_displacement_error": 1.241035702315152e-5,
+  "max_velocity_error_divided_by_w0": 1.4243698340388628e-5,
+  "row": "13 frequencies independently checked with rational arithmetic"
+}

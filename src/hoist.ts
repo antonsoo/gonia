@@ -73,8 +73,6 @@ function update() {
     state.hold === "rise"
       ? "Hold the load rise fixed: more supports reduce tension but require more rope. The work on the same weight is unchanged."
       : "Hold the rope take-up fixed: more supports reduce tension and the load rises less. This is a smaller lifting task, so its work also decreases.";
-  for (const a of document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]'))
-    a.href = `${hoistQuery(state)}${a.hash}`;
   history.replaceState(null, "", `${location.pathname}${hoistQuery(state)}${location.hash}`);
   el("hw-share-label").hidden = true;
 }

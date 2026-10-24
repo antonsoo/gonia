@@ -53,12 +53,37 @@ the front elevation hides.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
 
+## Lift the load; keep the wheels
+
+The new [hoist room](hoist.html#hw-workshop) follows Vitruvius X.2.1–3.
+Move the tied end from the lower block to the fixed support while keeping the
+same wheels: three upward tensions become two, or five become four. The latter
+routes are explicitly your alterations. The source supplies the route and
+names; the force law and SI dimensions are modern analysis.
+
+![The lower-block tie, supporting tensions and controlled load rise](docs/assets/hoist-desktop.png)
+
+Hold the rise constant to compare required rope, or hold the rope take-up
+constant and discover the smaller rise. Turn a chosen windlass with a longer
+arm: hand force falls, hand path grows, and ideal work agrees at the load,
+rope and hand. White dots follow material positions along the actual rope.
+
+Seven excerpts with new English, twenty-eight contextual Latin and Greek notes,
+five complete printed pages and visible editorial additions connect the model
+to Krohn's 1912 text. Save a complete script-free illustrated reading, SVG,
+211-row CSV or strict editable JSON; reopen settings and share a link. The
+repository retains a [13-page PDF](examples/hoist-reading.pdf) printed from the
+[actual saved reading](examples/hoist-reading.html).
+The whole nine-room production edition is cached with file-integrity checks.
+
+[Source and model](docs/hoist-model.md) · [Direct review](docs/hoist-review.md).
+Publication is recorded separately after canonical hosted files are verified.
+
 ## Place and hear the sounding vessels
 
 [Open the sounding-vessel workshop](https://antonsoo.github.io/gonia/echea.html#ec-workshop).
-The public edition includes all eight rooms. Its 72 production files match the
-reviewed build; Chromium and Firefox checks cover desktop and phone controls,
-audio downloads, saved readings and navigation through every room offline.
+The earlier eight-room publication has a retained 72-file identity record; Chromium and Firefox checks cover desktop and phone controls,
+audio downloads, saved readings and navigation through that edition offline.
 [Public review](docs/echea-hosted.json) · [Model and review](docs/echea-review.md).
 
 ![The thirteen-place row, selected matching vessels and pitch reversal](docs/assets/echea-desktop.png)

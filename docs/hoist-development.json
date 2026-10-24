@@ -1,0 +1,136 @@
+{
+  "checkedAt": "2026-10-24T22:03:17.312Z",
+  "base": "http://127.0.0.1:4328/gonia/",
+  "development": true,
+  "worker": "a8d6436c966caf51f30c2ca62f70a102f23dca0fac60710a29d5f9cf0e6ce999",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "operations": "five routes, same-rise and same-rope controls, windlass force/work, keyboard sliders and panning, strict native JSON, second-tab share, 7 readings and 28 word notes, five hashed full pages, native SVG/CSV and click-time portable HTML",
+      "sourceFiles": [
+        {
+          "file": "sources/hoist/krohn-title.jpg",
+          "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db"
+        },
+        {
+          "file": "sources/hoist/krohn-226.jpg",
+          "sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7"
+        },
+        {
+          "file": "sources/hoist/krohn-227.jpg",
+          "sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19"
+        },
+        {
+          "file": "sources/hoist/krohn-232.jpg",
+          "sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076"
+        },
+        {
+          "file": "sources/hoist/krohn-233.jpg",
+          "sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994"
+        }
+      ],
+      "axeViolations": 0,
+      "originDisabled": false,
+      "browserOffline": false,
+      "portableRemoteRequests": 0
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "operations": "five routes, same-rise and same-rope controls, windlass force/work, keyboard sliders and panning, strict native JSON, second-tab share, 7 readings and 28 word notes, five hashed full pages, native SVG/CSV and click-time portable HTML",
+      "sourceFiles": [
+        {
+          "file": "sources/hoist/krohn-title.jpg",
+          "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db"
+        },
+        {
+          "file": "sources/hoist/krohn-226.jpg",
+          "sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7"
+        },
+        {
+          "file": "sources/hoist/krohn-227.jpg",
+          "sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19"
+        },
+        {
+          "file": "sources/hoist/krohn-232.jpg",
+          "sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076"
+        },
+        {
+          "file": "sources/hoist/krohn-233.jpg",
+          "sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994"
+        }
+      ],
+      "axeViolations": 0,
+      "originDisabled": false,
+      "browserOffline": false,
+      "portableRemoteRequests": 0
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "operations": "five routes, same-rise and same-rope controls, windlass force/work, keyboard sliders and panning, strict native JSON, second-tab share, 7 readings and 28 word notes, five hashed full pages, native SVG/CSV and click-time portable HTML",
+      "sourceFiles": [
+        {
+          "file": "sources/hoist/krohn-title.jpg",
+          "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db"
+        },
+        {
+          "file": "sources/hoist/krohn-226.jpg",
+          "sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7"
+        },
+        {
+          "file": "sources/hoist/krohn-227.jpg",
+          "sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19"
+        },
+        {
+          "file": "sources/hoist/krohn-232.jpg",
+          "sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076"
+        },
+        {
+          "file": "sources/hoist/krohn-233.jpg",
+          "sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994"
+        }
+      ],
+      "axeViolations": 0,
+      "originDisabled": false,
+      "browserOffline": false,
+      "portableRemoteRequests": 0
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "operations": "five routes, same-rise and same-rope controls, windlass force/work, keyboard sliders and panning, strict native JSON, second-tab share, 7 readings and 28 word notes, five hashed full pages, native SVG/CSV and click-time portable HTML",
+      "sourceFiles": [
+        {
+          "file": "sources/hoist/krohn-title.jpg",
+          "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db"
+        },
+        {
+          "file": "sources/hoist/krohn-226.jpg",
+          "sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7"
+        },
+        {
+          "file": "sources/hoist/krohn-227.jpg",
+          "sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19"
+        },
+        {
+          "file": "sources/hoist/krohn-232.jpg",
+          "sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076"
+        },
+        {
+          "file": "sources/hoist/krohn-233.jpg",
+          "sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994"
+        }
+      ],
+      "axeViolations": 0,
+      "originDisabled": false,
+      "browserOffline": false,
+      "portableRemoteRequests": 0
+    }
+  ]
+}

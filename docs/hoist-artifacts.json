@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "examples/hoist-diagram.svg",
+      "bytes": 8655,
+      "sha256": "c8b4d4393156091579ec81420174fddb9b3c182241b6e2b784fbc843a5f36ecc"
+    },
+    {
+      "file": "examples/hoist-experiment.json",
+      "bytes": 166,
+      "sha256": "d390d9ad59d6290b186c0341830be987916948d70c6784344b2d8acc361eef2d"
+    },
+    {
+      "file": "examples/hoist-measurements.csv",
+      "bytes": 77666,
+      "sha256": "07d121e9daddc98ae4c52344fcd0947201d285cc023e931d2e46be55ef17075d"
+    },
+    {
+      "file": "examples/hoist-reading.html",
+      "bytes": 4264563,
+      "sha256": "38a2cb4e4bb4b7cb8f1dac5043bbfabfa6131ff0d0d7cdd7fed7c18965b295c2"
+    },
+    {
+      "file": "examples/hoist-reading.pdf",
+      "bytes": 2797006,
+      "sha256": "8cfbd872d0dc65db8d209e1a0d04f10f986d132c3ad06f3d39b79de19b663e15"
+    }
+  ],
+  "source": "Actual Chromium 153 native browser downloads, 1440 px; PDF printed from the local standalone reading without script"
+}

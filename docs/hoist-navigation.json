@@ -1,0 +1,6115 @@
+{
+  "checkedAt": "2026-10-24T21:59:48.979Z",
+  "scope": "Header and document bounds at six widths, plus actual keyboard route from all nine rooms. Service workers blocked in this layout-only review; lifecycle/offline verification is separate.",
+  "base": "http://127.0.0.1:4338/gonia/",
+  "cases": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "index.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 62,
+          "right": 128
+        },
+        {
+          "text": "Column spacing",
+          "left": 150,
+          "right": 235
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 355
+        },
+        {
+          "text": "About",
+          "left": 97,
+          "right": 130
+        },
+        {
+          "text": "Transport",
+          "left": 152,
+          "right": 203
+        },
+        {
+          "text": "Temple plan",
+          "left": 225,
+          "right": 291
+        },
+        {
+          "text": "Theatre",
+          "left": 313,
+          "right": 355
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 210,
+          "right": 305
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "spacing.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 62,
+          "right": 128
+        },
+        {
+          "text": "Column spacing",
+          "left": 150,
+          "right": 235
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35,
+          "right": 86
+        },
+        {
+          "text": "Temple plan",
+          "left": 108,
+          "right": 174
+        },
+        {
+          "text": "Theatre",
+          "left": 196,
+          "right": 238
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 260,
+          "right": 355
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "entasis.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 62,
+          "right": 128
+        },
+        {
+          "text": "Column spacing",
+          "left": 150,
+          "right": 235
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35,
+          "right": 86
+        },
+        {
+          "text": "Temple plan",
+          "left": 108,
+          "right": 174
+        },
+        {
+          "text": "Theatre",
+          "left": 196,
+          "right": 238
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 260,
+          "right": 355
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "fluting.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 62,
+          "right": 128
+        },
+        {
+          "text": "Column spacing",
+          "left": 150,
+          "right": 235
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35,
+          "right": 86
+        },
+        {
+          "text": "Temple plan",
+          "left": 108,
+          "right": 174
+        },
+        {
+          "text": "Theatre",
+          "left": 196,
+          "right": 238
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 260,
+          "right": 355
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "transport.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 62,
+          "right": 128
+        },
+        {
+          "text": "Column spacing",
+          "left": 150,
+          "right": 235
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35,
+          "right": 86
+        },
+        {
+          "text": "Temple plan",
+          "left": 108,
+          "right": 174
+        },
+        {
+          "text": "Theatre",
+          "left": 196,
+          "right": 238
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 260,
+          "right": 355
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "colonnade.html",
+      "scrollWidth": 375,
+      "navRight": 353,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 66,
+          "right": 132
+        },
+        {
+          "text": "Column spacing",
+          "left": 152,
+          "right": 237
+        },
+        {
+          "text": "Entasis",
+          "left": 257,
+          "right": 296
+        },
+        {
+          "text": "Fluting",
+          "left": 316,
+          "right": 353
+        },
+        {
+          "text": "Transport",
+          "left": 39,
+          "right": 90
+        },
+        {
+          "text": "Temple plan",
+          "left": 110,
+          "right": 176
+        },
+        {
+          "text": "Theatre",
+          "left": 196,
+          "right": 238
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 258,
+          "right": 353
+        },
+        {
+          "text": "Hoist",
+          "left": 325,
+          "right": 353
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "theatre.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 32,
+          "right": 98
+        },
+        {
+          "text": "Spacing",
+          "left": 120,
+          "right": 162
+        },
+        {
+          "text": "Entasis",
+          "left": 184,
+          "right": 223
+        },
+        {
+          "text": "Fluting",
+          "left": 245,
+          "right": 282
+        },
+        {
+          "text": "Transport",
+          "left": 304,
+          "right": 355
+        },
+        {
+          "text": "Temple plan",
+          "left": 58,
+          "right": 124
+        },
+        {
+          "text": "Theatre",
+          "left": 146,
+          "right": 188
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 210,
+          "right": 305
+        },
+        {
+          "text": "Hoist",
+          "left": 327,
+          "right": 355
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "echea.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 86
+        },
+        {
+          "text": "Spacing",
+          "left": 104,
+          "right": 146
+        },
+        {
+          "text": "Entasis",
+          "left": 164,
+          "right": 203
+        },
+        {
+          "text": "Fluting",
+          "left": 221,
+          "right": 258
+        },
+        {
+          "text": "Transport",
+          "left": 276,
+          "right": 327
+        },
+        {
+          "text": "Temple plan",
+          "left": 20,
+          "right": 86
+        },
+        {
+          "text": "Theatre",
+          "left": 104,
+          "right": 146
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 164,
+          "right": 259
+        },
+        {
+          "text": "Hoist",
+          "left": 277,
+          "right": 305
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "room": "hoist.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 92
+        },
+        {
+          "text": "Spacing",
+          "left": 110,
+          "right": 157
+        },
+        {
+          "text": "Entasis",
+          "left": 175,
+          "right": 217
+        },
+        {
+          "text": "Fluting",
+          "left": 235,
+          "right": 275
+        },
+        {
+          "text": "Transport",
+          "left": 293,
+          "right": 349
+        },
+        {
+          "text": "Temple plan",
+          "left": 20,
+          "right": 92
+        },
+        {
+          "text": "Theatre",
+          "left": 110,
+          "right": 155
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 173,
+          "right": 272
+        },
+        {
+          "text": "Hoist",
+          "left": 290,
+          "right": 320
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "index.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 28,
+          "right": 94
+        },
+        {
+          "text": "Column spacing",
+          "left": 116,
+          "right": 201
+        },
+        {
+          "text": "Entasis",
+          "left": 223,
+          "right": 262
+        },
+        {
+          "text": "Fluting",
+          "left": 284,
+          "right": 321
+        },
+        {
+          "text": "About",
+          "left": 343,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "spacing.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 83,
+          "right": 149
+        },
+        {
+          "text": "Column spacing",
+          "left": 171,
+          "right": 256
+        },
+        {
+          "text": "Entasis",
+          "left": 278,
+          "right": 317
+        },
+        {
+          "text": "Fluting",
+          "left": 339,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "entasis.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 83,
+          "right": 149
+        },
+        {
+          "text": "Column spacing",
+          "left": 171,
+          "right": 256
+        },
+        {
+          "text": "Entasis",
+          "left": 278,
+          "right": 317
+        },
+        {
+          "text": "Fluting",
+          "left": 339,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "fluting.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 83,
+          "right": 149
+        },
+        {
+          "text": "Column spacing",
+          "left": 171,
+          "right": 256
+        },
+        {
+          "text": "Entasis",
+          "left": 278,
+          "right": 317
+        },
+        {
+          "text": "Fluting",
+          "left": 339,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "transport.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 83,
+          "right": 149
+        },
+        {
+          "text": "Column spacing",
+          "left": 171,
+          "right": 256
+        },
+        {
+          "text": "Entasis",
+          "left": 278,
+          "right": 317
+        },
+        {
+          "text": "Fluting",
+          "left": 339,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "colonnade.html",
+      "scrollWidth": 621,
+      "navRight": 599,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 93,
+          "right": 159
+        },
+        {
+          "text": "Column spacing",
+          "left": 179,
+          "right": 264
+        },
+        {
+          "text": "Entasis",
+          "left": 284,
+          "right": 323
+        },
+        {
+          "text": "Fluting",
+          "left": 343,
+          "right": 380
+        },
+        {
+          "text": "Transport",
+          "left": 400,
+          "right": 451
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 557,
+          "right": 599
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 571,
+          "right": 599
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "theatre.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 126,
+          "right": 192
+        },
+        {
+          "text": "Spacing",
+          "left": 214,
+          "right": 256
+        },
+        {
+          "text": "Entasis",
+          "left": 278,
+          "right": 317
+        },
+        {
+          "text": "Fluting",
+          "left": 339,
+          "right": 376
+        },
+        {
+          "text": "Transport",
+          "left": 398,
+          "right": 449
+        },
+        {
+          "text": "Temple plan",
+          "left": 471,
+          "right": 537
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 601
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 456,
+          "right": 551
+        },
+        {
+          "text": "Hoist",
+          "left": 573,
+          "right": 601
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "echea.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 86
+        },
+        {
+          "text": "Spacing",
+          "left": 104,
+          "right": 146
+        },
+        {
+          "text": "Entasis",
+          "left": 164,
+          "right": 203
+        },
+        {
+          "text": "Fluting",
+          "left": 221,
+          "right": 258
+        },
+        {
+          "text": "Transport",
+          "left": 276,
+          "right": 327
+        },
+        {
+          "text": "Temple plan",
+          "left": 345,
+          "right": 411
+        },
+        {
+          "text": "Theatre",
+          "left": 429,
+          "right": 471
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 489,
+          "right": 584
+        },
+        {
+          "text": "Hoist",
+          "left": 20,
+          "right": 48
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 621,
+      "room": "hoist.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 92
+        },
+        {
+          "text": "Spacing",
+          "left": 110,
+          "right": 157
+        },
+        {
+          "text": "Entasis",
+          "left": 175,
+          "right": 217
+        },
+        {
+          "text": "Fluting",
+          "left": 235,
+          "right": 275
+        },
+        {
+          "text": "Transport",
+          "left": 293,
+          "right": 349
+        },
+        {
+          "text": "Temple plan",
+          "left": 367,
+          "right": 439
+        },
+        {
+          "text": "Theatre",
+          "left": 457,
+          "right": 502
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 20,
+          "right": 119
+        },
+        {
+          "text": "Hoist",
+          "left": 137,
+          "right": 167
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "index.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 93,
+          "right": 170
+        },
+        {
+          "text": "Column spacing",
+          "left": 192,
+          "right": 292
+        },
+        {
+          "text": "Entasis",
+          "left": 314,
+          "right": 360
+        },
+        {
+          "text": "Fluting",
+          "left": 382,
+          "right": 426
+        },
+        {
+          "text": "About",
+          "left": 448,
+          "right": 486
+        },
+        {
+          "text": "Transport",
+          "left": 508,
+          "right": 568
+        },
+        {
+          "text": "Temple plan",
+          "left": 590,
+          "right": 667
+        },
+        {
+          "text": "Theatre",
+          "left": 689,
+          "right": 738
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 572,
+          "right": 682
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "spacing.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153,
+          "right": 230
+        },
+        {
+          "text": "Column spacing",
+          "left": 252,
+          "right": 352
+        },
+        {
+          "text": "Entasis",
+          "left": 374,
+          "right": 420
+        },
+        {
+          "text": "Fluting",
+          "left": 442,
+          "right": 486
+        },
+        {
+          "text": "Transport",
+          "left": 508,
+          "right": 568
+        },
+        {
+          "text": "Temple plan",
+          "left": 590,
+          "right": 667
+        },
+        {
+          "text": "Theatre",
+          "left": 689,
+          "right": 738
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 572,
+          "right": 682
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "entasis.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153,
+          "right": 230
+        },
+        {
+          "text": "Column spacing",
+          "left": 252,
+          "right": 352
+        },
+        {
+          "text": "Entasis",
+          "left": 374,
+          "right": 420
+        },
+        {
+          "text": "Fluting",
+          "left": 442,
+          "right": 486
+        },
+        {
+          "text": "Transport",
+          "left": 508,
+          "right": 568
+        },
+        {
+          "text": "Temple plan",
+          "left": 590,
+          "right": 667
+        },
+        {
+          "text": "Theatre",
+          "left": 689,
+          "right": 738
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 572,
+          "right": 682
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "fluting.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153,
+          "right": 230
+        },
+        {
+          "text": "Column spacing",
+          "left": 252,
+          "right": 352
+        },
+        {
+          "text": "Entasis",
+          "left": 374,
+          "right": 420
+        },
+        {
+          "text": "Fluting",
+          "left": 442,
+          "right": 486
+        },
+        {
+          "text": "Transport",
+          "left": 508,
+          "right": 568
+        },
+        {
+          "text": "Temple plan",
+          "left": 590,
+          "right": 667
+        },
+        {
+          "text": "Theatre",
+          "left": 689,
+          "right": 738
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 572,
+          "right": 682
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "transport.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153,
+          "right": 230
+        },
+        {
+          "text": "Column spacing",
+          "left": 252,
+          "right": 352
+        },
+        {
+          "text": "Entasis",
+          "left": 374,
+          "right": 420
+        },
+        {
+          "text": "Fluting",
+          "left": 442,
+          "right": 486
+        },
+        {
+          "text": "Transport",
+          "left": 508,
+          "right": 568
+        },
+        {
+          "text": "Temple plan",
+          "left": 590,
+          "right": 667
+        },
+        {
+          "text": "Theatre",
+          "left": 689,
+          "right": 738
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 572,
+          "right": 682
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "colonnade.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 35,
+          "right": 112
+        },
+        {
+          "text": "Column spacing",
+          "left": 132,
+          "right": 232
+        },
+        {
+          "text": "Entasis",
+          "left": 252,
+          "right": 298
+        },
+        {
+          "text": "Fluting",
+          "left": 318,
+          "right": 362
+        },
+        {
+          "text": "Transport",
+          "left": 382,
+          "right": 442
+        },
+        {
+          "text": "Temple plan",
+          "left": 462,
+          "right": 539
+        },
+        {
+          "text": "Theatre",
+          "left": 559,
+          "right": 608
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 628,
+          "right": 738
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "theatre.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 72,
+          "right": 149
+        },
+        {
+          "text": "Spacing",
+          "left": 171,
+          "right": 220
+        },
+        {
+          "text": "Entasis",
+          "left": 242,
+          "right": 288
+        },
+        {
+          "text": "Fluting",
+          "left": 310,
+          "right": 354
+        },
+        {
+          "text": "Transport",
+          "left": 376,
+          "right": 436
+        },
+        {
+          "text": "Temple plan",
+          "left": 458,
+          "right": 535
+        },
+        {
+          "text": "Theatre",
+          "left": 557,
+          "right": 606
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 628,
+          "right": 738
+        },
+        {
+          "text": "Hoist",
+          "left": 704,
+          "right": 738
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "echea.html",
+      "scrollWidth": 768,
+      "navRight": 712,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 107
+        },
+        {
+          "text": "Spacing",
+          "left": 124,
+          "right": 173
+        },
+        {
+          "text": "Entasis",
+          "left": 190,
+          "right": 236
+        },
+        {
+          "text": "Fluting",
+          "left": 253,
+          "right": 297
+        },
+        {
+          "text": "Transport",
+          "left": 314,
+          "right": 374
+        },
+        {
+          "text": "Temple plan",
+          "left": 391,
+          "right": 468
+        },
+        {
+          "text": "Theatre",
+          "left": 485,
+          "right": 534
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 551,
+          "right": 661
+        },
+        {
+          "text": "Hoist",
+          "left": 678,
+          "right": 712
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 768,
+      "room": "hoist.html",
+      "scrollWidth": 768,
+      "navRight": 685,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 102
+        },
+        {
+          "text": "Spacing",
+          "left": 121,
+          "right": 168
+        },
+        {
+          "text": "Entasis",
+          "left": 187,
+          "right": 229
+        },
+        {
+          "text": "Fluting",
+          "left": 248,
+          "right": 288
+        },
+        {
+          "text": "Transport",
+          "left": 307,
+          "right": 363
+        },
+        {
+          "text": "Temple plan",
+          "left": 382,
+          "right": 454
+        },
+        {
+          "text": "Theatre",
+          "left": 473,
+          "right": 518
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 537,
+          "right": 636
+        },
+        {
+          "text": "Hoist",
+          "left": 655,
+          "right": 685
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "index.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 300,
+          "right": 377
+        },
+        {
+          "text": "Column spacing",
+          "left": 402,
+          "right": 502
+        },
+        {
+          "text": "Entasis",
+          "left": 527,
+          "right": 573
+        },
+        {
+          "text": "Fluting",
+          "left": 598,
+          "right": 642
+        },
+        {
+          "text": "About",
+          "left": 667,
+          "right": 705
+        },
+        {
+          "text": "Transport",
+          "left": 730,
+          "right": 790
+        },
+        {
+          "text": "Temple plan",
+          "left": 445,
+          "right": 522
+        },
+        {
+          "text": "Theatre",
+          "left": 547,
+          "right": 596
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "spacing.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187,
+          "right": 264
+        },
+        {
+          "text": "Column spacing",
+          "left": 289,
+          "right": 389
+        },
+        {
+          "text": "Entasis",
+          "left": 414,
+          "right": 460
+        },
+        {
+          "text": "Fluting",
+          "left": 485,
+          "right": 529
+        },
+        {
+          "text": "Transport",
+          "left": 554,
+          "right": 614
+        },
+        {
+          "text": "Temple plan",
+          "left": 639,
+          "right": 716
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "entasis.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187,
+          "right": 264
+        },
+        {
+          "text": "Column spacing",
+          "left": 289,
+          "right": 389
+        },
+        {
+          "text": "Entasis",
+          "left": 414,
+          "right": 460
+        },
+        {
+          "text": "Fluting",
+          "left": 485,
+          "right": 529
+        },
+        {
+          "text": "Transport",
+          "left": 554,
+          "right": 614
+        },
+        {
+          "text": "Temple plan",
+          "left": 639,
+          "right": 716
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "fluting.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187,
+          "right": 264
+        },
+        {
+          "text": "Column spacing",
+          "left": 289,
+          "right": 389
+        },
+        {
+          "text": "Entasis",
+          "left": 414,
+          "right": 460
+        },
+        {
+          "text": "Fluting",
+          "left": 485,
+          "right": 529
+        },
+        {
+          "text": "Transport",
+          "left": 554,
+          "right": 614
+        },
+        {
+          "text": "Temple plan",
+          "left": 639,
+          "right": 716
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "transport.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187,
+          "right": 264
+        },
+        {
+          "text": "Column spacing",
+          "left": 289,
+          "right": 389
+        },
+        {
+          "text": "Entasis",
+          "left": 414,
+          "right": 460
+        },
+        {
+          "text": "Fluting",
+          "left": 485,
+          "right": 529
+        },
+        {
+          "text": "Transport",
+          "left": 554,
+          "right": 614
+        },
+        {
+          "text": "Temple plan",
+          "left": 639,
+          "right": 716
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "colonnade.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 217,
+          "right": 294
+        },
+        {
+          "text": "Column spacing",
+          "left": 314,
+          "right": 414
+        },
+        {
+          "text": "Entasis",
+          "left": 434,
+          "right": 480
+        },
+        {
+          "text": "Fluting",
+          "left": 500,
+          "right": 544
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 644,
+          "right": 721
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 626,
+          "right": 736
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "theatre.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 238,
+          "right": 315
+        },
+        {
+          "text": "Spacing",
+          "left": 340,
+          "right": 389
+        },
+        {
+          "text": "Entasis",
+          "left": 414,
+          "right": 460
+        },
+        {
+          "text": "Fluting",
+          "left": 485,
+          "right": 529
+        },
+        {
+          "text": "Transport",
+          "left": 554,
+          "right": 614
+        },
+        {
+          "text": "Temple plan",
+          "left": 639,
+          "right": 716
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 621,
+          "right": 731
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "echea.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 286,
+          "right": 363
+        },
+        {
+          "text": "Spacing",
+          "left": 380,
+          "right": 429
+        },
+        {
+          "text": "Entasis",
+          "left": 446,
+          "right": 492
+        },
+        {
+          "text": "Fluting",
+          "left": 509,
+          "right": 553
+        },
+        {
+          "text": "Transport",
+          "left": 570,
+          "right": 630
+        },
+        {
+          "text": "Temple plan",
+          "left": 647,
+          "right": 724
+        },
+        {
+          "text": "Theatre",
+          "left": 741,
+          "right": 790
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 629,
+          "right": 739
+        },
+        {
+          "text": "Hoist",
+          "left": 756,
+          "right": 790
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 820,
+      "room": "hoist.html",
+      "scrollWidth": 820,
+      "navRight": 685,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 102
+        },
+        {
+          "text": "Spacing",
+          "left": 121,
+          "right": 168
+        },
+        {
+          "text": "Entasis",
+          "left": 187,
+          "right": 229
+        },
+        {
+          "text": "Fluting",
+          "left": 248,
+          "right": 288
+        },
+        {
+          "text": "Transport",
+          "left": 307,
+          "right": 363
+        },
+        {
+          "text": "Temple plan",
+          "left": 382,
+          "right": 454
+        },
+        {
+          "text": "Theatre",
+          "left": 473,
+          "right": 518
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 537,
+          "right": 636
+        },
+        {
+          "text": "Hoist",
+          "left": 655,
+          "right": 685
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "index.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 328,
+          "right": 405
+        },
+        {
+          "text": "Column spacing",
+          "left": 430,
+          "right": 530
+        },
+        {
+          "text": "Entasis",
+          "left": 555,
+          "right": 601
+        },
+        {
+          "text": "Fluting",
+          "left": 626,
+          "right": 670
+        },
+        {
+          "text": "About",
+          "left": 695,
+          "right": 733
+        },
+        {
+          "text": "Transport",
+          "left": 758,
+          "right": 818
+        },
+        {
+          "text": "Temple plan",
+          "left": 843,
+          "right": 920
+        },
+        {
+          "text": "Theatre",
+          "left": 945,
+          "right": 994
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "spacing.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 197,
+          "right": 274
+        },
+        {
+          "text": "Column spacing",
+          "left": 299,
+          "right": 399
+        },
+        {
+          "text": "Entasis",
+          "left": 424,
+          "right": 470
+        },
+        {
+          "text": "Fluting",
+          "left": 495,
+          "right": 539
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 649,
+          "right": 726
+        },
+        {
+          "text": "Theatre",
+          "left": 751,
+          "right": 800
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "entasis.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 197,
+          "right": 274
+        },
+        {
+          "text": "Column spacing",
+          "left": 299,
+          "right": 399
+        },
+        {
+          "text": "Entasis",
+          "left": 424,
+          "right": 470
+        },
+        {
+          "text": "Fluting",
+          "left": 495,
+          "right": 539
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 649,
+          "right": 726
+        },
+        {
+          "text": "Theatre",
+          "left": 751,
+          "right": 800
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "fluting.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 197,
+          "right": 274
+        },
+        {
+          "text": "Column spacing",
+          "left": 299,
+          "right": 399
+        },
+        {
+          "text": "Entasis",
+          "left": 424,
+          "right": 470
+        },
+        {
+          "text": "Fluting",
+          "left": 495,
+          "right": 539
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 649,
+          "right": 726
+        },
+        {
+          "text": "Theatre",
+          "left": 751,
+          "right": 800
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "transport.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 197,
+          "right": 274
+        },
+        {
+          "text": "Column spacing",
+          "left": 299,
+          "right": 399
+        },
+        {
+          "text": "Entasis",
+          "left": 424,
+          "right": 470
+        },
+        {
+          "text": "Fluting",
+          "left": 495,
+          "right": 539
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 649,
+          "right": 726
+        },
+        {
+          "text": "Theatre",
+          "left": 751,
+          "right": 800
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "colonnade.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 237,
+          "right": 314
+        },
+        {
+          "text": "Column spacing",
+          "left": 334,
+          "right": 434
+        },
+        {
+          "text": "Entasis",
+          "left": 454,
+          "right": 500
+        },
+        {
+          "text": "Fluting",
+          "left": 520,
+          "right": 564
+        },
+        {
+          "text": "Transport",
+          "left": 584,
+          "right": 644
+        },
+        {
+          "text": "Temple plan",
+          "left": 664,
+          "right": 741
+        },
+        {
+          "text": "Theatre",
+          "left": 761,
+          "right": 810
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 830,
+          "right": 940
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "theatre.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 248,
+          "right": 325
+        },
+        {
+          "text": "Spacing",
+          "left": 350,
+          "right": 399
+        },
+        {
+          "text": "Entasis",
+          "left": 424,
+          "right": 470
+        },
+        {
+          "text": "Fluting",
+          "left": 495,
+          "right": 539
+        },
+        {
+          "text": "Transport",
+          "left": 564,
+          "right": 624
+        },
+        {
+          "text": "Temple plan",
+          "left": 649,
+          "right": 726
+        },
+        {
+          "text": "Theatre",
+          "left": 751,
+          "right": 800
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 825,
+          "right": 935
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "echea.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 312,
+          "right": 389
+        },
+        {
+          "text": "Spacing",
+          "left": 406,
+          "right": 455
+        },
+        {
+          "text": "Entasis",
+          "left": 472,
+          "right": 518
+        },
+        {
+          "text": "Fluting",
+          "left": 535,
+          "right": 579
+        },
+        {
+          "text": "Transport",
+          "left": 596,
+          "right": 656
+        },
+        {
+          "text": "Temple plan",
+          "left": 673,
+          "right": 750
+        },
+        {
+          "text": "Theatre",
+          "left": 767,
+          "right": 816
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 833,
+          "right": 943
+        },
+        {
+          "text": "Hoist",
+          "left": 960,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1024,
+      "room": "hoist.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 339,
+          "right": 411
+        },
+        {
+          "text": "Spacing",
+          "left": 430,
+          "right": 477
+        },
+        {
+          "text": "Entasis",
+          "left": 496,
+          "right": 538
+        },
+        {
+          "text": "Fluting",
+          "left": 557,
+          "right": 597
+        },
+        {
+          "text": "Transport",
+          "left": 616,
+          "right": 672
+        },
+        {
+          "text": "Temple plan",
+          "left": 691,
+          "right": 763
+        },
+        {
+          "text": "Theatre",
+          "left": 782,
+          "right": 827
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 846,
+          "right": 945
+        },
+        {
+          "text": "Hoist",
+          "left": 964,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "index.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 524,
+          "right": 601
+        },
+        {
+          "text": "Column spacing",
+          "left": 626,
+          "right": 726
+        },
+        {
+          "text": "Entasis",
+          "left": 751,
+          "right": 797
+        },
+        {
+          "text": "Fluting",
+          "left": 822,
+          "right": 866
+        },
+        {
+          "text": "About",
+          "left": 891,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "spacing.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 587,
+          "right": 664
+        },
+        {
+          "text": "Column spacing",
+          "left": 689,
+          "right": 789
+        },
+        {
+          "text": "Entasis",
+          "left": 814,
+          "right": 860
+        },
+        {
+          "text": "Fluting",
+          "left": 885,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "entasis.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 587,
+          "right": 664
+        },
+        {
+          "text": "Column spacing",
+          "left": 689,
+          "right": 789
+        },
+        {
+          "text": "Entasis",
+          "left": 814,
+          "right": 860
+        },
+        {
+          "text": "Fluting",
+          "left": 885,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "fluting.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 587,
+          "right": 664
+        },
+        {
+          "text": "Column spacing",
+          "left": 689,
+          "right": 789
+        },
+        {
+          "text": "Entasis",
+          "left": 814,
+          "right": 860
+        },
+        {
+          "text": "Fluting",
+          "left": 885,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "transport.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 587,
+          "right": 664
+        },
+        {
+          "text": "Column spacing",
+          "left": 689,
+          "right": 789
+        },
+        {
+          "text": "Entasis",
+          "left": 814,
+          "right": 860
+        },
+        {
+          "text": "Fluting",
+          "left": 885,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "colonnade.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 627,
+          "right": 704
+        },
+        {
+          "text": "Column spacing",
+          "left": 724,
+          "right": 824
+        },
+        {
+          "text": "Entasis",
+          "left": 844,
+          "right": 890
+        },
+        {
+          "text": "Fluting",
+          "left": 910,
+          "right": 954
+        },
+        {
+          "text": "Transport",
+          "left": 974,
+          "right": 1034
+        },
+        {
+          "text": "Temple plan",
+          "left": 1054,
+          "right": 1131
+        },
+        {
+          "text": "Theatre",
+          "left": 1151,
+          "right": 1200
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1220,
+          "right": 1330
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "theatre.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 638,
+          "right": 715
+        },
+        {
+          "text": "Spacing",
+          "left": 740,
+          "right": 789
+        },
+        {
+          "text": "Entasis",
+          "left": 814,
+          "right": 860
+        },
+        {
+          "text": "Fluting",
+          "left": 885,
+          "right": 929
+        },
+        {
+          "text": "Transport",
+          "left": 954,
+          "right": 1014
+        },
+        {
+          "text": "Temple plan",
+          "left": 1039,
+          "right": 1116
+        },
+        {
+          "text": "Theatre",
+          "left": 1141,
+          "right": 1190
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1215,
+          "right": 1325
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "echea.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 702,
+          "right": 779
+        },
+        {
+          "text": "Spacing",
+          "left": 796,
+          "right": 845
+        },
+        {
+          "text": "Entasis",
+          "left": 862,
+          "right": 908
+        },
+        {
+          "text": "Fluting",
+          "left": 925,
+          "right": 969
+        },
+        {
+          "text": "Transport",
+          "left": 986,
+          "right": 1046
+        },
+        {
+          "text": "Temple plan",
+          "left": 1063,
+          "right": 1140
+        },
+        {
+          "text": "Theatre",
+          "left": 1157,
+          "right": 1206
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1223,
+          "right": 1333
+        },
+        {
+          "text": "Hoist",
+          "left": 1350,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "room": "hoist.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 729,
+          "right": 801
+        },
+        {
+          "text": "Spacing",
+          "left": 820,
+          "right": 867
+        },
+        {
+          "text": "Entasis",
+          "left": 886,
+          "right": 928
+        },
+        {
+          "text": "Fluting",
+          "left": 947,
+          "right": 987
+        },
+        {
+          "text": "Transport",
+          "left": 1006,
+          "right": 1062
+        },
+        {
+          "text": "Temple plan",
+          "left": 1081,
+          "right": 1153
+        },
+        {
+          "text": "Theatre",
+          "left": 1172,
+          "right": 1217
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1236,
+          "right": 1335
+        },
+        {
+          "text": "Hoist",
+          "left": 1354,
+          "right": 1384
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "index.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 61.01666259765625,
+          "right": 126.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 148.93333435058594,
+          "right": 234.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 317.8500061035156,
+          "right": 355
+        },
+        {
+          "text": "About",
+          "left": 96.43333435058594,
+          "right": 128.85000610351562
+        },
+        {
+          "text": "Transport",
+          "left": 150.85000610351562,
+          "right": 202.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 224.93333435058594,
+          "right": 291.18333435058594
+        },
+        {
+          "text": "Theatre",
+          "left": 313.183349609375,
+          "right": 355.00001525878906
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 211.85000610351562,
+          "right": 304.81666564941406
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "spacing.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 61.01666259765625,
+          "right": 126.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 148.93333435058594,
+          "right": 234.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 317.8500061035156,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35.883331298828125,
+          "right": 87.96665954589844
+        },
+        {
+          "text": "Temple plan",
+          "left": 109.96665954589844,
+          "right": 176.21665954589844
+        },
+        {
+          "text": "Theatre",
+          "left": 198.21665954589844,
+          "right": 240.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 262.0333251953125,
+          "right": 354.99998474121094
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "entasis.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 61.01666259765625,
+          "right": 126.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 148.93333435058594,
+          "right": 234.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 317.8500061035156,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35.883331298828125,
+          "right": 87.96665954589844
+        },
+        {
+          "text": "Temple plan",
+          "left": 109.96665954589844,
+          "right": 176.21665954589844
+        },
+        {
+          "text": "Theatre",
+          "left": 198.21665954589844,
+          "right": 240.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 262.0333251953125,
+          "right": 354.99998474121094
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "fluting.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 61.01666259765625,
+          "right": 126.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 148.93333435058594,
+          "right": 234.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 317.8500061035156,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35.883331298828125,
+          "right": 87.96665954589844
+        },
+        {
+          "text": "Temple plan",
+          "left": 109.96665954589844,
+          "right": 176.21665954589844
+        },
+        {
+          "text": "Theatre",
+          "left": 198.21665954589844,
+          "right": 240.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 262.0333251953125,
+          "right": 354.99998474121094
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "transport.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 61.01666259765625,
+          "right": 126.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 148.93333435058594,
+          "right": 234.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 317.8500061035156,
+          "right": 355
+        },
+        {
+          "text": "Transport",
+          "left": 35.883331298828125,
+          "right": 87.96665954589844
+        },
+        {
+          "text": "Temple plan",
+          "left": 109.96665954589844,
+          "right": 176.21665954589844
+        },
+        {
+          "text": "Theatre",
+          "left": 198.21665954589844,
+          "right": 240.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 262.0333251953125,
+          "right": 354.99998474121094
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "colonnade.html",
+      "scrollWidth": 375,
+      "navRight": 353,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 65.01666259765625,
+          "right": 130.93333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 150.93333435058594,
+          "right": 236.71665954589844
+        },
+        {
+          "text": "Entasis",
+          "left": 256.7166748046875,
+          "right": 295.8500213623047
+        },
+        {
+          "text": "Fluting",
+          "left": 315.8500061035156,
+          "right": 353
+        },
+        {
+          "text": "Transport",
+          "left": 39.883331298828125,
+          "right": 91.96665954589844
+        },
+        {
+          "text": "Temple plan",
+          "left": 111.96665954589844,
+          "right": 178.21665954589844
+        },
+        {
+          "text": "Theatre",
+          "left": 198.21665954589844,
+          "right": 240.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 260.0333251953125,
+          "right": 352.99998474121094
+        },
+        {
+          "text": "Hoist",
+          "left": 324.816650390625,
+          "right": 352.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "theatre.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30.199996948242188,
+          "right": 96.11666870117188
+        },
+        {
+          "text": "Spacing",
+          "left": 118.11666870117188,
+          "right": 160.63333129882812
+        },
+        {
+          "text": "Entasis",
+          "left": 182.63333129882812,
+          "right": 221.76666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 243.76666259765625,
+          "right": 280.9166717529297
+        },
+        {
+          "text": "Transport",
+          "left": 302.91668701171875,
+          "right": 355.00001525878906
+        },
+        {
+          "text": "Temple plan",
+          "left": 59.78334045410156,
+          "right": 126.03334045410156
+        },
+        {
+          "text": "Theatre",
+          "left": 148.03334045410156,
+          "right": 189.85000610351562
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 211.85000610351562,
+          "right": 304.81666564941406
+        },
+        {
+          "text": "Hoist",
+          "left": 326.816650390625,
+          "right": 354.99998474121094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "echea.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 85.91667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 103.91667175292969,
+          "right": 146.43333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 164.43333435058594,
+          "right": 203.56666564941406
+        },
+        {
+          "text": "Fluting",
+          "left": 221.56666564941406,
+          "right": 258.71665954589844
+        },
+        {
+          "text": "Transport",
+          "left": 276.7166748046875,
+          "right": 328.8000183105469
+        },
+        {
+          "text": "Temple plan",
+          "left": 20,
+          "right": 86.25
+        },
+        {
+          "text": "Theatre",
+          "left": 104.25,
+          "right": 146.06666564941406
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 164.06666564941406,
+          "right": 257.03334045410156
+        },
+        {
+          "text": "Hoist",
+          "left": 275.0333251953125,
+          "right": 303.2166442871094
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "room": "hoist.html",
+      "scrollWidth": 375,
+      "navRight": 355,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 91.41667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 109.41667175292969,
+          "right": 155.48333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 173.48333740234375,
+          "right": 215.88333129882812
+        },
+        {
+          "text": "Fluting",
+          "left": 233.88333129882812,
+          "right": 274.1333312988281
+        },
+        {
+          "text": "Transport",
+          "left": 292.1333312988281,
+          "right": 348.56666564941406
+        },
+        {
+          "text": "Temple plan",
+          "left": 20,
+          "right": 91.73333740234375
+        },
+        {
+          "text": "Theatre",
+          "left": 109.73333740234375,
+          "right": 155.03334045410156
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 173.03334045410156,
+          "right": 273.75
+        },
+        {
+          "text": "Hoist",
+          "left": 291.75,
+          "right": 322.26666259765625
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "index.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 26.449996948242188,
+          "right": 92.36666870117188
+        },
+        {
+          "text": "Column spacing",
+          "left": 114.36666870117188,
+          "right": 200.14999389648438
+        },
+        {
+          "text": "Entasis",
+          "left": 222.14999389648438,
+          "right": 261.28334045410156
+        },
+        {
+          "text": "Fluting",
+          "left": 283.2833251953125,
+          "right": 320.4333190917969
+        },
+        {
+          "text": "About",
+          "left": 342.433349609375,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "spacing.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 80.86666870117188,
+          "right": 146.78334045410156
+        },
+        {
+          "text": "Column spacing",
+          "left": 168.78334045410156,
+          "right": 254.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 276.566650390625,
+          "right": 315.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 337.70001220703125,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "entasis.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 80.86666870117188,
+          "right": 146.78334045410156
+        },
+        {
+          "text": "Column spacing",
+          "left": 168.78334045410156,
+          "right": 254.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 276.566650390625,
+          "right": 315.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 337.70001220703125,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "fluting.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 80.86666870117188,
+          "right": 146.78334045410156
+        },
+        {
+          "text": "Column spacing",
+          "left": 168.78334045410156,
+          "right": 254.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 276.566650390625,
+          "right": 315.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 337.70001220703125,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "transport.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 80.86666870117188,
+          "right": 146.78334045410156
+        },
+        {
+          "text": "Column spacing",
+          "left": 168.78334045410156,
+          "right": 254.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 276.566650390625,
+          "right": 315.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 337.70001220703125,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "colonnade.html",
+      "scrollWidth": 621,
+      "navRight": 599,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 90.86666870117188,
+          "right": 156.78334045410156
+        },
+        {
+          "text": "Column spacing",
+          "left": 176.78334045410156,
+          "right": 262.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 282.566650390625,
+          "right": 321.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 341.70001220703125,
+          "right": 378.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 398.8500061035156,
+          "right": 450.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 557.183349609375,
+          "right": 599.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 570.816650390625,
+          "right": 598.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "theatre.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 124.13333129882812,
+          "right": 190.0500030517578
+        },
+        {
+          "text": "Spacing",
+          "left": 212.0500030517578,
+          "right": 254.56666564941406
+        },
+        {
+          "text": "Entasis",
+          "left": 276.566650390625,
+          "right": 315.6999816894531
+        },
+        {
+          "text": "Fluting",
+          "left": 337.70001220703125,
+          "right": 374.8500213623047
+        },
+        {
+          "text": "Transport",
+          "left": 396.8500061035156,
+          "right": 448.93333435058594
+        },
+        {
+          "text": "Temple plan",
+          "left": 470.933349609375,
+          "right": 537.183349609375
+        },
+        {
+          "text": "Theatre",
+          "left": 559.183349609375,
+          "right": 601.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 457.8500061035156,
+          "right": 550.8166656494141
+        },
+        {
+          "text": "Hoist",
+          "left": 572.816650390625,
+          "right": 600.9999847412109
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "echea.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 85.91667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 103.91667175292969,
+          "right": 146.43333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 164.43333435058594,
+          "right": 203.56666564941406
+        },
+        {
+          "text": "Fluting",
+          "left": 221.56666564941406,
+          "right": 258.71665954589844
+        },
+        {
+          "text": "Transport",
+          "left": 276.7166748046875,
+          "right": 328.8000183105469
+        },
+        {
+          "text": "Temple plan",
+          "left": 346.79998779296875,
+          "right": 413.04998779296875
+        },
+        {
+          "text": "Theatre",
+          "left": 431.04998779296875,
+          "right": 472.8666534423828
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 490.8666687011719,
+          "right": 583.8333282470703
+        },
+        {
+          "text": "Hoist",
+          "left": 20,
+          "right": 48.18333435058594
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 621,
+      "room": "hoist.html",
+      "scrollWidth": 621,
+      "navRight": 601,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 20,
+          "right": 91.41667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 109.41667175292969,
+          "right": 155.48333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 173.48333740234375,
+          "right": 215.88333129882812
+        },
+        {
+          "text": "Fluting",
+          "left": 233.88333129882812,
+          "right": 274.1333312988281
+        },
+        {
+          "text": "Transport",
+          "left": 292.1333312988281,
+          "right": 348.56666564941406
+        },
+        {
+          "text": "Temple plan",
+          "left": 366.566650390625,
+          "right": 438.29998779296875
+        },
+        {
+          "text": "Theatre",
+          "left": 456.29998779296875,
+          "right": 501.59999084472656
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 20,
+          "right": 120.71665954589844
+        },
+        {
+          "text": "Hoist",
+          "left": 138.71665954589844,
+          "right": 169.23333740234375
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "index.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 93.43333435058594,
+          "right": 170.3333282470703
+        },
+        {
+          "text": "Column spacing",
+          "left": 192.3333282470703,
+          "right": 292.3999938964844
+        },
+        {
+          "text": "Entasis",
+          "left": 314.3999938964844,
+          "right": 360.0500030517578
+        },
+        {
+          "text": "Fluting",
+          "left": 382.04998779296875,
+          "right": 425.3999786376953
+        },
+        {
+          "text": "About",
+          "left": 447.3999938964844,
+          "right": 485.18333435058594
+        },
+        {
+          "text": "Transport",
+          "left": 507.183349609375,
+          "right": 567.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 589.9666748046875,
+          "right": 667.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 689.2166748046875,
+          "right": 738.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 574.683349609375,
+          "right": 683.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "spacing.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153.21665954589844,
+          "right": 230.11666870117188
+        },
+        {
+          "text": "Column spacing",
+          "left": 252.11666870117188,
+          "right": 352.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 374.183349609375,
+          "right": 419.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 441.83331298828125,
+          "right": 485.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 507.183349609375,
+          "right": 567.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 589.9666748046875,
+          "right": 667.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 689.2166748046875,
+          "right": 738.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 574.683349609375,
+          "right": 683.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "entasis.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153.21665954589844,
+          "right": 230.11666870117188
+        },
+        {
+          "text": "Column spacing",
+          "left": 252.11666870117188,
+          "right": 352.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 374.183349609375,
+          "right": 419.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 441.83331298828125,
+          "right": 485.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 507.183349609375,
+          "right": 567.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 589.9666748046875,
+          "right": 667.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 689.2166748046875,
+          "right": 738.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 574.683349609375,
+          "right": 683.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "fluting.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153.21665954589844,
+          "right": 230.11666870117188
+        },
+        {
+          "text": "Column spacing",
+          "left": 252.11666870117188,
+          "right": 352.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 374.183349609375,
+          "right": 419.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 441.83331298828125,
+          "right": 485.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 507.183349609375,
+          "right": 567.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 589.9666748046875,
+          "right": 667.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 689.2166748046875,
+          "right": 738.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 574.683349609375,
+          "right": 683.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "transport.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 153.21665954589844,
+          "right": 230.11666870117188
+        },
+        {
+          "text": "Column spacing",
+          "left": 252.11666870117188,
+          "right": 352.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 374.183349609375,
+          "right": 419.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 441.83331298828125,
+          "right": 485.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 507.183349609375,
+          "right": 567.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 589.9666748046875,
+          "right": 667.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 689.2166748046875,
+          "right": 738.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 574.683349609375,
+          "right": 683.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "colonnade.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 36.76666259765625,
+          "right": 113.66667175292969
+        },
+        {
+          "text": "Column spacing",
+          "left": 133.6666717529297,
+          "right": 233.73333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 253.73333740234375,
+          "right": 299.3833312988281
+        },
+        {
+          "text": "Fluting",
+          "left": 319.3833312988281,
+          "right": 362.73333740234375
+        },
+        {
+          "text": "Transport",
+          "left": 382.73333740234375,
+          "right": 443.51666259765625
+        },
+        {
+          "text": "Temple plan",
+          "left": 463.51666259765625,
+          "right": 540.7666625976562
+        },
+        {
+          "text": "Theatre",
+          "left": 560.7666625976562,
+          "right": 609.5500030517578
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 629.5499877929688,
+          "right": 737.9999847412109
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "theatre.html",
+      "scrollWidth": 768,
+      "navRight": 738,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 73.19999694824219,
+          "right": 150.10000610351562
+        },
+        {
+          "text": "Spacing",
+          "left": 172.10000610351562,
+          "right": 221.73333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 243.73333740234375,
+          "right": 289.3833312988281
+        },
+        {
+          "text": "Fluting",
+          "left": 311.3833312988281,
+          "right": 354.73333740234375
+        },
+        {
+          "text": "Transport",
+          "left": 376.73333740234375,
+          "right": 437.51666259765625
+        },
+        {
+          "text": "Temple plan",
+          "left": 459.51666259765625,
+          "right": 536.7666625976562
+        },
+        {
+          "text": "Theatre",
+          "left": 558.7666625976562,
+          "right": 607.5500030517578
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 629.5499877929688,
+          "right": 737.9999847412109
+        },
+        {
+          "text": "Hoist",
+          "left": 705.13330078125,
+          "right": 737.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "echea.html",
+      "scrollWidth": 768,
+      "navRight": 709.6666870117188,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 106.89999389648438
+        },
+        {
+          "text": "Spacing",
+          "left": 123.89999389648438,
+          "right": 173.53334045410156
+        },
+        {
+          "text": "Entasis",
+          "left": 190.53334045410156,
+          "right": 236.18333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 253.18333435058594,
+          "right": 296.53334045410156
+        },
+        {
+          "text": "Transport",
+          "left": 313.5333251953125,
+          "right": 374.316650390625
+        },
+        {
+          "text": "Temple plan",
+          "left": 391.316650390625,
+          "right": 468.566650390625
+        },
+        {
+          "text": "Theatre",
+          "left": 485.566650390625,
+          "right": 534.3499908447266
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 551.3499755859375,
+          "right": 659.7999725341797
+        },
+        {
+          "text": "Hoist",
+          "left": 676.7999877929688,
+          "right": 709.6666564941406
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 768,
+      "room": "hoist.html",
+      "scrollWidth": 768,
+      "navRight": 686.8333129882812,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 101.41667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 120.41667175292969,
+          "right": 166.48333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 185.48333740234375,
+          "right": 227.88333129882812
+        },
+        {
+          "text": "Fluting",
+          "left": 246.88333129882812,
+          "right": 287.1333312988281
+        },
+        {
+          "text": "Transport",
+          "left": 306.1333312988281,
+          "right": 362.56666564941406
+        },
+        {
+          "text": "Temple plan",
+          "left": 381.566650390625,
+          "right": 453.29998779296875
+        },
+        {
+          "text": "Theatre",
+          "left": 472.29998779296875,
+          "right": 517.5999908447266
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 536.5999755859375,
+          "right": 637.3166351318359
+        },
+        {
+          "text": "Hoist",
+          "left": 656.316650390625,
+          "right": 686.8333129882812
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "index.html",
+      "scrollWidth": 820,
+      "navRight": 790,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 300.4666748046875,
+          "right": 377.36668395996094
+        },
+        {
+          "text": "Column spacing",
+          "left": 402.3666687011719,
+          "right": 502.43333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 527.433349609375,
+          "right": 573.0833435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 598.0833129882812,
+          "right": 641.4333190917969
+        },
+        {
+          "text": "About",
+          "left": 666.433349609375,
+          "right": 704.2166748046875
+        },
+        {
+          "text": "Transport",
+          "left": 729.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Temple plan",
+          "left": 447.6499938964844,
+          "right": 524.8999938964844
+        },
+        {
+          "text": "Theatre",
+          "left": 549.9000244140625,
+          "right": 598.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "spacing.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187.21665954589844,
+          "right": 264.1166687011719
+        },
+        {
+          "text": "Column spacing",
+          "left": 289.1166687011719,
+          "right": 389.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 414.183349609375,
+          "right": 459.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 484.83331298828125,
+          "right": 528.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 553.183349609375,
+          "right": 613.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 638.9666748046875,
+          "right": 716.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "entasis.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187.21665954589844,
+          "right": 264.1166687011719
+        },
+        {
+          "text": "Column spacing",
+          "left": 289.1166687011719,
+          "right": 389.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 414.183349609375,
+          "right": 459.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 484.83331298828125,
+          "right": 528.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 553.183349609375,
+          "right": 613.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 638.9666748046875,
+          "right": 716.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "fluting.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187.21665954589844,
+          "right": 264.1166687011719
+        },
+        {
+          "text": "Column spacing",
+          "left": 289.1166687011719,
+          "right": 389.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 414.183349609375,
+          "right": 459.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 484.83331298828125,
+          "right": 528.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 553.183349609375,
+          "right": 613.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 638.9666748046875,
+          "right": 716.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "transport.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 187.21665954589844,
+          "right": 264.1166687011719
+        },
+        {
+          "text": "Column spacing",
+          "left": 289.1166687011719,
+          "right": 389.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 414.183349609375,
+          "right": 459.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 484.83331298828125,
+          "right": 528.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 553.183349609375,
+          "right": 613.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 638.9666748046875,
+          "right": 716.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "colonnade.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 217.21665954589844,
+          "right": 294.1166687011719
+        },
+        {
+          "text": "Column spacing",
+          "left": 314.1166687011719,
+          "right": 414.18333435058594
+        },
+        {
+          "text": "Entasis",
+          "left": 434.183349609375,
+          "right": 479.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 499.83331298828125,
+          "right": 543.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 563.183349609375,
+          "right": 623.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 643.9666748046875,
+          "right": 721.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 628.683349609375,
+          "right": 737.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "theatre.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 237.64999389648438,
+          "right": 314.5500030517578
+        },
+        {
+          "text": "Spacing",
+          "left": 339.54998779296875,
+          "right": 389.1833190917969
+        },
+        {
+          "text": "Entasis",
+          "left": 414.183349609375,
+          "right": 459.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 484.83331298828125,
+          "right": 528.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 553.183349609375,
+          "right": 613.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 638.9666748046875,
+          "right": 716.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 623.683349609375,
+          "right": 732.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "echea.html",
+      "scrollWidth": 820,
+      "navRight": 789.9999847412109,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 285.6499938964844,
+          "right": 362.5500030517578
+        },
+        {
+          "text": "Spacing",
+          "left": 379.54998779296875,
+          "right": 429.1833190917969
+        },
+        {
+          "text": "Entasis",
+          "left": 446.183349609375,
+          "right": 491.8333435058594
+        },
+        {
+          "text": "Fluting",
+          "left": 508.83331298828125,
+          "right": 552.1833190917969
+        },
+        {
+          "text": "Transport",
+          "left": 569.183349609375,
+          "right": 629.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 646.9666748046875,
+          "right": 724.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 741.2166748046875,
+          "right": 790.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 631.683349609375,
+          "right": 740.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 757.13330078125,
+          "right": 789.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 820,
+      "room": "hoist.html",
+      "scrollWidth": 820,
+      "navRight": 686.8333129882812,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 30,
+          "right": 101.41667175292969
+        },
+        {
+          "text": "Spacing",
+          "left": 120.41667175292969,
+          "right": 166.48333740234375
+        },
+        {
+          "text": "Entasis",
+          "left": 185.48333740234375,
+          "right": 227.88333129882812
+        },
+        {
+          "text": "Fluting",
+          "left": 246.88333129882812,
+          "right": 287.1333312988281
+        },
+        {
+          "text": "Transport",
+          "left": 306.1333312988281,
+          "right": 362.56666564941406
+        },
+        {
+          "text": "Temple plan",
+          "left": 381.566650390625,
+          "right": 453.29998779296875
+        },
+        {
+          "text": "Theatre",
+          "left": 472.29998779296875,
+          "right": 517.5999908447266
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 536.5999755859375,
+          "right": 637.3166351318359
+        },
+        {
+          "text": "Hoist",
+          "left": 656.316650390625,
+          "right": 686.8333129882812
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "index.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 328.433349609375,
+          "right": 405.3333435058594
+        },
+        {
+          "text": "Column spacing",
+          "left": 430.33331298828125,
+          "right": 530.3999786376953
+        },
+        {
+          "text": "Entasis",
+          "left": 555.4000244140625,
+          "right": 601.0500335693359
+        },
+        {
+          "text": "Fluting",
+          "left": 626.0499877929688,
+          "right": 669.3999786376953
+        },
+        {
+          "text": "About",
+          "left": 694.4000244140625,
+          "right": 732.1833648681641
+        },
+        {
+          "text": "Transport",
+          "left": 757.183349609375,
+          "right": 817.9666748046875
+        },
+        {
+          "text": "Temple plan",
+          "left": 842.9666748046875,
+          "right": 920.2166748046875
+        },
+        {
+          "text": "Theatre",
+          "left": 945.2166748046875,
+          "right": 994.0000152587891
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "spacing.html",
+      "scrollWidth": 1024,
+      "navRight": 993.9999694824219,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 199.89999389648438,
+          "right": 276.8000030517578
+        },
+        {
+          "text": "Column spacing",
+          "left": 301.79998779296875,
+          "right": 401.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 426.8666687011719,
+          "right": 472.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 497.51666259765625,
+          "right": 540.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 565.86669921875,
+          "right": 626.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 651.6500244140625,
+          "right": 728.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 753.9000244140625,
+          "right": 802.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "entasis.html",
+      "scrollWidth": 1024,
+      "navRight": 993.9999694824219,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 199.89999389648438,
+          "right": 276.8000030517578
+        },
+        {
+          "text": "Column spacing",
+          "left": 301.79998779296875,
+          "right": 401.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 426.8666687011719,
+          "right": 472.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 497.51666259765625,
+          "right": 540.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 565.86669921875,
+          "right": 626.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 651.6500244140625,
+          "right": 728.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 753.9000244140625,
+          "right": 802.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "fluting.html",
+      "scrollWidth": 1024,
+      "navRight": 993.9999694824219,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 199.89999389648438,
+          "right": 276.8000030517578
+        },
+        {
+          "text": "Column spacing",
+          "left": 301.79998779296875,
+          "right": 401.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 426.8666687011719,
+          "right": 472.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 497.51666259765625,
+          "right": 540.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 565.86669921875,
+          "right": 626.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 651.6500244140625,
+          "right": 728.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 753.9000244140625,
+          "right": 802.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "transport.html",
+      "scrollWidth": 1024,
+      "navRight": 993.9999694824219,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 199.89999389648438,
+          "right": 276.8000030517578
+        },
+        {
+          "text": "Column spacing",
+          "left": 301.79998779296875,
+          "right": 401.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 426.8666687011719,
+          "right": 472.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 497.51666259765625,
+          "right": 540.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 565.86669921875,
+          "right": 626.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 651.6500244140625,
+          "right": 728.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 753.9000244140625,
+          "right": 802.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "colonnade.html",
+      "scrollWidth": 1024,
+      "navRight": 993.9999694824219,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 239.89999389648438,
+          "right": 316.8000030517578
+        },
+        {
+          "text": "Column spacing",
+          "left": 336.79998779296875,
+          "right": 436.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 456.8666687011719,
+          "right": 502.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 522.5166625976562,
+          "right": 565.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 585.86669921875,
+          "right": 646.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 666.6500244140625,
+          "right": 743.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 763.9000244140625,
+          "right": 812.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 832.683349609375,
+          "right": 941.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "theatre.html",
+      "scrollWidth": 1024,
+      "navRight": 994.0000152587891,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 250.3333282470703,
+          "right": 327.23333740234375
+        },
+        {
+          "text": "Spacing",
+          "left": 352.23333740234375,
+          "right": 401.8666687011719
+        },
+        {
+          "text": "Entasis",
+          "left": 426.8666687011719,
+          "right": 472.51666259765625
+        },
+        {
+          "text": "Fluting",
+          "left": 497.51666259765625,
+          "right": 540.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 565.86669921875,
+          "right": 626.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 651.6500244140625,
+          "right": 728.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 753.9000244140625,
+          "right": 802.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 827.683349609375,
+          "right": 936.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "echea.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 314.33331298828125,
+          "right": 391.2333221435547
+        },
+        {
+          "text": "Spacing",
+          "left": 408.23333740234375,
+          "right": 457.8666687011719
+        },
+        {
+          "text": "Entasis",
+          "left": 474.8666687011719,
+          "right": 520.5166625976562
+        },
+        {
+          "text": "Fluting",
+          "left": 537.5166625976562,
+          "right": 580.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 597.86669921875,
+          "right": 658.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 675.6500244140625,
+          "right": 752.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 769.9000244140625,
+          "right": 818.6833648681641
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 835.683349609375,
+          "right": 944.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 961.13330078125,
+          "right": 993.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1024,
+      "room": "hoist.html",
+      "scrollWidth": 1024,
+      "navRight": 994,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 337.16668701171875,
+          "right": 408.5833435058594
+        },
+        {
+          "text": "Spacing",
+          "left": 427.58331298828125,
+          "right": 473.6499786376953
+        },
+        {
+          "text": "Entasis",
+          "left": 492.6499938964844,
+          "right": 535.0500030517578
+        },
+        {
+          "text": "Fluting",
+          "left": 554.0499877929688,
+          "right": 594.2999877929688
+        },
+        {
+          "text": "Transport",
+          "left": 613.2999877929688,
+          "right": 669.7333221435547
+        },
+        {
+          "text": "Temple plan",
+          "left": 688.7333374023438,
+          "right": 760.4666595458984
+        },
+        {
+          "text": "Theatre",
+          "left": 779.4666748046875,
+          "right": 824.7666778564453
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 843.7666625976562,
+          "right": 944.4833374023438
+        },
+        {
+          "text": "Hoist",
+          "left": 963.4833374023438,
+          "right": 994
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "index.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 527.11669921875,
+          "right": 604.0166931152344
+        },
+        {
+          "text": "Column spacing",
+          "left": 629.0166625976562,
+          "right": 729.0833282470703
+        },
+        {
+          "text": "Entasis",
+          "left": 754.0833129882812,
+          "right": 799.7333221435547
+        },
+        {
+          "text": "Fluting",
+          "left": 824.7333374023438,
+          "right": 868.0833282470703
+        },
+        {
+          "text": "About",
+          "left": 893.0833129882812,
+          "right": 930.8666534423828
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "spacing.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 589.9000244140625,
+          "right": 666.8000335693359
+        },
+        {
+          "text": "Column spacing",
+          "left": 691.7999877929688,
+          "right": 791.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 816.86669921875,
+          "right": 862.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 887.5166625976562,
+          "right": 930.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "entasis.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 589.9000244140625,
+          "right": 666.8000335693359
+        },
+        {
+          "text": "Column spacing",
+          "left": 691.7999877929688,
+          "right": 791.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 816.86669921875,
+          "right": 862.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 887.5166625976562,
+          "right": 930.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "fluting.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 589.9000244140625,
+          "right": 666.8000335693359
+        },
+        {
+          "text": "Column spacing",
+          "left": 691.7999877929688,
+          "right": 791.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 816.86669921875,
+          "right": 862.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 887.5166625976562,
+          "right": 930.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "transport.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 589.9000244140625,
+          "right": 666.8000335693359
+        },
+        {
+          "text": "Column spacing",
+          "left": 691.7999877929688,
+          "right": 791.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 816.86669921875,
+          "right": 862.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 887.5166625976562,
+          "right": 930.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "colonnade.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 629.9000244140625,
+          "right": 706.8000335693359
+        },
+        {
+          "text": "Column spacing",
+          "left": 726.7999877929688,
+          "right": 826.8666534423828
+        },
+        {
+          "text": "Entasis",
+          "left": 846.86669921875,
+          "right": 892.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 912.5166625976562,
+          "right": 955.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 975.86669921875,
+          "right": 1036.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1056.6500244140625,
+          "right": 1133.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1153.9000244140625,
+          "right": 1202.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1222.683349609375,
+          "right": 1331.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "theatre.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 640.3333129882812,
+          "right": 717.2333221435547
+        },
+        {
+          "text": "Spacing",
+          "left": 742.2333374023438,
+          "right": 791.8666687011719
+        },
+        {
+          "text": "Entasis",
+          "left": 816.86669921875,
+          "right": 862.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 887.5166625976562,
+          "right": 930.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 955.86669921875,
+          "right": 1016.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1041.6500244140625,
+          "right": 1118.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1143.9000244140625,
+          "right": 1192.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1217.683349609375,
+          "right": 1326.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "echea.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 704.3333129882812,
+          "right": 781.2333221435547
+        },
+        {
+          "text": "Spacing",
+          "left": 798.2333374023438,
+          "right": 847.8666687011719
+        },
+        {
+          "text": "Entasis",
+          "left": 864.86669921875,
+          "right": 910.5166931152344
+        },
+        {
+          "text": "Fluting",
+          "left": 927.5166625976562,
+          "right": 970.8666687011719
+        },
+        {
+          "text": "Transport",
+          "left": 987.86669921875,
+          "right": 1048.6500244140625
+        },
+        {
+          "text": "Temple plan",
+          "left": 1065.6500244140625,
+          "right": 1142.9000244140625
+        },
+        {
+          "text": "Theatre",
+          "left": 1159.9000244140625,
+          "right": 1208.683364868164
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1225.683349609375,
+          "right": 1334.1333465576172
+        },
+        {
+          "text": "Hoist",
+          "left": 1351.13330078125,
+          "right": 1383.9999694824219
+        }
+      ],
+      "keyboardHoistNavigation": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "room": "hoist.html",
+      "scrollWidth": 1440,
+      "navRight": 1384,
+      "links": [
+        {
+          "text": "Doric corner",
+          "left": 727.1666870117188,
+          "right": 798.5833435058594
+        },
+        {
+          "text": "Spacing",
+          "left": 817.5833129882812,
+          "right": 863.6499786376953
+        },
+        {
+          "text": "Entasis",
+          "left": 882.6500244140625,
+          "right": 925.0500335693359
+        },
+        {
+          "text": "Fluting",
+          "left": 944.0499877929688,
+          "right": 984.2999877929688
+        },
+        {
+          "text": "Transport",
+          "left": 1003.2999877929688,
+          "right": 1059.7333221435547
+        },
+        {
+          "text": "Temple plan",
+          "left": 1078.7333984375,
+          "right": 1150.4667205810547
+        },
+        {
+          "text": "Theatre",
+          "left": 1169.4666748046875,
+          "right": 1214.7666778564453
+        },
+        {
+          "text": "Sounding vessels",
+          "left": 1233.7666015625,
+          "right": 1334.4832763671875
+        },
+        {
+          "text": "Hoist",
+          "left": 1353.4833984375,
+          "right": 1384.0000610351562
+        }
+      ],
+      "keyboardHoistNavigation": true
+    }
+  ]
+}

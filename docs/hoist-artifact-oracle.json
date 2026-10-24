@@ -1,0 +1,26 @@
+{
+  "method": "Independently calculated force/travel/work for actual CSV rows and literal M/L/A geometry of the native SVG",
+  "passed": true,
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "csv_rows": 211,
+      "literal_svg_route": true
+    },
+    {
+      "configuration": "chromium-375",
+      "csv_rows": 211,
+      "literal_svg_route": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "csv_rows": 211,
+      "literal_svg_route": true
+    },
+    {
+      "configuration": "firefox-375",
+      "csv_rows": 211,
+      "literal_svg_route": true
+    }
+  ]
+}

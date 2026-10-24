@@ -1,0 +1,6 @@
+{
+  "cases": 540,
+  "method": "Python Fraction force/work, independently constructed rope endpoints and semicircles at selected and probe poses",
+  "max_absolute_numeric_error": 4.320099833421409e-12,
+  "passed": true
+}

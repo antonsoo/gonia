@@ -1,0 +1,11 @@
+{
+  "format": "gonia-hoist-v1",
+  "state": {
+    "rig": "five",
+    "anchor": "moving",
+    "hold": "rise",
+    "distance": 1,
+    "weight": 1200,
+    "arm": 4
+  }
+}

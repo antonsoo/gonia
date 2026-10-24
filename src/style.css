@@ -154,7 +154,9 @@ footer {
 }
 nav {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 12px 25px;
   font-size: 14px;
 }
 nav a {

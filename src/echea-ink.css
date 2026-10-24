@@ -1,0 +1,122 @@
+.ec-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  font-family: Plex, Arial, sans-serif;
+  font-size: 21px;
+  color: #27352f;
+}
+.ec-diagram text {
+  fill: #27352f;
+  stroke: none;
+}
+.ec-diagram .ec-small-ink {
+  font-size: 17px;
+  fill: #4e594d;
+}
+.ec-seat {
+  fill: none;
+  stroke: #bdc5b4;
+  stroke-width: 10;
+}
+.ec-axis,
+.ec-grid {
+  fill: none;
+  stroke: #a8b2a0;
+  stroke-width: 1;
+}
+.ec-axis {
+  stroke-dasharray: 5 5;
+}
+.ec-stage {
+  fill: #d5ddca;
+  stroke: #6c7e61;
+}
+.ec-vessel rect {
+  fill: #f4f1e8;
+  stroke: #9a9d8f;
+  stroke-width: 1.5;
+}
+.ec-vessel path {
+  fill: #dfc58c;
+  stroke: #805617;
+  stroke-width: 2;
+}
+.ec-vessel.ec-selected rect {
+  stroke: #405a43;
+  stroke-width: 5;
+  fill: #d8e4ca;
+}
+.ec-vessel.ec-selected text {
+  font-weight: 600;
+  fill: #405a43;
+}
+.ec-vessel.ec-playing rect {
+  stroke: #963b25;
+  stroke-width: 5;
+  fill: #f3dfc6;
+}
+.ec-trace-line {
+  fill: none;
+  stroke: #805617;
+  stroke-width: 3;
+}
+.ec-dot circle {
+  fill: #805617;
+}
+.ec-dot.ec-selected circle {
+  fill: #405a43;
+  stroke: #f4f1e8;
+  stroke-width: 3;
+}
+.ec-response-line {
+  fill: none;
+  stroke: #405a43;
+  stroke-width: 3;
+}
+.ec-probe {
+  stroke: #963b25;
+  stroke-width: 2;
+  fill: none;
+}
+.ec-probe-dot {
+  fill: #963b25;
+  stroke: #f4f1e8;
+  stroke-width: 2;
+}
+.ec-masonry {
+  fill: #d8ddce;
+  stroke: #66765a;
+  stroke-width: 2;
+}
+.ec-bowl {
+  fill: none;
+  stroke: #805617;
+  stroke-width: 6;
+}
+.ec-wedge {
+  fill: #66765a;
+  stroke: #405a43;
+  stroke-width: 2;
+}
+.ec-leader {
+  fill: none;
+  stroke: #66765a;
+  stroke-width: 1.5;
+}
+
+.ec-burst-fill {
+  fill: #9caf84;
+  stroke: #405a43;
+  stroke-width: 1.5;
+}
+.ec-time-cursor {
+  stroke: #27352f;
+  stroke-width: 2;
+  fill: none;
+}
+
+.ec-diagram [hidden] {
+  display: none;
+}

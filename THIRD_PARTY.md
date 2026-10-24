@@ -237,3 +237,12 @@ from the documented modern equation are MIT, Anton Soloviev, 2026. No modern
 research illustration, modern translation or instrument recording is bundled.
 Saved readings embed the existing Noto Serif and IBM Plex font bytes with
 their full OFL notices.
+
+## Hoist room
+
+`public/sources/hoist/` contains five complete public-domain pages from Krohn's
+1912 Vitruvius: title, 226–227 and 232–233. The manifest records the freshly
+verified original PDF identity, exact page mapping, render settings and hashes.
+No page is cropped or retouched. New English, Latin/Greek notes, diagrams and
+model are MIT, Anton Soloviev, 2026. The source's editorial additions remain
+visible. Saved readings embed the existing fonts and complete OFL notices.

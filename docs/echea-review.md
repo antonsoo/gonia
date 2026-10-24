@@ -134,8 +134,12 @@ The [public review](echea-hosted.json) verifies SHA-256 for all 72 build files,
 then exercises Chromium and Firefox at 1440 and 375 pixels. All four runs
 completed keyboard selection, source inspection, audio playback/cancellation,
 SVG/CSV/WAV/HTML downloads, local opening of the saved reading, and all eight
-room loads with the browser disconnected. The offline saved reading also
-retains its scans and audio. [Actual downloaded audio analysis](echea-hosted-audio.json)
+room loads with Playwright's browser offline mode enabled. That hosted check
+does not control GitHub's origin; Firefox service workers can continue fetching
+under the browser flag. The separate local production and upgrade reviews
+physically disable their HTTP origin before checking offline operation.
+The saved reading from the hosted offline-mode run also retains its scans and
+audio. [Actual downloaded audio analysis](echea-hosted-audio.json)
 checks the thirteen frequencies, transient/free response and embedded WAVs.
 No physical-speaker listening or paper printing is claimed.
 

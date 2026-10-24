@@ -34,3 +34,6 @@ jobs:
       - run: python3 scripts/segments-oracle.py /tmp/gonia-segments-review/browser.json
       - run: npm run test:transport -- /tmp/gonia-transport
       - run: node --import tsx scripts/transport-cases.ts | python3 scripts/transport-oracle.py /tmp/gonia-transport/review.json
+      - run: npm run verify:hoist
+      - run: npm run test:hoist -- /tmp/gonia-hoist
+      - run: npm run verify:hoist-files -- /tmp/gonia-hoist

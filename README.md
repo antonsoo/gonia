@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Eight problems you can inspect and measure (the eighth is in the local edition):
+Eight problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -23,7 +23,7 @@ Eight problems you can inspect and measure (the eighth is in the local edition):
 - [Twelve points. Two theatres.](https://antonsoo.github.io/gonia/theatre.html):
   how can three squares produce a larger orchestra and a shallower stage than
   four triangles drawn in the same starting circle?
-- **New local room: [Thirteen vessels. Seven notes.](echea.html)**
+- **[Thirteen vessels. Seven notes.](https://antonsoo.github.io/gonia/echea.html)**
   Why does Vitruvius's pitch row turn upward on its way to the theatre's centre?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
@@ -55,16 +55,11 @@ the front elevation hides.
 
 ## Place and hear the sounding vessels
 
-The new eighth room is available locally at
-`http://127.0.0.1:4328/gonia/echea.html`. From this checkout:
-
-```sh
-npm ci
-npm run dev
-```
-
-This room has not been pushed or deployed. The public clone and demo remain
-separate from this local edition. [Review and publication boundary](docs/echea-review.md).
+[Open the sounding-vessel workshop](https://antonsoo.github.io/gonia/echea.html#ec-workshop).
+The public edition includes all eight rooms. Its 72 production files match the
+reviewed build; Chromium and Firefox checks cover desktop and phone controls,
+audio downloads, saved readings and navigation through every room offline.
+[Public review](docs/echea-hosted.json) · [Model and review](docs/echea-review.md).
 
 ![The thirteen-place row, selected matching vessels and pitch reversal](docs/assets/echea-desktop.png)
 

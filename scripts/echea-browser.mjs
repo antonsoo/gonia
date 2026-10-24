@@ -10,14 +10,29 @@ import { chromium, firefox } from "playwright";
 
 const output = path.resolve(process.argv[2] ?? "/tmp/gonia-echea-browser");
 const external = process.argv[3];
+const hosted = process.argv[4] === "--hosted";
+assert(!hosted || external?.startsWith("https://"), "Hosted review requires an HTTPS base URL");
+const production = !external || hosted;
 await mkdir(output, { recursive: true });
 const hash = (bytes) => createHash("sha256").update(bytes).digest("hex");
 const report = {
   checkedAt: new Date().toISOString(),
-  mode: external ? "development server" : "production build",
+  mode: hosted ? "public deployment" : external ? "development server" : "production build",
+  base: external ?? "local review server",
+  publicFiles: [],
   buildWorker: hash(await readFile("dist/sw.js")),
   configurations: [],
 };
+if (hosted) {
+  const expected = JSON.parse(await readFile("docs/echea-clean-build.json", "utf8"));
+  for (const [file, sha256] of Object.entries(expected.files)) {
+    const response = await fetch(`${external}${file}?review=${Date.now()}`);
+    assert.equal(response.status, 200, file);
+    assert.equal(hash(Buffer.from(await response.arrayBuffer())), sha256, file);
+    report.publicFiles.push({ file, sha256 });
+  }
+  console.log(`All ${report.publicFiles.length} public files match the reviewed build`);
+}
 const types = {
   ".html": "text/html",
   ".js": "text/javascript",
@@ -212,9 +227,11 @@ for (const [engineName, engine] of [
           axe.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),
           [],
         );
-        if (!external)
-          await page.waitForFunction(() =>
-            document.querySelector("#ec-offline").textContent.includes("saved offline"),
+        if (production)
+          await page.waitForFunction(
+            () => document.querySelector("#ec-offline").textContent.includes("saved offline"),
+            null,
+            { timeout: 60000 },
           );
         // Hold a real resume completion, then cancel before the pending play can start.
         const beforePending = await page.evaluate(() => window.ecAudio.length);
@@ -288,8 +305,8 @@ for (const [engineName, engine] of [
           "theatre.html",
           "echea.html",
         ];
-        if (!external) {
-          server.offline();
+        if (production) {
+          if (!external) server.offline();
           await context.setOffline(true);
           for (const room of rooms) {
             await page.goto(base + room);
@@ -300,7 +317,7 @@ for (const [engineName, engine] of [
           await download(page, "#ec-save-reading", path.join(folder, "offline-reading.html"));
         }
         await context.setOffline(false);
-        // The dead origin remains unavailable. Offline readiness must include every room.
+        // Local review also kills its origin; hosted review disconnects the browser.
         const rowReport = {
           engine: engineName,
           width,
@@ -311,7 +328,8 @@ for (const [engineName, engine] of [
           externalRequests: requests,
           csp: await page.evaluate(() => window.ecCsp),
           pageErrors: errors,
-          offlineRooms: external ? [] : rooms,
+          offlineRooms: production ? rooms : [],
+          browserVersion: browser.version(),
           readingBytes: reading.length,
           axeViolations: axe.violations.length,
           cancelledDelayedResume: true,

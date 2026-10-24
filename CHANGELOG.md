@@ -12,7 +12,8 @@
   mounting instructions, editorial variants and the author's evidence limits.
 - Save self-contained readings with audio, fonts and scans, plus SVG, CSV and
   WAV exports. Include the new room in the verified offline edition.
-- Keep publication pending; this version is reviewed and committed locally.
+- Publish all eight rooms; verify all 72 hosted build files, browser downloads,
+  audio samples and offline navigation in Chromium and Firefox at two widths.
 
 ## 0.8.0 — 2026-10-23
 

@@ -121,19 +121,32 @@ and an HTML table. No interaction depends on hovering or hitting a tiny SVG mark
 The exported PDF keeps the source apparatus complete and selectable Latin/Greek
 text in the new reading.
 
-## Publication boundary
+## Public edition
 
-The complete static build command is `npm run build`; output is **`dist/`**,
-with base path **`/gonia/`** and new entry **`echea.html`**. Source and build have
-been reviewed locally. This session did not push, create a release, change
-GitHub settings or deploy. `HOUSE_STANDARDS.md` explicitly says, “Do NOT create
-the GitHub repo, push, tag, or publish to npm/PyPI/crates.”
+Published on 2026-10-23 (America/Los_Angeles), with source through `24a4599`
+and deployment commit `de77181a6f7b4b5786f289e6d8074e39fb24126e`. The complete
+build command is `npm run build`; output is **`dist/`**, with base **`/gonia/`**.
+The deployment is a normal descendant of the previous Pages commit and retains
+older hashed assets for readers holding cached entry pages.
 
-No hosted-byte or public-browser claim is made for this new edition. The new
-room is linked from all local Gonia pages; Officina's public catalogue was left
-unchanged to avoid advertising an undeployed route.
+[Open the eighth room](https://antonsoo.github.io/gonia/echea.html#ec-workshop).
+The [public review](echea-hosted.json) verifies SHA-256 for all 72 build files,
+then exercises Chromium and Firefox at 1440 and 375 pixels. All four runs
+completed keyboard selection, source inspection, audio playback/cancellation,
+SVG/CSV/WAV/HTML downloads, local opening of the saved reading, and all eight
+room loads with the browser disconnected. The offline saved reading also
+retains its scans and audio. [Actual downloaded audio analysis](echea-hosted-audio.json)
+checks the thirteen frequencies, transient/free response and embedded WAVs.
+No physical-speaker listening or paper printing is claimed.
 
-Suggested repository description:
+Reproduce the public workflow against the retained build manifest:
+
+```sh
+node scripts/echea-browser.mjs /tmp/gonia-echea-hosted https://antonsoo.github.io/gonia/ --hosted
+python3 scripts/echea-audio-oracle.py /tmp/gonia-echea-hosted
+```
+
+Repository description:
 “Measured ancient architecture: temple geometry, stone transport, theatre plans and sounding vessels.”
-Suggested topics: `ancient-greek`, `architecture`, `vitruvius`, `music-theory`,
+Topics: `ancient-greek`, `architecture`, `vitruvius`, `music-theory`,
 `acoustics`, `education`, `offline`, `typescript`.

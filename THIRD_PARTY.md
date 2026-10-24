@@ -222,3 +222,18 @@ records the original PDF identity, page mapping, transcription and the
 distinction between the angle in a segment and the angle of a segment.
 New comparison drawings, English, explanations and code are MIT,
 Anton Soloviev, 2026.
+
+## Sounding vessels
+
+`public/sources/echea/` adds complete pages 102–105 of Krohn's 1912 public-domain
+Vitruvius edition. Page 106 reuses `public/sources/theatre/krohn-106.jpg`.
+The [manifest](public/sources/echea/manifest.json) gives the PDF identity, page
+mapping, rendering settings and SHA-256 hashes. The
+[source and model note](docs/echea-model.md) records transcription and editorial
+decisions. All five pages were visually inspected.
+
+New English translations, language notes, SVG drawings and sounds generated
+from the documented modern equation are MIT, Anton Soloviev, 2026. No modern
+research illustration, modern translation or instrument recording is bundled.
+Saved readings embed the existing Noto Serif and IBM Plex font bytes with
+their full OFL notices.

@@ -1,0 +1,36 @@
+{
+  "edition": "Vitruvii De architectura libri decem, ed. F. Krohn, Leipzig: B. G. Teubner, 1912",
+  "originalURL": "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf",
+  "originalSha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+  "pages": {
+    "title": 5,
+    "72": 90,
+    "73": 91,
+    "74": 92
+  },
+  "rendering": "pdftoppm -scale-to 2100 -jpeg -jpegopt quality=88, complete pages; no crop or retouch",
+  "photograph": {
+    "objectID": 252453,
+    "accession": "26.59.1",
+    "title": "Marble column from the Temple of Artemis at Sardis",
+    "date": "ca. 300 BCE",
+    "credit": "Gift of The American Society for the Excavation of Sardis, 1926",
+    "source": "https://images.metmuseum.org/CRDImages/gr/original/DP144130.jpg",
+    "objectURL": "https://www.metmuseum.org/art/collection/search/252453",
+    "rights": "The Met Open Access: CC0 public-domain image",
+    "changes": "None. Original 3738 by 3790 JPEG retained."
+  },
+  "assets": {
+    "sources/optics/krohn-072.jpg": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe",
+    "sources/optics/krohn-073.jpg": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f",
+    "sources/optics/krohn-074.jpg": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b",
+    "sources/optics/met-252453-DP144130.jpg": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+    "sources/optics/met-252453.json": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af",
+    "sources/optics/NOTICES.txt": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea",
+    "sources/hoist/krohn-title.jpg": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db",
+    "fonts/NotoSerif-Regular.ttf": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+    "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+    "fonts/NotoSerif-OFL.txt": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+    "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+  }
+}

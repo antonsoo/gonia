@@ -1,0 +1,39 @@
+GONIA: ONE TWELFTH, SEEN FROM WHERE?
+
+Historical text and printed source pages: public domain.
+Vitruvius, De architectura III.5.9 and III.5.13, edited by Fritz Krohn,
+Leipzig: B. G. Teubner, 1912, printed pages 72-74.
+https://archive.org/details/vitruviidearchit00vitr_1
+https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf
+The complete pages are rendered from the identified volume. The existing
+complete title-page scan is reused. No printed letter is retouched.
+
+MUSEUM OBJECT AND PHOTOGRAPH
+Marble column from the Temple of Artemis at Sardis, Greek, Hellenistic,
+ca. 300 BCE. Metropolitan Museum of Art, object 252453, accession 26.59.1.
+Gift of The American Society for the Excavation of Sardis, 1926.
+https://www.metmuseum.org/art/collection/search/252453
+https://collectionapi.metmuseum.org/public/collection/v1/objects/252453
+https://images.metmuseum.org/CRDImages/gr/original/DP144130.jpg
+Image and object data: The Met Open Access, CC0.
+https://www.metmuseum.org/hubs/open-access
+The original 3738 x 3790 JPEG is retained unchanged. The displayed ancient
+fragments were reassembled from one or more columns; parts of the shaft are
+restored and the profiled base below the torus is a copy. The modern museum
+columns in the background are not the object under discussion. This photograph
+locates the capital; it supplies no measured tilt for the upper building.
+
+TEACHING TEXT, CODE AND DIAGRAMS
+Copyright (c) 2026 Anton Soloviev. MIT; see the repository LICENSE.
+English translations, contextual notes, diagrams and the pinhole analysis are
+new. Ancient Greek companion words are learning aids, not a Greek original of
+Vitruvius. In particular, epistylia is connected with the Greek headword
+epistylion, as recorded in the Perseus/Scaife lexicon linked in the reading.
+
+The text supplies the 1:12 inclination. Modern metres, observer position,
+fixed face length, rotation about its centre, the camera aimed at that centre,
+and equal-mark comparisons are explicitly chosen model conditions. They are
+not ancient measured dimensions or a psychophysical experiment.
+
+Noto Serif and IBM Plex Sans retain their SIL Open Font License notices in
+fonts/NotoSerif-OFL.txt and fonts/IBMPlex-OFL.txt. No remote font service is used.

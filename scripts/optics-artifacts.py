@@ -31,10 +31,15 @@ for folder in sorted(root.glob('*-*')):
     image_hashes=[hashlib.sha256(base64.b64decode(s)).hexdigest() for s in re.findall(r'<img[^>]*src="data:image/jpeg;base64,([^"]+)"',book)]
     expected_hashes=[v for k,v in manifest['assets'].items() if k.endswith('.jpg')]
     assert sorted(image_hashes)==sorted(expected_hashes)
+    assert 'Permission is hereby granted, free of charge' in book
+    assert 'Study edition:' in book
     rows.append({'configuration':folder.name,'actualCSVDataRows':len(data),'CSVGeometryComparisons':len(data)*9,'sourceAndLanguageFieldsInHTML':len(fields),'originalJPEGsInHTML':len(image_hashes),'SVGSettings':saved['settings']})
 assert len(rows)==4
 pdf=root/'chromium-1440/reading.pdf';txt=subprocess.check_output(['pdftotext','-layout',str(pdf),'-']).decode();text=norm(txt)
 for field in fields:assert norm(field) in text,('PDF field missing',field)
+assert 'Permission is hereby granted, free of charge' in text
+compact=lambda value: ''.join(unicodedata.normalize('NFKC',value).split())
+assert compact((repo/'LICENSE').read_text()) in compact(txt)
 extracted=root/'pdf-images';extracted.mkdir(exist_ok=True)
 subprocess.run(['pdfimages','-j',str(pdf),str(extracted/'image')],check=True)
 found=[hashlib.sha256(p.read_bytes()).hexdigest() for p in extracted.glob('*.jpg')]

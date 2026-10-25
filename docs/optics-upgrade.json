@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-25T02:41:49.724Z",
+  "checkedAt": "2026-10-25T02:48:45.687Z",
   "previous": "supplied prior nine-room build",
   "rows": [
     {
@@ -10,10 +10,10 @@
       "pendingStatus": "Downloading the updated workshop & sources…",
       "oldNineRoomEditionWorkedOffline": true,
       "unverifiedReadingNotDownloaded": true,
-      "newCache": "gonia-43aa71b269b4ac8d84cb33bee53ae7f9d94eca4c71d8a8efd821affe7760e59d",
+      "newCache": "gonia-6ea419de3283c87e005c1b8ff1c08efc19dd46477a3ae06a799611aebacf4ca7",
       "obsoleteEmptyCaches": [],
       "newTenRoomEditionWorkedOffline": true,
-      "disabledOriginRequests": 17,
+      "disabledOriginRequests": 18,
       "currentInspectionDidNotRecreateDeletedCache": true
     },
     {
@@ -24,10 +24,10 @@
       "pendingStatus": "Downloading the updated workshop & sources…",
       "oldNineRoomEditionWorkedOffline": true,
       "unverifiedReadingNotDownloaded": true,
-      "newCache": "gonia-43aa71b269b4ac8d84cb33bee53ae7f9d94eca4c71d8a8efd821affe7760e59d",
+      "newCache": "gonia-6ea419de3283c87e005c1b8ff1c08efc19dd46477a3ae06a799611aebacf4ca7",
       "obsoleteEmptyCaches": [],
       "newTenRoomEditionWorkedOffline": true,
-      "disabledOriginRequests": 30,
+      "disabledOriginRequests": 29,
       "currentInspectionDidNotRecreateDeletedCache": true
     },
     {
@@ -38,10 +38,10 @@
       "pendingStatus": "Downloading the updated workshop & sources…",
       "oldNineRoomEditionWorkedOffline": true,
       "unverifiedReadingNotDownloaded": true,
-      "newCache": "gonia-43aa71b269b4ac8d84cb33bee53ae7f9d94eca4c71d8a8efd821affe7760e59d",
+      "newCache": "gonia-6ea419de3283c87e005c1b8ff1c08efc19dd46477a3ae06a799611aebacf4ca7",
       "obsoleteEmptyCaches": [],
       "newTenRoomEditionWorkedOffline": true,
-      "disabledOriginRequests": 160,
+      "disabledOriginRequests": 130,
       "currentInspectionDidNotRecreateDeletedCache": true
     },
     {
@@ -52,10 +52,10 @@
       "pendingStatus": "Finishing the offline installation…",
       "oldNineRoomEditionWorkedOffline": true,
       "unverifiedReadingNotDownloaded": true,
-      "newCache": "gonia-43aa71b269b4ac8d84cb33bee53ae7f9d94eca4c71d8a8efd821affe7760e59d",
+      "newCache": "gonia-6ea419de3283c87e005c1b8ff1c08efc19dd46477a3ae06a799611aebacf4ca7",
       "obsoleteEmptyCaches": [],
       "newTenRoomEditionWorkedOffline": true,
-      "disabledOriginRequests": 170,
+      "disabledOriginRequests": 120,
       "currentInspectionDidNotRecreateDeletedCache": true
     }
   ]

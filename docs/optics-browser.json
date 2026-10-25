@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-25T02:41:08.342Z",
+  "checkedAt": "2026-10-25T02:48:29.486Z",
   "base": "origin-disabled local production",
   "development": false,
-  "worker": "e609b6fc1452a0b1cabd7c9d3b2d2cbcbfeb29e7ec4526f9ba30de4323fb3a99",
+  "worker": "9f3a7de364dd3e26c157aff7b2cae93201b2294a6721396a959a89454a227ea1",
   "configurations": [
     {
       "browser": "chromium",

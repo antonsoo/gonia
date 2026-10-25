@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.11.0 — 2026-10-24
+
+- Add a source-prescribed 1:12 inclination with a movable observer, equal-ray
+  comparison, enlarged face normal and explicitly modern pinhole spacing.
+- Read six Latin clauses, eighteen contextual notes and two Greek companions
+  beside four full printed pages and an unchanged museum object photograph.
+- Save complete script-free illustrated studies, SVG and comparative CSV;
+  include the tenth room in the integrity-checked offline edition.
+
 ## 0.10.0 — 2026-10-24
 
 - Add a learner-operated hoist room: retain wheel count and move the tied end.

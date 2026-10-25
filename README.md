@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Eight problems you can inspect and measure:
+Ten problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -25,6 +25,11 @@ Eight problems you can inspect and measure:
   four triangles drawn in the same starting circle?
 - **[Thirteen vessels. Seven notes.](https://antonsoo.github.io/gonia/echea.html)**
   Why does Vitruvius's pitch row turn upward on its way to the theatre's centre?
+
+- [Where you tie the rope](https://antonsoo.github.io/gonia/hoist.html):
+  how does moving one tied end change the lift, with every wheel retained?
+- [One twelfth, seen from where?](https://antonsoo.github.io/gonia/optics.html):
+  does the same forward lean face every observer squarely?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -53,6 +58,33 @@ the front elevation hides.
 - Use the workshop and source PDF offline after the footer confirms they are
   saved. No accounts, analytics, remote fonts or runtime services.
 
+## Keep the inclination; move the eye
+
+[Open the viewpoint experiment](https://antonsoo.github.io/gonia/optics.html?d=300&h=120&e=16&l=40&a=48&mode=source&read=4#vp-workshop).
+Vitruvius III.5.13 prescribes a forward inclination by one twelfth of a
+member's height. The new room asks which chosen observer that fixed lean faces
+squarely. At a 12 m face centre and 1.6 m eye, equal endpoint rays occur at
+124.8 m; move farther and the upper ray becomes shorter. Those metres and that
+criterion belong to the modern model, not a viewing-distance rule in the text.
+
+![Chosen observer, equal-scale rays, enlarged face normal, source text and complete printed evidence](docs/assets/optics-workshop.png)
+
+Compare vertical, prescribed, eye-facing and custom inclinations. Inspect a
+pinhole projection of equal physical divisions. Read six Latin clauses with
+new English, eighteen contextual word notes and two sourced Greek companions.
+Four complete printed pages retain the surrounding text and apparatus. An
+unchanged Met photograph locates an Ionic capital; its upper building is
+absent and its restored museum display supplies no measured tilt.
+
+Save a script-free illustrated reading, SVG or comparative CSV. The retained
+[twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
+and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
+is compressed for the repository. Decompress it before opening.
+All ten rooms share one integrity-checked offline edition. The independent
+geometry, actual browser files and interrupted nine-to-ten-room upgrades are
+recorded in the [direct review](docs/optics-review.md) and
+[source/model analysis](docs/optics-model.md).
+
 ## Lift the load; keep the wheels
 
 The new [hoist room](https://antonsoo.github.io/gonia/hoist.html#hw-workshop) follows Vitruvius X.2.1–3.
@@ -74,10 +106,10 @@ to Krohn's 1912 text. Save a complete script-free illustrated reading, SVG,
 211-row CSV or strict editable JSON; reopen settings and share a link. The
 repository retains a [13-page PDF](examples/hoist-reading.pdf) printed from the
 [actual saved reading](examples/hoist-reading.html).
-The whole nine-room production edition is cached with file-integrity checks.
+That earlier nine-room production edition was cached with file-integrity checks.
 
 [Source and model](docs/hoist-model.md) · [Direct review](docs/hoist-review.md).
-The reviewed nine-room edition is public. [Publication evidence](docs/hoist-publication.md) identifies all 81 canonical hosted files and the separate public browser review.
+The earlier nine-room publication record is retained. [Publication evidence](docs/hoist-publication.md) identifies all 81 canonical hosted files and the separate public browser review.
 
 ## Place and hear the sounding vessels
 

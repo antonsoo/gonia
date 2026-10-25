@@ -37,3 +37,6 @@ jobs:
       - run: npm run verify:hoist
       - run: npm run test:hoist -- /tmp/gonia-hoist
       - run: npm run verify:hoist-files -- /tmp/gonia-hoist
+      - run: npm run verify:optics
+      - run: npm run test:optics -- /tmp/gonia-optics
+      - run: python3 scripts/optics-artifacts.py /tmp/gonia-optics

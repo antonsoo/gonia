@@ -84,6 +84,7 @@ All ten rooms share one integrity-checked offline edition. The independent
 geometry, actual browser files and interrupted nine-to-ten-room upgrades are
 recorded in the [direct review](docs/optics-review.md) and
 [source/model analysis](docs/optics-model.md).
+The published edition has [separate source, 91-file canonical and public-browser evidence](docs/optics-publication.md).
 
 ## Lift the load; keep the wheels
 

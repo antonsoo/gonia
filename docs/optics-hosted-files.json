@@ -1,0 +1,950 @@
+{
+  "schemaVersion": 1,
+  "node": "v26.7.0",
+  "requestTimeoutMs": 10000,
+  "retryWindowMs": 180000,
+  "pollIntervalMs": 5000,
+  "concurrency": 6,
+  "baseURL": "https://antonsoo.github.io/gonia/",
+  "state": "verified",
+  "attempts": 1,
+  "startedAtUtc": "2026-10-25T02:52:38.581Z",
+  "checkedAtUtc": "2026-10-25T02:52:46.466Z",
+  "buildManifestSha256": "2dc8fd54c1b1fd00dd66eb65e67a8f889c70ff5baf620af9f982459b97aaddf2",
+  "expectedFileCount": 91,
+  "checkedFileCount": 91,
+  "verifiedFileCount": 91,
+  "rootBefore": {
+    "path": "index.html",
+    "bytes": 1180,
+    "sha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+    "url": "https://antonsoo.github.io/gonia/",
+    "httpStatus": 200,
+    "observedBytes": 1180,
+    "observedSha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+    "state": "verified"
+  },
+  "rootAfter": {
+    "path": "index.html",
+    "bytes": 1180,
+    "sha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+    "url": "https://antonsoo.github.io/gonia/",
+    "httpStatus": 200,
+    "observedBytes": 1180,
+    "observedSha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+    "state": "verified"
+  },
+  "files": [
+    {
+      "path": "assets/LICENSE_raw-logISlDD.js",
+      "bytes": 1095,
+      "sha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "url": "https://antonsoo.github.io/gonia/assets/LICENSE_raw-logISlDD.js",
+      "httpStatus": 200,
+      "observedBytes": 1095,
+      "observedSha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "state": "verified"
+    },
+    {
+      "path": "assets/colonnade-C6ETJgZU.css",
+      "bytes": 10632,
+      "sha256": "c91a3a660779d01c47bc8ad2f13665bb80b361bb64e67fccd1dddee504cf0ef2",
+      "url": "https://antonsoo.github.io/gonia/assets/colonnade-C6ETJgZU.css",
+      "httpStatus": 200,
+      "observedBytes": 10632,
+      "observedSha256": "c91a3a660779d01c47bc8ad2f13665bb80b361bb64e67fccd1dddee504cf0ef2",
+      "state": "verified"
+    },
+    {
+      "path": "assets/colonnade-Ca3Arui3.js",
+      "bytes": 48439,
+      "sha256": "5603228c3fd2181ab94f80f643a2a1f773fa3b2b06e9e63ab92cfc15a96a23ce",
+      "url": "https://antonsoo.github.io/gonia/assets/colonnade-Ca3Arui3.js",
+      "httpStatus": 200,
+      "observedBytes": 48439,
+      "observedSha256": "5603228c3fd2181ab94f80f643a2a1f773fa3b2b06e9e63ab92cfc15a96a23ce",
+      "state": "verified"
+    },
+    {
+      "path": "assets/drawing-BoRtX5xJ.js",
+      "bytes": 6591,
+      "sha256": "e26a26c1feb37930f42e66535fc96e5fd1a42bf36d01ba891ff76e647e75e148",
+      "url": "https://antonsoo.github.io/gonia/assets/drawing-BoRtX5xJ.js",
+      "httpStatus": 200,
+      "observedBytes": 6591,
+      "observedSha256": "e26a26c1feb37930f42e66535fc96e5fd1a42bf36d01ba891ff76e647e75e148",
+      "state": "verified"
+    },
+    {
+      "path": "assets/echea-PoDcUi_B.css",
+      "bytes": 7440,
+      "sha256": "85b9f74e5fb1d57caa4d03f8bd997f290d53228c74c21402b30252e12ce5aeec",
+      "url": "https://antonsoo.github.io/gonia/assets/echea-PoDcUi_B.css",
+      "httpStatus": 200,
+      "observedBytes": 7440,
+      "observedSha256": "85b9f74e5fb1d57caa4d03f8bd997f290d53228c74c21402b30252e12ce5aeec",
+      "state": "verified"
+    },
+    {
+      "path": "assets/echea-QHBV0Psx.js",
+      "bytes": 54050,
+      "sha256": "ac2f4d785661ebc0f43890ef10a29a7b4351f15f114501232ab8d9857949b81f",
+      "url": "https://antonsoo.github.io/gonia/assets/echea-QHBV0Psx.js",
+      "httpStatus": 200,
+      "observedBytes": 54050,
+      "observedSha256": "ac2f4d785661ebc0f43890ef10a29a7b4351f15f114501232ab8d9857949b81f",
+      "state": "verified"
+    },
+    {
+      "path": "assets/entasis-CK0uS1En.js",
+      "bytes": 46794,
+      "sha256": "3908314681335a0d0681a52a7e3fc0cd71ee2bc61d3b520003be66794f8785e9",
+      "url": "https://antonsoo.github.io/gonia/assets/entasis-CK0uS1En.js",
+      "httpStatus": 200,
+      "observedBytes": 46794,
+      "observedSha256": "3908314681335a0d0681a52a7e3fc0cd71ee2bc61d3b520003be66794f8785e9",
+      "state": "verified"
+    },
+    {
+      "path": "assets/entasis-QEne2H1K.css",
+      "bytes": 6979,
+      "sha256": "77e1418f4aad62226ffe3f40bc0407611ee3f2a6051478c856879fa2dbbebe82",
+      "url": "https://antonsoo.github.io/gonia/assets/entasis-QEne2H1K.css",
+      "httpStatus": 200,
+      "observedBytes": 6979,
+      "observedSha256": "77e1418f4aad62226ffe3f40bc0407611ee3f2a6051478c856879fa2dbbebe82",
+      "state": "verified"
+    },
+    {
+      "path": "assets/fluting-CyDeXJNl.css",
+      "bytes": 9089,
+      "sha256": "8f36cd78fb63fb347686a753c5c5cf909b65bc5cd33552350425d77259cfa3a9",
+      "url": "https://antonsoo.github.io/gonia/assets/fluting-CyDeXJNl.css",
+      "httpStatus": 200,
+      "observedBytes": 9089,
+      "observedSha256": "8f36cd78fb63fb347686a753c5c5cf909b65bc5cd33552350425d77259cfa3a9",
+      "state": "verified"
+    },
+    {
+      "path": "assets/fluting-DEcOEwmz.js",
+      "bytes": 65280,
+      "sha256": "d318b8a7c61d22f78c810c5fa0f8ba4dd6a0846e9537cb6d7236b24fd9a5c218",
+      "url": "https://antonsoo.github.io/gonia/assets/fluting-DEcOEwmz.js",
+      "httpStatus": 200,
+      "observedBytes": 65280,
+      "observedSha256": "d318b8a7c61d22f78c810c5fa0f8ba4dd6a0846e9537cb6d7236b24fd9a5c218",
+      "state": "verified"
+    },
+    {
+      "path": "assets/hoist-Bxxw5FsJ.css",
+      "bytes": 6027,
+      "sha256": "e4aaf2c58e674911d44f2c7e0fd37668d49c290984d4708b5cb14ba704c28aa5",
+      "url": "https://antonsoo.github.io/gonia/assets/hoist-Bxxw5FsJ.css",
+      "httpStatus": 200,
+      "observedBytes": 6027,
+      "observedSha256": "e4aaf2c58e674911d44f2c7e0fd37668d49c290984d4708b5cb14ba704c28aa5",
+      "state": "verified"
+    },
+    {
+      "path": "assets/hoist-Don4UQ3i.js",
+      "bytes": 49126,
+      "sha256": "88474b458f6d468a8268559956ccd28eb039874051c7ba5fb1cc22aa294c78b5",
+      "url": "https://antonsoo.github.io/gonia/assets/hoist-Don4UQ3i.js",
+      "httpStatus": 200,
+      "observedBytes": 49126,
+      "observedSha256": "88474b458f6d468a8268559956ccd28eb039874051c7ba5fb1cc22aa294c78b5",
+      "state": "verified"
+    },
+    {
+      "path": "assets/main-DKl8Zu2H.js",
+      "bytes": 21729,
+      "sha256": "cd21c2dd45603b86203b9f6041d12d7c1f61853655a60ee41d5acdd1cdd7093c",
+      "url": "https://antonsoo.github.io/gonia/assets/main-DKl8Zu2H.js",
+      "httpStatus": 200,
+      "observedBytes": 21729,
+      "observedSha256": "cd21c2dd45603b86203b9f6041d12d7c1f61853655a60ee41d5acdd1cdd7093c",
+      "state": "verified"
+    },
+    {
+      "path": "assets/offline-8h9EIU8x.css",
+      "bytes": 12585,
+      "sha256": "d54aea2b18f848a029461347da4fc1ab8fd264ddd1742c95d94491e8c2f77d79",
+      "url": "https://antonsoo.github.io/gonia/assets/offline-8h9EIU8x.css",
+      "httpStatus": 200,
+      "observedBytes": 12585,
+      "observedSha256": "d54aea2b18f848a029461347da4fc1ab8fd264ddd1742c95d94491e8c2f77d79",
+      "state": "verified"
+    },
+    {
+      "path": "assets/offline-Dwjvgvyn.js",
+      "bytes": 2616,
+      "sha256": "cff4daa96c6487362cd5ce6adaebff0d82bd78df07f4b5caf628a3e231a7850e",
+      "url": "https://antonsoo.github.io/gonia/assets/offline-Dwjvgvyn.js",
+      "httpStatus": 200,
+      "observedBytes": 2616,
+      "observedSha256": "cff4daa96c6487362cd5ce6adaebff0d82bd78df07f4b5caf628a3e231a7850e",
+      "state": "verified"
+    },
+    {
+      "path": "assets/optics-TbbzjEuQ.css",
+      "bytes": 4659,
+      "sha256": "0510badbb62c06185b4c926bb1cc685c57e324399da5b2e04442d62016e12bc2",
+      "url": "https://antonsoo.github.io/gonia/assets/optics-TbbzjEuQ.css",
+      "httpStatus": 200,
+      "observedBytes": 4659,
+      "observedSha256": "0510badbb62c06185b4c926bb1cc685c57e324399da5b2e04442d62016e12bc2",
+      "state": "verified"
+    },
+    {
+      "path": "assets/optics-hmB2FXqP.js",
+      "bytes": 44405,
+      "sha256": "5ab918153afb371a77d7cf939dbfcf58740f92956de0f3fe62fb220af964491c",
+      "url": "https://antonsoo.github.io/gonia/assets/optics-hmB2FXqP.js",
+      "httpStatus": 200,
+      "observedBytes": 44405,
+      "observedSha256": "5ab918153afb371a77d7cf939dbfcf58740f92956de0f3fe62fb220af964491c",
+      "state": "verified"
+    },
+    {
+      "path": "assets/spacing-C8wTAflL.css",
+      "bytes": 6883,
+      "sha256": "a06668adea502bb780f8c45cc3b3ac23874e67f224645e4914abaa6b363bfa31",
+      "url": "https://antonsoo.github.io/gonia/assets/spacing-C8wTAflL.css",
+      "httpStatus": 200,
+      "observedBytes": 6883,
+      "observedSha256": "a06668adea502bb780f8c45cc3b3ac23874e67f224645e4914abaa6b363bfa31",
+      "state": "verified"
+    },
+    {
+      "path": "assets/spacing-Cprphm6y.js",
+      "bytes": 32976,
+      "sha256": "74f9ac5c0de0d81d7547354e1b3ee6056f5d4152e035b3abbd95033291cab3ed",
+      "url": "https://antonsoo.github.io/gonia/assets/spacing-Cprphm6y.js",
+      "httpStatus": 200,
+      "observedBytes": 32976,
+      "observedSha256": "74f9ac5c0de0d81d7547354e1b3ee6056f5d4152e035b3abbd95033291cab3ed",
+      "state": "verified"
+    },
+    {
+      "path": "assets/theatre-3Yndn_KY.css",
+      "bytes": 14246,
+      "sha256": "0530225b41cb206da5596bbff7065598a9edf0c20c371fc8d1155d63503d6e5a",
+      "url": "https://antonsoo.github.io/gonia/assets/theatre-3Yndn_KY.css",
+      "httpStatus": 200,
+      "observedBytes": 14246,
+      "observedSha256": "0530225b41cb206da5596bbff7065598a9edf0c20c371fc8d1155d63503d6e5a",
+      "state": "verified"
+    },
+    {
+      "path": "assets/theatre-CwsDnxIf.js",
+      "bytes": 58431,
+      "sha256": "4558be89802aa87d1642d92fe968195bca5da4a207a0716d91bf268d8301605d",
+      "url": "https://antonsoo.github.io/gonia/assets/theatre-CwsDnxIf.js",
+      "httpStatus": 200,
+      "observedBytes": 58431,
+      "observedSha256": "4558be89802aa87d1642d92fe968195bca5da4a207a0716d91bf268d8301605d",
+      "state": "verified"
+    },
+    {
+      "path": "assets/transport-Duwa_JC9.js",
+      "bytes": 45630,
+      "sha256": "9a6aedf00ad5bfb5a1b094b7020b3043a527f833d992667c4bf7e778270ad26b",
+      "url": "https://antonsoo.github.io/gonia/assets/transport-Duwa_JC9.js",
+      "httpStatus": 200,
+      "observedBytes": 45630,
+      "observedSha256": "9a6aedf00ad5bfb5a1b094b7020b3043a527f833d992667c4bf7e778270ad26b",
+      "state": "verified"
+    },
+    {
+      "path": "assets/transport-ElzZfsvG.css",
+      "bytes": 9779,
+      "sha256": "e11323c8324c175b2afa8c75313a48e7d6ed828328b8be67d01b5f1ec23646fa",
+      "url": "https://antonsoo.github.io/gonia/assets/transport-ElzZfsvG.css",
+      "httpStatus": 200,
+      "observedBytes": 9779,
+      "observedSha256": "e11323c8324c175b2afa8c75313a48e7d6ed828328b8be67d01b5f1ec23646fa",
+      "state": "verified"
+    },
+    {
+      "path": "colonnade.html",
+      "bytes": 1134,
+      "sha256": "1df9db74680ff0ccdceb3e572ca3f00fe09cbefb75af2317c7b5c281dc4af067",
+      "url": "https://antonsoo.github.io/gonia/colonnade.html",
+      "httpStatus": 200,
+      "observedBytes": 1134,
+      "observedSha256": "1df9db74680ff0ccdceb3e572ca3f00fe09cbefb75af2317c7b5c281dc4af067",
+      "state": "verified"
+    },
+    {
+      "path": "echea.html",
+      "bytes": 1219,
+      "sha256": "b54c15659dfd50f5fad4b65c7f1e108b4a6b1847a3587f2eb9c925a48d9eb136",
+      "url": "https://antonsoo.github.io/gonia/echea.html",
+      "httpStatus": 200,
+      "observedBytes": 1219,
+      "observedSha256": "b54c15659dfd50f5fad4b65c7f1e108b4a6b1847a3587f2eb9c925a48d9eb136",
+      "state": "verified"
+    },
+    {
+      "path": "entasis.html",
+      "bytes": 1327,
+      "sha256": "f7b2c7faecdcbefb5a0fa9479fd993b5268029126c228a54bc0fdba93db97444",
+      "url": "https://antonsoo.github.io/gonia/entasis.html",
+      "httpStatus": 200,
+      "observedBytes": 1327,
+      "observedSha256": "f7b2c7faecdcbefb5a0fa9479fd993b5268029126c228a54bc0fdba93db97444",
+      "state": "verified"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 237,
+      "sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40",
+      "url": "https://antonsoo.github.io/gonia/favicon.svg",
+      "httpStatus": 200,
+      "observedBytes": 237,
+      "observedSha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40",
+      "state": "verified"
+    },
+    {
+      "path": "fluting.html",
+      "bytes": 1150,
+      "sha256": "4fc1707ed87acb6180fbe4a62df1bb3e171df1b397f323d13948a2b8bdc5d89a",
+      "url": "https://antonsoo.github.io/gonia/fluting.html",
+      "httpStatus": 200,
+      "observedBytes": 1150,
+      "observedSha256": "4fc1707ed87acb6180fbe4a62df1bb3e171df1b397f323d13948a2b8bdc5d89a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlex-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4456,
+      "observedSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlexSans-Regular.woff2",
+      "httpStatus": 200,
+      "observedBytes": 63020,
+      "observedSha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+      "httpStatus": 200,
+      "observedBytes": 67060,
+      "observedSha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "url": "https://antonsoo.github.io/gonia/fonts/NotoSerif-OFL.txt",
+      "httpStatus": 200,
+      "observedBytes": 4396,
+      "observedSha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "state": "verified"
+    },
+    {
+      "path": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "url": "https://antonsoo.github.io/gonia/fonts/NotoSerif-Regular.ttf",
+      "httpStatus": 200,
+      "observedBytes": 444064,
+      "observedSha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "state": "verified"
+    },
+    {
+      "path": "hoist.html",
+      "bytes": 1131,
+      "sha256": "1c0d33d74ec0ec4cb736eb4aeb2cc8d430ef98dffe304aa2be3d2ab2cb921b54",
+      "url": "https://antonsoo.github.io/gonia/hoist.html",
+      "httpStatus": 200,
+      "observedBytes": 1131,
+      "observedSha256": "1c0d33d74ec0ec4cb736eb4aeb2cc8d430ef98dffe304aa2be3d2ab2cb921b54",
+      "state": "verified"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1180,
+      "sha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+      "url": "https://antonsoo.github.io/gonia/index.html",
+      "httpStatus": 200,
+      "observedBytes": 1180,
+      "observedSha256": "9f5728372048364b526bfa5528f0d4c234d68f62913540bd26ace64b722e3581",
+      "state": "verified"
+    },
+    {
+      "path": "optics.html",
+      "bytes": 1225,
+      "sha256": "3a3bb162ca3f5a83ca118b7191275244e84dada5fc3b13ee7562fd09ffb751b2",
+      "url": "https://antonsoo.github.io/gonia/optics.html",
+      "httpStatus": 200,
+      "observedBytes": 1225,
+      "observedSha256": "3a3bb162ca3f5a83ca118b7191275244e84dada5fc3b13ee7562fd09ffb751b2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/colonnade/humann-041.jpg",
+      "bytes": 937135,
+      "sha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-041.jpg",
+      "httpStatus": 200,
+      "observedBytes": 937135,
+      "observedSha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3",
+      "state": "verified"
+    },
+    {
+      "path": "sources/colonnade/humann-043.jpg",
+      "bytes": 923777,
+      "sha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-043.jpg",
+      "httpStatus": 200,
+      "observedBytes": 923777,
+      "observedSha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/colonnade/humann-055.jpg",
+      "bytes": 671649,
+      "sha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-055.jpg",
+      "httpStatus": 200,
+      "observedBytes": 671649,
+      "observedSha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88",
+      "state": "verified"
+    },
+    {
+      "path": "sources/colonnade/krohn-063.jpg",
+      "bytes": 586879,
+      "sha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/krohn-063.jpg",
+      "httpStatus": 200,
+      "observedBytes": 586879,
+      "observedSha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/colonnade/krohn-066.jpg",
+      "bytes": 572025,
+      "sha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/krohn-066.jpg",
+      "httpStatus": 200,
+      "observedBytes": 572025,
+      "observedSha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/echea/krohn-102.jpg",
+      "bytes": 388306,
+      "sha256": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-102.jpg",
+      "httpStatus": 200,
+      "observedBytes": 388306,
+      "observedSha256": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/echea/krohn-103.jpg",
+      "bytes": 395052,
+      "sha256": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-103.jpg",
+      "httpStatus": 200,
+      "observedBytes": 395052,
+      "observedSha256": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",
+      "state": "verified"
+    },
+    {
+      "path": "sources/echea/krohn-104.jpg",
+      "bytes": 386869,
+      "sha256": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-104.jpg",
+      "httpStatus": 200,
+      "observedBytes": 386869,
+      "observedSha256": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/echea/krohn-105.jpg",
+      "bytes": 388282,
+      "sha256": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-105.jpg",
+      "httpStatus": 200,
+      "observedBytes": 388282,
+      "observedSha256": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb",
+      "state": "verified"
+    },
+    {
+      "path": "sources/echea/manifest.json",
+      "bytes": 1155,
+      "sha256": "41b15ee0223ff310a54eaf7ea44e77fb63220e8df17ec26236010610345c1a43",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 1155,
+      "observedSha256": "41b15ee0223ff310a54eaf7ea44e77fb63220e8df17ec26236010610345c1a43",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/entasis-source-pages.pdf",
+      "bytes": 3867723,
+      "sha256": "4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/entasis-source-pages.pdf",
+      "httpStatus": 200,
+      "observedBytes": 3867723,
+      "observedSha256": "4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/krohn-068.jpg",
+      "bytes": 426329,
+      "sha256": "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/krohn-068.jpg",
+      "httpStatus": 200,
+      "observedBytes": 426329,
+      "observedSha256": "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/penrose-039.jpg",
+      "bytes": 800352,
+      "sha256": "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-039.jpg",
+      "httpStatus": 200,
+      "observedBytes": 800352,
+      "observedSha256": "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/penrose-040.jpg",
+      "bytes": 927245,
+      "sha256": "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-040.jpg",
+      "httpStatus": 200,
+      "observedBytes": 927245,
+      "observedSha256": "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/penrose-041.jpg",
+      "bytes": 902234,
+      "sha256": "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-041.jpg",
+      "httpStatus": 200,
+      "observedBytes": 902234,
+      "observedSha256": "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+      "state": "verified"
+    },
+    {
+      "path": "sources/entasis/penrose-Taf_14.jpg",
+      "bytes": 807953,
+      "sha256": "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-Taf_14.jpg",
+      "httpStatus": 200,
+      "observedBytes": 807953,
+      "observedSha256": "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+      "state": "verified"
+    },
+    {
+      "path": "sources/fluting/bywater-205.jpg",
+      "bytes": 552315,
+      "sha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+      "httpStatus": 200,
+      "observedBytes": 552315,
+      "observedSha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
+      "state": "verified"
+    },
+    {
+      "path": "sources/fluting/heiberg-240.jpg",
+      "bytes": 500726,
+      "sha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/heiberg-240.jpg",
+      "httpStatus": 200,
+      "observedBytes": 500726,
+      "observedSha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+      "state": "verified"
+    },
+    {
+      "path": "sources/fluting/heiberg-241.jpg",
+      "bytes": 503372,
+      "sha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/heiberg-241.jpg",
+      "httpStatus": 200,
+      "observedBytes": 503372,
+      "observedSha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+      "state": "verified"
+    },
+    {
+      "path": "sources/fluting/krohn-074.jpg",
+      "bytes": 671362,
+      "sha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/krohn-074.jpg",
+      "httpStatus": 200,
+      "observedBytes": 671362,
+      "observedSha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5",
+      "state": "verified"
+    },
+    {
+      "path": "sources/fluting/krohn-085.jpg",
+      "bytes": 667400,
+      "sha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/krohn-085.jpg",
+      "httpStatus": 200,
+      "observedBytes": 667400,
+      "observedSha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/krohn-226.jpg",
+      "bytes": 590676,
+      "sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-226.jpg",
+      "httpStatus": 200,
+      "observedBytes": 590676,
+      "observedSha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/krohn-227.jpg",
+      "bytes": 589365,
+      "sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-227.jpg",
+      "httpStatus": 200,
+      "observedBytes": 589365,
+      "observedSha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/krohn-232.jpg",
+      "bytes": 590488,
+      "sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-232.jpg",
+      "httpStatus": 200,
+      "observedBytes": 590488,
+      "observedSha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/krohn-233.jpg",
+      "bytes": 590433,
+      "sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-233.jpg",
+      "httpStatus": 200,
+      "observedBytes": 590433,
+      "observedSha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/krohn-title.jpg",
+      "bytes": 210509,
+      "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-title.jpg",
+      "httpStatus": 200,
+      "observedBytes": 210509,
+      "observedSha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db",
+      "state": "verified"
+    },
+    {
+      "path": "sources/hoist/manifest.json",
+      "bytes": 1621,
+      "sha256": "965854ca37c578f98399438956e6baf1d320573bd2fe909b9d129205837786b7",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 1621,
+      "observedSha256": "965854ca37c578f98399438956e6baf1d320573bd2fe909b9d129205837786b7",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/NOTICES.txt",
+      "bytes": 2261,
+      "sha256": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/NOTICES.txt",
+      "httpStatus": 200,
+      "observedBytes": 2261,
+      "observedSha256": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/krohn-072.jpg",
+      "bytes": 571747,
+      "sha256": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-072.jpg",
+      "httpStatus": 200,
+      "observedBytes": 571747,
+      "observedSha256": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/krohn-073.jpg",
+      "bytes": 575872,
+      "sha256": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-073.jpg",
+      "httpStatus": 200,
+      "observedBytes": 575872,
+      "observedSha256": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/krohn-074.jpg",
+      "bytes": 572591,
+      "sha256": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-074.jpg",
+      "httpStatus": 200,
+      "observedBytes": 572591,
+      "observedSha256": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/manifest.json",
+      "bytes": 2161,
+      "sha256": "5c563422d6147f45e5a77f83fefc8a572a372b4a3846a2d14c106888724bb59c",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 2161,
+      "observedSha256": "5c563422d6147f45e5a77f83fefc8a572a372b4a3846a2d14c106888724bb59c",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/met-252453-DP144130.jpg",
+      "bytes": 2337058,
+      "sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/met-252453-DP144130.jpg",
+      "httpStatus": 200,
+      "observedBytes": 2337058,
+      "observedSha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "state": "verified"
+    },
+    {
+      "path": "sources/optics/met-252453.json",
+      "bytes": 1603,
+      "sha256": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/met-252453.json",
+      "httpStatus": 200,
+      "observedBytes": 1603,
+      "observedSha256": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af",
+      "state": "verified"
+    },
+    {
+      "path": "sources/spacing/krohn-082.jpg",
+      "bytes": 404950,
+      "sha256": "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-082.jpg",
+      "httpStatus": 200,
+      "observedBytes": 404950,
+      "observedSha256": "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+      "state": "verified"
+    },
+    {
+      "path": "sources/spacing/krohn-083.jpg",
+      "bytes": 392529,
+      "sha256": "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-083.jpg",
+      "httpStatus": 200,
+      "observedBytes": 392529,
+      "observedSha256": "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+      "state": "verified"
+    },
+    {
+      "path": "sources/spacing/krohn-084.jpg",
+      "bytes": 400093,
+      "sha256": "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-084.jpg",
+      "httpStatus": 200,
+      "observedBytes": 400093,
+      "observedSha256": "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+      "state": "verified"
+    },
+    {
+      "path": "sources/spacing/krohn-085.jpg",
+      "bytes": 392372,
+      "sha256": "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-085.jpg",
+      "httpStatus": 200,
+      "observedBytes": 392372,
+      "observedSha256": "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/spacing/vitruvius-64-67.pdf",
+      "bytes": 376182,
+      "sha256": "bc8f455c15075825093b559beeb40a84964454d5fb27e8436d2d33f3edd8912e",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/vitruvius-64-67.pdf",
+      "httpStatus": 200,
+      "observedBytes": 376182,
+      "observedSha256": "bc8f455c15075825093b559beeb40a84964454d5fb27e8436d2d33f3edd8912e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/krohn-106.jpg",
+      "bytes": 335418,
+      "sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-106.jpg",
+      "httpStatus": 200,
+      "observedBytes": 335418,
+      "observedSha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/krohn-107.jpg",
+      "bytes": 335636,
+      "sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-107.jpg",
+      "httpStatus": 200,
+      "observedBytes": 335636,
+      "observedSha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/krohn-108.jpg",
+      "bytes": 352685,
+      "sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-108.jpg",
+      "httpStatus": 200,
+      "observedBytes": 352685,
+      "observedSha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/krohn-109.jpg",
+      "bytes": 331477,
+      "sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-109.jpg",
+      "httpStatus": 200,
+      "observedBytes": 331477,
+      "observedSha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/krohn-110.jpg",
+      "bytes": 355909,
+      "sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-110.jpg",
+      "httpStatus": 200,
+      "observedBytes": 355909,
+      "observedSha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/leake-greek-orchestra.jpg",
+      "bytes": 27427,
+      "sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/leake-greek-orchestra.jpg",
+      "httpStatus": 200,
+      "observedBytes": 27427,
+      "observedSha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/manifest.json",
+      "bytes": 2737,
+      "sha256": "cbb740a98f29c3af5c8846037e1c0f99e10e4ea8dcb6afdea11c536c1dcc321a",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/manifest.json",
+      "httpStatus": 200,
+      "observedBytes": 2737,
+      "observedSha256": "cbb740a98f29c3af5c8846037e1c0f99e10e4ea8dcb6afdea11c536c1dcc321a",
+      "state": "verified"
+    },
+    {
+      "path": "sources/theatre/morgan-roman-plan.jpg",
+      "bytes": 218123,
+      "sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/morgan-roman-plan.jpg",
+      "httpStatus": 200,
+      "observedBytes": 218123,
+      "observedSha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9",
+      "state": "verified"
+    },
+    {
+      "path": "sources/transport/krohn-230.jpg",
+      "bytes": 477658,
+      "sha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/krohn-230.jpg",
+      "httpStatus": 200,
+      "observedBytes": 477658,
+      "observedSha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e",
+      "state": "verified"
+    },
+    {
+      "path": "sources/transport/krohn-231.jpg",
+      "bytes": 461717,
+      "sha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/krohn-231.jpg",
+      "httpStatus": 200,
+      "observedBytes": 461717,
+      "observedSha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01",
+      "state": "verified"
+    },
+    {
+      "path": "sources/transport/vitruvius-230-231.pdf",
+      "bytes": 183260,
+      "sha256": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/vitruvius-230-231.pdf",
+      "httpStatus": 200,
+      "observedBytes": 183260,
+      "observedSha256": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc",
+      "state": "verified"
+    },
+    {
+      "path": "sources/vitruvius-82-83.pdf",
+      "bytes": 188664,
+      "sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "url": "https://antonsoo.github.io/gonia/sources/vitruvius-82-83.pdf",
+      "httpStatus": 200,
+      "observedBytes": 188664,
+      "observedSha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "state": "verified"
+    },
+    {
+      "path": "spacing.html",
+      "bytes": 1304,
+      "sha256": "abbc6b370913663e32200a75b44c9aab77d86c53282079f9950d44c986e956ca",
+      "url": "https://antonsoo.github.io/gonia/spacing.html",
+      "httpStatus": 200,
+      "observedBytes": 1304,
+      "observedSha256": "abbc6b370913663e32200a75b44c9aab77d86c53282079f9950d44c986e956ca",
+      "state": "verified"
+    },
+    {
+      "path": "sw.js",
+      "bytes": 13781,
+      "sha256": "9f3a7de364dd3e26c157aff7b2cae93201b2294a6721396a959a89454a227ea1",
+      "url": "https://antonsoo.github.io/gonia/sw.js",
+      "httpStatus": 200,
+      "observedBytes": 13781,
+      "observedSha256": "9f3a7de364dd3e26c157aff7b2cae93201b2294a6721396a959a89454a227ea1",
+      "state": "verified"
+    },
+    {
+      "path": "theatre.html",
+      "bytes": 1208,
+      "sha256": "48cbced4b2d854d883a9bbc2e83cd5b108eaeb4a253b17eaa48c1e23a100684f",
+      "url": "https://antonsoo.github.io/gonia/theatre.html",
+      "httpStatus": 200,
+      "observedBytes": 1208,
+      "observedSha256": "48cbced4b2d854d883a9bbc2e83cd5b108eaeb4a253b17eaa48c1e23a100684f",
+      "state": "verified"
+    },
+    {
+      "path": "transport.html",
+      "bytes": 1134,
+      "sha256": "8e8b5b28000137461366d65bcfbf870583810ca13270bb32671ce60738709715",
+      "url": "https://antonsoo.github.io/gonia/transport.html",
+      "httpStatus": 200,
+      "observedBytes": 1134,
+      "observedSha256": "8e8b5b28000137461366d65bcfbf870583810ca13270bb32671ce60738709715",
+      "state": "verified"
+    }
+  ],
+  "scope": "Compares canonical responses with this captured build inventory during the recorded pass. Extra hosted files, browser behavior, public source, registry releases and deployment provenance are not established."
+}

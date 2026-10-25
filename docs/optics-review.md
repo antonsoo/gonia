@@ -100,3 +100,9 @@ actual study files. `node scripts/optics-upgrade.mjs <prior-nine-room-dist>
 <receipt.json>` runs the held/substituted upgrade. Browser executables must
 already be available to Playwright. All local and hosted publication claims
 remain separate from these source commands; no registry release is implied.
+
+The [fresh public clone](optics-public-clone.json) used Node 24.21.0,
+`npm ci` and `npm run check`; all 91 build files match the reviewed Node 26
+outputs byte for byte. The [development receipt](optics-development.json)
+also exercises the actual `npm run dev` entry, JSON/licence imports, equal-ray
+control, Greek companion, complete HTML download and malformed-link recovery.

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-25T02:52:40.815Z",
+  "node": "v24.21.0",
+  "source": "Fresh public clone 65e813814ed992b3efa1b8ee53adbab6e2602681",
+  "command": "npm run dev -- --port 4354 --strictPort",
+  "browser": "Chromium 153",
+  "width": 375,
+  "actualEntry": true,
+  "JSONAndLicenceImports": true,
+  "equalRays": true,
+  "GreekCompanion": "κάθετος",
+  "actualCompleteHTMLDownload": true,
+  "invalidDuplicateFieldsFallBackWithoutDiscardingValidFields": true,
+  "errors": [],
+  "scope": "Actual Node 24 development workflow; production/offline and hosted reviews separate."
+}

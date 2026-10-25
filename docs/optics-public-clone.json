@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-10-25T02:52:10.579907+00:00",
+  "source": "Fresh HTTPS clone of https://github.com/antonsoo/gonia.git",
+  "revision": "65e813814ed992b3efa1b8ee53adbab6e2602681",
+  "node": "v24.21.0",
+  "commands": ["npm ci", "npm run check"],
+  "testsPassed": 39,
+  "canonicalFiles": 91,
+  "byteIdenticalToReviewedNode26Build": 91,
+  "workerSha256": "9f3a7de364dd3e26c157aff7b2cae93201b2294a6721396a959a89454a227ea1",
+  "scope": "Public source, clean install and byte comparison; hosted browser and hosted bytes verified separately."
+}

@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-25T03:23:26.369Z",
+  "base": "https://antonsoo.github.io/gonia/",
+  "development": false,
+  "worker": "3175e93b0a20600cfd16849b83fc22746d3d70da613cd4babfe42cbb531934e2",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "geometry": "DOM world points and actual projected mark paths",
+      "nativeControls": true,
+      "equalRaysAt1248": true,
+      "reversalAndHistory": true,
+      "readings": 6,
+      "wordNotes": 18,
+      "greekCompanions": 2,
+      "sourcePages": [
+        "sources/hoist/krohn-title.jpg",
+        "sources/optics/krohn-072.jpg",
+        "sources/optics/krohn-073.jpg",
+        "sources/optics/krohn-074.jpg"
+      ],
+      "museumImageDecoded": true,
+      "downloads": ["SVG", "1590-row CSV including header", "self-contained HTML"],
+      "scriptfreeBookImages": 5,
+      "automaticBookNetworkRequests": 0,
+      "axeViolations": 0,
+      "pageOverflow": false,
+      "offlineRooms": 10,
+      "offlineNewReading": true,
+      "errors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "geometry": "DOM world points and actual projected mark paths",
+      "nativeControls": true,
+      "equalRaysAt1248": true,
+      "reversalAndHistory": true,
+      "readings": 6,
+      "wordNotes": 18,
+      "greekCompanions": 2,
+      "sourcePages": [
+        "sources/hoist/krohn-title.jpg",
+        "sources/optics/krohn-072.jpg",
+        "sources/optics/krohn-073.jpg",
+        "sources/optics/krohn-074.jpg"
+      ],
+      "museumImageDecoded": true,
+      "downloads": ["SVG", "1590-row CSV including header", "self-contained HTML"],
+      "scriptfreeBookImages": 5,
+      "automaticBookNetworkRequests": 0,
+      "axeViolations": 0,
+      "pageOverflow": false,
+      "offlineRooms": 10,
+      "offlineNewReading": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "geometry": "DOM world points and actual projected mark paths",
+      "nativeControls": true,
+      "equalRaysAt1248": true,
+      "reversalAndHistory": true,
+      "readings": 6,
+      "wordNotes": 18,
+      "greekCompanions": 2,
+      "sourcePages": [
+        "sources/hoist/krohn-title.jpg",
+        "sources/optics/krohn-072.jpg",
+        "sources/optics/krohn-073.jpg",
+        "sources/optics/krohn-074.jpg"
+      ],
+      "museumImageDecoded": true,
+      "downloads": ["SVG", "1590-row CSV including header", "self-contained HTML"],
+      "scriptfreeBookImages": 5,
+      "automaticBookNetworkRequests": 0,
+      "axeViolations": 0,
+      "pageOverflow": false,
+      "offlineRooms": 10,
+      "offlineNewReading": true,
+      "errors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "geometry": "DOM world points and actual projected mark paths",
+      "nativeControls": true,
+      "equalRaysAt1248": true,
+      "reversalAndHistory": true,
+      "readings": 6,
+      "wordNotes": 18,
+      "greekCompanions": 2,
+      "sourcePages": [
+        "sources/hoist/krohn-title.jpg",
+        "sources/optics/krohn-072.jpg",
+        "sources/optics/krohn-073.jpg",
+        "sources/optics/krohn-074.jpg"
+      ],
+      "museumImageDecoded": true,
+      "downloads": ["SVG", "1590-row CSV including header", "self-contained HTML"],
+      "scriptfreeBookImages": 5,
+      "automaticBookNetworkRequests": 0,
+      "axeViolations": 0,
+      "pageOverflow": false,
+      "offlineRooms": 10,
+      "offlineNewReading": true,
+      "errors": []
+    }
+  ]
+}

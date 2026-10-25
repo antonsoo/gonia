@@ -39,3 +39,7 @@ they are outside the 91-file current inventory. Later documentation and CI-recip
 changes do not alter production inputs. No registry release or hosted CI result
 is inferred. The source supplies the inclination ratio; neither these checks nor
 the model establish the ancient perceptual claim.
+
+A later [retained-source loader follow-up](source-json-development.md) records
+the development warning correction, updated canonical hosted files and a new
+actual public-browser review. This page retains the earlier publication identity.

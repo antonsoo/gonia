@@ -1,0 +1,75 @@
+{
+  "method": "Python CSV ray/screen calculations; native SVG metadata; complete language fields and original JPEG hashes in actual HTML and Chromium print output.",
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "actualCSVDataRows": 1589,
+      "CSVGeometryComparisons": 14301,
+      "sourceAndLanguageFieldsInHTML": 74,
+      "originalJPEGsInHTML": 5,
+      "SVGSettings": {
+        "distance": 300,
+        "height": 120,
+        "eye": 16,
+        "length": 40,
+        "angle": 48,
+        "mode": "source",
+        "reading": 4
+      }
+    },
+    {
+      "configuration": "chromium-375",
+      "actualCSVDataRows": 1589,
+      "CSVGeometryComparisons": 14301,
+      "sourceAndLanguageFieldsInHTML": 74,
+      "originalJPEGsInHTML": 5,
+      "SVGSettings": {
+        "distance": 300,
+        "height": 120,
+        "eye": 16,
+        "length": 40,
+        "angle": 48,
+        "mode": "source",
+        "reading": 4
+      }
+    },
+    {
+      "configuration": "firefox-1440",
+      "actualCSVDataRows": 1589,
+      "CSVGeometryComparisons": 14301,
+      "sourceAndLanguageFieldsInHTML": 74,
+      "originalJPEGsInHTML": 5,
+      "SVGSettings": {
+        "distance": 300,
+        "height": 120,
+        "eye": 16,
+        "length": 40,
+        "angle": 48,
+        "mode": "source",
+        "reading": 4
+      }
+    },
+    {
+      "configuration": "firefox-375",
+      "actualCSVDataRows": 1589,
+      "CSVGeometryComparisons": 14301,
+      "sourceAndLanguageFieldsInHTML": 74,
+      "originalJPEGsInHTML": 5,
+      "SVGSettings": {
+        "distance": 300,
+        "height": 120,
+        "eye": 16,
+        "length": 40,
+        "angle": 48,
+        "mode": "source",
+        "reading": 4
+      }
+    }
+  ],
+  "printedPDF": {
+    "pages": 20,
+    "completeLanguageFields": 74,
+    "originalJPEGsRecoveredByteForByte": 5
+  },
+  "scope": "Artifact identity and modern geometry, not historical perception."
+}

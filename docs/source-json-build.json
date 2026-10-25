@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-25T03:20:29.168585+00:00",
+  "sourceRevision": "87b660981265b6e9bbdec18d951f50177ce939c6",
+  "source": "Clean git archive",
+  "node": "v24.21.0",
+  "commands": ["npm ci", "npm run check"],
+  "canonicalFiles": 91,
+  "byteIdenticalToReviewedNode26Build": 91,
+  "workerSha256": "3175e93b0a20600cfd16849b83fc22746d3d70da613cd4babfe42cbb531934e2",
+  "scope": "Source and clean build; hosted bytes and actual hosted browser verified separately."
+}

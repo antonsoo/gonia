@@ -31,3 +31,31 @@ node scripts/source-json-development.mjs BASE_URL ISOLATED_TEMP_CLONE SERVER_LOG
 The supplied clone is edited and restored; the checked-out source dataset is
 unchanged. This development check is separate from production build identity,
 browser/offline operations and hosted publication records.
+
+## Production review
+
+The [clean Node 24 archive](source-json-build.json) passes `npm ci` and
+`npm run check`; all 91 static files are byte identical to the reviewed
+Node 26 build. The [native production review](source-json-production.json)
+repeats Chromium and Firefox at 1440 and 375 pixels, complete reading/study
+downloads, source images, keyboard controls and all rooms browser-offline.
+The source corpus and learning model are unchanged.
+
+The [artifact inspection](source-json-artifacts.json) recovers all 74 language
+fields and five original JPEGs from the twenty-page PDF.
+
+## Hosted follow-up
+
+The corrected source `87b660981265b6e9bbdec18d951f50177ce939c6` was pushed to public `main`.
+Its static output was pushed as Pages commit `e8bcb717ff3790bb926c18258111af63dd8c4fc9`
+with normal history preserved. At `2026-10-25T03:22:45.276Z`, the
+[canonical hosted receipt](source-json-hosted-files.json) matches all
+91 current build files, with the directory entry verified before
+and after the pass. The [actual hosted browser receipt](source-json-hosted-browser.json)
+repeats the substantive controls, complete studies and browser-offline rooms.
+The public origin remains online; browser networking is disabled for that
+hosted offline review. The earlier source, model and first-publication records
+are retained separately. No registry release or hosted CI run is inferred.
+
+The [hosted study inspection](source-json-hosted-artifacts.json) checks the actual
+public download and printed source fields and recovers the original source JPEGs.

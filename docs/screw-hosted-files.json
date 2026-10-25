@@ -1,0 +1,1020 @@
+{
+  "checked_at": "2026-10-25T11:50:15.872760+00:00",
+  "base": "https://antonsoo.github.io/gonia/",
+  "scope": "All current build files, canonical HTTPS URLs without query cache busting. Older hashed assets retained on Pages are outside this current inventory.",
+  "directory_index_matches_before_and_after": true,
+  "current_files": 101,
+  "matching_files": 101,
+  "files": [
+    {
+      "file": "assets/LICENSE_raw-logISlDD.js",
+      "url": "https://antonsoo.github.io/gonia/assets/LICENSE_raw-logISlDD.js",
+      "bytes": 1095,
+      "expected_sha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "actual_sha256": "94365e01b061f099c209759b0858a2ec9b3b3448f053be02a7531539e0696edd",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-447\""
+    },
+    {
+      "file": "assets/colonnade-C6ETJgZU.css",
+      "url": "https://antonsoo.github.io/gonia/assets/colonnade-C6ETJgZU.css",
+      "bytes": 10632,
+      "expected_sha256": "c91a3a660779d01c47bc8ad2f13665bb80b361bb64e67fccd1dddee504cf0ef2",
+      "actual_sha256": "c91a3a660779d01c47bc8ad2f13665bb80b361bb64e67fccd1dddee504cf0ef2",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-2988\""
+    },
+    {
+      "file": "assets/colonnade-U6TpVsEQ.js",
+      "url": "https://antonsoo.github.io/gonia/assets/colonnade-U6TpVsEQ.js",
+      "bytes": 48439,
+      "expected_sha256": "98e370cdc2cb06ec4a987d3ed5be4345124169a82aff2ecbde28c352d9e6302a",
+      "actual_sha256": "98e370cdc2cb06ec4a987d3ed5be4345124169a82aff2ecbde28c352d9e6302a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-bd37\""
+    },
+    {
+      "file": "assets/drawing-BoRtX5xJ.js",
+      "url": "https://antonsoo.github.io/gonia/assets/drawing-BoRtX5xJ.js",
+      "bytes": 6591,
+      "expected_sha256": "e26a26c1feb37930f42e66535fc96e5fd1a42bf36d01ba891ff76e647e75e148",
+      "actual_sha256": "e26a26c1feb37930f42e66535fc96e5fd1a42bf36d01ba891ff76e647e75e148",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-19bf\""
+    },
+    {
+      "file": "assets/echea-DS4HO-zL.js",
+      "url": "https://antonsoo.github.io/gonia/assets/echea-DS4HO-zL.js",
+      "bytes": 54050,
+      "expected_sha256": "5a7fd81e6ef634499a0167f58625349ca10632a8400916d80ee16a3741de0843",
+      "actual_sha256": "5a7fd81e6ef634499a0167f58625349ca10632a8400916d80ee16a3741de0843",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-d322\""
+    },
+    {
+      "file": "assets/echea-PoDcUi_B.css",
+      "url": "https://antonsoo.github.io/gonia/assets/echea-PoDcUi_B.css",
+      "bytes": 7440,
+      "expected_sha256": "85b9f74e5fb1d57caa4d03f8bd997f290d53228c74c21402b30252e12ce5aeec",
+      "actual_sha256": "85b9f74e5fb1d57caa4d03f8bd997f290d53228c74c21402b30252e12ce5aeec",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-1d10\""
+    },
+    {
+      "file": "assets/entasis-B1xxYjhI.js",
+      "url": "https://antonsoo.github.io/gonia/assets/entasis-B1xxYjhI.js",
+      "bytes": 46794,
+      "expected_sha256": "b90580e0c754d728d53218764e8321ce60f4451af29e60c8c474119e3fdb9567",
+      "actual_sha256": "b90580e0c754d728d53218764e8321ce60f4451af29e60c8c474119e3fdb9567",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-b6ca\""
+    },
+    {
+      "file": "assets/entasis-QEne2H1K.css",
+      "url": "https://antonsoo.github.io/gonia/assets/entasis-QEne2H1K.css",
+      "bytes": 6979,
+      "expected_sha256": "77e1418f4aad62226ffe3f40bc0407611ee3f2a6051478c856879fa2dbbebe82",
+      "actual_sha256": "77e1418f4aad62226ffe3f40bc0407611ee3f2a6051478c856879fa2dbbebe82",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-1b43\""
+    },
+    {
+      "file": "assets/fluting-CvF-aoWC.js",
+      "url": "https://antonsoo.github.io/gonia/assets/fluting-CvF-aoWC.js",
+      "bytes": 65280,
+      "expected_sha256": "fb1aff3e97c1b6373f820e9bd0c7ff311a1ed35fb669d5fa7aec9465284d3dba",
+      "actual_sha256": "fb1aff3e97c1b6373f820e9bd0c7ff311a1ed35fb669d5fa7aec9465284d3dba",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-ff00\""
+    },
+    {
+      "file": "assets/fluting-CyDeXJNl.css",
+      "url": "https://antonsoo.github.io/gonia/assets/fluting-CyDeXJNl.css",
+      "bytes": 9089,
+      "expected_sha256": "8f36cd78fb63fb347686a753c5c5cf909b65bc5cd33552350425d77259cfa3a9",
+      "actual_sha256": "8f36cd78fb63fb347686a753c5c5cf909b65bc5cd33552350425d77259cfa3a9",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-2381\""
+    },
+    {
+      "file": "assets/hoist-Bxxw5FsJ.css",
+      "url": "https://antonsoo.github.io/gonia/assets/hoist-Bxxw5FsJ.css",
+      "bytes": 6027,
+      "expected_sha256": "e4aaf2c58e674911d44f2c7e0fd37668d49c290984d4708b5cb14ba704c28aa5",
+      "actual_sha256": "e4aaf2c58e674911d44f2c7e0fd37668d49c290984d4708b5cb14ba704c28aa5",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-178b\""
+    },
+    {
+      "file": "assets/hoist-CNxbr-c5.js",
+      "url": "https://antonsoo.github.io/gonia/assets/hoist-CNxbr-c5.js",
+      "bytes": 49126,
+      "expected_sha256": "ac9ae58b0246d0b905ad94ce826bbbe5419a2117a830500864366b5dd053b561",
+      "actual_sha256": "ac9ae58b0246d0b905ad94ce826bbbe5419a2117a830500864366b5dd053b561",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-bfe6\""
+    },
+    {
+      "file": "assets/main-CCcXa4dJ.js",
+      "url": "https://antonsoo.github.io/gonia/assets/main-CCcXa4dJ.js",
+      "bytes": 21767,
+      "expected_sha256": "96037acf1e69ea616660655936ffe0fd471ca5a88290e5ca3882d93ea02d0a91",
+      "actual_sha256": "96037acf1e69ea616660655936ffe0fd471ca5a88290e5ca3882d93ea02d0a91",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5507\""
+    },
+    {
+      "file": "assets/offline-8h9EIU8x.css",
+      "url": "https://antonsoo.github.io/gonia/assets/offline-8h9EIU8x.css",
+      "bytes": 12585,
+      "expected_sha256": "d54aea2b18f848a029461347da4fc1ab8fd264ddd1742c95d94491e8c2f77d79",
+      "actual_sha256": "d54aea2b18f848a029461347da4fc1ab8fd264ddd1742c95d94491e8c2f77d79",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-3129\""
+    },
+    {
+      "file": "assets/offline-GTI6bYGN.js",
+      "url": "https://antonsoo.github.io/gonia/assets/offline-GTI6bYGN.js",
+      "bytes": 2616,
+      "expected_sha256": "15fed24eb177330fd59b709cd20e2d79fbaa2a45405d629c210bd76fc3beee09",
+      "actual_sha256": "15fed24eb177330fd59b709cd20e2d79fbaa2a45405d629c210bd76fc3beee09",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-a38\""
+    },
+    {
+      "file": "assets/optics-DJHWzdAd.js",
+      "url": "https://antonsoo.github.io/gonia/assets/optics-DJHWzdAd.js",
+      "bytes": 44405,
+      "expected_sha256": "f00145db395dc23bf13ee31473e964f7fd293820cd2581b4985cfe7cfab02605",
+      "actual_sha256": "f00145db395dc23bf13ee31473e964f7fd293820cd2581b4985cfe7cfab02605",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-ad75\""
+    },
+    {
+      "file": "assets/optics-TbbzjEuQ.css",
+      "url": "https://antonsoo.github.io/gonia/assets/optics-TbbzjEuQ.css",
+      "bytes": 4659,
+      "expected_sha256": "0510badbb62c06185b4c926bb1cc685c57e324399da5b2e04442d62016e12bc2",
+      "actual_sha256": "0510badbb62c06185b4c926bb1cc685c57e324399da5b2e04442d62016e12bc2",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-1233\""
+    },
+    {
+      "file": "assets/screw-CKqD2aGF.css",
+      "url": "https://antonsoo.github.io/gonia/assets/screw-CKqD2aGF.css",
+      "bytes": 5503,
+      "expected_sha256": "221c593ed739489aba63fbb1a4df9e8d8db95887a79688556b0df047db1e3c2b",
+      "actual_sha256": "221c593ed739489aba63fbb1a4df9e8d8db95887a79688556b0df047db1e3c2b",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-157f\""
+    },
+    {
+      "file": "assets/screw-Ckdkh1hl.js",
+      "url": "https://antonsoo.github.io/gonia/assets/screw-Ckdkh1hl.js",
+      "bytes": 61028,
+      "expected_sha256": "eeb9a6cc9c289a35c3ce0d40fd0f6e1577ffc9fa8739e8b690bb576595f9de6f",
+      "actual_sha256": "eeb9a6cc9c289a35c3ce0d40fd0f6e1577ffc9fa8739e8b690bb576595f9de6f",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-ee64\""
+    },
+    {
+      "file": "assets/spacing-2ctFs_Y1.js",
+      "url": "https://antonsoo.github.io/gonia/assets/spacing-2ctFs_Y1.js",
+      "bytes": 32976,
+      "expected_sha256": "0f802ea70edd105749fb20f92e31f08298913cebae8fc003b965668f546bb5d4",
+      "actual_sha256": "0f802ea70edd105749fb20f92e31f08298913cebae8fc003b965668f546bb5d4",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-80d0\""
+    },
+    {
+      "file": "assets/spacing-C8wTAflL.css",
+      "url": "https://antonsoo.github.io/gonia/assets/spacing-C8wTAflL.css",
+      "bytes": 6883,
+      "expected_sha256": "a06668adea502bb780f8c45cc3b3ac23874e67f224645e4914abaa6b363bfa31",
+      "actual_sha256": "a06668adea502bb780f8c45cc3b3ac23874e67f224645e4914abaa6b363bfa31",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-1ae3\""
+    },
+    {
+      "file": "assets/theatre-3Yndn_KY.css",
+      "url": "https://antonsoo.github.io/gonia/assets/theatre-3Yndn_KY.css",
+      "bytes": 14246,
+      "expected_sha256": "0530225b41cb206da5596bbff7065598a9edf0c20c371fc8d1155d63503d6e5a",
+      "actual_sha256": "0530225b41cb206da5596bbff7065598a9edf0c20c371fc8d1155d63503d6e5a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-37a6\""
+    },
+    {
+      "file": "assets/theatre-DrMSkm2K.js",
+      "url": "https://antonsoo.github.io/gonia/assets/theatre-DrMSkm2K.js",
+      "bytes": 58431,
+      "expected_sha256": "d5168ea1d09c5f629f594dc29f819789dd6a6de4849e58fe3e4cfb4309e07cc6",
+      "actual_sha256": "d5168ea1d09c5f629f594dc29f819789dd6a6de4849e58fe3e4cfb4309e07cc6",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-e43f\""
+    },
+    {
+      "file": "assets/transport-BVSOd36H.js",
+      "url": "https://antonsoo.github.io/gonia/assets/transport-BVSOd36H.js",
+      "bytes": 45630,
+      "expected_sha256": "07421e019feb6f21f42405b01598be4321cb80d2f17fb48597d63f5c038b7e81",
+      "actual_sha256": "07421e019feb6f21f42405b01598be4321cb80d2f17fb48597d63f5c038b7e81",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-b23e\""
+    },
+    {
+      "file": "assets/transport-ElzZfsvG.css",
+      "url": "https://antonsoo.github.io/gonia/assets/transport-ElzZfsvG.css",
+      "bytes": 9779,
+      "expected_sha256": "e11323c8324c175b2afa8c75313a48e7d6ed828328b8be67d01b5f1ec23646fa",
+      "actual_sha256": "e11323c8324c175b2afa8c75313a48e7d6ed828328b8be67d01b5f1ec23646fa",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-2633\""
+    },
+    {
+      "file": "colonnade.html",
+      "url": "https://antonsoo.github.io/gonia/colonnade.html",
+      "bytes": 1134,
+      "expected_sha256": "b3c19569f7919b6758c2ba649addc560cab00a5c9590fde0d7ac27989a1fb923",
+      "actual_sha256": "b3c19569f7919b6758c2ba649addc560cab00a5c9590fde0d7ac27989a1fb923",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-46e\""
+    },
+    {
+      "file": "echea.html",
+      "url": "https://antonsoo.github.io/gonia/echea.html",
+      "bytes": 1219,
+      "expected_sha256": "2d1e0521db5d8243f47652347e05ea1156dbc9b67014d37965ca719800b4c3f2",
+      "actual_sha256": "2d1e0521db5d8243f47652347e05ea1156dbc9b67014d37965ca719800b4c3f2",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-4c3\""
+    },
+    {
+      "file": "entasis.html",
+      "url": "https://antonsoo.github.io/gonia/entasis.html",
+      "bytes": 1327,
+      "expected_sha256": "1fc8ee7b8cd530e00eb5df6531eed47e1c8a0138249710c712cc6e8453d3c647",
+      "actual_sha256": "1fc8ee7b8cd530e00eb5df6531eed47e1c8a0138249710c712cc6e8453d3c647",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-52f\""
+    },
+    {
+      "file": "favicon.svg",
+      "url": "https://antonsoo.github.io/gonia/favicon.svg",
+      "bytes": 237,
+      "expected_sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40",
+      "actual_sha256": "f2b83dab322de1d68bd52ea90f06b8029730e62c267ffbf26182ddbc80098d40",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-ed\""
+    },
+    {
+      "file": "fluting.html",
+      "url": "https://antonsoo.github.io/gonia/fluting.html",
+      "bytes": 1150,
+      "expected_sha256": "a5fcff57b43d4784b1274cc679148d8694fc0966c668eda82f9d4ee6469cedd5",
+      "actual_sha256": "a5fcff57b43d4784b1274cc679148d8694fc0966c668eda82f9d4ee6469cedd5",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-47e\""
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "expected_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "actual_sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-1168\""
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "expected_sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "actual_sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-f62c\""
+    },
+    {
+      "file": "fonts/IBMPlexSans-SemiBold.woff2",
+      "url": "https://antonsoo.github.io/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+      "bytes": 67060,
+      "expected_sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "actual_sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-105f4\""
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "url": "https://antonsoo.github.io/gonia/fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "expected_sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "actual_sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-112c\""
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "url": "https://antonsoo.github.io/gonia/fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "expected_sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "actual_sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-6c6a0\""
+    },
+    {
+      "file": "hoist.html",
+      "url": "https://antonsoo.github.io/gonia/hoist.html",
+      "bytes": 1131,
+      "expected_sha256": "48e60c059cf3895e363afe049a76bdb7905cdf570bb263c5bed4834eb657cf96",
+      "actual_sha256": "48e60c059cf3895e363afe049a76bdb7905cdf570bb263c5bed4834eb657cf96",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-46b\""
+    },
+    {
+      "file": "index.html",
+      "url": "https://antonsoo.github.io/gonia/index.html",
+      "bytes": 1180,
+      "expected_sha256": "3b148040253b27b77302486ac639f1748c3998ab61ef2b1f1fadb6b6395c1ae5",
+      "actual_sha256": "3b148040253b27b77302486ac639f1748c3998ab61ef2b1f1fadb6b6395c1ae5",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-49c\""
+    },
+    {
+      "file": "optics.html",
+      "url": "https://antonsoo.github.io/gonia/optics.html",
+      "bytes": 1225,
+      "expected_sha256": "f45b4c827f672470d66be206be5978a56ae979964422f1c5afbfd013a6f8c1a7",
+      "actual_sha256": "f45b4c827f672470d66be206be5978a56ae979964422f1c5afbfd013a6f8c1a7",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-4c9\""
+    },
+    {
+      "file": "screw.html",
+      "url": "https://antonsoo.github.io/gonia/screw.html",
+      "bytes": 1227,
+      "expected_sha256": "0e7a25fa2394221b068ea60c22d5f290165b50a6f73585e91954e77a4e9ce4fc",
+      "actual_sha256": "0e7a25fa2394221b068ea60c22d5f290165b50a6f73585e91954e77a4e9ce4fc",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-4cb\""
+    },
+    {
+      "file": "sources/colonnade/humann-041.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-041.jpg",
+      "bytes": 937135,
+      "expected_sha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3",
+      "actual_sha256": "35076456323a195455c7673aacb7dc7d2fa957e74e61cd6ee106564f2d12f7e3",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-e4caf\""
+    },
+    {
+      "file": "sources/colonnade/humann-043.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-043.jpg",
+      "bytes": 923777,
+      "expected_sha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b",
+      "actual_sha256": "a3368074569e7315c98c96ebd14caf8d92faaf9fd2cda0c1b12602c9ff9dec8b",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-e1881\""
+    },
+    {
+      "file": "sources/colonnade/humann-055.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/humann-055.jpg",
+      "bytes": 671649,
+      "expected_sha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88",
+      "actual_sha256": "697a7db781823539e1af5a2bbe1b3887855322314c8f72ba737d77ad8d94ef88",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-a3fa1\""
+    },
+    {
+      "file": "sources/colonnade/krohn-063.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/krohn-063.jpg",
+      "bytes": 586879,
+      "expected_sha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d",
+      "actual_sha256": "b5eefca5d26b21e345c9f68a472c42a68be196119479256d344a49059d25940d",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8f47f\""
+    },
+    {
+      "file": "sources/colonnade/krohn-066.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/colonnade/krohn-066.jpg",
+      "bytes": 572025,
+      "expected_sha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d",
+      "actual_sha256": "d46a85fd9ee235ddad344094e663661fabd872b657ed1ddda95d1604044b354d",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8ba79\""
+    },
+    {
+      "file": "sources/echea/krohn-102.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-102.jpg",
+      "bytes": 388306,
+      "expected_sha256": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
+      "actual_sha256": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5ecd2\""
+    },
+    {
+      "file": "sources/echea/krohn-103.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-103.jpg",
+      "bytes": 395052,
+      "expected_sha256": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",
+      "actual_sha256": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-6072c\""
+    },
+    {
+      "file": "sources/echea/krohn-104.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-104.jpg",
+      "bytes": 386869,
+      "expected_sha256": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f",
+      "actual_sha256": "54db862bc9d84f81949bf2f6fda866c4dc81b04b97c86cd6756053f51cc5a80f",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5e735\""
+    },
+    {
+      "file": "sources/echea/krohn-105.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/krohn-105.jpg",
+      "bytes": 388282,
+      "expected_sha256": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb",
+      "actual_sha256": "a1e3c4e5f7ba286e76811eb688334676d118a965a342530522a4650dcab9f2fb",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5ecba\""
+    },
+    {
+      "file": "sources/echea/manifest.json",
+      "url": "https://antonsoo.github.io/gonia/sources/echea/manifest.json",
+      "bytes": 1155,
+      "expected_sha256": "41b15ee0223ff310a54eaf7ea44e77fb63220e8df17ec26236010610345c1a43",
+      "actual_sha256": "41b15ee0223ff310a54eaf7ea44e77fb63220e8df17ec26236010610345c1a43",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-483\""
+    },
+    {
+      "file": "sources/entasis/entasis-source-pages.pdf",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/entasis-source-pages.pdf",
+      "bytes": 3867723,
+      "expected_sha256": "4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517",
+      "actual_sha256": "4ba8a9fb3e63e4a03272e1a30e5a6a66f989b4155ef6ada3c792a74ab9ec0517",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-3b044b\""
+    },
+    {
+      "file": "sources/entasis/krohn-068.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/krohn-068.jpg",
+      "bytes": 426329,
+      "expected_sha256": "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2",
+      "actual_sha256": "4fa9ef64924b677902b225ebc022efb13246151ea16fff2c1f7d60bdc92d0cd2",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-68159\""
+    },
+    {
+      "file": "sources/entasis/penrose-039.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-039.jpg",
+      "bytes": 800352,
+      "expected_sha256": "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+      "actual_sha256": "9fc580752d535a0eb0be60b6aec035c078bab4f69b74aded7f4a90b567024b07",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-c3660\""
+    },
+    {
+      "file": "sources/entasis/penrose-040.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-040.jpg",
+      "bytes": 927245,
+      "expected_sha256": "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+      "actual_sha256": "59d088f75181c483300ebb0e3b136148bde990dfee83841a269d96a7aca4c144",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-e260d\""
+    },
+    {
+      "file": "sources/entasis/penrose-041.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-041.jpg",
+      "bytes": 902234,
+      "expected_sha256": "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+      "actual_sha256": "7b5dd6ae503603cb99564905004290b01fc4b91015f8326eb5a028aa70dd4c25",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-dc45a\""
+    },
+    {
+      "file": "sources/entasis/penrose-Taf_14.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/entasis/penrose-Taf_14.jpg",
+      "bytes": 807953,
+      "expected_sha256": "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+      "actual_sha256": "2ed65b3bdba64d8817c4b04676e67eadcc6b5b0fd360c0495f6b6c2df017e227",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-c5411\""
+    },
+    {
+      "file": "sources/fluting/bywater-205.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/bywater-205.jpg",
+      "bytes": 552315,
+      "expected_sha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
+      "actual_sha256": "2a569b9f39ff932f61b1582477ec75aae91d29e3de730f70c051271624318657",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-86d7b\""
+    },
+    {
+      "file": "sources/fluting/heiberg-240.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/heiberg-240.jpg",
+      "bytes": 500726,
+      "expected_sha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+      "actual_sha256": "87dcb6cda103bc6032451bf7b560e94f66fdf9d4dee89693883e8a3c166c3719",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-7a3f6\""
+    },
+    {
+      "file": "sources/fluting/heiberg-241.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/heiberg-241.jpg",
+      "bytes": 503372,
+      "expected_sha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+      "actual_sha256": "070910175662062ed0c9cee7a5341a57c1f3672baf5bff1046b996cfb88a5ee6",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-7ae4c\""
+    },
+    {
+      "file": "sources/fluting/krohn-074.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/krohn-074.jpg",
+      "bytes": 671362,
+      "expected_sha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5",
+      "actual_sha256": "a4da2fcc5b8e59c7f122e1bbd2140844661003147d06d2e37e89571e062dc2c5",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-a3e82\""
+    },
+    {
+      "file": "sources/fluting/krohn-085.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/fluting/krohn-085.jpg",
+      "bytes": 667400,
+      "expected_sha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a",
+      "actual_sha256": "578319267f93db72bad9ba1b19bf65afae5d69a7cdcbc8de2daa09e316b10f6a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-a2f08\""
+    },
+    {
+      "file": "sources/hoist/krohn-226.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-226.jpg",
+      "bytes": 590676,
+      "expected_sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7",
+      "actual_sha256": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-90354\""
+    },
+    {
+      "file": "sources/hoist/krohn-227.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-227.jpg",
+      "bytes": 589365,
+      "expected_sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "actual_sha256": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8fe35\""
+    },
+    {
+      "file": "sources/hoist/krohn-232.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-232.jpg",
+      "bytes": 590488,
+      "expected_sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076",
+      "actual_sha256": "a3e0bcb8749188adad9cd85dd6e0909f1a5e7973af1c3b2a8413d0fc9e627076",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-90298\""
+    },
+    {
+      "file": "sources/hoist/krohn-233.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-233.jpg",
+      "bytes": 590433,
+      "expected_sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994",
+      "actual_sha256": "30083862a1be5391697cd1c333089572a80ef2290b0fabf170815aa2d062c994",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-90261\""
+    },
+    {
+      "file": "sources/hoist/krohn-title.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/krohn-title.jpg",
+      "bytes": 210509,
+      "expected_sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db",
+      "actual_sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-3364d\""
+    },
+    {
+      "file": "sources/hoist/manifest.json",
+      "url": "https://antonsoo.github.io/gonia/sources/hoist/manifest.json",
+      "bytes": 1621,
+      "expected_sha256": "965854ca37c578f98399438956e6baf1d320573bd2fe909b9d129205837786b7",
+      "actual_sha256": "965854ca37c578f98399438956e6baf1d320573bd2fe909b9d129205837786b7",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-655\""
+    },
+    {
+      "file": "sources/optics/NOTICES.txt",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/NOTICES.txt",
+      "bytes": 2261,
+      "expected_sha256": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea",
+      "actual_sha256": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8d5\""
+    },
+    {
+      "file": "sources/optics/krohn-072.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-072.jpg",
+      "bytes": 571747,
+      "expected_sha256": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe",
+      "actual_sha256": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8b963\""
+    },
+    {
+      "file": "sources/optics/krohn-073.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-073.jpg",
+      "bytes": 575872,
+      "expected_sha256": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f",
+      "actual_sha256": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8c980\""
+    },
+    {
+      "file": "sources/optics/krohn-074.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/krohn-074.jpg",
+      "bytes": 572591,
+      "expected_sha256": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b",
+      "actual_sha256": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-8bcaf\""
+    },
+    {
+      "file": "sources/optics/manifest.json",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/manifest.json",
+      "bytes": 2161,
+      "expected_sha256": "5c563422d6147f45e5a77f83fefc8a572a372b4a3846a2d14c106888724bb59c",
+      "actual_sha256": "5c563422d6147f45e5a77f83fefc8a572a372b4a3846a2d14c106888724bb59c",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-871\""
+    },
+    {
+      "file": "sources/optics/met-252453-DP144130.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/met-252453-DP144130.jpg",
+      "bytes": 2337058,
+      "expected_sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "actual_sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-23a922\""
+    },
+    {
+      "file": "sources/optics/met-252453.json",
+      "url": "https://antonsoo.github.io/gonia/sources/optics/met-252453.json",
+      "bytes": 1603,
+      "expected_sha256": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af",
+      "actual_sha256": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-643\""
+    },
+    {
+      "file": "sources/screw/NOTICES.txt",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/NOTICES.txt",
+      "bytes": 1303,
+      "expected_sha256": "1c4f4486bea2644ebc39ca94d7ee39738d5a2b8e80f91fdd91d2314a7ad7fe5d",
+      "actual_sha256": "1c4f4486bea2644ebc39ca94d7ee39738d5a2b8e80f91fdd91d2314a7ad7fe5d",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-517\""
+    },
+    {
+      "file": "sources/screw/krohn-062.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/krohn-062.jpg",
+      "bytes": 395052,
+      "expected_sha256": "320c441dfa9204bff60a7786ce5142d9c6ea8e90b0f5bfb8c228d566f855d201",
+      "actual_sha256": "320c441dfa9204bff60a7786ce5142d9c6ea8e90b0f5bfb8c228d566f855d201",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-6072c\""
+    },
+    {
+      "file": "sources/screw/krohn-237.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/krohn-237.jpg",
+      "bytes": 409593,
+      "expected_sha256": "b5b0a6b9884eb4c4c472be036314330182034598f50fa8fd0337fff3a3d15896",
+      "actual_sha256": "b5b0a6b9884eb4c4c472be036314330182034598f50fa8fd0337fff3a3d15896",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-63ff9\""
+    },
+    {
+      "file": "sources/screw/krohn-238.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/krohn-238.jpg",
+      "bytes": 433366,
+      "expected_sha256": "7fe0634a712690be5e4dc02739506f6d828d062e0fa784c3268b1b6dfc402a52",
+      "actual_sha256": "7fe0634a712690be5e4dc02739506f6d828d062e0fa784c3268b1b6dfc402a52",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-69cd6\""
+    },
+    {
+      "file": "sources/screw/krohn-239.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/krohn-239.jpg",
+      "bytes": 414162,
+      "expected_sha256": "d8299081bea438542990c927fa15b2840b2496fff4a0ebc9f63255ee25bf4fbf",
+      "actual_sha256": "d8299081bea438542990c927fa15b2840b2496fff4a0ebc9f63255ee25bf4fbf",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-651d2\""
+    },
+    {
+      "file": "sources/screw/krohn-title.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/krohn-title.jpg",
+      "bytes": 152792,
+      "expected_sha256": "eb25519aec0a753c40df42ba584c8b9bc60061eff9fd72a02cd6b821b2182efa",
+      "actual_sha256": "eb25519aec0a753c40df42ba584c8b9bc60061eff9fd72a02cd6b821b2182efa",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-254d8\""
+    },
+    {
+      "file": "sources/screw/manifest.json",
+      "url": "https://antonsoo.github.io/gonia/sources/screw/manifest.json",
+      "bytes": 2391,
+      "expected_sha256": "e87fc3040e215734046533c4b8c3779cec75e8e031cb505499d9a73040337954",
+      "actual_sha256": "e87fc3040e215734046533c4b8c3779cec75e8e031cb505499d9a73040337954",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-957\""
+    },
+    {
+      "file": "sources/spacing/krohn-082.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-082.jpg",
+      "bytes": 404950,
+      "expected_sha256": "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+      "actual_sha256": "0441326734ad358f30c097af70ffd79a6cabd3cb38a4f39b66a9d67af4c081eb",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-62dd6\""
+    },
+    {
+      "file": "sources/spacing/krohn-083.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-083.jpg",
+      "bytes": 392529,
+      "expected_sha256": "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+      "actual_sha256": "c7136ef18758da483606cc4338d34dff6179054b376852dc21dfb9fd7edc26f9",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5fd51\""
+    },
+    {
+      "file": "sources/spacing/krohn-084.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-084.jpg",
+      "bytes": 400093,
+      "expected_sha256": "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+      "actual_sha256": "dcee6fe5e93edca54ad739922c6d57fe4ecc40a2815f1825557f6603f2fabe86",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-61add\""
+    },
+    {
+      "file": "sources/spacing/krohn-085.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/krohn-085.jpg",
+      "bytes": 392372,
+      "expected_sha256": "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a",
+      "actual_sha256": "24c4429621ad5aa6a74ee4ed0657adee2ae5a095a0d8340aba5a997462d9921a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5fcb4\""
+    },
+    {
+      "file": "sources/spacing/vitruvius-64-67.pdf",
+      "url": "https://antonsoo.github.io/gonia/sources/spacing/vitruvius-64-67.pdf",
+      "bytes": 376182,
+      "expected_sha256": "bc8f455c15075825093b559beeb40a84964454d5fb27e8436d2d33f3edd8912e",
+      "actual_sha256": "bc8f455c15075825093b559beeb40a84964454d5fb27e8436d2d33f3edd8912e",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-5bd76\""
+    },
+    {
+      "file": "sources/theatre/krohn-106.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-106.jpg",
+      "bytes": 335418,
+      "expected_sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0",
+      "actual_sha256": "baf0da2a20274c0fcbd04af3781d68b7b6d476a50be3e1591fe9ea26b1bca9d0",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-51e3a\""
+    },
+    {
+      "file": "sources/theatre/krohn-107.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-107.jpg",
+      "bytes": 335636,
+      "expected_sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66",
+      "actual_sha256": "71890e7e650f75c6f1a5b4f1a1fe3607c7844f2df47dfcdab59645dbe9faeb66",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-51f14\""
+    },
+    {
+      "file": "sources/theatre/krohn-108.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-108.jpg",
+      "bytes": 352685,
+      "expected_sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd",
+      "actual_sha256": "87a5712d8976e10ec4cfe880058b11ff707b8c0c5da4c20781db2ca7fccda5cd",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-561ad\""
+    },
+    {
+      "file": "sources/theatre/krohn-109.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-109.jpg",
+      "bytes": 331477,
+      "expected_sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a",
+      "actual_sha256": "e0d265dce284f53f597d28a4e4a67b736152a606002e54e4127cee23e9147f1a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-50ed5\""
+    },
+    {
+      "file": "sources/theatre/krohn-110.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/krohn-110.jpg",
+      "bytes": 355909,
+      "expected_sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877",
+      "actual_sha256": "1131f715eed16b0209c67f70ba23422a5697965bd51ea620c6bde006cd3d3877",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-56e45\""
+    },
+    {
+      "file": "sources/theatre/leake-greek-orchestra.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/leake-greek-orchestra.jpg",
+      "bytes": 27427,
+      "expected_sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf",
+      "actual_sha256": "09996e7f7808cb4c5c595f3193eac9731cb6bfda772f760b6fc9633c6f87b5cf",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-6b23\""
+    },
+    {
+      "file": "sources/theatre/manifest.json",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/manifest.json",
+      "bytes": 2737,
+      "expected_sha256": "cbb740a98f29c3af5c8846037e1c0f99e10e4ea8dcb6afdea11c536c1dcc321a",
+      "actual_sha256": "cbb740a98f29c3af5c8846037e1c0f99e10e4ea8dcb6afdea11c536c1dcc321a",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-ab1\""
+    },
+    {
+      "file": "sources/theatre/morgan-roman-plan.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/theatre/morgan-roman-plan.jpg",
+      "bytes": 218123,
+      "expected_sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9",
+      "actual_sha256": "62780051e9977afdbc1e12d59a799b88350f2be600ae87c84a9c245c6aa04fa9",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-3540b\""
+    },
+    {
+      "file": "sources/transport/krohn-230.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/krohn-230.jpg",
+      "bytes": 477658,
+      "expected_sha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e",
+      "actual_sha256": "026ea712d595e7dfd5bdd64cb469185b322a1736b5c7b6ff54df72fc2f61392e",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-749da\""
+    },
+    {
+      "file": "sources/transport/krohn-231.jpg",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/krohn-231.jpg",
+      "bytes": 461717,
+      "expected_sha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01",
+      "actual_sha256": "4c141850b98b08663f164765479e96d7711103fb1816725d50e65acf0ac7ea01",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-70b95\""
+    },
+    {
+      "file": "sources/transport/vitruvius-230-231.pdf",
+      "url": "https://antonsoo.github.io/gonia/sources/transport/vitruvius-230-231.pdf",
+      "bytes": 183260,
+      "expected_sha256": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc",
+      "actual_sha256": "9fa4fd4033b5ce82d3e0a5b0ee4b7d59885641e0a8baf4a8d95cfba83a4f8cfc",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-2cbdc\""
+    },
+    {
+      "file": "sources/vitruvius-82-83.pdf",
+      "url": "https://antonsoo.github.io/gonia/sources/vitruvius-82-83.pdf",
+      "bytes": 188664,
+      "expected_sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "actual_sha256": "8f35a11a732949212f90aa9da356146794b632dcd94dd62d95a2c48b0dad7f93",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-2e0f8\""
+    },
+    {
+      "file": "spacing.html",
+      "url": "https://antonsoo.github.io/gonia/spacing.html",
+      "bytes": 1304,
+      "expected_sha256": "43d3ed2e48e44f743708e4d06606e7572494e4ca00ef13e26a299548951f5481",
+      "actual_sha256": "43d3ed2e48e44f743708e4d06606e7572494e4ca00ef13e26a299548951f5481",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-518\""
+    },
+    {
+      "file": "sw.js",
+      "url": "https://antonsoo.github.io/gonia/sw.js",
+      "bytes": 15017,
+      "expected_sha256": "83aee173977c0ba11262946e26603de1d77bb0e4f55a7e15ce421a2ac6ab7e04",
+      "actual_sha256": "83aee173977c0ba11262946e26603de1d77bb0e4f55a7e15ce421a2ac6ab7e04",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-3aa9\""
+    },
+    {
+      "file": "theatre.html",
+      "url": "https://antonsoo.github.io/gonia/theatre.html",
+      "bytes": 1208,
+      "expected_sha256": "5cb9a4366d92ce0fef4a6434577913aa09cbfd072d2dc0219ea7659e56c7cc36",
+      "actual_sha256": "5cb9a4366d92ce0fef4a6434577913aa09cbfd072d2dc0219ea7659e56c7cc36",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-4b8\""
+    },
+    {
+      "file": "transport.html",
+      "url": "https://antonsoo.github.io/gonia/transport.html",
+      "bytes": 1134,
+      "expected_sha256": "72b4b0039f0f934ca259be7937de0c6e3dca8ebff8ef838f96c325016150003e",
+      "actual_sha256": "72b4b0039f0f934ca259be7937de0c6e3dca8ebff8ef838f96c325016150003e",
+      "matches": true,
+      "last_modified": "Sun, 25 Oct 2026 11:49:13 GMT",
+      "etag": "\"6addecb9-46e\""
+    }
+  ]
+}

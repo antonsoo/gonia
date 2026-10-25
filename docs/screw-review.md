@@ -1,7 +1,9 @@
 # Water screw: direct review
 
 This record describes the reviewed local production build. Publication is a
-separate claim, recorded after canonical hosted-file and public-browser checks.
+separate claim: see the completed [public review](screw-publication.md).
+
+The [clean Node 24 checkout](screw-clean.json) reproduced all 101 output files byte for byte.
 
 The [mathematical model](screw-model.md) distinguishes edited source dimensions,
 the conventional pitch interpretation, modern alterations and ideal water capacity.

@@ -62,7 +62,7 @@ an actual [24-page PDF example](examples/screw-reading.pdf), numerical CSV and a
 one-pitch paper wrap for a 30 mm core. The wrap includes a 25 mm calibration bar;
 physical assembly has not been tested.
 
-[Source and model](docs/screw-model.md) · [Direct workflow and artifact review](docs/screw-review.md).
+[Source and model](docs/screw-model.md) · [Direct workflow and artifact review](docs/screw-review.md) · [Publication evidence](docs/screw-publication.md).
 
 ## Try it
 
@@ -306,7 +306,7 @@ says the differences do not exceed 0.001. Both readings remain visible.
 The workshop also compares six reported maxima at actual size and equal
 shaft length, reads Vitruvius III.3.13 with Greek and Latin vocabulary, and
 includes five complete source images. Download the numerical CSV or a
-self-contained illustrated reading; all five workshops and their source
+self-contained illustrated reading; all rooms and their source
 packets are available offline after the footer confirms the complete edition.
 
 The five points do not establish a continuous measured profile, an ancient
@@ -409,7 +409,7 @@ Krohn pages 230–231 include the critical apparatus and the gap in the frame
 description. Enlarge and pan either the diagram or the original print.
 Keep a shared pose, download the selected position plus all 361 full-turn
 samples, or save an illustrated reading with both source pages, fonts and
-licenses embedded. All five rooms are available in the complete offline edition.
+licenses embedded. All rooms are available in the complete offline edition.
 
 The [transport model](docs/transport-model.md) gives the geometric derivation,
 source readings and limits. Its independent checker moves a complete polygon

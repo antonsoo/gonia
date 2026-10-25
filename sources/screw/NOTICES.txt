@@ -1,0 +1,22 @@
+Vitruvius, De architectura. Edited by F. Krohn. Leipzig: B. G. Teubner, 1912.
+Public domain edition. Five whole pages are retained without cropping,
+retouching or generative reconstruction, including the title and apparatus.
+The manifest maps PDF pages to printed pages and records all SHA-256 identities.
+
+The twelve Latin excerpts are selected learning passages, not a complete
+chapter or a new critical edition. Line-end hyphens are joined; paragraph
+and sentence punctuation are normalized. Ellipses mark workshop omissions.
+New English, contextual word notes, diagrams and application code:
+Copyright (c) 2026 Anton Soloviev. MIT license (see repository LICENSE).
+
+The water-capacity model is a modern ideal analysis. Reference:
+Chris Rorres (2000), The Turn of the Screw: Optimal Design of an Archimedes
+Screw, Journal of Hydraulic Engineering 126(1), 72-80.
+DOI: 10.1061/(ASCE)0733-9429(2000)126:1(72)
+https://www.cs.drexel.edu/~crorres/screw/screw.pdf
+No text, diagrams, photographs or code from this copyrighted paper are bundled.
+All workshop diagrams and implementation are original.
+
+Self-hosted Noto Serif and IBM Plex Sans retain their SIL OFL 1.1 notices
+in public/fonts. The portable reading embeds the complete font notices and
+the original-code MIT license alongside its source pages.

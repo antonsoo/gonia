@@ -1,0 +1,37 @@
+{
+  "pdfSha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+  "renderer": "pdftoppm version 24.02.0",
+  "pages": [
+    {
+      "page": "title",
+      "pdfPage": 5,
+      "bytes": 152792,
+      "identical": true
+    },
+    {
+      "page": "062",
+      "pdfPage": 80,
+      "bytes": 395052,
+      "identical": true
+    },
+    {
+      "page": "237",
+      "pdfPage": 255,
+      "bytes": 409593,
+      "identical": true
+    },
+    {
+      "page": "238",
+      "pdfPage": 256,
+      "bytes": 433366,
+      "identical": true
+    },
+    {
+      "page": "239",
+      "pdfPage": 257,
+      "bytes": 414162,
+      "identical": true
+    }
+  ],
+  "passed": true
+}

@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Ten problems you can inspect and measure:
+Eleven problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -30,6 +30,8 @@ Ten problems you can inspect and measure:
   how does moving one tied end change the lift, with every wheel retained?
 - [One twelfth, seen from where?](https://antonsoo.github.io/gonia/optics.html):
   does the same forward lean face every observer squarely?
+- [Eight channels. One revolution.](https://antonsoo.github.io/gonia/screw.html):
+  how does Vitruvius’s square grid become a spiral, and what makes its water stay inside?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -38,6 +40,29 @@ compromise preserves. It connects a geometric problem to the physical parts
 of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![The Doric corner workshop, with a widened end metope and highlighted triglyphs](docs/assets/workshop-desktop.png)
+
+## Build a water screw from the words
+
+[Unroll the shaft and follow one bucket](https://antonsoo.github.io/gonia/screw.html).
+Six construction steps distinguish one blade's full pitch from eight blade starts.
+Compare the sixteen-digit source foot with a twelve-part reading, alter pitch and
+slope, and see where retained water stops touching the shaft or disappears.
+A complete tracked turn advances the bucket by one pitch without resetting it.
+
+![A retained water section, area plot and volume per revolution](docs/assets/screw-water.png)
+
+The Latin instruction supplies the proportions; an explicitly modern ideal
+analysis supplies water capacity. Compare water fraction with water per turn:
+a shorter pitch can fill a greater fraction while delivering less per revolution.
+Neither number is a claim about hydraulic efficiency or measured ancient output.
+
+Twelve Latin readings with new English and word notes accompany five complete
+Krohn 1912 pages. Save a script-free illustrated reading with sources and fonts,
+an actual [24-page PDF example](examples/screw-reading.pdf), numerical CSV and a
+one-pitch paper wrap for a 30 mm core. The wrap includes a 25 mm calibration bar;
+physical assembly has not been tested.
+
+[Source and model](docs/screw-model.md) · [Direct workflow and artifact review](docs/screw-review.md).
 
 ## Try it
 
@@ -80,7 +105,7 @@ Save a script-free illustrated reading, SVG or comparative CSV. The retained
 [twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
 and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
 is compressed for the repository. Decompress it before opening.
-All ten rooms share one integrity-checked offline edition. The independent
+All eleven rooms share one integrity-checked offline edition. The independent
 geometry, actual browser files and interrupted nine-to-ten-room upgrades are
 recorded in the [direct review](docs/optics-review.md) and
 [source/model analysis](docs/optics-model.md).

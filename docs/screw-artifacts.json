@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "embeddedReadings": 2,
+      "fullSourcePagesPerReading": 5,
+      "nativeCsvSections": 201,
+      "paperWrapMm": [210, 297],
+      "passed": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "embeddedReadings": 2,
+      "fullSourcePagesPerReading": 5,
+      "nativeCsvSections": 201,
+      "paperWrapMm": [210, 297],
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "embeddedReadings": 2,
+      "fullSourcePagesPerReading": 5,
+      "nativeCsvSections": 201,
+      "paperWrapMm": [210, 297],
+      "passed": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "embeddedReadings": 2,
+      "fullSourcePagesPerReading": 5,
+      "nativeCsvSections": 201,
+      "paperWrapMm": [210, 297],
+      "passed": true
+    }
+  ],
+  "svgSnapshots": 68,
+  "csvSections": 2412,
+  "maximumRenderedAreaDifference": 1.2442237470489115e-5,
+  "pdf": {
+    "pages": 24,
+    "words": 2695,
+    "languageFields": 108,
+    "sourceJpegsByteIdentical": 5,
+    "noJavaScript": true,
+    "allTextInPageBounds": true
+  },
+  "passed": true
+}

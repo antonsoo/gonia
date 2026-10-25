@@ -1,0 +1,8 @@
+{
+  "cases": 120,
+  "sections": 2040,
+  "maxAreaDifference": 7.873342589004295e-8,
+  "maxFractionDifference": 1.4638265932731542e-8,
+  "method": "96-point Gauss-Legendre radial-strip integration plus independent SciPy quadrature; broad wet interval",
+  "passed": true
+}

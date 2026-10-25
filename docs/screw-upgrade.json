@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-25T11:45:13.827Z",
+  "previous": "supplied prior eight-room build",
+  "rows": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "held",
+      "oldCache": "gonia-61a18e410f7a4efc051885b293ed83749509b47554276daca8294dde2d5bb3fd",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTenRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2",
+      "cachedFiles": 100,
+      "viewerWithheldUnverifiedPage": true,
+      "obsoleteEmptyCaches": [],
+      "newElevenRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 19,
+      "currentInspectionDidNotRecreateDeletedCache": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "scenario": "substituted",
+      "oldCache": "gonia-61a18e410f7a4efc051885b293ed83749509b47554276daca8294dde2d5bb3fd",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTenRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2",
+      "cachedFiles": 100,
+      "viewerWithheldUnverifiedPage": true,
+      "obsoleteEmptyCaches": [],
+      "newElevenRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 33,
+      "currentInspectionDidNotRecreateDeletedCache": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "held",
+      "oldCache": "gonia-61a18e410f7a4efc051885b293ed83749509b47554276daca8294dde2d5bb3fd",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldTenRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2",
+      "cachedFiles": 100,
+      "viewerWithheldUnverifiedPage": true,
+      "obsoleteEmptyCaches": [],
+      "newElevenRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 130,
+      "currentInspectionDidNotRecreateDeletedCache": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "scenario": "substituted",
+      "oldCache": "gonia-61a18e410f7a4efc051885b293ed83749509b47554276daca8294dde2d5bb3fd",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldTenRoomEditionWorkedOffline": true,
+      "unverifiedReadingNotDownloaded": true,
+      "newCache": "gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2",
+      "cachedFiles": 100,
+      "viewerWithheldUnverifiedPage": true,
+      "obsoleteEmptyCaches": [],
+      "newElevenRoomEditionWorkedOffline": true,
+      "disabledOriginRequests": 130,
+      "currentInspectionDidNotRecreateDeletedCache": true
+    }
+  ]
+}

@@ -1,0 +1,3336 @@
+{
+  "checkedAt": "2026-10-25T11:42:25.584Z",
+  "scope": "production build with local origin disabled for offline replay",
+  "base": "local",
+  "workerSha256": "83aee173977c0ba11262946e26603de1d77bb0e4f55a7e15ce421a2ac6ab7e04",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "animationElapsedMs": 12039,
+      "downloads": [
+        {
+          "name": "screw.svg",
+          "bytes": 173572,
+          "sha256": "b6f492374819d8805a6c159974baf80f8f3cff88a6efd294c3acbf990f38ec0e"
+        },
+        {
+          "name": "wrap.svg",
+          "bytes": 4834,
+          "sha256": "05bad3671632b422c33456d3c4553b08175b47b1880d5ee964387769a36d6bf3"
+        },
+        {
+          "name": "measurements.csv",
+          "bytes": 19913,
+          "sha256": "4644e5cf184041a26569c6afec4b82ba764a00de1c5880813e54f0aad4357efd"
+        },
+        {
+          "name": "reading.html",
+          "bytes": 3343708,
+          "sha256": "c41ab1d586029c71856e47ff8484dab09584ca8aab3557e0959a2c5d77e115b7"
+        },
+        {
+          "name": "offline-reading.html",
+          "bytes": 3223999,
+          "sha256": "0dc750fbf0d6a30b931bd1c653318f2684ecbbfc7137dd31090af728176189e5"
+        }
+      ],
+      "snapshots": [
+        {
+          "query": "",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=500&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "500",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "2.41%",
+          "perTurnText": "0.23827 R³",
+          "cutArea": 0.053491291787002127,
+          "renderedArea": 0.05349111541033998,
+          "sectionVertices": 242,
+          "axis": 1.9903461423835367,
+          "worldLevel": 1.2032997974129327,
+          "renderedLevel": [309.4876, 478.2031, 327.8264, 478.2031],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=650&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "650",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "0%",
+          "perTurnText": "0 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": null,
+          "renderedLevel": [],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "40.55%",
+          "perTurnText": "4.00188 R³",
+          "cutArea": 0.2945243112740431,
+          "renderedArea": 0.2945222392115745,
+          "sectionVertices": 242,
+          "axis": 2.1792217768404,
+          "worldLevel": 0.703682545081998,
+          "renderedLevel": [132.1136, 367.6238, 245.1137, 367.6238],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=twelfths&starts=4&lead=50&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "twelfths",
+            "starts": "4",
+            "lead": "50",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "35.64%",
+          "perTurnText": "2.34482 R³",
+          "cutArea": 0.4363323129985824,
+          "renderedArea": 0.4363198707611119,
+          "sectionVertices": 242,
+          "axis": 1.6178464280033726,
+          "worldLevel": 0.7852557734029577,
+          "renderedLevel": [116.2781, 363.5881, 210.5312, 363.5881],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 305, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 202.5, 253.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [253.75, 100, 305, 202.5]
+            },
+            {
+              "start": 2,
+              "points": [100, 305, 202.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [202.5, 100, 305, 305]
+            },
+            {
+              "start": 3,
+              "points": [100, 407.5, 151.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [151.25, 100, 305, 407.5]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=360&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "360",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 5.202685597603566,
+          "worldLevel": 2.8751882449932484,
+          "renderedLevel": [329.9879, 384.2105, 386.009, 384.2105],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=0&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "0",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=100&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "100",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.00039772243223419514,
+          "renderedArea": 0.00039772411250031626,
+          "sectionVertices": 242,
+          "axis": 1.3797619511133057,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=200&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "200",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.02215503287557759,
+          "renderedArea": 0.022155116460801618,
+          "sectionVertices": 244,
+          "axis": 1.5500946993384224,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=300&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "300",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.08593422722580296,
+          "renderedArea": 0.08593410435895074,
+          "sectionVertices": 244,
+          "axis": 1.720427447563539,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=400&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "400",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.1488215463868014,
+          "renderedArea": 0.1488210006074065,
+          "sectionVertices": 244,
+          "axis": 1.890760195788656,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=600&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "600",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.25335254853846334,
+          "renderedArea": 0.2533500153493839,
+          "sectionVertices": 244,
+          "axis": 2.2314256922388895,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=700&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "700",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.24599704210337167,
+          "renderedArea": 0.24599436663811536,
+          "sectionVertices": 242,
+          "axis": 2.4017584404640067,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=800&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "800",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.19440616686917522,
+          "renderedArea": 0.19440318515323976,
+          "sectionVertices": 242,
+          "axis": 2.572091188689124,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=900&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "900",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.07271064548276052,
+          "renderedArea": 0.0727091999879602,
+          "sectionVertices": 242,
+          "axis": 2.7424239369142396,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=1000&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "1000",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "keys": ["gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2"],
+        "files": [
+          "/gonia/assets/LICENSE_raw-logISlDD.js",
+          "/gonia/assets/colonnade-C6ETJgZU.css",
+          "/gonia/assets/colonnade-U6TpVsEQ.js",
+          "/gonia/assets/drawing-BoRtX5xJ.js",
+          "/gonia/assets/echea-DS4HO-zL.js",
+          "/gonia/assets/echea-PoDcUi_B.css",
+          "/gonia/assets/entasis-B1xxYjhI.js",
+          "/gonia/assets/entasis-QEne2H1K.css",
+          "/gonia/assets/fluting-CvF-aoWC.js",
+          "/gonia/assets/fluting-CyDeXJNl.css",
+          "/gonia/assets/hoist-Bxxw5FsJ.css",
+          "/gonia/assets/hoist-CNxbr-c5.js",
+          "/gonia/assets/main-CCcXa4dJ.js",
+          "/gonia/assets/offline-8h9EIU8x.css",
+          "/gonia/assets/offline-GTI6bYGN.js",
+          "/gonia/assets/optics-DJHWzdAd.js",
+          "/gonia/assets/optics-TbbzjEuQ.css",
+          "/gonia/assets/screw-CKqD2aGF.css",
+          "/gonia/assets/screw-Ckdkh1hl.js",
+          "/gonia/assets/spacing-2ctFs_Y1.js",
+          "/gonia/assets/spacing-C8wTAflL.css",
+          "/gonia/assets/theatre-3Yndn_KY.css",
+          "/gonia/assets/theatre-DrMSkm2K.js",
+          "/gonia/assets/transport-BVSOd36H.js",
+          "/gonia/assets/transport-ElzZfsvG.css",
+          "/gonia/colonnade.html",
+          "/gonia/echea.html",
+          "/gonia/entasis.html",
+          "/gonia/favicon.svg",
+          "/gonia/fluting.html",
+          "/gonia/fonts/IBMPlex-OFL.txt",
+          "/gonia/fonts/IBMPlexSans-Regular.woff2",
+          "/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+          "/gonia/fonts/NotoSerif-OFL.txt",
+          "/gonia/fonts/NotoSerif-Regular.ttf",
+          "/gonia/hoist.html",
+          "/gonia/index.html",
+          "/gonia/optics.html",
+          "/gonia/screw.html",
+          "/gonia/sources/colonnade/humann-041.jpg",
+          "/gonia/sources/colonnade/humann-043.jpg",
+          "/gonia/sources/colonnade/humann-055.jpg",
+          "/gonia/sources/colonnade/krohn-063.jpg",
+          "/gonia/sources/colonnade/krohn-066.jpg",
+          "/gonia/sources/echea/krohn-102.jpg",
+          "/gonia/sources/echea/krohn-103.jpg",
+          "/gonia/sources/echea/krohn-104.jpg",
+          "/gonia/sources/echea/krohn-105.jpg",
+          "/gonia/sources/echea/manifest.json",
+          "/gonia/sources/entasis/entasis-source-pages.pdf",
+          "/gonia/sources/entasis/krohn-068.jpg",
+          "/gonia/sources/entasis/penrose-039.jpg",
+          "/gonia/sources/entasis/penrose-040.jpg",
+          "/gonia/sources/entasis/penrose-041.jpg",
+          "/gonia/sources/entasis/penrose-Taf_14.jpg",
+          "/gonia/sources/fluting/bywater-205.jpg",
+          "/gonia/sources/fluting/heiberg-240.jpg",
+          "/gonia/sources/fluting/heiberg-241.jpg",
+          "/gonia/sources/fluting/krohn-074.jpg",
+          "/gonia/sources/fluting/krohn-085.jpg",
+          "/gonia/sources/hoist/krohn-226.jpg",
+          "/gonia/sources/hoist/krohn-227.jpg",
+          "/gonia/sources/hoist/krohn-232.jpg",
+          "/gonia/sources/hoist/krohn-233.jpg",
+          "/gonia/sources/hoist/krohn-title.jpg",
+          "/gonia/sources/hoist/manifest.json",
+          "/gonia/sources/optics/NOTICES.txt",
+          "/gonia/sources/optics/krohn-072.jpg",
+          "/gonia/sources/optics/krohn-073.jpg",
+          "/gonia/sources/optics/krohn-074.jpg",
+          "/gonia/sources/optics/manifest.json",
+          "/gonia/sources/optics/met-252453-DP144130.jpg",
+          "/gonia/sources/optics/met-252453.json",
+          "/gonia/sources/screw/NOTICES.txt",
+          "/gonia/sources/screw/krohn-062.jpg",
+          "/gonia/sources/screw/krohn-237.jpg",
+          "/gonia/sources/screw/krohn-238.jpg",
+          "/gonia/sources/screw/krohn-239.jpg",
+          "/gonia/sources/screw/krohn-title.jpg",
+          "/gonia/sources/screw/manifest.json",
+          "/gonia/sources/spacing/krohn-082.jpg",
+          "/gonia/sources/spacing/krohn-083.jpg",
+          "/gonia/sources/spacing/krohn-084.jpg",
+          "/gonia/sources/spacing/krohn-085.jpg",
+          "/gonia/sources/spacing/vitruvius-64-67.pdf",
+          "/gonia/sources/theatre/krohn-106.jpg",
+          "/gonia/sources/theatre/krohn-107.jpg",
+          "/gonia/sources/theatre/krohn-108.jpg",
+          "/gonia/sources/theatre/krohn-109.jpg",
+          "/gonia/sources/theatre/krohn-110.jpg",
+          "/gonia/sources/theatre/leake-greek-orchestra.jpg",
+          "/gonia/sources/theatre/manifest.json",
+          "/gonia/sources/theatre/morgan-roman-plan.jpg",
+          "/gonia/sources/transport/krohn-230.jpg",
+          "/gonia/sources/transport/krohn-231.jpg",
+          "/gonia/sources/transport/vitruvius-230-231.pdf",
+          "/gonia/sources/vitruvius-82-83.pdf",
+          "/gonia/spacing.html",
+          "/gonia/theatre.html",
+          "/gonia/transport.html"
+        ]
+      },
+      "accessibility": {
+        "violations": 0,
+        "rules": 54
+      },
+      "pageErrors": [],
+      "standaloneNetworkRequests": [],
+      "offline": "passed"
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "animationElapsedMs": 12039,
+      "downloads": [
+        {
+          "name": "screw.svg",
+          "bytes": 173572,
+          "sha256": "b6f492374819d8805a6c159974baf80f8f3cff88a6efd294c3acbf990f38ec0e"
+        },
+        {
+          "name": "wrap.svg",
+          "bytes": 4834,
+          "sha256": "05bad3671632b422c33456d3c4553b08175b47b1880d5ee964387769a36d6bf3"
+        },
+        {
+          "name": "measurements.csv",
+          "bytes": 19913,
+          "sha256": "4644e5cf184041a26569c6afec4b82ba764a00de1c5880813e54f0aad4357efd"
+        },
+        {
+          "name": "reading.html",
+          "bytes": 3343708,
+          "sha256": "c41ab1d586029c71856e47ff8484dab09584ca8aab3557e0959a2c5d77e115b7"
+        },
+        {
+          "name": "offline-reading.html",
+          "bytes": 3223999,
+          "sha256": "0dc750fbf0d6a30b931bd1c653318f2684ecbbfc7137dd31090af728176189e5"
+        }
+      ],
+      "snapshots": [
+        {
+          "query": "",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=500&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "500",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "2.41%",
+          "perTurnText": "0.23827 R³",
+          "cutArea": 0.053491291787002127,
+          "renderedArea": 0.05349111541033998,
+          "sectionVertices": 242,
+          "axis": 1.9903461423835367,
+          "worldLevel": 1.2032997974129327,
+          "renderedLevel": [309.4876, 478.2031, 327.8264, 478.2031],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=650&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "650",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "0%",
+          "perTurnText": "0 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": null,
+          "renderedLevel": [],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "40.55%",
+          "perTurnText": "4.00188 R³",
+          "cutArea": 0.2945243112740431,
+          "renderedArea": 0.2945222392115745,
+          "sectionVertices": 242,
+          "axis": 2.1792217768404,
+          "worldLevel": 0.703682545081998,
+          "renderedLevel": [132.1136, 367.6238, 245.1137, 367.6238],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=twelfths&starts=4&lead=50&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "twelfths",
+            "starts": "4",
+            "lead": "50",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "35.64%",
+          "perTurnText": "2.34482 R³",
+          "cutArea": 0.4363323129985824,
+          "renderedArea": 0.4363198707611119,
+          "sectionVertices": 242,
+          "axis": 1.6178464280033726,
+          "worldLevel": 0.7852557734029577,
+          "renderedLevel": [116.2781, 363.5881, 210.5312, 363.5881],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 305, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 202.5, 253.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [253.75, 100, 305, 202.5]
+            },
+            {
+              "start": 2,
+              "points": [100, 305, 202.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [202.5, 100, 305, 305]
+            },
+            {
+              "start": 3,
+              "points": [100, 407.5, 151.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [151.25, 100, 305, 407.5]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=360&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "360",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 5.202685597603566,
+          "worldLevel": 2.8751882449932484,
+          "renderedLevel": [329.9879, 384.2105, 386.009, 384.2105],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=0&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "0",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=100&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "100",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.00039772243223419514,
+          "renderedArea": 0.00039772411250031626,
+          "sectionVertices": 242,
+          "axis": 1.3797619511133057,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=200&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "200",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.02215503287557759,
+          "renderedArea": 0.022155116460801618,
+          "sectionVertices": 244,
+          "axis": 1.5500946993384224,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=300&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "300",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.08593422722580296,
+          "renderedArea": 0.08593410435895074,
+          "sectionVertices": 244,
+          "axis": 1.720427447563539,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=400&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "400",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.1488215463868014,
+          "renderedArea": 0.1488210006074065,
+          "sectionVertices": 244,
+          "axis": 1.890760195788656,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=600&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "600",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.25335254853846334,
+          "renderedArea": 0.2533500153493839,
+          "sectionVertices": 244,
+          "axis": 2.2314256922388895,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=700&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "700",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.24599704210337167,
+          "renderedArea": 0.24599436663811536,
+          "sectionVertices": 242,
+          "axis": 2.4017584404640067,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=800&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "800",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.19440616686917522,
+          "renderedArea": 0.19440318515323976,
+          "sectionVertices": 242,
+          "axis": 2.572091188689124,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=900&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "900",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.07271064548276052,
+          "renderedArea": 0.0727091999879602,
+          "sectionVertices": 242,
+          "axis": 2.7424239369142396,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=1000&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "1000",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "keys": ["gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2"],
+        "files": [
+          "/gonia/assets/LICENSE_raw-logISlDD.js",
+          "/gonia/assets/colonnade-C6ETJgZU.css",
+          "/gonia/assets/colonnade-U6TpVsEQ.js",
+          "/gonia/assets/drawing-BoRtX5xJ.js",
+          "/gonia/assets/echea-DS4HO-zL.js",
+          "/gonia/assets/echea-PoDcUi_B.css",
+          "/gonia/assets/entasis-B1xxYjhI.js",
+          "/gonia/assets/entasis-QEne2H1K.css",
+          "/gonia/assets/fluting-CvF-aoWC.js",
+          "/gonia/assets/fluting-CyDeXJNl.css",
+          "/gonia/assets/hoist-Bxxw5FsJ.css",
+          "/gonia/assets/hoist-CNxbr-c5.js",
+          "/gonia/assets/main-CCcXa4dJ.js",
+          "/gonia/assets/offline-8h9EIU8x.css",
+          "/gonia/assets/offline-GTI6bYGN.js",
+          "/gonia/assets/optics-DJHWzdAd.js",
+          "/gonia/assets/optics-TbbzjEuQ.css",
+          "/gonia/assets/screw-CKqD2aGF.css",
+          "/gonia/assets/screw-Ckdkh1hl.js",
+          "/gonia/assets/spacing-2ctFs_Y1.js",
+          "/gonia/assets/spacing-C8wTAflL.css",
+          "/gonia/assets/theatre-3Yndn_KY.css",
+          "/gonia/assets/theatre-DrMSkm2K.js",
+          "/gonia/assets/transport-BVSOd36H.js",
+          "/gonia/assets/transport-ElzZfsvG.css",
+          "/gonia/colonnade.html",
+          "/gonia/echea.html",
+          "/gonia/entasis.html",
+          "/gonia/favicon.svg",
+          "/gonia/fluting.html",
+          "/gonia/fonts/IBMPlex-OFL.txt",
+          "/gonia/fonts/IBMPlexSans-Regular.woff2",
+          "/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+          "/gonia/fonts/NotoSerif-OFL.txt",
+          "/gonia/fonts/NotoSerif-Regular.ttf",
+          "/gonia/hoist.html",
+          "/gonia/index.html",
+          "/gonia/optics.html",
+          "/gonia/screw.html",
+          "/gonia/sources/colonnade/humann-041.jpg",
+          "/gonia/sources/colonnade/humann-043.jpg",
+          "/gonia/sources/colonnade/humann-055.jpg",
+          "/gonia/sources/colonnade/krohn-063.jpg",
+          "/gonia/sources/colonnade/krohn-066.jpg",
+          "/gonia/sources/echea/krohn-102.jpg",
+          "/gonia/sources/echea/krohn-103.jpg",
+          "/gonia/sources/echea/krohn-104.jpg",
+          "/gonia/sources/echea/krohn-105.jpg",
+          "/gonia/sources/echea/manifest.json",
+          "/gonia/sources/entasis/entasis-source-pages.pdf",
+          "/gonia/sources/entasis/krohn-068.jpg",
+          "/gonia/sources/entasis/penrose-039.jpg",
+          "/gonia/sources/entasis/penrose-040.jpg",
+          "/gonia/sources/entasis/penrose-041.jpg",
+          "/gonia/sources/entasis/penrose-Taf_14.jpg",
+          "/gonia/sources/fluting/bywater-205.jpg",
+          "/gonia/sources/fluting/heiberg-240.jpg",
+          "/gonia/sources/fluting/heiberg-241.jpg",
+          "/gonia/sources/fluting/krohn-074.jpg",
+          "/gonia/sources/fluting/krohn-085.jpg",
+          "/gonia/sources/hoist/krohn-226.jpg",
+          "/gonia/sources/hoist/krohn-227.jpg",
+          "/gonia/sources/hoist/krohn-232.jpg",
+          "/gonia/sources/hoist/krohn-233.jpg",
+          "/gonia/sources/hoist/krohn-title.jpg",
+          "/gonia/sources/hoist/manifest.json",
+          "/gonia/sources/optics/NOTICES.txt",
+          "/gonia/sources/optics/krohn-072.jpg",
+          "/gonia/sources/optics/krohn-073.jpg",
+          "/gonia/sources/optics/krohn-074.jpg",
+          "/gonia/sources/optics/manifest.json",
+          "/gonia/sources/optics/met-252453-DP144130.jpg",
+          "/gonia/sources/optics/met-252453.json",
+          "/gonia/sources/screw/NOTICES.txt",
+          "/gonia/sources/screw/krohn-062.jpg",
+          "/gonia/sources/screw/krohn-237.jpg",
+          "/gonia/sources/screw/krohn-238.jpg",
+          "/gonia/sources/screw/krohn-239.jpg",
+          "/gonia/sources/screw/krohn-title.jpg",
+          "/gonia/sources/screw/manifest.json",
+          "/gonia/sources/spacing/krohn-082.jpg",
+          "/gonia/sources/spacing/krohn-083.jpg",
+          "/gonia/sources/spacing/krohn-084.jpg",
+          "/gonia/sources/spacing/krohn-085.jpg",
+          "/gonia/sources/spacing/vitruvius-64-67.pdf",
+          "/gonia/sources/theatre/krohn-106.jpg",
+          "/gonia/sources/theatre/krohn-107.jpg",
+          "/gonia/sources/theatre/krohn-108.jpg",
+          "/gonia/sources/theatre/krohn-109.jpg",
+          "/gonia/sources/theatre/krohn-110.jpg",
+          "/gonia/sources/theatre/leake-greek-orchestra.jpg",
+          "/gonia/sources/theatre/manifest.json",
+          "/gonia/sources/theatre/morgan-roman-plan.jpg",
+          "/gonia/sources/transport/krohn-230.jpg",
+          "/gonia/sources/transport/krohn-231.jpg",
+          "/gonia/sources/transport/vitruvius-230-231.pdf",
+          "/gonia/sources/vitruvius-82-83.pdf",
+          "/gonia/spacing.html",
+          "/gonia/theatre.html",
+          "/gonia/transport.html"
+        ]
+      },
+      "accessibility": {
+        "violations": 0,
+        "rules": 54
+      },
+      "pageErrors": [],
+      "standaloneNetworkRequests": [],
+      "offline": "passed"
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "animationElapsedMs": 12057,
+      "downloads": [
+        {
+          "name": "screw.svg",
+          "bytes": 173572,
+          "sha256": "b6f492374819d8805a6c159974baf80f8f3cff88a6efd294c3acbf990f38ec0e"
+        },
+        {
+          "name": "wrap.svg",
+          "bytes": 4834,
+          "sha256": "05bad3671632b422c33456d3c4553b08175b47b1880d5ee964387769a36d6bf3"
+        },
+        {
+          "name": "measurements.csv",
+          "bytes": 19913,
+          "sha256": "4d8bad3c403b267b9cadaf398a0dc5fd3c60184c7f14d859286677b449112ad5"
+        },
+        {
+          "name": "reading.html",
+          "bytes": 3343708,
+          "sha256": "c421f3b2d8ce58ff12238cb348bbaeb9a45dd540066509391328ffce168cd483"
+        },
+        {
+          "name": "offline-reading.html",
+          "bytes": 3224003,
+          "sha256": "b8c13d20593fcbb0dc08cb4fef3cdf72a59252f3a5ddafd10805424f33b1a164"
+        }
+      ],
+      "snapshots": [
+        {
+          "query": "",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=500&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "500",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "2.41%",
+          "perTurnText": "0.23827 R³",
+          "cutArea": 0.053491291787002127,
+          "renderedArea": 0.05349111541033998,
+          "sectionVertices": 242,
+          "axis": 1.9903461423835367,
+          "worldLevel": 1.2032997974129327,
+          "renderedLevel": [309.4876, 478.2031, 327.8264, 478.2031],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=650&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "650",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "0%",
+          "perTurnText": "0 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": null,
+          "renderedLevel": [],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "40.55%",
+          "perTurnText": "4.00188 R³",
+          "cutArea": 0.2945243112740431,
+          "renderedArea": 0.2945222392115745,
+          "sectionVertices": 242,
+          "axis": 2.1792217768404,
+          "worldLevel": 0.703682545081998,
+          "renderedLevel": [132.1136, 367.6238, 245.1137, 367.6238],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=twelfths&starts=4&lead=50&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "twelfths",
+            "starts": "4",
+            "lead": "50",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "35.64%",
+          "perTurnText": "2.34482 R³",
+          "cutArea": 0.4363323129985824,
+          "renderedArea": 0.4363198707611119,
+          "sectionVertices": 242,
+          "axis": 1.6178464280033726,
+          "worldLevel": 0.7852557734029577,
+          "renderedLevel": [116.2781, 363.5881, 210.5312, 363.5881],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 305, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 202.5, 253.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [253.75, 100, 305, 202.5]
+            },
+            {
+              "start": 2,
+              "points": [100, 305, 202.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [202.5, 100, 305, 305]
+            },
+            {
+              "start": 3,
+              "points": [100, 407.5, 151.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [151.25, 100, 305, 407.5]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=360&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "360",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 5.202685597603566,
+          "worldLevel": 2.8751882449932484,
+          "renderedLevel": [329.9879, 384.2105, 386.009, 384.2105],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=0&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "0",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=100&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "100",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.00039772243223419514,
+          "renderedArea": 0.00039772411250031626,
+          "sectionVertices": 242,
+          "axis": 1.3797619511133057,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=200&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "200",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.02215503287557759,
+          "renderedArea": 0.022155116460801618,
+          "sectionVertices": 244,
+          "axis": 1.5500946993384224,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=300&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "300",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.08593422722580296,
+          "renderedArea": 0.08593410435895074,
+          "sectionVertices": 244,
+          "axis": 1.720427447563539,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=400&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "400",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.1488215463868014,
+          "renderedArea": 0.1488210006074065,
+          "sectionVertices": 244,
+          "axis": 1.890760195788656,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=600&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "600",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.25335254853846334,
+          "renderedArea": 0.2533500153493839,
+          "sectionVertices": 244,
+          "axis": 2.2314256922388895,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=700&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "700",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2459970421033717,
+          "renderedArea": 0.24599436663811536,
+          "sectionVertices": 242,
+          "axis": 2.4017584404640067,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=800&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "800",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.19440616686917522,
+          "renderedArea": 0.19440318515323976,
+          "sectionVertices": 242,
+          "axis": 2.572091188689124,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=900&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "900",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.07271064548276057,
+          "renderedArea": 0.0727091999879602,
+          "sectionVertices": 242,
+          "axis": 2.7424239369142396,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=1000&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "1000",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "keys": ["gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2"],
+        "files": [
+          "/gonia/assets/LICENSE_raw-logISlDD.js",
+          "/gonia/assets/colonnade-C6ETJgZU.css",
+          "/gonia/assets/colonnade-U6TpVsEQ.js",
+          "/gonia/assets/drawing-BoRtX5xJ.js",
+          "/gonia/assets/echea-DS4HO-zL.js",
+          "/gonia/assets/echea-PoDcUi_B.css",
+          "/gonia/assets/entasis-B1xxYjhI.js",
+          "/gonia/assets/entasis-QEne2H1K.css",
+          "/gonia/assets/fluting-CvF-aoWC.js",
+          "/gonia/assets/fluting-CyDeXJNl.css",
+          "/gonia/assets/hoist-Bxxw5FsJ.css",
+          "/gonia/assets/hoist-CNxbr-c5.js",
+          "/gonia/assets/main-CCcXa4dJ.js",
+          "/gonia/assets/offline-8h9EIU8x.css",
+          "/gonia/assets/offline-GTI6bYGN.js",
+          "/gonia/assets/optics-DJHWzdAd.js",
+          "/gonia/assets/optics-TbbzjEuQ.css",
+          "/gonia/assets/screw-CKqD2aGF.css",
+          "/gonia/assets/screw-Ckdkh1hl.js",
+          "/gonia/assets/spacing-2ctFs_Y1.js",
+          "/gonia/assets/spacing-C8wTAflL.css",
+          "/gonia/assets/theatre-3Yndn_KY.css",
+          "/gonia/assets/theatre-DrMSkm2K.js",
+          "/gonia/assets/transport-BVSOd36H.js",
+          "/gonia/assets/transport-ElzZfsvG.css",
+          "/gonia/colonnade.html",
+          "/gonia/echea.html",
+          "/gonia/entasis.html",
+          "/gonia/favicon.svg",
+          "/gonia/fluting.html",
+          "/gonia/fonts/IBMPlex-OFL.txt",
+          "/gonia/fonts/IBMPlexSans-Regular.woff2",
+          "/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+          "/gonia/fonts/NotoSerif-OFL.txt",
+          "/gonia/fonts/NotoSerif-Regular.ttf",
+          "/gonia/hoist.html",
+          "/gonia/index.html",
+          "/gonia/optics.html",
+          "/gonia/screw.html",
+          "/gonia/sources/colonnade/humann-041.jpg",
+          "/gonia/sources/colonnade/humann-043.jpg",
+          "/gonia/sources/colonnade/humann-055.jpg",
+          "/gonia/sources/colonnade/krohn-063.jpg",
+          "/gonia/sources/colonnade/krohn-066.jpg",
+          "/gonia/sources/echea/krohn-102.jpg",
+          "/gonia/sources/echea/krohn-103.jpg",
+          "/gonia/sources/echea/krohn-104.jpg",
+          "/gonia/sources/echea/krohn-105.jpg",
+          "/gonia/sources/echea/manifest.json",
+          "/gonia/sources/entasis/entasis-source-pages.pdf",
+          "/gonia/sources/entasis/krohn-068.jpg",
+          "/gonia/sources/entasis/penrose-039.jpg",
+          "/gonia/sources/entasis/penrose-040.jpg",
+          "/gonia/sources/entasis/penrose-041.jpg",
+          "/gonia/sources/entasis/penrose-Taf_14.jpg",
+          "/gonia/sources/fluting/bywater-205.jpg",
+          "/gonia/sources/fluting/heiberg-240.jpg",
+          "/gonia/sources/fluting/heiberg-241.jpg",
+          "/gonia/sources/fluting/krohn-074.jpg",
+          "/gonia/sources/fluting/krohn-085.jpg",
+          "/gonia/sources/hoist/krohn-226.jpg",
+          "/gonia/sources/hoist/krohn-227.jpg",
+          "/gonia/sources/hoist/krohn-232.jpg",
+          "/gonia/sources/hoist/krohn-233.jpg",
+          "/gonia/sources/hoist/krohn-title.jpg",
+          "/gonia/sources/hoist/manifest.json",
+          "/gonia/sources/optics/NOTICES.txt",
+          "/gonia/sources/optics/krohn-072.jpg",
+          "/gonia/sources/optics/krohn-073.jpg",
+          "/gonia/sources/optics/krohn-074.jpg",
+          "/gonia/sources/optics/manifest.json",
+          "/gonia/sources/optics/met-252453-DP144130.jpg",
+          "/gonia/sources/optics/met-252453.json",
+          "/gonia/sources/screw/NOTICES.txt",
+          "/gonia/sources/screw/krohn-062.jpg",
+          "/gonia/sources/screw/krohn-237.jpg",
+          "/gonia/sources/screw/krohn-238.jpg",
+          "/gonia/sources/screw/krohn-239.jpg",
+          "/gonia/sources/screw/krohn-title.jpg",
+          "/gonia/sources/screw/manifest.json",
+          "/gonia/sources/spacing/krohn-082.jpg",
+          "/gonia/sources/spacing/krohn-083.jpg",
+          "/gonia/sources/spacing/krohn-084.jpg",
+          "/gonia/sources/spacing/krohn-085.jpg",
+          "/gonia/sources/spacing/vitruvius-64-67.pdf",
+          "/gonia/sources/theatre/krohn-106.jpg",
+          "/gonia/sources/theatre/krohn-107.jpg",
+          "/gonia/sources/theatre/krohn-108.jpg",
+          "/gonia/sources/theatre/krohn-109.jpg",
+          "/gonia/sources/theatre/krohn-110.jpg",
+          "/gonia/sources/theatre/leake-greek-orchestra.jpg",
+          "/gonia/sources/theatre/manifest.json",
+          "/gonia/sources/theatre/morgan-roman-plan.jpg",
+          "/gonia/sources/transport/krohn-230.jpg",
+          "/gonia/sources/transport/krohn-231.jpg",
+          "/gonia/sources/transport/vitruvius-230-231.pdf",
+          "/gonia/sources/vitruvius-82-83.pdf",
+          "/gonia/spacing.html",
+          "/gonia/theatre.html",
+          "/gonia/transport.html"
+        ]
+      },
+      "accessibility": {
+        "violations": 0,
+        "rules": 54
+      },
+      "pageErrors": [],
+      "standaloneNetworkRequests": [],
+      "offline": "passed"
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "animationElapsedMs": 12055,
+      "downloads": [
+        {
+          "name": "screw.svg",
+          "bytes": 173572,
+          "sha256": "b6f492374819d8805a6c159974baf80f8f3cff88a6efd294c3acbf990f38ec0e"
+        },
+        {
+          "name": "wrap.svg",
+          "bytes": 4834,
+          "sha256": "05bad3671632b422c33456d3c4553b08175b47b1880d5ee964387769a36d6bf3"
+        },
+        {
+          "name": "measurements.csv",
+          "bytes": 19913,
+          "sha256": "4d8bad3c403b267b9cadaf398a0dc5fd3c60184c7f14d859286677b449112ad5"
+        },
+        {
+          "name": "reading.html",
+          "bytes": 3343708,
+          "sha256": "c421f3b2d8ce58ff12238cb348bbaeb9a45dd540066509391328ffce168cd483"
+        },
+        {
+          "name": "offline-reading.html",
+          "bytes": 3224003,
+          "sha256": "b8c13d20593fcbb0dc08cb4fef3cdf72a59252f3a5ddafd10805424f33b1a164"
+        }
+      ],
+      "snapshots": [
+        {
+          "query": "",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=500&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "500",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "2.41%",
+          "perTurnText": "0.23827 R³",
+          "cutArea": 0.053491291787002127,
+          "renderedArea": 0.05349111541033998,
+          "sectionVertices": 242,
+          "axis": 1.9903461423835367,
+          "worldLevel": 1.2032997974129327,
+          "renderedLevel": [309.4876, 478.2031, 327.8264, 478.2031],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=650&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "650",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "0%",
+          "perTurnText": "0 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": null,
+          "renderedLevel": [],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "40.55%",
+          "perTurnText": "4.00188 R³",
+          "cutArea": 0.2945243112740431,
+          "renderedArea": 0.2945222392115745,
+          "sectionVertices": 242,
+          "axis": 2.1792217768404,
+          "worldLevel": 0.703682545081998,
+          "renderedLevel": [132.1136, 367.6238, 245.1137, 367.6238],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 151.25, 458.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [458.75, 100, 510, 151.25]
+            },
+            {
+              "start": 2,
+              "points": [100, 202.5, 407.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [407.5, 100, 510, 202.5]
+            },
+            {
+              "start": 3,
+              "points": [100, 253.75, 356.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [356.25, 100, 510, 253.75]
+            },
+            {
+              "start": 4,
+              "points": [100, 305, 305, 510]
+            },
+            {
+              "start": 4,
+              "points": [305, 100, 510, 305]
+            },
+            {
+              "start": 5,
+              "points": [100, 356.25, 253.75, 510]
+            },
+            {
+              "start": 5,
+              "points": [253.75, 100, 510, 356.25]
+            },
+            {
+              "start": 6,
+              "points": [100, 407.5, 202.5, 510]
+            },
+            {
+              "start": 6,
+              "points": [202.5, 100, 510, 407.5]
+            },
+            {
+              "start": 7,
+              "points": [100, 458.75, 151.25, 510]
+            },
+            {
+              "start": 7,
+              "points": [151.25, 100, 510, 458.75]
+            }
+          ]
+        },
+        {
+          "query": "?units=twelfths&starts=4&lead=50&sourceSlope=false&angle=150&turn=0&cut=500&step=5&passage=0&page=237",
+          "controls": {
+            "units": "twelfths",
+            "starts": "4",
+            "lead": "50",
+            "angle": "150",
+            "turn": "0",
+            "cut": "500",
+            "step": "5",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "false"
+          },
+          "fractionText": "35.64%",
+          "perTurnText": "2.34482 R³",
+          "cutArea": 0.4363323129985824,
+          "renderedArea": 0.4363198707611119,
+          "sectionVertices": 242,
+          "axis": 1.6178464280033726,
+          "worldLevel": 0.7852557734029577,
+          "renderedLevel": [116.2781, 363.5881, 210.5312, 363.5881],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 305, 510]
+            },
+            {
+              "start": 1,
+              "points": [100, 202.5, 253.75, 510]
+            },
+            {
+              "start": 1,
+              "points": [253.75, 100, 305, 202.5]
+            },
+            {
+              "start": 2,
+              "points": [100, 305, 202.5, 510]
+            },
+            {
+              "start": 2,
+              "points": [202.5, 100, 305, 305]
+            },
+            {
+              "start": 3,
+              "points": [100, 407.5, 151.25, 510]
+            },
+            {
+              "start": 3,
+              "points": [151.25, 100, 305, 407.5]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=360&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "360",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 5.202685597603566,
+          "worldLevel": 2.8751882449932484,
+          "renderedLevel": [329.9879, 384.2105, 386.009, 384.2105],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=0&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "0",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=100&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "100",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.00039772243223419514,
+          "renderedArea": 0.00039772411250031626,
+          "sectionVertices": 242,
+          "axis": 1.3797619511133057,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=200&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "200",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.02215503287557759,
+          "renderedArea": 0.022155116460801618,
+          "sectionVertices": 244,
+          "axis": 1.5500946993384224,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=300&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "300",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.08593422722580296,
+          "renderedArea": 0.08593410435895074,
+          "sectionVertices": 244,
+          "axis": 1.720427447563539,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=400&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "400",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.1488215463868014,
+          "renderedArea": 0.1488210006074065,
+          "sectionVertices": 244,
+          "axis": 1.890760195788656,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=500&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "500",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2082610977082131,
+          "renderedArea": 0.20825953455756266,
+          "sectionVertices": 244,
+          "axis": 2.061092944013773,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=600&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "600",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.25335254853846334,
+          "renderedArea": 0.2533500153493839,
+          "sectionVertices": 244,
+          "axis": 2.2314256922388895,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=700&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "700",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.2459970421033717,
+          "renderedArea": 0.24599436663811536,
+          "sectionVertices": 242,
+          "axis": 2.4017584404640067,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=800&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "800",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.19440616686917522,
+          "renderedArea": 0.19440318515323976,
+          "sectionVertices": 242,
+          "axis": 2.572091188689124,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=900&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "900",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0.07271064548276057,
+          "renderedArea": 0.0727091999879602,
+          "sectionVertices": 242,
+          "axis": 2.7424239369142396,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        },
+        {
+          "query": "?units=digits&starts=8&lead=100&sourceSlope=true&angle=370&turn=0&cut=1000&step=3&passage=0&page=237",
+          "controls": {
+            "units": "digits",
+            "starts": "8",
+            "lead": "100",
+            "angle": "370",
+            "turn": "0",
+            "cut": "1000",
+            "step": "3",
+            "passage": "0",
+            "page": "237",
+            "sourceSlope": "true"
+          },
+          "fractionText": "17.03%",
+          "perTurnText": "1.68096 R³",
+          "cutArea": 0,
+          "renderedArea": 0,
+          "sectionVertices": 0,
+          "axis": null,
+          "worldLevel": 0.9902326528393722,
+          "renderedLevel": [226.6633, 466.6773, 282.6844, 466.6773],
+          "netLines": [
+            {
+              "start": 0,
+              "points": [100, 100, 510, 510]
+            }
+          ]
+        }
+      ],
+      "cache": {
+        "keys": ["gonia-94c044907f6b0e290468482ad75350585ae70d82b4c175e50c8e15d0a2204eb2"],
+        "files": [
+          "/gonia/assets/LICENSE_raw-logISlDD.js",
+          "/gonia/assets/colonnade-C6ETJgZU.css",
+          "/gonia/assets/colonnade-U6TpVsEQ.js",
+          "/gonia/assets/drawing-BoRtX5xJ.js",
+          "/gonia/assets/echea-DS4HO-zL.js",
+          "/gonia/assets/echea-PoDcUi_B.css",
+          "/gonia/assets/entasis-B1xxYjhI.js",
+          "/gonia/assets/entasis-QEne2H1K.css",
+          "/gonia/assets/fluting-CvF-aoWC.js",
+          "/gonia/assets/fluting-CyDeXJNl.css",
+          "/gonia/assets/hoist-Bxxw5FsJ.css",
+          "/gonia/assets/hoist-CNxbr-c5.js",
+          "/gonia/assets/main-CCcXa4dJ.js",
+          "/gonia/assets/offline-8h9EIU8x.css",
+          "/gonia/assets/offline-GTI6bYGN.js",
+          "/gonia/assets/optics-DJHWzdAd.js",
+          "/gonia/assets/optics-TbbzjEuQ.css",
+          "/gonia/assets/screw-CKqD2aGF.css",
+          "/gonia/assets/screw-Ckdkh1hl.js",
+          "/gonia/assets/spacing-2ctFs_Y1.js",
+          "/gonia/assets/spacing-C8wTAflL.css",
+          "/gonia/assets/theatre-3Yndn_KY.css",
+          "/gonia/assets/theatre-DrMSkm2K.js",
+          "/gonia/assets/transport-BVSOd36H.js",
+          "/gonia/assets/transport-ElzZfsvG.css",
+          "/gonia/colonnade.html",
+          "/gonia/echea.html",
+          "/gonia/entasis.html",
+          "/gonia/favicon.svg",
+          "/gonia/fluting.html",
+          "/gonia/fonts/IBMPlex-OFL.txt",
+          "/gonia/fonts/IBMPlexSans-Regular.woff2",
+          "/gonia/fonts/IBMPlexSans-SemiBold.woff2",
+          "/gonia/fonts/NotoSerif-OFL.txt",
+          "/gonia/fonts/NotoSerif-Regular.ttf",
+          "/gonia/hoist.html",
+          "/gonia/index.html",
+          "/gonia/optics.html",
+          "/gonia/screw.html",
+          "/gonia/sources/colonnade/humann-041.jpg",
+          "/gonia/sources/colonnade/humann-043.jpg",
+          "/gonia/sources/colonnade/humann-055.jpg",
+          "/gonia/sources/colonnade/krohn-063.jpg",
+          "/gonia/sources/colonnade/krohn-066.jpg",
+          "/gonia/sources/echea/krohn-102.jpg",
+          "/gonia/sources/echea/krohn-103.jpg",
+          "/gonia/sources/echea/krohn-104.jpg",
+          "/gonia/sources/echea/krohn-105.jpg",
+          "/gonia/sources/echea/manifest.json",
+          "/gonia/sources/entasis/entasis-source-pages.pdf",
+          "/gonia/sources/entasis/krohn-068.jpg",
+          "/gonia/sources/entasis/penrose-039.jpg",
+          "/gonia/sources/entasis/penrose-040.jpg",
+          "/gonia/sources/entasis/penrose-041.jpg",
+          "/gonia/sources/entasis/penrose-Taf_14.jpg",
+          "/gonia/sources/fluting/bywater-205.jpg",
+          "/gonia/sources/fluting/heiberg-240.jpg",
+          "/gonia/sources/fluting/heiberg-241.jpg",
+          "/gonia/sources/fluting/krohn-074.jpg",
+          "/gonia/sources/fluting/krohn-085.jpg",
+          "/gonia/sources/hoist/krohn-226.jpg",
+          "/gonia/sources/hoist/krohn-227.jpg",
+          "/gonia/sources/hoist/krohn-232.jpg",
+          "/gonia/sources/hoist/krohn-233.jpg",
+          "/gonia/sources/hoist/krohn-title.jpg",
+          "/gonia/sources/hoist/manifest.json",
+          "/gonia/sources/optics/NOTICES.txt",
+          "/gonia/sources/optics/krohn-072.jpg",
+          "/gonia/sources/optics/krohn-073.jpg",
+          "/gonia/sources/optics/krohn-074.jpg",
+          "/gonia/sources/optics/manifest.json",
+          "/gonia/sources/optics/met-252453-DP144130.jpg",
+          "/gonia/sources/optics/met-252453.json",
+          "/gonia/sources/screw/NOTICES.txt",
+          "/gonia/sources/screw/krohn-062.jpg",
+          "/gonia/sources/screw/krohn-237.jpg",
+          "/gonia/sources/screw/krohn-238.jpg",
+          "/gonia/sources/screw/krohn-239.jpg",
+          "/gonia/sources/screw/krohn-title.jpg",
+          "/gonia/sources/screw/manifest.json",
+          "/gonia/sources/spacing/krohn-082.jpg",
+          "/gonia/sources/spacing/krohn-083.jpg",
+          "/gonia/sources/spacing/krohn-084.jpg",
+          "/gonia/sources/spacing/krohn-085.jpg",
+          "/gonia/sources/spacing/vitruvius-64-67.pdf",
+          "/gonia/sources/theatre/krohn-106.jpg",
+          "/gonia/sources/theatre/krohn-107.jpg",
+          "/gonia/sources/theatre/krohn-108.jpg",
+          "/gonia/sources/theatre/krohn-109.jpg",
+          "/gonia/sources/theatre/krohn-110.jpg",
+          "/gonia/sources/theatre/leake-greek-orchestra.jpg",
+          "/gonia/sources/theatre/manifest.json",
+          "/gonia/sources/theatre/morgan-roman-plan.jpg",
+          "/gonia/sources/transport/krohn-230.jpg",
+          "/gonia/sources/transport/krohn-231.jpg",
+          "/gonia/sources/transport/vitruvius-230-231.pdf",
+          "/gonia/sources/vitruvius-82-83.pdf",
+          "/gonia/spacing.html",
+          "/gonia/theatre.html",
+          "/gonia/transport.html"
+        ]
+      },
+      "accessibility": {
+        "violations": 0,
+        "rules": 54
+      },
+      "pageErrors": [],
+      "standaloneNetworkRequests": [],
+      "offline": "passed"
+    }
+  ]
+}

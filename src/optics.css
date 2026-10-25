@@ -1,0 +1,352 @@
+.vp-page main {
+  max-width: 1440px;
+  margin: auto;
+  padding: 0 36px;
+}
+.vp-intro {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 70px;
+  padding: 70px 0 80px;
+  align-items: center;
+}
+.vp-intro h1 {
+  font-family: Noto, Georgia, serif;
+  font-size: clamp(42px, 5.3vw, 76px);
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: -0.045em;
+  margin: 0;
+}
+.vp-intro p {
+  max-width: 40ch;
+  font-size: 19px;
+}
+.vp-section {
+  border-top: 1px solid var(--line);
+  padding: 42px 0 52px;
+}
+.vp-section h2 {
+  font-family: Noto, Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  margin: 0 0 24px;
+}
+.vp-section-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 28px;
+}
+.vp-section-head p {
+  max-width: 52ch;
+  margin: 0;
+}
+.vp-bench {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 45px;
+}
+.vp-page label {
+  display: block;
+  font-weight: 600;
+  margin-top: 14px;
+}
+.vp-page output {
+  float: right;
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+.vp-page input[type="range"] {
+  width: 100%;
+  accent-color: var(--orange);
+  margin: 9px 0;
+  min-height: 32px;
+}
+.vp-page select {
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  padding: 7px;
+  white-space: normal;
+}
+.vp-small,
+.vp-page figcaption {
+  font-size: 14px;
+  color: #555f52;
+  line-height: 1.55;
+}
+.vp-page fieldset {
+  border: 0;
+  border-top: 1px solid var(--line);
+  padding: 15px 0 0;
+  margin: 24px 0 0;
+}
+.vp-page legend {
+  font-weight: 600;
+  padding-right: 12px;
+}
+.vp-page .vp-radio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 9px;
+  font-weight: 400;
+  min-height: 38px;
+  margin: 0;
+}
+.vp-radio input {
+  accent-color: var(--orange);
+  width: 18px;
+  height: 18px;
+}
+.vp-radio span {
+  padding-left: 28px;
+  flex-basis: 100%;
+  margin-top: -6px;
+}
+.vp-controls #vp-find {
+  width: 100%;
+  margin-top: 12px;
+}
+.vp-pan {
+  overflow: auto;
+  border-bottom: 1px solid var(--line);
+}
+.vp-pan #vp-scene {
+  min-width: 700px;
+}
+.vp-diagram {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.vp-board,
+.vp-controls,
+.vp-details > div,
+.vp-reading-grid > div {
+  min-width: 0;
+}
+.vp-readouts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.vp-readouts dt {
+  font-size: 14px;
+  color: var(--muted);
+}
+.vp-readouts dd {
+  font-size: 23px;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+.vp-finding {
+  font-size: 20px;
+  line-height: 1.4;
+  border-left: 3px solid var(--orange);
+  padding-left: 16px;
+  margin: 25px 0 16px;
+  max-width: 60ch;
+}
+.vp-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+.vp-method {
+  border-top: 1px solid var(--line);
+  margin-top: 25px;
+  padding-top: 18px;
+}
+.vp-method p {
+  max-width: 85ch;
+}
+.vp-reading-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+.vp-latin {
+  font-family: Noto, Georgia, serif;
+  font-size: 24px;
+  line-height: 1.65;
+}
+.vp-words,
+.vp-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin: 18px 0;
+}
+.vp-words button {
+  font-family: Noto, Georgia, serif;
+}
+.vp-words button[aria-pressed="true"] {
+  background: #dce2d3;
+  border-color: var(--green);
+}
+.vp-word-note {
+  padding: 16px 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  min-height: 200px;
+}
+.vp-word-note p {
+  margin: 8px 0;
+}
+.vp-word-note [lang="grc"] {
+  font-family: Noto, Georgia, serif;
+  font-size: 23px;
+}
+.vp-source-pan {
+  height: 560px;
+  max-height: 70vh;
+  overflow: auto;
+  background: #e9e4d5;
+  border: 1px solid var(--line);
+}
+.vp-source-pan img {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+}
+.vp-object,
+.vp-save,
+.vp-limits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+}
+.vp-object {
+  align-items: center;
+}
+.vp-object figure {
+  margin: 0;
+}
+.vp-object img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 620px;
+  object-fit: contain;
+  margin: 0 auto 15px;
+}
+.vp-object figcaption {
+  max-width: 60ch;
+}
+.vp-save input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  min-height: 44px;
+  min-width: 0;
+}
+.vp-page footer {
+  gap: 15px;
+}
+.vp-page [hidden] {
+  display: none !important;
+}
+.vp-page h3 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 18px 0 12px;
+}
+@media (max-width: 900px) {
+  .vp-bench {
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 24px;
+  }
+  .vp-details {
+    grid-template-columns: 1fr;
+  }
+  .vp-reading-grid {
+    gap: 32px;
+  }
+  .vp-intro {
+    gap: 35px;
+  }
+  .vp-readouts dd {
+    font-size: 19px;
+  }
+}
+@media (max-width: 680px) {
+  .vp-page main {
+    padding: 0 20px;
+  }
+  .vp-intro {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 40px 0 45px;
+  }
+  .vp-intro p {
+    font-size: 18px;
+  }
+  .vp-section-head,
+  .vp-bench,
+  .vp-reading-grid,
+  .vp-object,
+  .vp-save,
+  .vp-limits {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .vp-section {
+    padding: 30px 0 38px;
+  }
+  .vp-section-head {
+    margin-bottom: 15px;
+  }
+  .vp-section h2 {
+    margin-bottom: 12px;
+  }
+  .vp-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .vp-readouts {
+    gap: 10px;
+  }
+  .vp-readouts dd {
+    font-size: 18px;
+  }
+  .vp-readouts dt {
+    font-size: 13px;
+  }
+  .vp-finding {
+    font-size: 18px;
+  }
+  .vp-details {
+    grid-template-columns: 1fr;
+  }
+  .vp-latin {
+    font-size: 22px;
+  }
+  .vp-source-pan {
+    height: 440px;
+  }
+  .vp-word-note {
+    min-height: 0;
+  }
+  .vp-page .masthead {
+    padding: 20px;
+  }
+  .vp-page .masthead nav {
+    gap: 9px 16px;
+  }
+  .vp-page footer {
+    padding: 24px 20px;
+  }
+  .vp-section-head p {
+    max-width: unset;
+  }
+}

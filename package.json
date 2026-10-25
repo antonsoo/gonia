@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "private": true,
-  "description": "Measured ancient architecture: temple geometry, transport, theatre acoustics, hoists and sight lines.",
+  "description": "Measured ancient architecture: temple geometry, transport, acoustics, hoists, sight lines and water screws.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -54,7 +54,11 @@
     "test:hoist-upgrade": "node scripts/hoist-upgrade.mjs",
     "verify:hoist-files": "python3 scripts/hoist-artifact-oracle.py",
     "verify:optics": "node --import tsx scripts/optics-cases.ts | python3 scripts/optics-oracle.py",
-    "test:optics": "node scripts/optics-browser.mjs"
+    "test:optics": "node scripts/optics-browser.mjs",
+    "verify:screw": "node --import tsx scripts/screw-cases.ts | python3 scripts/screw-oracle.py",
+    "test:screw": "node scripts/screw-browser.mjs",
+    "test:screw-upgrade": "node scripts/screw-upgrade.mjs",
+    "verify:screw-files": "python3 scripts/screw-artifacts.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

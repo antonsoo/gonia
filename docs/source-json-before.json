@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-25T03:14:08.451Z",
+  "node": "v24.21.0 servers",
+  "rows": [
+    {
+      "project": "gonia",
+      "pageLoaded": true,
+      "unsupportedPublicImports": [
+        "http://127.0.0.1:4355/gonia/public/sources/optics/manifest.json?import"
+      ],
+      "warningReproduced": true
+    }
+  ]
+}

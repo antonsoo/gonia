@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { defineConfig } from "vite";
+import { defineConfig, type Plugin } from "vite";
 
 const base = "/gonia/";
 
@@ -15,6 +15,26 @@ async function filesIn(directory: string): Promise<string[]> {
     ),
   );
   return nested.flat();
+}
+
+/** One retained JSON file serves Node calculations, browser code and source downloads. */
+function retainedSourceJson(file: string): Plugin {
+  const sourceFile = path.resolve(file),
+    virtualId = "\0retained-source-json";
+  return {
+    name: "retained-source-json",
+    enforce: "pre",
+    resolveId(id, importer) {
+      if (id === virtualId) return id;
+      if (importer && id.startsWith(".") && path.resolve(path.dirname(importer), id) === sourceFile)
+        return virtualId;
+    },
+    async load(id) {
+      if (id !== virtualId) return;
+      this.addWatchFile(sourceFile);
+      return `export default ${JSON.stringify(JSON.parse(await readFile(sourceFile, "utf8")))};`;
+    },
+  };
 }
 
 export default defineConfig(async ({ command }) => {
@@ -63,6 +83,7 @@ export default defineConfig(async ({ command }) => {
     },
     define: { __GONIA_EDITION__: JSON.stringify(edition) },
     plugins: [
+      retainedSourceJson("public/sources/optics/manifest.json"),
       {
         name: "offline-workshop",
         apply: "build",

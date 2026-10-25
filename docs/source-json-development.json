@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-25T03:15:14.808Z",
+  "base": "http://127.0.0.1:4354/gonia/",
+  "source": "public/sources/optics/manifest.json",
+  "driverNode": "v24.21.0",
+  "serverWarnings": 0,
+  "rows": [
+    {
+      "browser": "chromium",
+      "width": 375,
+      "moduleEqualsRetainedJSON": true,
+      "rawDownloadEqualsRetainedJSON": true,
+      "publicImportRequests": [],
+      "temporaryEditAndRestore": true,
+      "nativeStudyDownloaded": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "moduleEqualsRetainedJSON": true,
+      "rawDownloadEqualsRetainedJSON": true,
+      "publicImportRequests": [],
+      "temporaryEditAndRestore": false,
+      "nativeStudyDownloaded": true,
+      "pageErrors": []
+    }
+  ],
+  "scope": "Native development and raw/module source identity. Temporary edits are isolated watcher fixtures, not historical measurements. Original bytes restored. Production and publication checks are separate."
+}

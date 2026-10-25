@@ -114,7 +114,7 @@ async function geometry(p) {
         normal,
         actualNormal: Number(mark.dataset.imageCoordinate),
         renderedY: Number(mark.getAttribute("d").match(/M[\d.-]+ ([\d.eE+-]+)/)[1]),
-        expectedY: 170 - 215 * normal,
+        expectedY: 180 - 180 * normal,
       };
     });
   });
@@ -181,6 +181,9 @@ for (const [name, engine] of [
         await page.locator("#vp-eye").fill("25");
         await page.locator("#vp-distance").fill("50");
         await geometry(page);
+        await page.goto(`${base}optics.html?d=50&h=60&e=25&l=60&a=645&mode=custom&read=1`);
+        const edgeMarks = await geometry(page);
+        assert(edgeMarks.every((mark) => mark.renderedY > 65 && mark.renderedY < 295));
         await page.goto(
           `${base}optics.html?d=300&h=120&e=16&l=40&a=48&mode=source&read=4#vp-workshop`,
         );

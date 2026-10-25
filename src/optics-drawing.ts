@@ -71,7 +71,7 @@ export function opticsDetail(s: OpticsState) {
 }
 export function opticsProjection(s: OpticsState) {
   const m = opticsModel(s),
-    y = (v: number) => 170 - 215 * v;
+    y = (v: number) => 180 - 180 * v;
   return svg(
     440,
     340,

@@ -1,0 +1,66 @@
+{
+  "verifiedAt": "2026-10-25T02:41:49.333922+00:00",
+  "scope": "Retained source/font assets and cached original PDF from this research; prior build matched against retained canonical hosted identities. Not a new network fetch.",
+  "originalPDF": {
+    "bytes": 16915191,
+    "sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139"
+  },
+  "assets": [
+    {
+      "file": "sources/optics/krohn-072.jpg",
+      "bytes": 571747,
+      "sha256": "e2d71bffd81ae82643186be83aa255fef1e304c2dfcf112a6a71539b3b24e1fe"
+    },
+    {
+      "file": "sources/optics/krohn-073.jpg",
+      "bytes": 575872,
+      "sha256": "f0518114063e265655146fe04c49a60144270bd68f0f1fbf53f24b2a42904e8f"
+    },
+    {
+      "file": "sources/optics/krohn-074.jpg",
+      "bytes": 572591,
+      "sha256": "e2c0cc63ac339f3a61173a3ca623d0e3dac8dd1ce58b819f8161fb398d63bc6b"
+    },
+    {
+      "file": "sources/optics/met-252453-DP144130.jpg",
+      "bytes": 2337058,
+      "sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827"
+    },
+    {
+      "file": "sources/optics/met-252453.json",
+      "bytes": 1603,
+      "sha256": "d4238ac28ce501f35e1f514373530d53c7d3c7b8f1a1c162af6dbd549c17f4af"
+    },
+    {
+      "file": "sources/optics/NOTICES.txt",
+      "bytes": 2261,
+      "sha256": "496f61008e428e97116ae77550d389b33d377acf93766ded96773cdea13ba5ea"
+    },
+    {
+      "file": "sources/hoist/krohn-title.jpg",
+      "bytes": 210509,
+      "sha256": "44aa4f62aec7e1ebad9e60110fabc8a86a62edac344fe42dde8f5996b44968db"
+    },
+    {
+      "file": "fonts/NotoSerif-Regular.ttf",
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    {
+      "file": "fonts/IBMPlexSans-Regular.woff2",
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    {
+      "file": "fonts/NotoSerif-OFL.txt",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    },
+    {
+      "file": "fonts/IBMPlex-OFL.txt",
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    }
+  ],
+  "previousEditionCanonicalFileMatches": 81
+}

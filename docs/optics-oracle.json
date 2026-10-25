@@ -1,0 +1,8 @@
+{
+  "method": "Independent 65-digit Decimal Euclidean distances and intersections of eye rays with the screen through C; custom angles use Python math sin/cos, not arbitrary-precision trigonometry.",
+  "cases": 819,
+  "comparisons": 20097,
+  "maximumScaledError": "1.1959922039871539985340718000595253652914665792206E-13",
+  "sourceAtanRatio": "1/12",
+  "scope": "Chosen flat-face geometry and projection; no historical perceptual or construction validation."
+}

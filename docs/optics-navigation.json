@@ -1,0 +1,567 @@
+{
+  "checkedAt": "2026-10-25T02:41:52.126Z",
+  "base": "http://127.0.0.1:4353/gonia/",
+  "scope": "Native keyboard route from each of ten rooms at four widths in both browsers; document bounds; service workers blocked for this navigation-only review.",
+  "cases": [
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "index.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "spacing.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "entasis.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "fluting.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "transport.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "colonnade.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "theatre.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "echea.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "hoist.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "room": "optics.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "index.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "spacing.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "entasis.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "fluting.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "transport.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "colonnade.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "theatre.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "echea.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "hoist.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 768,
+      "room": "optics.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "index.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "spacing.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "entasis.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "fluting.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "transport.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "colonnade.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "theatre.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "echea.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "hoist.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1024,
+      "room": "optics.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "index.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "spacing.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "entasis.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "fluting.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "transport.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "colonnade.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "theatre.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "echea.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "hoist.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "room": "optics.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "index.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "spacing.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "entasis.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "fluting.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "transport.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "colonnade.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "theatre.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "echea.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "hoist.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "room": "optics.html",
+      "documentWidth": 375,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "index.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "spacing.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "entasis.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "fluting.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "transport.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "colonnade.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "theatre.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "echea.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "hoist.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 768,
+      "room": "optics.html",
+      "documentWidth": 768,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "index.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "spacing.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "entasis.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "fluting.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "transport.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "colonnade.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "theatre.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "echea.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "hoist.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1024,
+      "room": "optics.html",
+      "documentWidth": 1024,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "index.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "spacing.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "entasis.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "fluting.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "transport.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "colonnade.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "theatre.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "echea.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "hoist.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "room": "optics.html",
+      "documentWidth": 1440,
+      "nativeKeyboardRoute": true
+    }
+  ]
+}

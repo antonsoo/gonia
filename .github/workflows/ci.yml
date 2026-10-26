@@ -44,3 +44,7 @@ jobs:
       - run: npm run verify:optics
       - run: npm run test:optics -- /tmp/gonia-optics
       - run: python3 scripts/optics-artifacts.py /tmp/gonia-optics
+      - run: npm run verify:ledger
+      - run: npm run test:ledger -- /tmp/gonia-ledger
+      - run: node --import tsx scripts/ledger-cases.ts | python3 scripts/ledger-oracle.py /tmp/gonia-ledger
+      - run: npm run verify:ledger-files -- /tmp/gonia-ledger

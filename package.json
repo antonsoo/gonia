@@ -58,7 +58,10 @@
     "verify:screw": "node --import tsx scripts/screw-cases.ts | python3 scripts/screw-oracle.py",
     "test:screw": "node scripts/screw-browser.mjs",
     "test:screw-upgrade": "node scripts/screw-upgrade.mjs",
-    "verify:screw-files": "python3 scripts/screw-artifacts.py"
+    "verify:screw-files": "python3 scripts/screw-artifacts.py",
+    "verify:ledger": "node --import tsx scripts/ledger-cases.ts | python3 scripts/ledger-oracle.py",
+    "test:ledger": "node scripts/ledger-browser.mjs",
+    "verify:ledger-files": "python3 scripts/ledger-artifacts.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

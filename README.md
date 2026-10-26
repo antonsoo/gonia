@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Twelve problems you can inspect and measure in the local build:
+Twelve problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -32,9 +32,8 @@ Twelve problems you can inspect and measure in the local build:
   does the same forward lean face every observer squarely?
 - [Eight channels. One revolution.](https://antonsoo.github.io/gonia/screw.html):
   how does Vitruvius’s square grid become a spiral, and what makes its water stay inside?
-- [Seven names, one uneven obol](docs/ledger-review.md):
+- [Seven names, one uneven obol](https://antonsoo.github.io/gonia/ledger.html#lg-workshop):
   can a correct total recover the payments beside seven column-fluters’ names?
-  The new building-accounts room is local; its public deployment is not claimed.
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -46,7 +45,8 @@ of a Greek temple and to Vitruvius's account of the difficulty.
 
 ## The names behind the flutes
 
-Open `/gonia/ledger.html` in the local development or production preview.
+Open the [building-accounts room](https://antonsoo.github.io/gonia/ledger.html#lg-workshop),
+or use `/gonia/ledger.html` in the local development or production preview.
 Two entries in the Erechtheion building accounts, 408/7 BCE, name the same
 seven people. Their edited amounts sum to 90 and 100 drachmas. In each entry,
 the difference between the largest and smallest payment is one obol.
@@ -140,7 +140,7 @@ Save a script-free illustrated reading, SVG or comparative CSV. The retained
 [twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
 and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
 is compressed for the repository. Decompress it before opening.
-All twelve local rooms share one integrity-checked offline edition. The independent
+All twelve rooms share one integrity-checked offline edition. The independent
 geometry, actual browser files and interrupted nine-to-ten-room upgrades are
 recorded in the [direct review](docs/optics-review.md) and
 [source/model analysis](docs/optics-model.md).

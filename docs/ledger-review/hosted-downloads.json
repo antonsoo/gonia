@@ -1,0 +1,125 @@
+{
+  "files": [
+    {
+      "file": "chromium-1440-from-study.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "chromium-1440-from-study.xml",
+      "bytes": 3107,
+      "sha256": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+      "matches": true
+    },
+    {
+      "file": "chromium-1440-offline-reading.html",
+      "bytes": 2294364,
+      "sha256": "ac29064c7a23a87b0bbd15cde0b6997a353f6f0529014cbbbcb7d4e7ce19e927",
+      "matches": true
+    },
+    {
+      "file": "chromium-1440-reading.html",
+      "bytes": 2294861,
+      "sha256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "matches": true
+    },
+    {
+      "file": "chromium-1440.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "chromium-375-from-study.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "chromium-375-from-study.xml",
+      "bytes": 3107,
+      "sha256": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+      "matches": true
+    },
+    {
+      "file": "chromium-375-offline-reading.html",
+      "bytes": 2294364,
+      "sha256": "ac29064c7a23a87b0bbd15cde0b6997a353f6f0529014cbbbcb7d4e7ce19e927",
+      "matches": true
+    },
+    {
+      "file": "chromium-375-reading.html",
+      "bytes": 2294861,
+      "sha256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "matches": true
+    },
+    {
+      "file": "chromium-375.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "firefox-1440-from-study.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "firefox-1440-from-study.xml",
+      "bytes": 3107,
+      "sha256": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+      "matches": true
+    },
+    {
+      "file": "firefox-1440-offline-reading.html",
+      "bytes": 2294364,
+      "sha256": "ac29064c7a23a87b0bbd15cde0b6997a353f6f0529014cbbbcb7d4e7ce19e927",
+      "matches": true
+    },
+    {
+      "file": "firefox-1440-reading.html",
+      "bytes": 2294861,
+      "sha256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "matches": true
+    },
+    {
+      "file": "firefox-1440.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "firefox-375-from-study.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    },
+    {
+      "file": "firefox-375-from-study.xml",
+      "bytes": 3107,
+      "sha256": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+      "matches": true
+    },
+    {
+      "file": "firefox-375-offline-reading.html",
+      "bytes": 2294364,
+      "sha256": "ac29064c7a23a87b0bbd15cde0b6997a353f6f0529014cbbbcb7d4e7ce19e927",
+      "matches": true
+    },
+    {
+      "file": "firefox-375-reading.html",
+      "bytes": 2294861,
+      "sha256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "matches": true
+    },
+    {
+      "file": "firefox-375.csv",
+      "bytes": 1015,
+      "sha256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "matches": true
+    }
+  ],
+  "allMatch": true
+}

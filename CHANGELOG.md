@@ -8,8 +8,9 @@
   ownership interpretations beside complete 1927 source pages and a licensed
   current IG excerpt. Keep payment entries separate from personal income claims.
 - Save exact-obol CSV and complete illustrated HTML readings with verified
-  source pages, embedded fonts and licenses; include the twelfth local room in
-  the integrity-checked offline edition. Public deployment is not claimed.
+  source pages, embedded fonts and licenses; include the twelfth room in
+  the integrity-checked offline edition. The canonical hosted files and native
+  browser downloads were independently verified after publication.
 
 ## 0.11.0 — 2026-10-24
 

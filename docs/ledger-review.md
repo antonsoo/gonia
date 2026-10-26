@@ -4,11 +4,10 @@ This room extends Gonia’s fluting geometry with an account of the people named
 for the work. Its question is deliberately small: can you recover the seven
 edited payments merely by balancing their sum?
 
-The implementation, complete sources and files below are committed locally.
-No push, public deployment or hosted-file identity is claimed for this room.
-The existing public eleven-room edition and this twelve-room local build are
-separate states. Officina’s public catalogue has not been changed to point
-at an unavailable new route.
+This record describes the initial local review. The subsequent
+[source and public-edition review](ledger-publication.md) records the source push,
+static branch, canonical hosted bytes and actual public-browser downloads
+separately.
 
 ## Try the ledger
 

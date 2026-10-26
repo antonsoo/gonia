@@ -10,7 +10,6 @@ The primary text is **IG I³ 476**, Erechtheion building accounts, 408/7 BCE,
 especially lines 199–205 and 235–242. Both entries occur in the eighth prytany.
 The seven names recur in the same order. The first entry gives a possessive
 identifier for Sosandros; the second omits it. That difference is preserved.
-
 - [Inscriptiones Graecae digital edition](https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20I%C2%B3%20476),
   Berlin-Brandenburg Academy of Sciences and Humanities. The edited Greek is
   licensed CC BY 4.0. The retained XML excerpt preserves the selected lines,
@@ -33,10 +32,10 @@ identifier for Sosandros; the second omits it. That difference is preserved.
 
 The printed and modern line numbering differ:
 
-| Entry | Current IG lines | Caskey XVII, col. I | Printed page | Archive leaf |
-| --- | --- | --- | --- | --- |
-| Earlier selected team | 199–205 | 41–47 | 390 | 420 |
-| Later selected team | 235–242 | 77–84 | 392 | 422 |
+| Entry                 | Current IG lines | Caskey XVII, col. I | Printed page | Archive leaf |
+| --------------------- | ---------------- | ------------------- | ------------ | ------------ |
+| Earlier selected team | 199–205          | 41–47               | 390          | 420          |
+| Later selected team   | 235–242          | 77–84               | 392          | 422          |
 
 The visual line bands indicate where to look in the printed edition; they do
 not classify which letters survive on the original stone. Brackets supply
@@ -64,16 +63,16 @@ equivalence is inferred. The application stores integer **obols**, not decimal
 drachmas. This is a unit choice for this activity, not a claim that smaller
 coin fractions did not exist.
 
-| Name | Earlier entry (obols) | Later entry (obols) |
-| --- | ---: | ---: |
-| Simias | 78 | 86 |
-| Kerdon | 77 | 86 |
-| Sindron | 77 | 86 |
-| Sokles | 77 | 86 |
-| Sannion | 77 | 86 |
-| Epieikes | 77 | 85 |
-| Sosandros | 77 | 85 |
-| Computed total | 540 | 600 |
+| Name           | Earlier entry (obols) | Later entry (obols) |
+| -------------- | --------------------: | ------------------: |
+| Simias         |                    78 |                  86 |
+| Kerdon         |                    77 |                  86 |
+| Sindron        |                    77 |                  86 |
+| Sokles         |                    77 |                  86 |
+| Sannion        |                    77 |                  86 |
+| Epieikes       |                    77 |                  85 |
+| Sosandros      |                    77 |                  85 |
+| Computed total |                   540 |                 600 |
 
 For a total T in obols, Euclidean division gives `T = 7q + r`. Each name
 starts with q; a checkbox contributes one extra obol. The activity deliberately

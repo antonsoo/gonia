@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-26T05:15:50.816Z",
+  "source": "local production build; origin disabled for offline review",
+  "worker": "259d427c7e70076921eb61e00c93f8c73a08dcebb54232063adb609548e560b4",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "csv": "chromium-1440.csv",
+      "html": "chromium-1440-reading.html",
+      "csvSHA256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "htmlSHA256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "savedStudyOffline": true,
+      "offline": true,
+      "sourcePages": 4,
+      "seriousAxeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "csv": "chromium-375.csv",
+      "html": "chromium-375-reading.html",
+      "csvSHA256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "htmlSHA256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "savedStudyOffline": true,
+      "offline": true,
+      "sourcePages": 4,
+      "seriousAxeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "csv": "firefox-1440.csv",
+      "html": "firefox-1440-reading.html",
+      "csvSHA256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "htmlSHA256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "savedStudyOffline": true,
+      "offline": true,
+      "sourcePages": 4,
+      "seriousAxeViolations": 0,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "csv": "firefox-375.csv",
+      "html": "firefox-375-reading.html",
+      "csvSHA256": "8fc095628d2d254efe4d19235664c27517dd4b61aa2792cbabca137c690683a4",
+      "htmlSHA256": "c0385b50e22c8d4b8293761ecdc9f918c8398ce215e5e2b00b45b588232500ff",
+      "savedStudyOffline": true,
+      "offline": true,
+      "sourcePages": 4,
+      "seriousAxeViolations": 0,
+      "pageErrors": []
+    }
+  ],
+  "corruption": [
+    {
+      "browser": "chromium",
+      "substituted": "page",
+      "failedClosed": true,
+      "retrySaved": true
+    },
+    {
+      "browser": "chromium",
+      "substituted": "font",
+      "failedClosed": true,
+      "retrySaved": true
+    },
+    {
+      "browser": "firefox",
+      "substituted": "page",
+      "failedClosed": true,
+      "retrySaved": true
+    },
+    {
+      "browser": "firefox",
+      "substituted": "font",
+      "failedClosed": true,
+      "retrySaved": true
+    }
+  ]
+}

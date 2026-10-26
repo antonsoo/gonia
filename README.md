@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Eleven problems you can inspect and measure:
+Twelve problems you can inspect and measure in the local build:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -32,6 +32,9 @@ Eleven problems you can inspect and measure:
   does the same forward lean face every observer squarely?
 - [Eight channels. One revolution.](https://antonsoo.github.io/gonia/screw.html):
   how does Vitruvius’s square grid become a spiral, and what makes its water stay inside?
+- [Seven names, one uneven obol](docs/ledger-review.md):
+  can a correct total recover the payments beside seven column-fluters’ names?
+  The new building-accounts room is local; its public deployment is not claimed.
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -40,6 +43,38 @@ compromise preserves. It connects a geometric problem to the physical parts
 of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![The Doric corner workshop, with a widened end metope and highlighted triglyphs](docs/assets/workshop-desktop.png)
+
+## The names behind the flutes
+
+Open `/gonia/ledger.html` in the local development or production preview.
+Two entries in the Erechtheion building accounts, 408/7 BCE, name the same
+seven people. Their edited amounts sum to 90 and 100 drachmas. In each entry,
+the difference between the largest and smallest payment is one obol.
+
+Divide the total using the activity’s whole-obol rule, then reveal the
+record. Twenty-one arrangements balance the 100-drachma total; only one
+reproduces its seven amounts. A correct sum cannot tell you who received
+which extra obol, or why. Select each name to inspect the identifier, Greek
+numeral and corresponding band on the complete printed page.
+
+The lesson distinguishes payments entered beside names from personal receipt
+or control of money. It follows current IG/AIO interpretations of ownership
+identifiers for enslaved workers, and leaves Kerdon’s status unspecified.
+Both entries belong to the same prytany; they are not a pair of daily wages.
+Restorations in the critical edition remain visible in the retained Greek
+XML and complete source scans.
+
+Save a comparison as exact integer-obol CSV, or keep both entries, your
+allocation, four contextual Greek notes, all four source pages, fonts and
+licenses in one HTML reading. It opens and prints offline. Shared links and
+browser history preserve the entry, allocation, selected name and reveal state.
+
+[Source and design decisions](docs/ledger-model.md) ·
+[Learner workflow and local evidence](docs/ledger-review.md) ·
+[Actual saved reading](examples/ledger-reading.html) ·
+[Printable PDF](examples/ledger-reading.pdf).
+
+![Seven named column-fluters, your allocation and the edited account](docs/assets/ledger-1440.png)
 
 ## Build a water screw from the words
 
@@ -105,7 +140,7 @@ Save a script-free illustrated reading, SVG or comparative CSV. The retained
 [twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
 and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
 is compressed for the repository. Decompress it before opening.
-All eleven rooms share one integrity-checked offline edition. The independent
+All twelve local rooms share one integrity-checked offline edition. The independent
 geometry, actual browser files and interrupted nine-to-ten-room upgrades are
 recorded in the [direct review](docs/optics-review.md) and
 [source/model analysis](docs/optics-model.md).

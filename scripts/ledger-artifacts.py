@@ -7,6 +7,7 @@ from pathlib import Path
 import re
 import subprocess
 import sys
+import unicodedata
 from urllib.parse import unquote
 
 root = Path(__file__).resolve().parents[1]
@@ -52,18 +53,31 @@ for config in report["configurations"]:
 
 pdf = directory / "ledger-reading.pdf"
 pdf_text = subprocess.check_output(["pdftotext", "-layout", str(pdf), "-"], text=True)
+pdf_text = unicodedata.normalize("NFC", pdf_text)
 for name in ["Simias", "Kerdon", "Sindron", "Sokles", "Sannion", "Epieikes", "Sosandros"]:
     assert name in pdf_text, name
 for note in ["Earlier: 90", "Later: 100", "100 dr.", "14 dr. 2 ob.", "14 dr. 1 ob.", "21 distributions", "IG lines", "CC BY 4.0", "SIL OPEN FONT LICENSE"]:
     assert note in pdf_text, note
 for page in ["p. 390", "p. 392", "p. 412", "Title page"]:
     assert page in pdf_text, page
+for word in ["ῥαβδόσεος", "οἰκῶν", "Σιμίο", "ἑχσῆς"]:
+    assert word in pdf_text, word
+bounds = subprocess.check_output(["pdftotext", "-bbox", str(pdf), "-"], text=True)
+from xml.etree import ElementTree as ET
+doc = ET.fromstring(bounds)
+text_words = 0
+for page in doc.findall(".//{*}page"):
+    width, height = float(page.attrib["width"]), float(page.attrib["height"])
+    for word in page.findall(".//{*}word"):
+        assert 0 <= float(word.attrib["xMin"]) <= float(word.attrib["xMax"]) <= width, word.text
+        assert 0 <= float(word.attrib["yMin"]) <= float(word.attrib["yMax"]) <= height, word.text
+        text_words += 1
 images_dir = directory / "pdf-images"
 images_dir.mkdir(exist_ok=True)
 subprocess.run(["pdfimages", "-j", str(pdf), str(images_dir / "source")], check=True)
 pdf_image_hashes = {sha256(p.read_bytes()).hexdigest() for p in images_dir.glob("*.jpg")}
 assert expected_images <= pdf_image_hashes, {"missingOriginalJPEGs": sorted(expected_images - pdf_image_hashes)}
 pages = int(re.search(r"Pages:\s+(\d+)", subprocess.check_output(["pdfinfo", str(pdf)], text=True))[1])
-result = {"HTML": html_results, "PDF": {"file": pdf.name, "pages": pages, "completeSourceJPEGsRecovered": len(expected_images), "names": 7, "GreekNotesAndLicensesPresent": True}}
+result = {"HTML": html_results, "PDF": {"file": pdf.name, "pages": pages, "completeSourceJPEGsRecovered": len(expected_images), "names": 7, "GreekNotesAndLicensesPresent": True, "wordsWithinPageBounds": text_words}}
 (directory / "artifacts.json").write_text(json.dumps(result, indent=2) + "\n")
 print(json.dumps(result, indent=2))

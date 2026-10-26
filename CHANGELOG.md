@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+- Add an Erechtheion building-accounts room: allocate 90 or 100 drachmas among
+  seven named column-fluters, then compare a balanced sum with the edited record.
+- Inspect Greek number signs, names, contextual vocabulary, restorations and
+  ownership interpretations beside complete 1927 source pages and a licensed
+  current IG excerpt. Keep payment entries separate from personal income claims.
+- Save exact-obol CSV and complete illustrated HTML readings with verified
+  source pages, embedded fonts and licenses; include the twelfth local room in
+  the integrity-checked offline edition. Public deployment is not claimed.
+
 ## 0.11.0 — 2026-10-24
 
 - Add a source-prescribed 1:12 inclination with a movable observer, equal-ray

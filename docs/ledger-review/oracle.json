@@ -1,0 +1,14 @@
+{
+  "source": "IG I3 476 edited Greek numeral excerpt",
+  "entries_obols": {
+    "90": [78, 77, 77, 77, 77, 77, 77],
+    "100": [86, 86, 86, 86, 86, 85, 85]
+  },
+  "allocations": 256,
+  "balanced_choices": {
+    "90": 7,
+    "100": 21
+  },
+  "pinned_assets": 10,
+  "browser_CSVs": 4
+}

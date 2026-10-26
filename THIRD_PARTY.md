@@ -250,7 +250,7 @@ visible. Saved readings embed the existing fonts and complete OFL notices.
 ## Erechtheion building accounts
 
 `public/sources/ledger/` retains four complete public-domain pages from
-*The Erechtheum, measured, drawn and restored*, edited by James Morton Paton,
+_The Erechtheum, measured, drawn and restored_, edited by James Morton Paton,
 Harvard University Press, 1927. Lacey Davis Caskey wrote its inscription section.
 The Getty Research Institute scan is supplied through Internet Archive. Images
 are unmodified complete IIIF responses. The manifest records their archive

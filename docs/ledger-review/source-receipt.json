@@ -1,0 +1,14 @@
+{
+  "checkedAt": "2026-10-26T05:19:00.587506+00:00",
+  "originalXMLURL": "https://telota.bbaw.de/ig/api/xml/IG%20I%C2%B3%20476",
+  "originalXMLSHA256": "91ba3fbd546fb38dbfd4915dade15dad3fe4809dbd75cad36a4bc168ac12ad40",
+  "retainedExcerptSHA256": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+  "licensed": "CC BY 4.0, Inscriptiones Graecae, BBAW",
+  "comparedEditedLines": [
+    192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205, 206, 235, 236, 237, 238,
+    239, 240, 241, 242, 243
+  ],
+  "allSelectedLineTextAndMarkupIdentical": true,
+  "manuallyInspectedPages": ["390", "392", "412", "title"],
+  "interpretation": "Current IG and AIO ownership interpretation; 1927 Greek pages retained with their restoration brackets."
+}

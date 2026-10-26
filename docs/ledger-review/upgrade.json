@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-10-26T05:12:06.851Z",
+  "previous": "clean build of source 7fab06429b9834fd1b2bc8409067e3460112fb61 (eleven rooms)",
+  "results": [
+    {
+      "browser": "chromium",
+      "scenario": "held",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 109,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "chromium",
+      "scenario": "substituted",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 109,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "firefox",
+      "scenario": "held",
+      "pendingStatus": "Downloading the updated workshop & sources\u2026",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 109,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "firefox",
+      "scenario": "substituted",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 109,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    }
+  ]
+}

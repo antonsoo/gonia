@@ -1,0 +1,40 @@
+{
+  "HTML": [
+    {
+      "file": "chromium-1440-reading.html",
+      "sourceImages": 4,
+      "fonts": 3,
+      "exactCSV": true,
+      "exactEditedXML": true
+    },
+    {
+      "file": "chromium-375-reading.html",
+      "sourceImages": 4,
+      "fonts": 3,
+      "exactCSV": true,
+      "exactEditedXML": true
+    },
+    {
+      "file": "firefox-1440-reading.html",
+      "sourceImages": 4,
+      "fonts": 3,
+      "exactCSV": true,
+      "exactEditedXML": true
+    },
+    {
+      "file": "firefox-375-reading.html",
+      "sourceImages": 4,
+      "fonts": 3,
+      "exactCSV": true,
+      "exactEditedXML": true
+    }
+  ],
+  "PDF": {
+    "file": "ledger-reading.pdf",
+    "pages": 15,
+    "completeSourceJPEGsRecovered": 4,
+    "names": 7,
+    "GreekNotesAndLicensesPresent": true,
+    "wordsWithinPageBounds": 2894
+  }
+}

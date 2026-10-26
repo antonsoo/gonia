@@ -1,0 +1,23 @@
+{
+  "server": "Vite development from isolated checkout under Node 24.21.0",
+  "results": [
+    {
+      "browser": "chromium",
+      "width": 375,
+      "verifiedSource": true,
+      "keyboardAllocation": true,
+      "URLReload": true,
+      "pageErrors": [],
+      "consoleWarnings": []
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "verifiedSource": true,
+      "keyboardAllocation": true,
+      "URLReload": true,
+      "pageErrors": [],
+      "consoleWarnings": []
+    }
+  ]
+}

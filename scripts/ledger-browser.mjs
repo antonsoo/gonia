@@ -9,12 +9,17 @@ import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
 
 const out = path.resolve(process.argv[2] ?? "/tmp/gonia-ledger-review");
+const external = process.argv[3];
+if (external && (!external.startsWith("https://") || !external.endsWith("/")))
+  throw new Error("Use a canonical HTTPS base ending in /.");
 await mkdir(out, { recursive: true });
 const manifest = JSON.parse(await readFile("public/sources/ledger/manifest.json", "utf8"));
 const hash = (b) => createHash("sha256").update(b).digest("hex");
 const report = {
   checkedAt: new Date().toISOString(),
-  source: "local production build; origin disabled for offline review",
+  source: external ?? "local production build; origin disabled for offline review",
+  originDisabledForOfflineReview: !external,
+  canonicalIndexChecks: [],
   worker: hash(await readFile("dist/sw.js")),
   configurations: [],
   corruption: [],
@@ -31,6 +36,7 @@ const mime = {
   ".xml": "application/xml",
 };
 async function serve() {
+  if (external) return { base: external, offline() {}, close: async () => {} };
   let online = true;
   const server = createServer(async (req, res) => {
     if (!online) {
@@ -275,6 +281,19 @@ for (const [name, engine] of [
         const offlineHtml = await download(p, "#lg-save", `${prefix}-offline-reading.html`);
         assert.ok(offlineHtml.length > 1000000);
         assert.deepEqual(errors, []);
+        if (external) {
+          const response = await fetch(external);
+          assert.equal(response.status, 200);
+          const actual = Buffer.from(await response.arrayBuffer());
+          const expected = await readFile("dist/index.html");
+          assert.equal(hash(actual), hash(expected));
+          report.canonicalIndexChecks.push({
+            browser: name,
+            width,
+            matches: true,
+            sha256: hash(actual),
+          });
+        }
         report.configurations.push({
           browser: name,
           width,
@@ -293,6 +312,7 @@ for (const [name, engine] of [
         await server.close();
       }
     }
+    if (external) continue;
     const server = await serve();
     try {
       const invalidContext = await browser.newContext();

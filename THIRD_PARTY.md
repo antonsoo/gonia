@@ -246,3 +246,28 @@ verified original PDF identity, exact page mapping, render settings and hashes.
 No page is cropped or retouched. New English, Latin/Greek notes, diagrams and
 model are MIT, Anton Soloviev, 2026. The source's editorial additions remain
 visible. Saved readings embed the existing fonts and complete OFL notices.
+
+## Erechtheion building accounts
+
+`public/sources/ledger/` retains four complete public-domain pages from
+*The Erechtheum, measured, drawn and restored*, edited by James Morton Paton,
+Harvard University Press, 1927. Lacey Davis Caskey wrote its inscription section.
+The Getty Research Institute scan is supplied through Internet Archive. Images
+are unmodified complete IIIF responses. The manifest records their archive
+leaves, exact URLs and SHA-256 identities.
+
+`ig-476-excerpt.xml` selects edited Greek lines 192–206 and 235–243 from
+[IG I³ 476](https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20I%C2%B3%20476),
+Inscriptiones Graecae, Berlin-Brandenburg Academy of Sciences and Humanities.
+That modern edition is licensed [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The selected text, line markers and restoration brackets are retained;
+unrelated lines are omitted and the header is replaced with excerpt attribution.
+Its special epigraphic glyphs are retained in the XML. Ordinary-Greek reading
+aids in the app explicitly join line breaks and replace selected long vowels.
+
+Stephen Lambert and Robin Osborne’s modern AIO translation is linked and used
+for checking and interpretation; it is not redistributed. The museum object
+record and photograph are linked. New English explanations, the allocation
+activity and numeral outlines are MIT, Anton Soloviev, 2026. The standalone
+reading includes attribution, complete source pages and the bundled fonts’
+full OFL notices. See [source decisions](docs/ledger-model.md).

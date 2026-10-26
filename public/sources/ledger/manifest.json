@@ -1,0 +1,68 @@
+{
+  "checkedAt": "2026-10-25",
+  "edition": "IG I3 476, 408/7 BCE",
+  "modernEdition": {
+    "url": "https://telota.bbaw.de/ig/digitale-edition/inschrift/IG%20I%C2%B3%20476",
+    "xml": "https://telota.bbaw.de/ig/api/xml/IG%20I%C2%B3%20476",
+    "license": "CC BY 4.0",
+    "excerpt": "ig-476-excerpt.xml",
+    "lines": [
+      "192-206",
+      "235-243"
+    ],
+    "changes": "Selected lines and markup retained. Header replaced with excerpt attribution. No modern translation bundled."
+  },
+  "volume": {
+    "title": "The Erechtheum, measured, drawn and restored",
+    "editor": "James Morton Paton",
+    "inscriptionSection": "Lacey Davis Caskey",
+    "publisher": "Harvard University Press, Cambridge, Massachusetts",
+    "year": 1927,
+    "scanProvider": "Getty Research Institute via Internet Archive",
+    "item": "erechtheummeasur1192unse",
+    "rights": "1927 US publication, public domain in the United States; unmodified complete page scans from the public-domain volume."
+  },
+  "pages": [
+    {
+      "file": "caskey-390.jpg",
+      "printedPage": "390",
+      "archiveLeaf": 420,
+      "download": "https://iiif.archive.org/iiif/erechtheummeasur1192unse$420/full/1600,/0/default.jpg",
+      "sha256": "19ddeace23f8fbd9d09299009081483db25184ef63b67d3597ca569b86262c7c"
+    },
+    {
+      "file": "caskey-392.jpg",
+      "printedPage": "392",
+      "archiveLeaf": 422,
+      "download": "https://iiif.archive.org/iiif/erechtheummeasur1192unse$422/full/1600,/0/default.jpg",
+      "sha256": "20a5cdfdb569a5e3c7f7754946669ca9871dae8fdb7aa274f5eea970085b9e37"
+    },
+    {
+      "file": "caskey-412.jpg",
+      "printedPage": "412",
+      "archiveLeaf": 442,
+      "download": "https://iiif.archive.org/iiif/erechtheummeasur1192unse$442/full/1600,/0/default.jpg",
+      "sha256": "af7a53d8d78d2cc3be5b9ea8010d6e976c4721a864f7ce781a8d98dfdef15874"
+    },
+    {
+      "file": "paton-title.jpg",
+      "printedPage": "title",
+      "archiveLeaf": 7,
+      "download": "https://iiif.archive.org/iiif/erechtheummeasur1192unse$7/full/1600,/0/default.jpg",
+      "sha256": "a447a7add060ab2cc6df302d19b45f1078531bb9c8c1416fb5f4612a6c437e82"
+    }
+  ],
+  "assets": {
+    "sources/ledger/caskey-390.jpg": "19ddeace23f8fbd9d09299009081483db25184ef63b67d3597ca569b86262c7c",
+    "sources/ledger/caskey-392.jpg": "20a5cdfdb569a5e3c7f7754946669ca9871dae8fdb7aa274f5eea970085b9e37",
+    "sources/ledger/caskey-412.jpg": "af7a53d8d78d2cc3be5b9ea8010d6e976c4721a864f7ce781a8d98dfdef15874",
+    "sources/ledger/ig-476-excerpt.xml": "cc3e85413ae39b88d6f190daa494c8960338a3c020c31d2a6f8bf3e3e3090834",
+    "sources/ledger/paton-title.jpg": "a447a7add060ab2cc6df302d19b45f1078531bb9c8c1416fb5f4612a6c437e82",
+    "fonts/IBMPlexSans-Regular.woff2": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+    "fonts/IBMPlexSans-SemiBold.woff2": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+    "fonts/IBMPlex-OFL.txt": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+    "fonts/NotoSerif-Regular.ttf": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+    "fonts/NotoSerif-OFL.txt": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+  },
+  "interpretation": "The app follows the current IG/AIO ownership interpretation, rather than the 1927 English rendering of possessive identifiers as sons. Greek pages preserve editorial restorations. The arithmetic exercise is modern."
+}

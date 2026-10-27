@@ -45,10 +45,12 @@ for (const [name, engine] of [
       await page.evaluate(async (url) => (await import(url)).default, moduleURL),
       record,
     );
-    const changed = structuredClone(record);
-    changed.files["scheil-300.jpg"].sha256 = "0".repeat(64);
+    const oldHash = record.files["scheil-300.jpg"].sha256;
+    assert.equal(original.split(oldHash).length, 2);
+    const changedText = original.replace(oldHash, "0".repeat(64));
+    const changed = JSON.parse(changedText);
     const reloaded = page.waitForEvent("load");
-    await writeFile(file, `${JSON.stringify(changed, null, 2)}\n`);
+    await writeFile(file, changedText);
     await reloaded;
     await page.locator("#bb-source-status").waitFor();
     await page.waitForFunction(() =>

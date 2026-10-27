@@ -1,0 +1,11 @@
+{
+  "source": "f27c806b74efd0367ceae9ad60661fdc63abfd58",
+  "transport": "Fresh HTTPS clone of https://github.com/antonsoo/gonia.git",
+  "runtime": "Node 24.21.0",
+  "commands": ["npm ci", "npm run check"],
+  "unitTests": 50,
+  "allBuildPathsAndBytesMatch": true,
+  "files": 124,
+  "inventory": "hosted-before.json",
+  "comparison": "Runtime matches 4894c4d; source additions retain docs and examples"
+}

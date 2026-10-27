@@ -10,7 +10,8 @@ photogrammetric stone can be turned and relit; it is never presented as a model
 of the ancient building.
 
 This review covers runtime source `4894c4d43cc3039101ec3b59c0f92e9c1f012cdf`.
-Publication, hosted bytes and public browser behavior require their own record.
+[Publication, hosted bytes and public browser behavior](babylon-publication.md)
+have their own record.
 The [source/model analysis](babylon-model.md) explains the conventional readings,
 editorial disagreements, units, provenance and limits of the comparison.
 
@@ -97,7 +98,7 @@ REVIEW_DIR=/tmp/gonia-babylon-review
 npm run check
 npm run verify:babylon
 npm run test:babylon -- "$REVIEW_DIR"
-node --import tsx scripts/babylon-cases.ts | python3 scripts/babylon-oracle.py "$REVIEW_DIR"
+python3 scripts/babylon-oracle.py --browser "$REVIEW_DIR/review.json"
 npm run verify:babylon-files -- "$REVIEW_DIR"
 node scripts/babylon-upgrade.mjs "$PREVIOUS_DIST" upgrade.json
 ```

@@ -1,0 +1,21 @@
+{
+  "source": "f27c806b74efd0367ceae9ad60661fdc63abfd58",
+  "sourceCi": {
+    "url": "https://github.com/antonsoo/gonia/actions/runs/40431550476",
+    "conclusion": "failure",
+    "stepsStarted": 0,
+    "annotation": "The job was not started because your account is locked due to a billing issue."
+  },
+  "sourcePagesWorkflow": {
+    "url": "https://github.com/antonsoo/gonia/actions/runs/40431550362",
+    "conclusion": "failure",
+    "stepsStarted": 0
+  },
+  "staticBranch": "446dfa5aa509f341aa8920875463cb2121130c19",
+  "legacyPagesBuild": {
+    "url": "https://github.com/antonsoo/gonia/actions/runs/40431563654",
+    "conclusion": "success",
+    "status": "built",
+    "updatedAt": "2026-10-27T01:16:54Z"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "configurations": [
+    {
+      "configuration": "chromium-1440",
+      "htmlBytes": 4559962,
+      "htmlSha256": "434c3b3e976ba4ebeb68e21c39c40f659be90285d34c94ba94f87696e7c860c6",
+      "sourceJpegs": 7,
+      "sourcePdfSha256": "77a2b7734b3b661128562aff1df8c5b169aefff45bf7d4192086b6962cc5c758",
+      "fonts": 3,
+      "scanSnapshot": true,
+      "exactEmbeddedRecordAndCsv": true,
+      "nativeSvgGroupsMatchCsv": 14,
+      "fullFontAndCodeNotices": true
+    },
+    {
+      "configuration": "chromium-375",
+      "htmlBytes": 4227734,
+      "htmlSha256": "6cb51bf337da7ec0e83a33af54cb34a277d7a8db51bf2f3b1d62e8278f88dda3",
+      "sourceJpegs": 7,
+      "sourcePdfSha256": "77a2b7734b3b661128562aff1df8c5b169aefff45bf7d4192086b6962cc5c758",
+      "fonts": 3,
+      "scanSnapshot": true,
+      "exactEmbeddedRecordAndCsv": true,
+      "nativeSvgGroupsMatchCsv": 14,
+      "fullFontAndCodeNotices": true
+    },
+    {
+      "configuration": "firefox-1440",
+      "htmlBytes": 4437786,
+      "htmlSha256": "022d421d9df9ef1aedc6b25dae87a48c0e794eaa55b87caee08a51ef26204fe1",
+      "sourceJpegs": 7,
+      "sourcePdfSha256": "77a2b7734b3b661128562aff1df8c5b169aefff45bf7d4192086b6962cc5c758",
+      "fonts": 3,
+      "scanSnapshot": true,
+      "exactEmbeddedRecordAndCsv": true,
+      "nativeSvgGroupsMatchCsv": 14,
+      "fullFontAndCodeNotices": true
+    },
+    {
+      "configuration": "firefox-375",
+      "htmlBytes": 4169382,
+      "htmlSha256": "708cae3bd9d4ddfd4ea7653094d54ceb18395512587c9a223602ace177f7c9b3",
+      "sourceJpegs": 7,
+      "sourcePdfSha256": "77a2b7734b3b661128562aff1df8c5b169aefff45bf7d4192086b6962cc5c758",
+      "fonts": 3,
+      "scanSnapshot": true,
+      "exactEmbeddedRecordAndCsv": true,
+      "nativeSvgGroupsMatchCsv": 14,
+      "fullFontAndCodeNotices": true
+    }
+  ],
+  "print": {
+    "pages": 17,
+    "orderedSourceCaptions": 7,
+    "wordsInside25ptMargins": 3516,
+    "embeddedFonts": 7,
+    "pdfJavaScript": false,
+    "physicalPrinting": "not tested",
+    "taggedPdfAccessibility": "not established"
+  }
+}

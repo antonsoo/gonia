@@ -34,7 +34,7 @@ Thirteen problems you can inspect and measure:
   how does Vitruvius’s square grid become a spiral, and what makes its water stay inside?
 - [Seven names, one uneven obol](https://antonsoo.github.io/gonia/ledger.html#lg-workshop):
   can a correct total recover the payments beside seven column-fluters’ names?
-- **A tower between two sources** (new local room): how do a missing numerical
+- **[A tower between two sources](https://antonsoo.github.io/gonia/babylon.html#bb-bench)**: how do a missing numerical
   row and a carved image produce different projections of Babylon’s Etemenanki?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
@@ -47,8 +47,10 @@ of a Greek temple and to Vitruvius's account of the difficulty.
 
 ## A tower between two sources
 
-The new local workshop is `/gonia/babylon.html`, available through **Babylon** in
-the main workshop's navigation. Publication is reviewed separately.
+Open the [Babylon workshop](https://antonsoo.github.io/gonia/babylon.html?supplied=0&selected=5&page=scheil-300#bb-bench),
+or use **Babylon** in the main workshop's navigation. The
+[publication record](docs/babylon-publication.md) separates the pushed source,
+public file identities, actual public downloads and offline behavior.
 
 The Esagil tablet's numerical rows jump from the fifth storey to the seventh.
 Supply the conventional sixth level, change it, or leave it unknown. Without

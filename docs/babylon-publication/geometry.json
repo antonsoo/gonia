@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "cases": 28,
+  "downloadedCsvRows": 196,
+  "actualSvgGroups": 392,
+  "method": "Python Fraction, separate published numerical tables; no application imports"
+}

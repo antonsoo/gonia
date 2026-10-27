@@ -25,6 +25,7 @@ async function caseReview(browser, engine, width) {
     viewport: { width, height: 1000 },
     acceptDownloads: true,
   });
+  if (engine === "chromium") await context.grantPermissions(["clipboard-read", "clipboard-write"]);
   const page = await context.newPage(),
     errors = [];
   page.on("pageerror", (e) => errors.push(String(e)));
@@ -77,6 +78,15 @@ async function caseReview(browser, engine, width) {
   );
   await page.locator("#vo-eye").fill("15");
   await page.locator("#vo-eye").press("Tab");
+  const addressBeforeCopy = page.url();
+  await page.locator("#vo-share").click();
+  await page.waitForFunction(() =>
+    /copied|Copy this drawing link/.test(document.getElementById("vo-action-status").textContent),
+  );
+  assert.equal(page.url(), addressBeforeCopy);
+  const copied =
+    engine === "chromium" ? await page.evaluate(() => navigator.clipboard.readText()) : null;
+  if (copied) assert.equal(new URL(copied).searchParams.get("moves"), "1.2.3.4.5.6.7.8.9.10.11.12");
   const json = await download(page, "vo-save-json", dir, "drawing.json");
   await download(page, "vo-save-csv", dir, "measurements.csv");
   await download(page, "vo-save-svg", dir, "compass.svg");
@@ -175,18 +185,16 @@ async function caseReview(browser, engine, width) {
     });
     await savedPage.screenshot({ path: path.join(dir, "portable.png"), fullPage: false });
   }
+  const portableLink = await savedPage
+    .getByRole("link", { name: "Reopen this sequence online" })
+    .getAttribute("href");
+  assert.equal(new URL(portableLink).searchParams.get("moves"), native.state.moves.join("."));
+  if (copied) assert.equal(new URL(portableLink).search, new URL(copied).search);
   await savedPage.close();
   // Restore through the actual native link embedded in the downloaded reading.
-  const shared = new URL("volute.html", base);
-  const q = new URLSearchParams({
-    moves: native.state.moves.join("."),
-    pin: String(native.state.pin),
-    join: String(native.state.join),
-    repair: "1",
-    eye: "15",
-    page: "2",
-  });
-  shared.search = q.toString();
+  const shared = new URL(portableLink);
+  shared.protocol = new URL(base).protocol;
+  shared.host = new URL(base).host;
   await context.setOffline(true);
   await page.goto(shared.href);
   await page.locator("#vo-draw").waitFor();
@@ -208,6 +216,8 @@ async function caseReview(browser, engine, width) {
     engine,
     width,
     keyboardArcs: 12,
+    explicitShareWithoutNavigation: true,
+    portableLinkReopenedOffline: true,
     downloads: 5,
     printedSourcePages: 6,
     museumPhotographs: 1,

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "sourceObjMd5": "a26002ffd015f721920ee07f2d57a675",
+  "sourceTextureMd5": "529dbaa4b503904fe9f8641e84c86179",
+  "positionsAllRetained": 103234,
+  "trianglesCheckedInSourceOrder": 189027,
+  "vertexTextureCorrespondencesChecked": 567081,
+  "maximumCoordinateFloat32Rounding": 1.4900207512269503e-8,
+  "maximumUvFloat32Rounding": 2.9800415024539006e-8,
+  "normalLengthRange": [0.9999999562029352, 1.0000000442016779],
+  "sourceAssetsMatchManifest": 10,
+  "method": "Independent OBJ regex reader and binary struct reader; every triangle corner compared"
+}

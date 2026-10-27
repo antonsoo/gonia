@@ -1,0 +1,46 @@
+{
+  "source": "4894c4d43cc3039101ec3b59c0f92e9c1f012cdf",
+  "context": "Chromium 153.0.8010.12, 1440px, local production, software GL",
+  "files": [
+    {
+      "file": "examples/babylon-reading.html.gz",
+      "bytes": 3148896,
+      "sha256": "24ef64b2a7593c910c3df259c0260ee87a5ee40a42729689a0ce2b4b7fab7c23",
+      "downloadBytes": 4559962,
+      "downloadSha256": "434c3b3e976ba4ebeb68e21c39c40f659be90285d34c94ba94f87696e7c860c6",
+      "matchesActualDownload": true
+    },
+    {
+      "file": "examples/babylon-reading.pdf",
+      "bytes": 3794648,
+      "sha256": "16deaa4b0c56d8933013dd83cc993fbd1efe7b4cfdce202e3ab746484c104660",
+      "downloadBytes": 3794648,
+      "downloadSha256": "16deaa4b0c56d8933013dd83cc993fbd1efe7b4cfdce202e3ab746484c104660",
+      "matchesActualDownload": true
+    },
+    {
+      "file": "examples/babylon-record.json",
+      "bytes": 411,
+      "sha256": "627c1018f93fe687a0ec8c469d49e25574ed7ce759709859a8c6263e7d4d97c1",
+      "downloadBytes": 411,
+      "downloadSha256": "627c1018f93fe687a0ec8c469d49e25574ed7ce759709859a8c6263e7d4d97c1",
+      "matchesActualDownload": true
+    },
+    {
+      "file": "examples/babylon-comparison.csv",
+      "bytes": 754,
+      "sha256": "724b1b8511b4f5deac62e7ea8c6d3129c169a7fe6fdf05e5f709c5f442ff4033",
+      "downloadBytes": 754,
+      "downloadSha256": "724b1b8511b4f5deac62e7ea8c6d3129c169a7fe6fdf05e5f709c5f442ff4033",
+      "matchesActualDownload": true
+    },
+    {
+      "file": "examples/babylon-plate.svg",
+      "bytes": 100903,
+      "sha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "downloadBytes": 100903,
+      "downloadSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "matchesActualDownload": true
+    }
+  ]
+}

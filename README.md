@@ -70,7 +70,12 @@ seven source images, the complete 2024 article, editable records, fonts and
 licenses. It opens and prints with scripts disabled. The history of the
 objects, a missing textual row, and a modern projection remain separate claims.
 
-[Source and model decisions](docs/babylon-model.md).
+[Source and model decisions](docs/babylon-model.md) ·
+[Learner workflow and retained evidence](docs/babylon-review.md) ·
+[Actual saved reading, gzip-compressed](examples/babylon-reading.html.gz) ·
+[Seventeen-page PDF](examples/babylon-reading.pdf).
+
+![The missing storey beside two equal-metre tower comparisons](docs/assets/babylon-desktop.png)
 
 ## The names behind the flutes
 

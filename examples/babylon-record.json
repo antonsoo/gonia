@@ -1,0 +1,14 @@
+{
+  "schema": "gonia-babylon-1",
+  "state": {
+    "supplied": false,
+    "width": 22,
+    "height": 4,
+    "base": 915,
+    "ruler": "overall",
+    "selected": 5,
+    "page": "tcl6-lx"
+  },
+  "units": "metres; integer state widths/heights are quarter-nindanu at 6 m per nindanu",
+  "limits": "Tablet-derived scheme and calibrated image projection; not a survey of the built tower. Missing data are not zero."
+}

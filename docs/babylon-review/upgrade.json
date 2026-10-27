@@ -1,0 +1,54 @@
+{
+  "checkedAt": "2026-10-27T01:10:13.273Z",
+  "previous": "/tmp/claude-1000/babylon-previous/dist",
+  "results": [
+    {
+      "browser": "chromium",
+      "scenario": "held",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 123,
+      "offlineScanTriangles": 189027,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "chromium",
+      "scenario": "substituted",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 123,
+      "offlineScanTriangles": 189027,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "firefox",
+      "scenario": "held",
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 123,
+      "offlineScanTriangles": 189027,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    },
+    {
+      "browser": "firefox",
+      "scenario": "substituted",
+      "pendingStatus": "Offline download unavailable; workshop still works online",
+      "oldCachePreservedUntilRecovery": true,
+      "previousRoomOffline": true,
+      "newRoomOffline": true,
+      "cachedFiles": 123,
+      "offlineScanTriangles": 189027,
+      "originalCacheRetired": true,
+      "incompleteDownloads": 0
+    }
+  ]
+}

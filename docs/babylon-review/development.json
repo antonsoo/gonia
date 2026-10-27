@@ -1,0 +1,24 @@
+{
+  "fixture": "/tmp/claude-1000/babylon-clean-final",
+  "base": "http://127.0.0.1:4372/gonia/",
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "sourceEditRefusesImageAndIllustratedSave": true,
+      "restorationRecoversImage": true,
+      "virtualAndPublicJsonStayIdentical": true,
+      "directPublicImports": [],
+      "applicationErrors": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "sourceEditRefusesImageAndIllustratedSave": true,
+      "restorationRecoversImage": true,
+      "virtualAndPublicJsonStayIdentical": true,
+      "directPublicImports": [],
+      "applicationErrors": []
+    }
+  ]
+}

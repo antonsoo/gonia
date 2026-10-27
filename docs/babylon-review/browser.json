@@ -1,0 +1,4847 @@
+{
+  "checkedAt": "2026-10-27T01:07:39.688Z",
+  "scope": "Local production; actual origin stopped for offline review",
+  "base": null,
+  "edition": "3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+  "graphicsEnvironment": {
+    "VK_DRIVER_FILES": "/usr/share/vulkan/icd.d/lvp_icd.json",
+    "VK_ICD_FILENAMES": "/usr/share/vulkan/icd.d/lvp_icd.json",
+    "EGL_PLATFORM": "surfaceless",
+    "LIBGL_ALWAYS_SOFTWARE": "true",
+    "GALLIUM_DRIVER": "llvmpipe"
+  },
+  "configurations": [
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 1,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/initial.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "unknown",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/unknown.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "tall",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 12,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/tall.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 18,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 87,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "short",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/short.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "different-ruler",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/different-ruler.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "sanctuary",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 6,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-1440/sanctuary.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "final",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "tcl6-lx"
+          },
+          "csv": "chromium-1440/final.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "scheil-300.jpg",
+          "bytes": 178374,
+          "hash": "91904e73f2a5b17d609be4130f2aa95cd828494204e58f7c07afef401f0dfae3",
+          "width": 1685,
+          "height": 2140
+        },
+        {
+          "file": "scheil-304.jpg",
+          "bytes": 215144,
+          "hash": "29e451488221eb4ad6c71982986591b8b10a12fb87d7800f86a4909fce5f9d31",
+          "width": 1664,
+          "height": 2144
+        },
+        {
+          "file": "scheil-305.jpg",
+          "bytes": 250705,
+          "hash": "7241b7f2763b3755a2b3a667ea914e20ad3741b59f3405083a84b9fdc9f2a277",
+          "width": 1703,
+          "height": 2161
+        },
+        {
+          "file": "tcl6-lix.jpg",
+          "bytes": 532826,
+          "hash": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "tcl6-lx.jpg",
+          "bytes": 232979,
+          "hash": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        }
+      ],
+      "readings": [
+        "Lower brickwork\n\n15 GAR ÚS · 15 GAR SAG · 5½ GAR SUKUD\n\nLength 15 rods; breadth 15 rods; height 5½ rods: the lower brickwork.\n\nNumerical reading aid from Scheil's p. 300, with normalized sign labels. At the chosen 6 m conversion: 90 × 90 × 33 m. The retained BTTo transliteration displays 2½ here while its translation reads 5½; this activity explicitly follows the 5½ in the retained 1914 numerical row and the conventional scheme.",
+        "Second storey\n\n13 GAR ÚS · 13 GAR SAG · 3 GAR SUKUD · rik-bi 2-ú\n\nLength 13 rods; breadth 13 rods; height 3 rods: the second storey.\n\nA normalized numerical aid, not a diplomatic transcription. The photograph's second terrace is much shallower when the stone's image is projected with one uniform scale.",
+        "Third storey\n\n10 GAR ÚS · 10 GAR SAG · 1 GAR SUKUD · U₅ 3-šú\n\nLength 10 rods; breadth 10 rods; height 1 rod: the third storey.\n\nA normalized aid to the numerical row. At 6 m per rod this is 60 × 60 × 6 m. The 6 m height belongs to this conventional reading; it is not a new measurement of a surviving terrace.",
+        "Fourth storey\n\n8½ GAR ÚS · 8½ GAR SAG · 1 GAR SUKUD · U₅ 4-ú\n\nLength 8½ rods; breadth 8½ rods; height 1 rod: the fourth storey.\n\nThe half rod changes the footprint to 51 × 51 m under this conversion. The row gives dimensions, while the centred position in the comparison drawing remains a modern convention.",
+        "Fifth, then seventh\n\n7 GAR ÚS · 7 GAR SAG · 1 GAR SUKUD · U₅ 5-šú … U₅ 7-ú\n\nThe fifth storey is given dimensions. The next surviving row names the seventh. There is no written sixth-storey dimension row in between.\n\nThe ellipsis is this lesson's omission marker. Modern editors supply a sixth row. Use the missing-level controls to distinguish a supplied value from a written one.",
+        "Top sanctuary\n\n4 GAR ÚS · 3¾ GAR SAG · 2½ GAR SUKUD\n\nLength 4 rods; breadth 3¾ rods; height 2½ rods: the upper sanctuary.\n\nThe breadth follows the modern 3¾ interpretation. Scheil's 1914 page reads the fractional expression differently. At 6 m per rod, the scheme is 24 × 22.5 × 15 m; it is not a 24 m square.",
+        "Copied and checked\n\nGABA.RI bar-sip.KI … SAR-ma … ù ba-ri\n\nA duplicate from Borsippa … written … and checked.\n\nSelected words only, with omissions explicitly marked. The colophon describes transmission of a text. A checked copy can still contain a missing row and is not an excavator's field measurement."
+      ],
+      "words": [
+        "ÚS · šiddu\n\nlength. A sign label in capitals, followed by the Akkadian word. Scheil writes uš; the modern corpus lemmatizes the word as šiddu. Do not pronounce the capital sign label as an Akkadian sentence.",
+        "SAG · pūtu\n\nbreadth. Literally also 'front' or 'forehead'. In these measurements it names the breadth. A second horizontal dimension does not tell us where the next terrace sits.",
+        "SUKUD · mēlû\n\nheight. Scheil uses gud in his older transliteration. The modern sign label SUKUD is associated with Akkadian mēlû. The units still have to be identified before converting to metres.",
+        "GAR / NINDA · nindanu\n\na measuring rod; a length unit. The numerical comparison uses the conventional conversion 1 nindanu = 12 ordinary cubits ≈ 6 m. The tablet also discusses other cubit standards: a single automatic conversion is not valid for its entire text.",
+        "KÙŠ · ammatu\n\ncubit. A length unit, not one universal modern length. The 90 m tablet-derived scheme and a 91.5 m excavated base are kept separate rather than silently equated.",
+        "rik-bi / U₅ · rikbu\n\nstorey. The second storey is written with a syllabic word; later rows use a sign. The label seventh after fifth is evidence for a gap, not surviving measurements for the gap.",
+        "KI.TA · šaplû\n\nlower. The lower brickwork in the first numerical row. It does not by itself tell us the construction date, material strengths or present surviving height.",
+        "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
+      ],
+      "cache": {
+        "controller": "http://127.0.0.1:45897/gonia/sw.js",
+        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+        "files": 123
+      },
+      "record": {
+        "supplied": false,
+        "width": 22,
+        "height": 4,
+        "base": 915,
+        "ruler": "overall",
+        "selected": 5,
+        "page": "tcl6-lx"
+      },
+      "savedHtmlSha256": "434c3b3e976ba4ebeb68e21c39c40f659be90285d34c94ba94f87696e7c860c6",
+      "savedHtmlBytes": 4559962,
+      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "scan": {
+        "triangles": 189027,
+        "textureAndLightAndCameraChangePixels": true,
+        "reflection": "source orientation manually compared with figure 1"
+      },
+      "offline": true,
+      "applicationErrors": [],
+      "csp": []
+    },
+    {
+      "engine": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 1,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/initial.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "unknown",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/unknown.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "tall",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 12,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/tall.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 18,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 87,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "short",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/short.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "different-ruler",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/different-ruler.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "sanctuary",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 6,
+            "page": "scheil-300"
+          },
+          "csv": "chromium-375/sanctuary.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "final",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "tcl6-lx"
+          },
+          "csv": "chromium-375/final.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "scheil-300.jpg",
+          "bytes": 178374,
+          "hash": "91904e73f2a5b17d609be4130f2aa95cd828494204e58f7c07afef401f0dfae3",
+          "width": 1685,
+          "height": 2140
+        },
+        {
+          "file": "scheil-304.jpg",
+          "bytes": 215144,
+          "hash": "29e451488221eb4ad6c71982986591b8b10a12fb87d7800f86a4909fce5f9d31",
+          "width": 1664,
+          "height": 2144
+        },
+        {
+          "file": "scheil-305.jpg",
+          "bytes": 250705,
+          "hash": "7241b7f2763b3755a2b3a667ea914e20ad3741b59f3405083a84b9fdc9f2a277",
+          "width": 1703,
+          "height": 2161
+        },
+        {
+          "file": "tcl6-lix.jpg",
+          "bytes": 532826,
+          "hash": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "tcl6-lx.jpg",
+          "bytes": 232979,
+          "hash": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        }
+      ],
+      "readings": [
+        "Lower brickwork\n\n15 GAR ÚS · 15 GAR SAG · 5½ GAR SUKUD\n\nLength 15 rods; breadth 15 rods; height 5½ rods: the lower brickwork.\n\nNumerical reading aid from Scheil's p. 300, with normalized sign labels. At the chosen 6 m conversion: 90 × 90 × 33 m. The retained BTTo transliteration displays 2½ here while its translation reads 5½; this activity explicitly follows the 5½ in the retained 1914 numerical row and the conventional scheme.",
+        "Second storey\n\n13 GAR ÚS · 13 GAR SAG · 3 GAR SUKUD · rik-bi 2-ú\n\nLength 13 rods; breadth 13 rods; height 3 rods: the second storey.\n\nA normalized numerical aid, not a diplomatic transcription. The photograph's second terrace is much shallower when the stone's image is projected with one uniform scale.",
+        "Third storey\n\n10 GAR ÚS · 10 GAR SAG · 1 GAR SUKUD · U₅ 3-šú\n\nLength 10 rods; breadth 10 rods; height 1 rod: the third storey.\n\nA normalized aid to the numerical row. At 6 m per rod this is 60 × 60 × 6 m. The 6 m height belongs to this conventional reading; it is not a new measurement of a surviving terrace.",
+        "Fourth storey\n\n8½ GAR ÚS · 8½ GAR SAG · 1 GAR SUKUD · U₅ 4-ú\n\nLength 8½ rods; breadth 8½ rods; height 1 rod: the fourth storey.\n\nThe half rod changes the footprint to 51 × 51 m under this conversion. The row gives dimensions, while the centred position in the comparison drawing remains a modern convention.",
+        "Fifth, then seventh\n\n7 GAR ÚS · 7 GAR SAG · 1 GAR SUKUD · U₅ 5-šú … U₅ 7-ú\n\nThe fifth storey is given dimensions. The next surviving row names the seventh. There is no written sixth-storey dimension row in between.\n\nThe ellipsis is this lesson's omission marker. Modern editors supply a sixth row. Use the missing-level controls to distinguish a supplied value from a written one.",
+        "Top sanctuary\n\n4 GAR ÚS · 3¾ GAR SAG · 2½ GAR SUKUD\n\nLength 4 rods; breadth 3¾ rods; height 2½ rods: the upper sanctuary.\n\nThe breadth follows the modern 3¾ interpretation. Scheil's 1914 page reads the fractional expression differently. At 6 m per rod, the scheme is 24 × 22.5 × 15 m; it is not a 24 m square.",
+        "Copied and checked\n\nGABA.RI bar-sip.KI … SAR-ma … ù ba-ri\n\nA duplicate from Borsippa … written … and checked.\n\nSelected words only, with omissions explicitly marked. The colophon describes transmission of a text. A checked copy can still contain a missing row and is not an excavator's field measurement."
+      ],
+      "words": [
+        "ÚS · šiddu\n\nlength. A sign label in capitals, followed by the Akkadian word. Scheil writes uš; the modern corpus lemmatizes the word as šiddu. Do not pronounce the capital sign label as an Akkadian sentence.",
+        "SAG · pūtu\n\nbreadth. Literally also 'front' or 'forehead'. In these measurements it names the breadth. A second horizontal dimension does not tell us where the next terrace sits.",
+        "SUKUD · mēlû\n\nheight. Scheil uses gud in his older transliteration. The modern sign label SUKUD is associated with Akkadian mēlû. The units still have to be identified before converting to metres.",
+        "GAR / NINDA · nindanu\n\na measuring rod; a length unit. The numerical comparison uses the conventional conversion 1 nindanu = 12 ordinary cubits ≈ 6 m. The tablet also discusses other cubit standards: a single automatic conversion is not valid for its entire text.",
+        "KÙŠ · ammatu\n\ncubit. A length unit, not one universal modern length. The 90 m tablet-derived scheme and a 91.5 m excavated base are kept separate rather than silently equated.",
+        "rik-bi / U₅ · rikbu\n\nstorey. The second storey is written with a syllabic word; later rows use a sign. The label seventh after fifth is evidence for a gap, not surviving measurements for the gap.",
+        "KI.TA · šaplû\n\nlower. The lower brickwork in the first numerical row. It does not by itself tell us the construction date, material strengths or present surviving height.",
+        "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
+      ],
+      "cache": {
+        "controller": "http://127.0.0.1:45413/gonia/sw.js",
+        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+        "files": 123
+      },
+      "record": {
+        "supplied": false,
+        "width": 22,
+        "height": 4,
+        "base": 915,
+        "ruler": "overall",
+        "selected": 5,
+        "page": "tcl6-lx"
+      },
+      "savedHtmlSha256": "6cb51bf337da7ec0e83a33af54cb34a277d7a8db51bf2f3b1d62e8278f88dda3",
+      "savedHtmlBytes": 4227734,
+      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "scan": {
+        "triangles": 189027,
+        "textureAndLightAndCameraChangePixels": true,
+        "reflection": "source orientation manually compared with figure 1"
+      },
+      "offline": true,
+      "applicationErrors": [],
+      "csp": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 1,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/initial.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "unknown",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/unknown.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "tall",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 12,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/tall.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 18,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 87,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "short",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/short.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "different-ruler",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/different-ruler.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "sanctuary",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 6,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-1440/sanctuary.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "final",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "tcl6-lx"
+          },
+          "csv": "firefox-1440/final.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "scheil-300.jpg",
+          "bytes": 178374,
+          "hash": "91904e73f2a5b17d609be4130f2aa95cd828494204e58f7c07afef401f0dfae3",
+          "width": 1685,
+          "height": 2140
+        },
+        {
+          "file": "scheil-304.jpg",
+          "bytes": 215144,
+          "hash": "29e451488221eb4ad6c71982986591b8b10a12fb87d7800f86a4909fce5f9d31",
+          "width": 1664,
+          "height": 2144
+        },
+        {
+          "file": "scheil-305.jpg",
+          "bytes": 250705,
+          "hash": "7241b7f2763b3755a2b3a667ea914e20ad3741b59f3405083a84b9fdc9f2a277",
+          "width": 1703,
+          "height": 2161
+        },
+        {
+          "file": "tcl6-lix.jpg",
+          "bytes": 532826,
+          "hash": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "tcl6-lx.jpg",
+          "bytes": 232979,
+          "hash": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        }
+      ],
+      "readings": [
+        "Lower brickwork\n\n15 GAR ÚS · 15 GAR SAG · 5½ GAR SUKUD\n\nLength 15 rods; breadth 15 rods; height 5½ rods: the lower brickwork.\n\nNumerical reading aid from Scheil's p. 300, with normalized sign labels. At the chosen 6 m conversion: 90 × 90 × 33 m. The retained BTTo transliteration displays 2½ here while its translation reads 5½; this activity explicitly follows the 5½ in the retained 1914 numerical row and the conventional scheme.",
+        "Second storey\n\n13 GAR ÚS · 13 GAR SAG · 3 GAR SUKUD · rik-bi 2-ú\n\nLength 13 rods; breadth 13 rods; height 3 rods: the second storey.\n\nA normalized numerical aid, not a diplomatic transcription. The photograph's second terrace is much shallower when the stone's image is projected with one uniform scale.",
+        "Third storey\n\n10 GAR ÚS · 10 GAR SAG · 1 GAR SUKUD · U₅ 3-šú\n\nLength 10 rods; breadth 10 rods; height 1 rod: the third storey.\n\nA normalized aid to the numerical row. At 6 m per rod this is 60 × 60 × 6 m. The 6 m height belongs to this conventional reading; it is not a new measurement of a surviving terrace.",
+        "Fourth storey\n\n8½ GAR ÚS · 8½ GAR SAG · 1 GAR SUKUD · U₅ 4-ú\n\nLength 8½ rods; breadth 8½ rods; height 1 rod: the fourth storey.\n\nThe half rod changes the footprint to 51 × 51 m under this conversion. The row gives dimensions, while the centred position in the comparison drawing remains a modern convention.",
+        "Fifth, then seventh\n\n7 GAR ÚS · 7 GAR SAG · 1 GAR SUKUD · U₅ 5-šú … U₅ 7-ú\n\nThe fifth storey is given dimensions. The next surviving row names the seventh. There is no written sixth-storey dimension row in between.\n\nThe ellipsis is this lesson's omission marker. Modern editors supply a sixth row. Use the missing-level controls to distinguish a supplied value from a written one.",
+        "Top sanctuary\n\n4 GAR ÚS · 3¾ GAR SAG · 2½ GAR SUKUD\n\nLength 4 rods; breadth 3¾ rods; height 2½ rods: the upper sanctuary.\n\nThe breadth follows the modern 3¾ interpretation. Scheil's 1914 page reads the fractional expression differently. At 6 m per rod, the scheme is 24 × 22.5 × 15 m; it is not a 24 m square.",
+        "Copied and checked\n\nGABA.RI bar-sip.KI … SAR-ma … ù ba-ri\n\nA duplicate from Borsippa … written … and checked.\n\nSelected words only, with omissions explicitly marked. The colophon describes transmission of a text. A checked copy can still contain a missing row and is not an excavator's field measurement."
+      ],
+      "words": [
+        "ÚS · šiddu\n\nlength. A sign label in capitals, followed by the Akkadian word. Scheil writes uš; the modern corpus lemmatizes the word as šiddu. Do not pronounce the capital sign label as an Akkadian sentence.",
+        "SAG · pūtu\n\nbreadth. Literally also 'front' or 'forehead'. In these measurements it names the breadth. A second horizontal dimension does not tell us where the next terrace sits.",
+        "SUKUD · mēlû\n\nheight. Scheil uses gud in his older transliteration. The modern sign label SUKUD is associated with Akkadian mēlû. The units still have to be identified before converting to metres.",
+        "GAR / NINDA · nindanu\n\na measuring rod; a length unit. The numerical comparison uses the conventional conversion 1 nindanu = 12 ordinary cubits ≈ 6 m. The tablet also discusses other cubit standards: a single automatic conversion is not valid for its entire text.",
+        "KÙŠ · ammatu\n\ncubit. A length unit, not one universal modern length. The 90 m tablet-derived scheme and a 91.5 m excavated base are kept separate rather than silently equated.",
+        "rik-bi / U₅ · rikbu\n\nstorey. The second storey is written with a syllabic word; later rows use a sign. The label seventh after fifth is evidence for a gap, not surviving measurements for the gap.",
+        "KI.TA · šaplû\n\nlower. The lower brickwork in the first numerical row. It does not by itself tell us the construction date, material strengths or present surviving height.",
+        "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
+      ],
+      "cache": {
+        "controller": "http://127.0.0.1:46539/gonia/sw.js",
+        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+        "files": 123
+      },
+      "record": {
+        "supplied": false,
+        "width": 22,
+        "height": 4,
+        "base": 915,
+        "ruler": "overall",
+        "selected": 5,
+        "page": "tcl6-lx"
+      },
+      "savedHtmlSha256": "15eb43b72e76d0c44e0b654d58339a779fceb119c1af6cd0b9beaa67e6185336",
+      "savedHtmlBytes": 4437786,
+      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "scan": {
+        "triangles": 189027,
+        "textureAndLightAndCameraChangePixels": true,
+        "reflection": "source orientation manually compared with figure 1"
+      },
+      "offline": true,
+      "applicationErrors": [],
+      "csp": []
+    },
+    {
+      "engine": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "samples": [
+        {
+          "label": "initial",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 1,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/initial.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "unknown",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/unknown.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "tall",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 12,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/tall.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 18,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 87,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "short",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/short.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        },
+        {
+          "label": "different-ruler",
+          "state": {
+            "supplied": true,
+            "width": 27,
+            "height": 1,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 5,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/different-ruler.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 40.5,
+              "height": 1.5,
+              "bottom": 69,
+              "rectWidth": 145.8,
+              "rectHeight": 5.4
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 70.5,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "sanctuary",
+          "state": {
+            "supplied": true,
+            "width": 22,
+            "height": 4,
+            "base": 900,
+            "ruler": "terrace",
+            "selected": 6,
+            "page": "scheil-300"
+          },
+          "csv": "firefox-375/sanctuary.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "supplied",
+              "width": 33,
+              "height": 6,
+              "bottom": 69,
+              "rectWidth": 118.8,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": 75,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90,
+              "height": 26.85483870967742,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 96.67741935483872
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 79.83870967741936,
+              "height": 9.435483870967742,
+              "bottom": 26.85483870967742,
+              "rectWidth": 287.4193548387097,
+              "rectHeight": 33.96774193548387
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 70.4032258064516,
+              "height": 8.709677419354838,
+              "bottom": 36.29032258064516,
+              "rectWidth": 253.45161290322577,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 60.96774193548387,
+              "height": 8.709677419354838,
+              "bottom": 45,
+              "rectWidth": 219.48387096774195,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 50.806451612903224,
+              "height": 8.709677419354838,
+              "bottom": 53.70967741935484,
+              "rectWidth": 182.90322580645162,
+              "rectHeight": 31.354838709677416
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 39.91935483870968,
+              "height": 7.983870967741936,
+              "bottom": 62.41935483870968,
+              "rectWidth": 143.70967741935485,
+              "rectHeight": 28.74193548387097
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.306451612903224,
+              "height": 20.32258064516129,
+              "bottom": 70.40322580645162,
+              "rectWidth": 101.90322580645162,
+              "rectHeight": 73.16129032258064
+            }
+          ]
+        },
+        {
+          "label": "final",
+          "state": {
+            "supplied": false,
+            "width": 22,
+            "height": 4,
+            "base": 915,
+            "ruler": "overall",
+            "selected": 5,
+            "page": "tcl6-lx"
+          },
+          "csv": "firefox-375/final.csv",
+          "geometry": [
+            {
+              "level": 1,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 90,
+              "height": 33,
+              "bottom": 0,
+              "rectWidth": 324,
+              "rectHeight": 118.8
+            },
+            {
+              "level": 2,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 78,
+              "height": 18,
+              "bottom": 33,
+              "rectWidth": 280.8,
+              "rectHeight": 64.8
+            },
+            {
+              "level": 3,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 60,
+              "height": 6,
+              "bottom": 51,
+              "rectWidth": 216,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 4,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 51,
+              "height": 6,
+              "bottom": 57,
+              "rectWidth": 183.6,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 5,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 42,
+              "height": 6,
+              "bottom": 63,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 6,
+              "kind": "tablet",
+              "status": "missing",
+              "width": null,
+              "height": null,
+              "bottom": 69,
+              "rectWidth": 151.20000000000002,
+              "rectHeight": 21.6
+            },
+            {
+              "level": 7,
+              "kind": "tablet",
+              "status": "tablet-derived",
+              "width": 24,
+              "height": 15,
+              "bottom": null,
+              "rectWidth": 86.4,
+              "rectHeight": 54
+            },
+            {
+              "level": 1,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 90.768,
+              "height": 27.084000000000003,
+              "bottom": 0,
+              "rectWidth": 326.76480000000004,
+              "rectHeight": 97.50240000000001
+            },
+            {
+              "level": 2,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 80.52000000000001,
+              "height": 9.516,
+              "bottom": 27.084000000000003,
+              "rectWidth": 289.87200000000007,
+              "rectHeight": 34.257600000000004
+            },
+            {
+              "level": 3,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 71.00399999999999,
+              "height": 8.784,
+              "bottom": 36.6,
+              "rectWidth": 255.61439999999996,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 4,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 61.48800000000001,
+              "height": 8.784,
+              "bottom": 45.384,
+              "rectWidth": 221.35680000000002,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 5,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 51.24,
+              "height": 8.784,
+              "bottom": 54.168,
+              "rectWidth": 184.464,
+              "rectHeight": 31.622400000000003
+            },
+            {
+              "level": 6,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 40.260000000000005,
+              "height": 8.052000000000001,
+              "bottom": 62.952,
+              "rectWidth": 144.93600000000004,
+              "rectHeight": 28.987200000000005
+            },
+            {
+              "level": 7,
+              "kind": "stele",
+              "status": "image-projection",
+              "width": 28.548000000000002,
+              "height": 20.496,
+              "bottom": 71.004,
+              "rectWidth": 102.7728,
+              "rectHeight": 73.7856
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "scheil-300.jpg",
+          "bytes": 178374,
+          "hash": "91904e73f2a5b17d609be4130f2aa95cd828494204e58f7c07afef401f0dfae3",
+          "width": 1685,
+          "height": 2140
+        },
+        {
+          "file": "scheil-304.jpg",
+          "bytes": 215144,
+          "hash": "29e451488221eb4ad6c71982986591b8b10a12fb87d7800f86a4909fce5f9d31",
+          "width": 1664,
+          "height": 2144
+        },
+        {
+          "file": "scheil-305.jpg",
+          "bytes": 250705,
+          "hash": "7241b7f2763b3755a2b3a667ea914e20ad3741b59f3405083a84b9fdc9f2a277",
+          "width": 1703,
+          "height": 2161
+        },
+        {
+          "file": "tcl6-lix.jpg",
+          "bytes": 532826,
+          "hash": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "tcl6-lx.jpg",
+          "bytes": 232979,
+          "hash": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+          "width": 1422,
+          "height": 2200
+        },
+        {
+          "file": "stele-photo.jpg",
+          "bytes": 171069,
+          "hash": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+          "width": 550,
+          "height": 917
+        },
+        {
+          "file": "stele-drawing.jpg",
+          "bytes": 53115,
+          "hash": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+          "width": 650,
+          "height": 906
+        }
+      ],
+      "readings": [
+        "Lower brickwork\n\n15 GAR ÚS · 15 GAR SAG · 5½ GAR SUKUD\n\nLength 15 rods; breadth 15 rods; height 5½ rods: the lower brickwork.\n\nNumerical reading aid from Scheil's p. 300, with normalized sign labels. At the chosen 6 m conversion: 90 × 90 × 33 m. The retained BTTo transliteration displays 2½ here while its translation reads 5½; this activity explicitly follows the 5½ in the retained 1914 numerical row and the conventional scheme.",
+        "Second storey\n\n13 GAR ÚS · 13 GAR SAG · 3 GAR SUKUD · rik-bi 2-ú\n\nLength 13 rods; breadth 13 rods; height 3 rods: the second storey.\n\nA normalized numerical aid, not a diplomatic transcription. The photograph's second terrace is much shallower when the stone's image is projected with one uniform scale.",
+        "Third storey\n\n10 GAR ÚS · 10 GAR SAG · 1 GAR SUKUD · U₅ 3-šú\n\nLength 10 rods; breadth 10 rods; height 1 rod: the third storey.\n\nA normalized aid to the numerical row. At 6 m per rod this is 60 × 60 × 6 m. The 6 m height belongs to this conventional reading; it is not a new measurement of a surviving terrace.",
+        "Fourth storey\n\n8½ GAR ÚS · 8½ GAR SAG · 1 GAR SUKUD · U₅ 4-ú\n\nLength 8½ rods; breadth 8½ rods; height 1 rod: the fourth storey.\n\nThe half rod changes the footprint to 51 × 51 m under this conversion. The row gives dimensions, while the centred position in the comparison drawing remains a modern convention.",
+        "Fifth, then seventh\n\n7 GAR ÚS · 7 GAR SAG · 1 GAR SUKUD · U₅ 5-šú … U₅ 7-ú\n\nThe fifth storey is given dimensions. The next surviving row names the seventh. There is no written sixth-storey dimension row in between.\n\nThe ellipsis is this lesson's omission marker. Modern editors supply a sixth row. Use the missing-level controls to distinguish a supplied value from a written one.",
+        "Top sanctuary\n\n4 GAR ÚS · 3¾ GAR SAG · 2½ GAR SUKUD\n\nLength 4 rods; breadth 3¾ rods; height 2½ rods: the upper sanctuary.\n\nThe breadth follows the modern 3¾ interpretation. Scheil's 1914 page reads the fractional expression differently. At 6 m per rod, the scheme is 24 × 22.5 × 15 m; it is not a 24 m square.",
+        "Copied and checked\n\nGABA.RI bar-sip.KI … SAR-ma … ù ba-ri\n\nA duplicate from Borsippa … written … and checked.\n\nSelected words only, with omissions explicitly marked. The colophon describes transmission of a text. A checked copy can still contain a missing row and is not an excavator's field measurement."
+      ],
+      "words": [
+        "ÚS · šiddu\n\nlength. A sign label in capitals, followed by the Akkadian word. Scheil writes uš; the modern corpus lemmatizes the word as šiddu. Do not pronounce the capital sign label as an Akkadian sentence.",
+        "SAG · pūtu\n\nbreadth. Literally also 'front' or 'forehead'. In these measurements it names the breadth. A second horizontal dimension does not tell us where the next terrace sits.",
+        "SUKUD · mēlû\n\nheight. Scheil uses gud in his older transliteration. The modern sign label SUKUD is associated with Akkadian mēlû. The units still have to be identified before converting to metres.",
+        "GAR / NINDA · nindanu\n\na measuring rod; a length unit. The numerical comparison uses the conventional conversion 1 nindanu = 12 ordinary cubits ≈ 6 m. The tablet also discusses other cubit standards: a single automatic conversion is not valid for its entire text.",
+        "KÙŠ · ammatu\n\ncubit. A length unit, not one universal modern length. The 90 m tablet-derived scheme and a 91.5 m excavated base are kept separate rather than silently equated.",
+        "rik-bi / U₅ · rikbu\n\nstorey. The second storey is written with a syllabic word; later rows use a sign. The label seventh after fifth is evidence for a gap, not surviving measurements for the gap.",
+        "KI.TA · šaplû\n\nlower. The lower brickwork in the first numerical row. It does not by itself tell us the construction date, material strengths or present surviving height.",
+        "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
+      ],
+      "cache": {
+        "controller": "http://127.0.0.1:46203/gonia/sw.js",
+        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+        "files": 123
+      },
+      "record": {
+        "supplied": false,
+        "width": 22,
+        "height": 4,
+        "base": 915,
+        "ruler": "overall",
+        "selected": 5,
+        "page": "tcl6-lx"
+      },
+      "savedHtmlSha256": "0d06c4e292c67cf606f0daa2f6eea1a910840b43744ca59524c23ed7c50e4c35",
+      "savedHtmlBytes": 4169382,
+      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "scan": {
+        "triangles": 189027,
+        "textureAndLightAndCameraChangePixels": true,
+        "reflection": "source orientation manually compared with figure 1"
+      },
+      "offline": true,
+      "applicationErrors": [],
+      "csp": []
+    }
+  ],
+  "guards": [
+    {
+      "engine": "chromium",
+      "lateSourceCannotReplaceSelection": true,
+      "validWrongJpegRefused": true,
+      "illustratedSaveRefused": true,
+      "sourceRetry": true,
+      "wrongMeshRefusedBeforeDisplay": true,
+      "meshRetry": true
+    },
+    {
+      "engine": "chromium",
+      "webglUnavailable": "Numerical workshop, verified photograph and actual illustrated reading still work"
+    },
+    {
+      "engine": "firefox",
+      "lateSourceCannotReplaceSelection": true,
+      "validWrongJpegRefused": true,
+      "illustratedSaveRefused": true,
+      "sourceRetry": true,
+      "wrongMeshRefusedBeforeDisplay": true,
+      "meshRetry": true
+    },
+    {
+      "engine": "firefox",
+      "webglUnavailable": "Numerical workshop, verified photograph and actual illustrated reading still work"
+    }
+  ]
+}

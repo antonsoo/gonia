@@ -1,0 +1,51 @@
+{
+  "pillow": "13.0.0",
+  "jpegCodec": "6.2",
+  "poppler": "pdftoppm version 24.02.0",
+  "assets": [
+    {
+      "file": "tcl6-lix.jpg",
+      "pdfPage": 125,
+      "sha256": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+      "exactReproduction": true
+    },
+    {
+      "file": "tcl6-lx.jpg",
+      "pdfPage": 127,
+      "sha256": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+      "exactReproduction": true
+    },
+    {
+      "file": "stele-photo.jpg",
+      "sha256": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+      "unmodifiedExtractedJpeg": true
+    },
+    {
+      "file": "stele-drawing.jpg",
+      "sha256": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+      "unmodifiedExtractedJpeg": true
+    }
+  ],
+  "textureExactReproduction": true,
+  "fontCoverage": [
+    {
+      "font": "NotoSerif-Regular.ttf",
+      "scope": "Numerical source strings and Akkadian/sign-label words",
+      "nonAsciiCharacters": 14,
+      "missing": []
+    },
+    {
+      "font": "IBMPlexSans-Regular.woff2",
+      "scope": "All content-file characters, including English notes",
+      "nonAsciiCharacters": 19,
+      "missing": []
+    },
+    {
+      "font": "IBMPlexSans-SemiBold.woff2",
+      "scope": "All content-file characters, including English notes",
+      "nonAsciiCharacters": 19,
+      "missing": []
+    }
+  ],
+  "status": "passed"
+}

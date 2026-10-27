@@ -1,0 +1,130 @@
+{
+  "originals": {
+    "krohn": {
+      "url": "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf",
+      "sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139"
+    },
+    "vignola": {
+      "url": "https://archive.org/download/fiveordersofarch00vign/fiveordersofarch00vign.pdf",
+      "sha256": "6d0e345c552aa1f67dc093720c57d4b3d1bf84a84aef35d9fe4651fab3e6f7fd"
+    },
+    "met": {
+      "url": "https://www.metmuseum.org/art/collection/search/252453",
+      "imageUrl": "https://images.metmuseum.org/CRDImages/gr/original/DP144130.jpg",
+      "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/252453",
+      "objectID": 252453,
+      "accession": "26.59.1",
+      "date": "ca. 300 BCE",
+      "creditLine": "Gift of The American Society for the Excavation of Sardis, 1926",
+      "isPublicDomain": true,
+      "rights": "The Met Open Access, CC0 1.0",
+      "rightsUrl": "https://www.metmuseum.org/policies/image-resources",
+      "retrieved": "2026-10-27",
+      "sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "bytes": 2337058
+    }
+  },
+  "derivation": "Complete PDF pages; Poppler pdftoppm, longest side 2200 px, JPEG quality 88; no cropping or reconstruction.",
+  "photographDerivation": "The Met's complete original DP144130 JPEG, retained byte for byte without cropping, resizing or retouching.",
+  "pages": [
+    {
+      "file": "krohn-071.jpg",
+      "source": "krohn",
+      "pdfPage": 89,
+      "title": "Vitruvius III.5.5–7 · Krohn 1912, p. 71",
+      "note": "Eye proportions, quarter-turn reduction, and Krohn's critical apparatus. Angle brackets mark editorial supplies.",
+      "width": 1414,
+      "height": 2200,
+      "sha256": "6cf195d326edc0887a792a47b9fb81c7e473f00e12398a9cf20cfbc3e91484b1",
+      "bytes": 586145
+    },
+    {
+      "file": "krohn-072.jpg",
+      "source": "krohn",
+      "pdfPage": 90,
+      "title": "Vitruvius III.5.7–8 · Krohn 1912, p. 72",
+      "note": "The promise of a figure and calculation at the end of the book. No surviving ancient volute plate is supplied here.",
+      "width": 1414,
+      "height": 2200,
+      "sha256": "2c65ce3f4952caf2088ac778747bf333d7993070d471a3e548e593697a9b6481",
+      "bytes": 615354
+    },
+    {
+      "file": "vignola-xv.jpg",
+      "source": "vignola",
+      "pdfPage": 68,
+      "title": "Juglaris & Locke 1889 · plate XV",
+      "note": "The later construction operated on this desk. The plate bears WSL '89. Its enlarged eye labels twelve compass centres.",
+      "width": 1487,
+      "height": 2200,
+      "sha256": "8ffb3059b2cbe3212e310c590a8f9c9109de38471454b8350e251cfb61b850ca",
+      "bytes": 281018
+    },
+    {
+      "file": "vignola-xv-text.jpg",
+      "source": "vignola",
+      "pdfPage": 69,
+      "title": "Juglaris & Locke 1889 · explanation of plate XV",
+      "note": "The English instructions name the 9, 8, 7, 6 axis points, quarters and nested centre divisions. They are not ancient Latin.",
+      "width": 1487,
+      "height": 2200,
+      "sha256": "3c112f887b387f9fe50ad7d6c4c71807c1c5b30ff3f5daebf7213cae555eb924",
+      "bytes": 420970
+    },
+    {
+      "file": "vignola-xiv.jpg",
+      "source": "vignola",
+      "pdfPage": 64,
+      "title": "Juglaris & Locke 1889 · plate XIV",
+      "note": "The Ionic capital in context. This is the later book's drawing, not a photograph or survey of a Greek capital.",
+      "width": 1487,
+      "height": 2200,
+      "sha256": "f87713c327554d8a0e3f9011160df5c9de87e6b84bbbec9a52a373ca3960ac83",
+      "bytes": 444780
+    },
+    {
+      "file": "vignola-title.jpg",
+      "source": "vignola",
+      "pdfPage": 5,
+      "title": "Juglaris & Locke 1889 · title page",
+      "note": "The title page identifies the translators and 1889 edition. The downloaded PDF's name must not turn it into a 1562 scan.",
+      "width": 1487,
+      "height": 2200,
+      "sha256": "b524e9ce4388ffa5ca63a452b1d50d9f05055af4b9e05f988fe3cd2b69fd7b93",
+      "bytes": 146771
+    },
+    {
+      "file": "sardis-dp144130.jpg",
+      "source": "met",
+      "pdfPage": null,
+      "title": "A surviving capital · Sardis, The Met 26.59.1",
+      "note": "Museum photograph, not a construction plate. Greek, ca. 300 BCE. The displayed column omits most of its shaft; parts of the shaft are restored and the profiled base below the torus is a copy. The capital's original position is uncertain. Our 1889 outline is not fitted to this object.",
+      "width": 3738,
+      "height": 3790,
+      "sha256": "2307ca270b7ad3362f5949490eb92357a738f51ba0dbbb7104f04a48b9544827",
+      "bytes": 2337058
+    }
+  ],
+  "relatedAssets": {
+    "fonts/IBMPlexSans-Regular.woff2": {
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a",
+      "bytes": 63020
+    },
+    "fonts/IBMPlexSans-SemiBold.woff2": {
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205",
+      "bytes": 67060
+    },
+    "fonts/NotoSerif-Regular.ttf": {
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6",
+      "bytes": 444064
+    },
+    "fonts/IBMPlex-OFL.txt": {
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "bytes": 4456
+    },
+    "fonts/NotoSerif-OFL.txt": {
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+      "bytes": 4396
+    }
+  }
+}

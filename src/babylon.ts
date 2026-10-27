@@ -231,17 +231,13 @@ el("bb-find-plan").addEventListener("click", () => {
   el("bb-source-title").focus();
 });
 el("bb-read-row").addEventListener("click", () => {
-  reading =
-    state.selected === 6
-      ? 3
-      : state.selected === 5 || state.selected === 4
-        ? 2
-        : state.selected === 0
-          ? 0
-          : 1;
+  const linked = babylonReadings.findIndex((r) =>
+    r.levels.some((level) => level === state.selected),
+  );
+  reading = linked < 0 ? 1 : linked;
   el<HTMLSelectElement>("bb-reading").value = String(reading);
   renderReading();
-  choosePage("scheil-300");
+  choosePage(babylonReadings[reading]?.page ?? "scheil-300");
   el("bb-source-title").focus();
 });
 el<HTMLSelectElement>("bb-reading").addEventListener("change", (e) => {

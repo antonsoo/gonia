@@ -110,6 +110,7 @@ export const babylonWords = [
 export const babylonReadings = [
   {
     label: "Lower brickwork",
+    levels: [0],
     reading: "15 GAR ÚS · 15 GAR SAG · 5½ GAR SUKUD",
     english: "Length 15 rods; breadth 15 rods; height 5½ rods: the lower brickwork.",
     page: "scheil-300",
@@ -117,13 +118,31 @@ export const babylonReadings = [
   },
   {
     label: "Second storey",
+    levels: [1],
     reading: "13 GAR ÚS · 13 GAR SAG · 3 GAR SUKUD · rik-bi 2-ú",
     english: "Length 13 rods; breadth 13 rods; height 3 rods: the second storey.",
     page: "scheil-300",
     note: "A normalized numerical aid, not a diplomatic transcription. The photograph's second terrace is much shallower when the stone's image is projected with one uniform scale.",
   },
   {
+    label: "Third storey",
+    levels: [2],
+    reading: "10 GAR ÚS · 10 GAR SAG · 1 GAR SUKUD · U₅ 3-šú",
+    english: "Length 10 rods; breadth 10 rods; height 1 rod: the third storey.",
+    page: "scheil-300",
+    note: "A normalized aid to the numerical row. At 6 m per rod this is 60 × 60 × 6 m. The 6 m height belongs to this conventional reading; it is not a new measurement of a surviving terrace.",
+  },
+  {
+    label: "Fourth storey",
+    levels: [3],
+    reading: "8½ GAR ÚS · 8½ GAR SAG · 1 GAR SUKUD · U₅ 4-ú",
+    english: "Length 8½ rods; breadth 8½ rods; height 1 rod: the fourth storey.",
+    page: "scheil-300",
+    note: "The half rod changes the footprint to 51 × 51 m under this conversion. The row gives dimensions, while the centred position in the comparison drawing remains a modern convention.",
+  },
+  {
     label: "Fifth, then seventh",
+    levels: [4, 5],
     reading: "7 GAR ÚS · 7 GAR SAG · 1 GAR SUKUD · U₅ 5-šú … U₅ 7-ú",
     english:
       "The fifth storey is given dimensions. The next surviving row names the seventh. There is no written sixth-storey dimension row in between.",
@@ -132,6 +151,7 @@ export const babylonReadings = [
   },
   {
     label: "Top sanctuary",
+    levels: [6],
     reading: "4 GAR ÚS · 3¾ GAR SAG · 2½ GAR SUKUD",
     english: "Length 4 rods; breadth 3¾ rods; height 2½ rods: the upper sanctuary.",
     page: "tcl6-lx",
@@ -139,6 +159,7 @@ export const babylonReadings = [
   },
   {
     label: "Copied and checked",
+    levels: [],
     reading: "GABA.RI bar-sip.KI … SAR-ma … ù ba-ri",
     english: "A duplicate from Borsippa … written … and checked.",
     page: "scheil-300",

@@ -32,7 +32,11 @@ function retainedSourceJson(file: string): Plugin {
     async load(id) {
       if (id !== virtualId) return;
       this.addWatchFile(sourceFile);
-      return `export default ${JSON.stringify(JSON.parse(await readFile(sourceFile, "utf8")))};`;
+      const json = await readFile(sourceFile, "utf8");
+      JSON.parse(json);
+      // Parsing the retained text preserves JSON's negative zero in both the
+      // Node reader and browser. Re-stringifying a parsed object erases it.
+      return `export default JSON.parse(${JSON.stringify(json)});`;
     },
   };
 }

@@ -259,9 +259,26 @@ for (const [name, engine] of [
         await p.keyboard.press("Enter");
         assert.match(await p.locator("#bb-plan-result").innerText(), /not independent proof/);
         const readings = [];
-        for (let i = 0; i < 5; i++) {
+        for (let i = 0; i < 7; i++) {
           await p.locator("#bb-reading").selectOption(String(i));
           readings.push(await p.locator("#bb-reading-text").innerText());
+        }
+        const rowHeadings = [
+          "Lower brickwork",
+          "Second storey",
+          "Third storey",
+          "Fourth storey",
+          "Fifth, then seventh",
+          "Fifth, then seventh",
+          "Top sanctuary",
+        ];
+        for (let level = 0; level < 7; level++) {
+          await p.locator(`[data-bb-select="${level}"]`).click();
+          await p.locator("#bb-read-row").focus();
+          await p.keyboard.press("Enter");
+          await ready(p);
+          assert.equal(await p.locator("#bb-reading-text h3").innerText(), rowHeadings[level]);
+          assert.equal(await p.evaluate(() => document.activeElement.id), "bb-source-title");
         }
         const words = [];
         for (let i = 0; i < 8; i++) {
@@ -318,7 +335,9 @@ for (const [name, engine] of [
         const record = JSON.parse(await download(p, "#bb-json", `${prefix}/record.json`));
         assert.deepEqual(record.state, await stateOf(p));
         await p.locator("#bb-conventional").click();
-        await p.locator("#bb-file").setInputFiles(path.join(out, prefix, "record.json"));
+        const choosing = p.waitForEvent("filechooser");
+        await p.locator("#bb-import").click();
+        await (await choosing).setFiles(path.join(out, prefix, "record.json"));
         await p.waitForFunction(
           () =>
             document.querySelector("#bb-save-status").textContent ===
@@ -498,8 +517,12 @@ for (const [name, engine] of [
       await arrived;
       await p.locator("#bb-page").selectOption("tcl6-lix");
       await ready(p);
+      const lateResponse = p.waitForResponse((r) =>
+        r.url().endsWith("/sources/babylon/scheil-305.jpg"),
+      );
       release();
-      await p.waitForTimeout(300);
+      await (await lateResponse).finished();
+      await p.waitForTimeout(100);
       assert.equal((await sourceHash(p, "#bb-source-image")).file, "tcl6-lix.jpg");
       const wrong = await readFile("public/sources/babylon/tcl6-lix.jpg");
       await p.route("**/sources/babylon/tcl6-lx.jpg", (route) =>

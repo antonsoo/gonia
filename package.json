@@ -1,6 +1,6 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "description": "Measured ancient architecture: Greek temple geometry, Babylonian building evidence, transport, acoustics and water screws.",
   "type": "module",
@@ -67,7 +67,10 @@
     "verify:ledger-files": "python3 scripts/ledger-artifacts.py",
     "verify:babylon": "node --import tsx scripts/babylon-cases.ts | python3 scripts/babylon-oracle.py",
     "test:babylon": "node scripts/babylon-browser.mjs",
-    "verify:babylon-files": "python3 scripts/babylon-artifacts.py"
+    "verify:babylon-files": "python3 scripts/babylon-artifacts.py",
+    "test:volute": "node scripts/volute-browser.mjs",
+    "verify:volute-files": "python3 scripts/volute-artifacts.py",
+    "prepare:volute-sources": "python3 scripts/volute-sources.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

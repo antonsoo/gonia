@@ -58,6 +58,7 @@ export default defineConfig(async ({ command }) => {
     "screw.html",
     "ledger.html",
     "babylon.html",
+    "volute.html",
     "LICENSE",
     "vite.config.ts",
     "tsconfig.json",
@@ -88,6 +89,7 @@ export default defineConfig(async ({ command }) => {
           screw: "screw.html",
           ledger: "ledger.html",
           babylon: "babylon.html",
+          volute: "volute.html",
         },
       },
     },
@@ -95,6 +97,7 @@ export default defineConfig(async ({ command }) => {
     plugins: [
       retainedSourceJson("public/sources/optics/manifest.json"),
       retainedSourceJson("public/sources/babylon/manifest.json"),
+      retainedSourceJson("public/sources/volute/manifest.json"),
       {
         name: "offline-workshop",
         apply: "build",

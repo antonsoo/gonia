@@ -1,0 +1,188 @@
+{
+  "edition": "babylon-sources-1",
+  "sources": {
+    "tablet": {
+      "object": "AO 6555, Louvre; Esagil tablet",
+      "catalogue": "https://collections.louvre.fr/en/ark:/53355/cl010167181",
+      "copyDate": "Seleucid year 83, 229 BCE; copy at Uruk of a Borsippa exemplar",
+      "handCopy": {
+        "creator": "Francois Thureau-Dangin",
+        "work": "Tablettes d’Uruk, TCL 6 (1922), no. 32, plates LIX-LX",
+        "scan": "https://archive.org/details/tablettesduruk00thuruoft",
+        "pdfSha256": "b957ad2f5d41ff8c83e52fb030e311a5dbc02ce9e8c22acbcd521f74c239c9a6",
+        "pdfBytes": 8436162,
+        "pdfPages": [
+          125,
+          127
+        ],
+        "reduction": "Poppler 24.02.0 pdftoppm -scale-to 2200 -jpeg -jpegopt quality=88",
+        "rights": "Public domain"
+      },
+      "numericalEdition": {
+        "creator": "Jean-Vincent Scheil",
+        "work": "Esagil ou le temple de Bel-Marduk a Babylone, Memoires de l’Institut de France 39 (1914), pp. 300,304,305",
+        "url": "https://doi.org/10.3406/minf.1914.1606",
+        "imageDownload": "Persee renderPage, requested width 1664; complete returned pages, no cropping or recoloring",
+        "rights": "Public domain"
+      }
+    },
+    "stele": {
+      "article": "Olof Pedersen, The Tower of Babylon Stele Found in Babylon, Iraq 85 (2023), pp. 179-191; online 2024",
+      "doi": "https://doi.org/10.1017/irq.2024.4",
+      "pdfDownload": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A712F186B2FA1965854911081620467B/S0021088924000044a.pdf/tower_of_babylon_stele_found_in_babylon.pdf",
+      "license": "CC BY 4.0",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "figures": "Figures 1 and 3, Olof Pedersen 2023; extracted with pdfimages -j, unmodified JPEG bytes",
+      "scan": {
+        "source": "https://doi.org/10.5281/zenodo.10374395",
+        "creator": "Olof Pedersen, October 2023",
+        "license": "CC BY 4.0",
+        "originalSha256": "eeb258b59fae4e458a26a67e62db3bac5884df7d41bbc5b97ec0678c92c20a18",
+        "originalBytes": 22607176,
+        "opaqueTrailerBytesOmitted": 104,
+        "opaqueTrailerSha256": "5733d9b88dd23805b149de049c867953960a6a89d7cdfede1c4a887f30012267",
+        "originalPositions": 103234,
+        "triangles": 189027,
+        "renderVerticesIncludingUVSeams": 103234,
+        "outputBytes": 3967170,
+        "outputSha256": "0e0e2001aaf4c17fadf4be2cca382733c088d5fadf98042a29faa18ead859306",
+        "decodedBytes": 5571828,
+        "positions": "Original coordinates converted to IEEE float32; no shape edits or simplification",
+        "normals": "New area-weighted vertex normals, computed from deposited triangle winding; not measured surface normals",
+        "uv": "Original texture coordinates, float32; only identical position/UV pairs joined",
+        "bounds": [
+          [
+            -0.324699,
+            0.357402
+          ],
+          [
+            -0.0,
+            0.114899
+          ],
+          [
+            -0.40522,
+            0.286055
+          ]
+        ],
+        "format": "GONIAS01 binary compressed with gzip; .mesh extension avoids servers applying a second HTTP content decoding"
+      },
+      "texture": {
+        "originalURL": "https://zenodo.org/api/records/10374395/files/poly_0_tsAvgBI3.jpg/content",
+        "originalSha256": "c623759cd08cf64094266aac7acdbe101e98041c0326dea2f6ac2e3144942bac",
+        "originalBytes": 9408896,
+        "originalSize": [
+          8192,
+          8192
+        ],
+        "reduction": "Pillow thumbnail((2048,2048)), save quality=90, subsampling=0, optimize=False; no crop or recoloring"
+      }
+    },
+    "language": {
+      "corpus": "BTTo, Q007970; Giulia Lentini, 2019-2020, adapted from A.R. George 1992; Living Among Ruins, LMU Munich",
+      "url": "https://oracc.museum.upenn.edu/btto/Q007970",
+      "lexicalData": "nindanu, ammatu, siddu, putu, melu, rikbu, saplu, elu; normalized labels and new explanations",
+      "portalLicense": "CC BY-SA 3.0",
+      "jsonLicense": "CC0 as declared in downloaded corpus JSON",
+      "download": "https://build-oracc.museum.upenn.edu/json/btto.zip",
+      "transportNote": "Public corpus downloaded with curl --insecure because the server certificate chain failed; raw HTML readings were cross-checked with search-index rendering and retained public-domain numerical edition. No credentials used. Not a claim of authenticated TLS transport.",
+      "archiveSha256": "c0a51a61748a562f2f52d3f0c8c1ffbd2e89da3e7f05ecb4619eb6de37891db6",
+      "excerptPolicy": "No modern English translation bundled; new reading aids are explicitly normalized and distinguish differences from the early edition."
+    }
+  },
+  "files": {
+    "pedersen2024.pdf": {
+      "bytes": 730859,
+      "sha256": "77a2b7734b3b661128562aff1df8c5b169aefff45bf7d4192086b6962cc5c758"
+    },
+    "scheil-300.jpg": {
+      "bytes": 178374,
+      "sha256": "91904e73f2a5b17d609be4130f2aa95cd828494204e58f7c07afef401f0dfae3",
+      "size": [
+        1685,
+        2140
+      ]
+    },
+    "scheil-304.jpg": {
+      "bytes": 215144,
+      "sha256": "29e451488221eb4ad6c71982986591b8b10a12fb87d7800f86a4909fce5f9d31",
+      "size": [
+        1664,
+        2144
+      ]
+    },
+    "scheil-305.jpg": {
+      "bytes": 250705,
+      "sha256": "7241b7f2763b3755a2b3a667ea914e20ad3741b59f3405083a84b9fdc9f2a277",
+      "size": [
+        1703,
+        2161
+      ]
+    },
+    "stele-drawing.jpg": {
+      "bytes": 53115,
+      "sha256": "e9ec51833336f3d3d22ef89782055fb32faeec2371b30f8dbcf35ea9774984de",
+      "size": [
+        650,
+        906
+      ]
+    },
+    "stele-photo.jpg": {
+      "bytes": 171069,
+      "sha256": "a05c2f1460ea4d168596f2a53f63db042a9e8879480c77b56c9bb792a45fb3f3",
+      "size": [
+        550,
+        917
+      ]
+    },
+    "stele-texture.jpg": {
+      "bytes": 1109046,
+      "sha256": "2d56cb351ca25634bf19ed9cc0586b2255b1586779d0b2db6ffa2af7618604be",
+      "size": [
+        2048,
+        2048
+      ]
+    },
+    "tcl6-lix.jpg": {
+      "bytes": 532826,
+      "sha256": "ecf8aa04ca985a515c6d5c5d9248da185dd6232b065806908f0769545fa875dd",
+      "size": [
+        1422,
+        2200
+      ]
+    },
+    "tcl6-lx.jpg": {
+      "bytes": 232979,
+      "sha256": "4b23fe52510657c96fe9de118b968d6f0fbdd64668202a580b2459476ec5e5c5",
+      "size": [
+        1422,
+        2200
+      ]
+    },
+    "stele.mesh": {
+      "bytes": 3967170,
+      "sha256": "0e0e2001aaf4c17fadf4be2cca382733c088d5fadf98042a29faa18ead859306"
+    }
+  },
+  "relatedAssets": {
+    "fonts/IBMPlexSans-Regular.woff2": {
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    "fonts/IBMPlexSans-SemiBold.woff2": {
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    "fonts/NotoSerif-Regular.ttf": {
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    "fonts/IBMPlex-OFL.txt": {
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    "fonts/NotoSerif-OFL.txt": {
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    }
+  }
+}

@@ -52,3 +52,5 @@ jobs:
       - run: npm run test:babylon -- /tmp/gonia-babylon
       - run: python3 scripts/babylon-oracle.py --browser /tmp/gonia-babylon/review.json
       - run: npm run verify:babylon-files -- /tmp/gonia-babylon
+      - run: npm run test:volute -- http://127.0.0.1:4328/gonia/ /tmp/gonia-volute
+      - run: npm run verify:volute-files -- /tmp/gonia-volute

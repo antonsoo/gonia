@@ -14,10 +14,9 @@ Fourteen problems you can inspect and measure:
   a circle and his hyperbola predictions?
 - [The cut inside a column](https://antonsoo.github.io/gonia/fluting.html):
   why does a right-angle tool fit one prescribed flute but miss the other?
-- [The compass changes centre](docs/volute-model.md):
+- [The compass changes centre](https://antonsoo.github.io/gonia/volute.html):
   can twelve circular arcs reach an Ionic volute's eye without turning in the
-  same direction at every join? The new compass desk is available in this
-  checkout; its local review is linked below.
+  same direction at every join? Draw your sequence, then inspect the source.
 - [Before the column stood](https://antonsoo.github.io/gonia/transport.html):
   how can wheels carry a rectangular stone, and why does a geometric fit fail
   to explain a reported failed journey?
@@ -53,10 +52,11 @@ of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![Twelve compass centres, a completed Ionic scroll and the local tangent intervention](docs/assets/volute-desktop.png)
 
-Run `npm ci && npm run dev`, then open
-`http://127.0.0.1:4328/gonia/volute.html`, or choose **Ionic volute** from the
-root workshop. This edition has been prepared locally; public deployment is
-recorded separately from the [local review](docs/volute-review.md).
+Open the [compass desk](https://antonsoo.github.io/gonia/volute.html), or choose
+**Ionic volute** from the root workshop. The [publication record](docs/volute-publication.md)
+records pushed source, canonical public bytes, actual downloads and offline
+behavior separately from the earlier [local review](docs/volute-review.md).
+For local use, `npm ci && npm run dev` serves `/gonia/volute.html`.
 
 Place twelve compass centres on the enlarged eye. Every command draws a real
 clockwise quarter circle and records your chosen pin, including repeated pins.

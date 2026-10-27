@@ -3,8 +3,7 @@
   "sourceCi": {
     "url": "https://github.com/antonsoo/gonia/actions/runs/40431550476",
     "conclusion": "failure",
-    "stepsStarted": 0,
-    "annotation": "The job was not started because your account is locked due to a billing issue."
+    "stepsStarted": 0
   },
   "sourcePagesWorkflow": {
     "url": "https://github.com/antonsoo/gonia/actions/runs/40431550362",

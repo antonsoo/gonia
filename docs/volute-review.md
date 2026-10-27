@@ -9,13 +9,21 @@ Start with `npm ci && npm run dev`, then open
 `http://127.0.0.1:4328/gonia/volute.html`. The root workshop and the fluting room
 both provide **Ionic volute** links. `npm run build` produces `dist/`.
 
+## What the learner can do
+
+Choose and record compass centres, keep deliberate wrong turns, undo an arc,
+compare endpoint contact with a shared tangent, and inspect a surviving capital
+without claiming the model fits it. Five Latin readings and complete source
+pages connect the experiment to its two distinct textual traditions.
+
 ## Evidence boundaries
 
-This is a **local** source/build/browser review. No source push, tag, package
-release or deployment was performed. No hosted-byte comparison or remote CI
+This records the original **local** source/build/browser review. No source push,
+tag, package release or deployment was performed during that review. No hosted-byte comparison or remote CI
 success is claimed. `HOUSE_STANDARDS.md` reserves publication for the
-coordinator. Existing public Gonia pages and this new local room are separate
-publication claims.
+coordinator. Existing public Gonia pages and this new local room were separate
+publication claims. The later [publication record](volute-publication.md) records
+the owner-authorized push and public verification.
 
 The [source and geometry account](volute-model.md) separates the ancient Latin,
 Krohn's textual decisions, the 1889 drawing guide, our ideal circular arcs and

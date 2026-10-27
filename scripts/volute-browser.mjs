@@ -292,7 +292,7 @@ try {
   await context.close();
   await writeFile(
     path.join(output, "review.json"),
-    `${JSON.stringify({ base, scope: "Local built edition; no public deployment claim", records }, null, 2)}\n`,
+    `${JSON.stringify({ base, scope: "Browser behavior and actual downloads at the recorded base URL; hosted-file identity is checked separately", records }, null, 2)}\n`,
   );
   console.log(JSON.stringify(records, null, 2));
 } finally {

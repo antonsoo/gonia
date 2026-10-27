@@ -133,7 +133,7 @@ def main():
     assert "The compass changes centre." in text and "8.130102" in text
     assert "Sardis" in text and "CC0" in text
     assert "JavaScript:      no" in info
-    receipt = {"scope": "Actual local browser downloads, not published artifacts", "records": records, "pdf": {"pages": int(re.search(r"Pages:\s+(\d+)", info)[1]), "preservedImageDimensions": sizes, "javascript": False, "sha256": sha(pdf.read_bytes())}}
+    receipt = {"scope": "Actual downloaded files from the supplied browser-output directory; the browser receipt records their origin", "records": records, "pdf": {"pages": int(re.search(r"Pages:\s+(\d+)", info)[1]), "preservedImageDimensions": sizes, "javascript": False, "sha256": sha(pdf.read_bytes())}}
     if len(sys.argv) > 2:
         Path(sys.argv[2]).write_text(json.dumps(receipt, indent=2) + "\n")
     print(json.dumps(receipt, indent=2))

@@ -1,0 +1,33 @@
+{
+  "scope": "Local previous-commit to new-build service-worker replacement",
+  "records": [
+    {
+      "engine": "chromium",
+      "beforeCache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+      "beforeFiles": 123,
+      "blockedAssetStatus": "Downloading the updated workshop & sources…",
+      "afterCache": "gonia-1023ec1fe598f072a97f54d79ffb5170cd628a45d28878298b27eff295b2ef59",
+      "afterFiles": 134,
+      "oldCacheRemoved": true,
+      "offlineNewPage": true,
+      "offlineMuseumPhotograph": true,
+      "offlineDownload": true,
+      "offlineRootReturn": true,
+      "pageErrors": []
+    },
+    {
+      "engine": "firefox",
+      "beforeCache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+      "beforeFiles": 123,
+      "blockedAssetStatus": "Downloading the updated workshop & sources…",
+      "afterCache": "gonia-1023ec1fe598f072a97f54d79ffb5170cd628a45d28878298b27eff295b2ef59",
+      "afterFiles": 134,
+      "oldCacheRemoved": true,
+      "offlineNewPage": true,
+      "offlineMuseumPhotograph": true,
+      "offlineDownload": true,
+      "offlineRootReturn": true,
+      "pageErrors": []
+    }
+  ]
+}

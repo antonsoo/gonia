@@ -4,7 +4,7 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Thirteen problems you can inspect and measure:
+Fourteen problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -14,6 +14,10 @@ Thirteen problems you can inspect and measure:
   a circle and his hyperbola predictions?
 - [The cut inside a column](https://antonsoo.github.io/gonia/fluting.html):
   why does a right-angle tool fit one prescribed flute but miss the other?
+- [The compass changes centre](docs/volute-model.md):
+  can twelve circular arcs reach an Ionic volute's eye without turning in the
+  same direction at every join? The new compass desk is available in this
+  checkout; its local review is linked below.
 - [Before the column stood](https://antonsoo.github.io/gonia/transport.html):
   how can wheels carry a rectangular stone, and why does a geometric fit fail
   to explain a reported failed journey?
@@ -44,6 +48,40 @@ compromise preserves. It connects a geometric problem to the physical parts
 of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![The Doric corner workshop, with a widened end metope and highlighted triglyphs](docs/assets/workshop-desktop.png)
+
+## The compass changes centre
+
+![Twelve compass centres, a completed Ionic scroll and the local tangent intervention](docs/assets/volute-desktop.png)
+
+Run `npm ci && npm run dev`, then open
+`http://127.0.0.1:4328/gonia/volute.html`, or choose **Ionic volute** from the
+root workshop. This edition has been prepared locally; public deployment is
+recorded separately from the [local review](docs/volute-review.md).
+
+Place twelve compass centres on the enlarged eye. Every command draws a real
+clockwise quarter circle and records your chosen pin, including repeated pins.
+The 1889 guide's complete sequence reaches the eye exactly, but its final
+direction changes by about **8.13°**. Meeting at a point does not establish a
+shared tangent. Align one next centre and see its following endpoint move.
+
+Read five Latin passages with new English, grammar notes and seven vocabulary
+notes. Six whole printed pages distinguish Vitruvius's instructions and textual
+problems from Juglaris and Locke's much later construction. A byte-identical
+museum photograph adds a surviving Ionic capital from Sardis, with restoration
+and uncertain original position retained in its note. The compass model is not
+fitted to that stone.
+
+Keep editable JSON, exact-coordinate CSV, a physical-size SVG compass sheet
+with a 50 mm calibration bar, or one script-free illustrated reading with every
+source image, font and license. Reopen the pin sequence or copy an explicit
+drawing link. [Source, geometry and limits](docs/volute-model.md).
+
+[Printable reading](examples/volute-reading.pdf) ·
+[Complete illustrated HTML, gzip](examples/volute-reading.html.gz) ·
+[Editable drawing](examples/volute-experiment.json) ·
+[Measurements](examples/volute-measurements.csv) ·
+[Physical compass sheet](examples/volute-compass.svg).
+Decompress the HTML before opening it.
 
 ## A tower between two sources
 

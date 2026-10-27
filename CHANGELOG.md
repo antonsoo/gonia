@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Add an Ionic volute drawing desk: choose twelve compass pins, preserve the
+  actual sequence, distinguish contact from tangent direction, and inspect how
+  aligning one next centre moves its following endpoint.
+- Retain five Latin readings, grammar/word notes, six whole printed pages and
+  the unmodified CC0 Sardis photograph. Keep Vitruvius's textual problems,
+  the 1889 construction and the surviving object distinct.
+- Export a physical SVG compass sheet, exact-coordinate CSV, reopenable JSON
+  and a script-free illustrated edition with source/font identities checked
+  before display or export. Include the desk in the complete offline edition.
 - Add a Babylonian architecture room: distinguish the Esagil tablet's missing
   sixth-storey row from a uniform-scale projection of the Tower of Babylon
   stele. Keep unknown dimensions and the sanctuary's unresolved elevation blank.

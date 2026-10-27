@@ -1,0 +1,25 @@
+{
+  "scope": "Local reviewed build and actual exported SVG",
+  "records": [
+    {
+      "engine": "chromium",
+      "width": 1440,
+      "journey": "root -> fluting -> keyboard link -> Ionic volute",
+      "overflow": false
+    },
+    {
+      "engine": "firefox",
+      "width": 375,
+      "journey": "root -> fluting -> keyboard link -> Ionic volute",
+      "overflow": false
+    },
+    {
+      "engine": "chromium",
+      "nativeSvg": true,
+      "eyeMm": 15,
+      "actualCssWidth": 793.6875,
+      "calibrationViewBoxUnits": 50,
+      "screenshot": "Actual SVG rendered as an object in a plain local HTML viewing sheet"
+    }
+  ]
+}

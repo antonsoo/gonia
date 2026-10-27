@@ -48,3 +48,7 @@ jobs:
       - run: npm run test:ledger -- /tmp/gonia-ledger
       - run: node --import tsx scripts/ledger-cases.ts | python3 scripts/ledger-oracle.py /tmp/gonia-ledger
       - run: npm run verify:ledger-files -- /tmp/gonia-ledger
+      - run: npm run verify:babylon
+      - run: npm run test:babylon -- /tmp/gonia-babylon
+      - run: python3 scripts/babylon-oracle.py --browser /tmp/gonia-babylon/review.json
+      - run: npm run verify:babylon-files -- /tmp/gonia-babylon

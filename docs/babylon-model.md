@@ -19,15 +19,15 @@ Thureau-Dangin 1922, TCL 6 no. 32, plates LIX and LX. The complete pages let a
 reader see the missing row and differences in interpretation. The independent
 model uses this conventional scheme, with 6 m per nindanu:
 
-| Part | Length (rods) | Breadth (rods) | Height (rods) | Status in this comparison |
-| --- | ---: | ---: | ---: | --- |
-| Lower brickwork | 15 | 15 | 5.5 | Conventional reading; 5.5 appears explicitly on Scheil p. 300 |
-| Second storey | 13 | 13 | 3 | Numerical row |
-| Third | 10 | 10 | 1 | Numerical row |
-| Fourth | 8.5 | 8.5 | 1 | Numerical row |
-| Fifth | 7 | 7 | 1 | Numerical row |
-| Sixth | 5.5 | 5.5 | 1 | Entire row supplied in the conventional completion |
-| Seventh, sanctuary | 4 | 3.75 | 2.5 | Modern interpretation of the breadth; rectangular footprint |
+| Part               | Length (rods) | Breadth (rods) | Height (rods) | Status in this comparison                                     |
+| ------------------ | ------------: | -------------: | ------------: | ------------------------------------------------------------- |
+| Lower brickwork    |            15 |             15 |           5.5 | Conventional reading; 5.5 appears explicitly on Scheil p. 300 |
+| Second storey      |            13 |             13 |             3 | Numerical row                                                 |
+| Third              |            10 |             10 |             1 | Numerical row                                                 |
+| Fourth             |           8.5 |            8.5 |             1 | Numerical row                                                 |
+| Fifth              |             7 |              7 |             1 | Numerical row                                                 |
+| Sixth              |           5.5 |            5.5 |             1 | Entire row supplied in the conventional completion            |
+| Seventh, sanctuary |             4 |           3.75 |           2.5 | Modern interpretation of the breadth; rectangular footprint   |
 
 The written sequence jumps from fifth to seventh. With the sixth row removed,
 the conventional stated heights sum to 84 m. The tower's total height and the
@@ -41,6 +41,9 @@ default h is 6 m; it completes a 90 m scheme. The learner's integer controls
 represent quarter-rods, a modern interface choice. Their bounds keep the
 supplied footprint between the sanctuary and fifth terrace. They do not define
 the range of possible ancient reconstructions or prove structural feasibility.
+[Montero Fenollós, with Vegas and Mileto, p. 204](https://revistas.uam.es/isimu/article/download/3374/3591),
+discusses a 66 m proposal that reinterprets other rows as well. A sixth-row
+control with the other conventional dimensions fixed cannot reproduce it.
 
 There are two editorial differences worth retaining rather than silently
 harmonizing. Scheil's reading of the sanctuary breadth differs from the modern
@@ -60,14 +63,14 @@ IRAQ 85 (2023), pp. 179–191, includes a photograph, a provisional drawing and
 the following rounded centimetre measurements (pp. 188–189):
 
 | Part from below | Width on image (cm) | Height on image (cm) |
-| --- | ---: | ---: |
-| First terrace | 12.4 | 3.7 |
-| Second | 11.0 | 1.3 |
-| Third | 9.7 | 1.2 |
-| Fourth | 8.4 | 1.2 |
-| Fifth | 7.0 | 1.2 |
-| Sixth | 5.5 | 1.1 |
-| Sanctuary | 3.9 | 2.8 |
+| --------------- | ------------------: | -------------------: |
+| First terrace   |                12.4 |                  3.7 |
+| Second          |                11.0 |                  1.3 |
+| Third           |                 9.7 |                  1.2 |
+| Fourth          |                 8.4 |                  1.2 |
+| Fifth           |                 7.0 |                  1.2 |
+| Sixth           |                 5.5 |                  1.1 |
+| Sanctuary       |                 3.9 |                  2.8 |
 
 For assigned base B metres and selected image ruler R centimetres, the
 projection factor is B/R metres per centimetre. Every image dimension is

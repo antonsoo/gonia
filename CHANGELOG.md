@@ -2,6 +2,16 @@
 
 ## Unreleased
 
+- Add a Babylonian architecture room: distinguish the Esagil tablet's missing
+  sixth-storey row from a uniform-scale projection of the Tower of Babylon
+  stele. Keep unknown dimensions and the sanctuary's unresolved elevation blank.
+- Compare plan/elevation scales, read numerical sign labels and Akkadian words,
+  inspect seven whole source images and relight the actual licensed stone scan.
+  Preserve every deposited triangle and texture correspondence.
+- Save editable JSON, numerical CSV, a font-embedded SVG and a script-free
+  illustrated reading containing the actual scan view, full sources and article.
+  Include the thirteenth room in the complete offline edition.
+
 - Add an Erechtheion building-accounts room: allocate 90 or 100 drachmas among
   seven named column-fluters, then compare a balanced sum with the edited record.
 - Inspect Greek number signs, names, contextual vocabulary, restorations and

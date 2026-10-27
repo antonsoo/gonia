@@ -1,10 +1,10 @@
 # Gonia
 
-**Measured experiments in ancient architecture, with Greek words, Latin instructions and the printed evidence.**
+**Measured experiments in ancient architecture, with Greek words, Latin instructions, Akkadian measurements and the printed evidence.**
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Twelve problems you can inspect and measure:
+Thirteen problems you can inspect and measure:
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -34,6 +34,8 @@ Twelve problems you can inspect and measure:
   how does Vitruvius’s square grid become a spiral, and what makes its water stay inside?
 - [Seven names, one uneven obol](https://antonsoo.github.io/gonia/ledger.html#lg-workshop):
   can a correct total recover the payments beside seven column-fluters’ names?
+- **A tower between two sources** (new local room): how do a missing numerical
+  row and a carved image produce different projections of Babylon’s Etemenanki?
 
 A regular row of columns and a regular triglyph frieze cannot both keep their
 usual alignment at the corner when the beam is deeper than a triglyph is wide.
@@ -42,6 +44,33 @@ compromise preserves. It connects a geometric problem to the physical parts
 of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![The Doric corner workshop, with a widened end metope and highlighted triglyphs](docs/assets/workshop-desktop.png)
+
+## A tower between two sources
+
+The new local workshop is `/gonia/babylon.html`, available through **Babylon** in
+the main workshop's navigation. Publication is reviewed separately.
+
+The Esagil tablet's numerical rows jump from the fifth storey to the seventh.
+Supply the conventional sixth level, change it, or leave it unknown. Without
+that supplied row, the 84 m subtotal does not establish an 84 m tower. Compare
+this scheme with a projection of the Tower of Babylon stele: the second
+terrace becomes 18 m in the conventional tablet reading and 9.516 m under the
+91.5 m / 12.5 cm image calibration. Neither result is a survey of the built tower.
+
+The room also tests the reported difference between the plan and elevation's
+scales. Inspect seven full source images, read the measurement words in
+Akkadian, or turn and relight the actual CC BY 4.0 photogrammetric stone scan.
+All 189,027 deposited triangles and their texture correspondences are retained;
+the stone's support is retained too. The photograph's lighting stays in its
+texture, and the plain geometry view uses a new illustrative light.
+
+Save the numerical comparison as JSON, CSV or a self-contained SVG plate.
+The illustrated HTML keeps the current actual scan rendering when loaded,
+seven source images, the complete 2024 article, editable records, fonts and
+licenses. It opens and prints with scripts disabled. The history of the
+objects, a missing textual row, and a modern projection remain separate claims.
+
+[Source and model decisions](docs/babylon-model.md).
 
 ## The names behind the flutes
 
@@ -140,7 +169,7 @@ Save a script-free illustrated reading, SVG or comparative CSV. The retained
 [twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
 and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
 is compressed for the repository. Decompress it before opening.
-All twelve rooms share one integrity-checked offline edition. The independent
+All thirteen rooms share one integrity-checked offline edition. The independent
 geometry, actual browser files and interrupted nine-to-ten-room upgrades are
 recorded in the [direct review](docs/optics-review.md) and
 [source/model analysis](docs/optics-model.md).

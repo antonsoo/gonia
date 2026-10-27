@@ -1,8 +1,8 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "private": true,
-  "description": "Measured ancient architecture: temple geometry, transport, acoustics, hoists, sight lines and water screws.",
+  "description": "Measured ancient architecture: Greek temple geometry, Babylonian building evidence, transport, acoustics and water screws.",
   "type": "module",
   "author": "Anton Soloviev <anton@praviel.com>",
   "license": "MIT",
@@ -17,7 +17,10 @@
     "doric",
     "vitruvius",
     "education",
-    "geometry"
+    "geometry",
+    "babylon",
+    "etemenanki",
+    "akkadian"
   ],
   "engines": {
     "node": ">=24"
@@ -61,7 +64,10 @@
     "verify:screw-files": "python3 scripts/screw-artifacts.py",
     "verify:ledger": "node --import tsx scripts/ledger-cases.ts | python3 scripts/ledger-oracle.py",
     "test:ledger": "node scripts/ledger-browser.mjs",
-    "verify:ledger-files": "python3 scripts/ledger-artifacts.py"
+    "verify:ledger-files": "python3 scripts/ledger-artifacts.py",
+    "verify:babylon": "node --import tsx scripts/babylon-cases.ts | python3 scripts/babylon-oracle.py",
+    "test:babylon": "node scripts/babylon-browser.mjs",
+    "verify:babylon-files": "python3 scripts/babylon-artifacts.py"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

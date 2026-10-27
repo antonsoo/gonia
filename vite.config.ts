@@ -20,7 +20,7 @@ async function filesIn(directory: string): Promise<string[]> {
 /** One retained JSON file serves Node calculations, browser code and source downloads. */
 function retainedSourceJson(file: string): Plugin {
   const sourceFile = path.resolve(file),
-    virtualId = "\0retained-source-json";
+    virtualId = `\0retained-source-json:${file}.js`;
   return {
     name: "retained-source-json",
     enforce: "pre",
@@ -53,6 +53,7 @@ export default defineConfig(async ({ command }) => {
     "optics.html",
     "screw.html",
     "ledger.html",
+    "babylon.html",
     "LICENSE",
     "vite.config.ts",
     "tsconfig.json",
@@ -82,12 +83,14 @@ export default defineConfig(async ({ command }) => {
           optics: "optics.html",
           screw: "screw.html",
           ledger: "ledger.html",
+          babylon: "babylon.html",
         },
       },
     },
     define: { __GONIA_EDITION__: JSON.stringify(edition) },
     plugins: [
       retainedSourceJson("public/sources/optics/manifest.json"),
+      retainedSourceJson("public/sources/babylon/manifest.json"),
       {
         name: "offline-workshop",
         apply: "build",

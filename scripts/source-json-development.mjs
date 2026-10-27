@@ -29,7 +29,7 @@ const source = gonia
   file = path.join(root, source),
   original = await readFile(file, "utf8"),
   record = JSON.parse(original),
-  moduleURL = `${base}@id/__x00__retained-source-json`,
+  moduleURL = `${base}@id/__x00__retained-source-json${gonia ? ":public/sources/optics/manifest.json.js" : ""}`,
   rows = [];
 assert.equal(
   original,

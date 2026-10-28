@@ -2,6 +2,18 @@
 
 ## Unreleased
 
+- Add the arch-and-pier workshop: adjust circular rise, radial thickness,
+  symmetric loading, horizontal thrust and bearing position. Inspect all
+  fourteen radial joints and distinguish a fitted arch from base overturning.
+- Compute complete admissible thrust intervals, including unbounded ideal
+  cases, and find a finite witness with or without the pier-base constraints.
+  Cross-check against an independent endpoint-pressure force/moment LP.
+- Read five Latin/English selections from Vitruvius VI.8.3-4, eight contextual
+  word notes and three whole printed pages. Save editable records, joint CSV,
+  section SVG and a script-free illustrated reading with native downloads,
+  source identities, fonts and complete licenses. Include the fifteenth room
+  in the complete offline edition.
+
 - Add an Ionic volute drawing desk: choose twelve compass pins, preserve the
   actual sequence, distinguish contact from tangent direction, and inspect how
   aligning one next centre moves its following endpoint.

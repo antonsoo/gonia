@@ -1,0 +1,18 @@
+{
+  "format": "gonia-arch",
+  "version": 1,
+  "scope": "Modern 13-block symmetric equilibrium experiment; no tension, no sliding, unlimited compression. Joint resultants and pier-base overturning only. Not an ancient design rule or a structural safety assessment.",
+  "units": "length: half-span; force W: arch own weight = 1",
+  "state": {
+    "rise": 100,
+    "thickness": 24,
+    "load": 100,
+    "loading": "crown",
+    "width": 100,
+    "mass": 100,
+    "thrust": 0.6547641086034728,
+    "bearing": 95.63536751659737,
+    "joint": 4,
+    "page": 0
+  }
+}

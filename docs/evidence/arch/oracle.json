@@ -1,0 +1,10 @@
+{
+  "geometryLoadCases": 160,
+  "domains": 320,
+  "LPOptimizations": 640,
+  "feasibleDomains": 255,
+  "infeasibleDomains": 65,
+  "maxEndpointErrorW": 7.815970093361102e-14,
+  "scipy": "1.18.1",
+  "oracle": "Independent endpoint-pressure block force/moment LP; quadrature centroids"
+}

@@ -4,7 +4,9 @@
 
 [Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
 
-Fourteen problems you can inspect and measure:
+Fifteen problems you can inspect and measure:
+- [The arch and the pier](https://antonsoo.github.io/gonia/arch.html#ar-bench):
+  can every arch joint fit while the pier bases still need more restraint?
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -47,6 +49,71 @@ compromise preserves. It connects a geometric problem to the physical parts
 of a Greek temple and to Vitruvius's account of the difficulty.
 
 ![The Doric corner workshop, with a widened end metope and highlighted triglyphs](docs/assets/workshop-desktop.png)
+
+## The arch and the pier
+
+![A fitted arch whose base resultants fall outside the piers](docs/assets/arch-desktop.png)
+
+The [arch workshop](https://antonsoo.github.io/gonia/arch.html#ar-bench) starts
+with an uncomfortable result: every joint contact fits, yet no choice of arch
+force fits the selected pier bases. Widen each base from 0.5 to 1 half-span;
+the existing trial then fits both checks while pier weight stays the same.
+Choose **Arch and pier** from the root workshop, or open `/gonia/arch.html`
+locally after the quickstart below. This addition has a
+[local review](docs/arch-review.md); public delivery is a separate claim.
+
+Change the circular rise, radial thickness, extra load and its position.
+Move the horizontal push and left bearing contact yourself. Ask for a path
+through the arch, then include the pier bases. The solver checks the complete
+admissible interval rather than treating a failed trial as proof of failure.
+A thin semicircle under its own weight supplies an infeasible example; a
+thick shallow ring exposes an unbounded ideal interval under unlimited
+compression. The automatic witness remains finite.
+
+Open any of the fourteen joints in an enlarged view, or read all contacts as
+ordinary table values. Follow five Latin/English readings from Vitruvius VI.8.3-4,
+eight contextual word notes, and three complete pages of Krohn's 1912 edition.
+The ancient request for wider outer piers is kept separate from the modern
+force calculation and its assumptions. [Sources and transcription](docs/arch-sources.md)
+record the actual print, original PDF identity and reproduction command.
+
+Save JSON and reopen it, export every joint to CSV, or keep a section SVG.
+The illustrated HTML retains the experiment, the actual source pages, fonts,
+complete licenses and native JSON/CSV/SVG/source-identity downloads. It needs
+neither scripts nor a connection. [Actual files](examples/arch/) include a
+[14-page browser PDF](examples/arch/reading.pdf) and the compressed reading:
+
+```sh
+gzip -dc examples/arch/reading.html.gz > /tmp/gonia-arch-reading.html
+```
+
+The finite model uses thirteen rigid blocks with weight at their area
+centroids. It assumes no tension, no sliding and unlimited compression. The
+blue line joins interface resultants to guide the eye; it is not a continuous
+stress solution inside the stones. Pier width and weight are independent.
+No material strength, joint friction, settlement or soil bearing is checked.
+This is an experiment in equilibrium, not a structural assessment or an
+ancient numerical design rule. [Equations and limits](docs/arch-model.md).
+
+The independent SciPy/HiGHS oracle balances each block's forces and moments
+using compressive endpoint forces, separate from the TypeScript interval
+solver. The reviewed 160 shape/load cases cover 320 domains and 640 LP
+optimizations. Actual browser downloads are checked separately for equilibrium,
+source/font identity, complete passages, native reopening and PDF margins.
+
+```sh
+npm run check
+npm run verify:arch
+# With npm run preview in another terminal:
+npm run test:arch -- http://127.0.0.1:4328/gonia/ /tmp/gonia-arch-review
+python3 scripts/arch-artifacts.py /tmp/gonia-arch-review
+```
+
+The optional oracle uses `uv` and SciPy 1.18.1; artifact/PDF inspection uses
+Python 3 and Poppler. Browser review uses Chromium and Firefox at 1440 and
+375 pixels, including offline reloads of all fifteen rooms after worker takeover.
+The PDF is untagged; physical printing and independent philological review
+remain unverified.
 
 ## The compass changes centre
 

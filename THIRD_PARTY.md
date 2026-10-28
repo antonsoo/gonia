@@ -3,6 +3,17 @@
 Gonia's code, diagrams and English translations are MIT licensed. The following
 materials retain their own provenance and terms.
 
+## The arch and the pier
+
+`public/sources/arch/` contains complete public-domain pages 140, 141 and the
+title page of F. Krohn's 1912 Vitruvius. The [source note](docs/arch-sources.md)
+records the fresh original-PDF identity, exact page mapping, transcription
+choices, rights and reproduction command. The [manifest](public/sources/arch/manifest.json)
+pins every image and the related font/license files. No modern structural
+diagram is reused. The five English readings, eight word notes and all
+interactive drawings are new. The illustrated export contains the actual
+source images, two font files and the complete MIT and both OFL licenses.
+
 ## The omitted-colonnade room
 
 `public/sources/colonnade/` contains five complete public-domain source images:

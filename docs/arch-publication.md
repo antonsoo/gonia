@@ -28,3 +28,26 @@ browser observations and artifact audit. The artifact checker reads local copies
 files actually downloaded from the hosted workshop; its generic local-artifact boundary
 does not itself establish delivery. The separate hosted byte and browser receipts do.
 No physical printer, masonry experiment or independent philological review is claimed.
+
+## Current author-notice edition
+
+Rechecked 2026-10-28 UTC. Source `72276cee047c45b27986527ad26bb38e96af0fe6`
+uses Anthony Mercer in the MIT/author notices, following current house identity.
+The geometry and state record are unchanged. Fast-forward Pages `acb2a9c`
+preserves older hashed assets; all 142 canonical files match the new clean build.
+The workspace build matches that clean build byte for byte.
+
+Current edition: `792eff10f3fe40cf5a29248547156433aaa0fe8f8258ddf2956c2b9b4079ac15`.
+Chromium/Firefox at 1440/375 px again operate all fourteen contact inspectors,
+read the three actual source blobs, reload all fifteen rooms offline with the
+complete 141-file cache, and save/reopen real native files. The independently
+audited current downloads retain exact source/font/license bytes, all joint and
+block moment identities, and the 14-page reading with fifteen complete source
+paragraphs and eight word notes. No application errors, external requests or
+checked axe violations were observed. The canonical root was re-fetched after
+these journeys and still matched.
+
+[Current author-edition public receipts](evidence/arch-author-edition/). Earlier
+pinned reviews and example artifacts remain evidence of their original edition.
+No remote CI validation, physical masonry test, printer output or independent
+philological review is added by this metadata update.

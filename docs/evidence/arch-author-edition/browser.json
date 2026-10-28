@@ -1,0 +1,94 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-792eff10f3fe40cf5a29248547156433aaa0fe8f8258ddf2956c2b9b4079ac15",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "downloadedRecordSha256": "09df46b9a186d5b70443138b260b9ca0ce95f9357727042ff28a97cecdb7b73c"
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-792eff10f3fe40cf5a29248547156433aaa0fe8f8258ddf2956c2b9b4079ac15",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "downloadedRecordSha256": "09df46b9a186d5b70443138b260b9ca0ce95f9357727042ff28a97cecdb7b73c"
+  },
+  {
+    "engine": "chromium",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true
+    }
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-792eff10f3fe40cf5a29248547156433aaa0fe8f8258ddf2956c2b9b4079ac15",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "downloadedRecordSha256": "09df46b9a186d5b70443138b260b9ca0ce95f9357727042ff28a97cecdb7b73c"
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-792eff10f3fe40cf5a29248547156433aaa0fe8f8258ddf2956c2b9b4079ac15",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "downloadedRecordSha256": "09df46b9a186d5b70443138b260b9ca0ce95f9357727042ff28a97cecdb7b73c"
+  },
+  {
+    "engine": "firefox",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true
+    }
+  }
+]

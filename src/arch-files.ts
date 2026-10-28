@@ -1,0 +1,53 @@
+import mitLicense from "../LICENSE?raw";
+import sourceManifest from "../public/sources/arch/manifest.json";
+import { archAsset, archData } from "./arch-assets";
+import { ae, an, archPages, archReadingHtml, archWordHtml } from "./arch-content";
+import { archSvg, archVerdict, contactSvg } from "./arch-drawing";
+import {
+  ARCH_SCOPE,
+  type ArchState,
+  archAnalysis,
+  archCsv,
+  archQuery,
+  archRecord,
+} from "./core/arch";
+
+export function saveArch(data: string, name: string, mime: string): void {
+  const url = URL.createObjectURL(new Blob([data], { type: `${mime};charset=utf-8` }));
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = name;
+  a.click();
+  setTimeout(() => URL.revokeObjectURL(url), 30000);
+}
+export function archFacts(s: ArchState): string {
+  const m = archAnalysis(s);
+  return `<dl class="ar-facts"><div><dt>Arch shape</dt><dd>Centreline span 2; rise ${an(s.rise / 100)}; radial thickness ${an(s.thickness / 100)}. Length unit: one half-span.</dd></div><div><dt>Load</dt><dd>Own weight W = 1; extra ${an(s.load / 100)} W ${s.loading === "crown" ? "on the crown stone" : "shared equally by stones 4 and 10"}. Every geometry is renormalized to W = 1.</dd></div><div><dt>Trial</dt><dd>Horizontal thrust ${an(s.thrust, 8)} W; left joint contact ${an(s.bearing, 8)}% from the inner edge. C = ${an(m.intercept, 8)} W half-span.</dd></div><div><dt>Each pier</dt><dd>Base width ${an(s.width / 100)}; height 1; weight ${an(s.mass / 100)} W. Base resultant ${an(m.eccentricity, 6)} outward from its centre; available half-width ${an(s.width / 200)}.</dd></div></dl>`;
+}
+export function archTable(s: ArchState): string {
+  const m = archAnalysis(s);
+  return `<table><thead><tr><th scope="col">Joint</th><th scope="col">Contact from inner edge</th><th scope="col">Normal force, W</th><th scope="col">Shear, W</th><th scope="col">Fits?</th></tr></thead><tbody>${m.contacts.map((j) => `<tr><th scope="row">${j.index}</th><td>${an(j.fraction * 100, 4)}%</td><td>${an(j.normal, 6)}</td><td>${an(j.shear, 6)}</td><td>${j.fits ? (j.edge ? "At edge" : "Inside") : "Outside"}</td></tr>`).join("")}</tbody></table>`;
+}
+export async function archStudy(s: ArchState): Promise<string> {
+  const snapshot = structuredClone(s);
+  const paths = archPages.map((p) => `sources/arch/${p.file}`);
+  const [images, font, plex, notoLicense, plexLicense] = await Promise.all([
+    Promise.all(paths.map(archAsset)),
+    archAsset("fonts/NotoSerif-Regular.ttf"),
+    archAsset("fonts/IBMPlexSans-Regular.woff2"),
+    archAsset("fonts/NotoSerif-OFL.txt"),
+    archAsset("fonts/IBMPlex-OFL.txt"),
+  ]);
+  const native = (data: string, mime: string, name: string, label: string) =>
+    `<a download="${name}" href="${archData(new TextEncoder().encode(data), mime)}">${label}</a>`;
+  return `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Gonia: the arch and the pier, retained experiment</title><style>
+@font-face{font-family:Noto;src:url('${archData(font, "font/ttf")}')}@font-face{font-family:Plex;src:url('${archData(plex, "font/woff2")}')}
+*{box-sizing:border-box}body{font:16px/1.65 Plex,Arial,sans-serif;color:#24304d;background:#fff;max-width:1000px;margin:30px auto;padding:0 24px}h1{font-size:38px;line-height:1.15}h2{font-size:28px;line-height:1.25;margin-top:40px}h3{font-size:21px;line-height:1.35}.ar-latin{font:19px/1.75 Noto,serif}.ar-note{font-size:14px;color:#4c5872}svg{display:block;width:100%;height:auto}.ar-contact-figure{max-width:450px}.ar-facts div{padding:9px 0;break-inside:avoid}dl div{break-inside:avoid}h2,h3,dt{break-after:avoid}dt{font-weight:bold}dd{margin:0 0 16px}.ar-reading{break-inside:avoid;border-top:1px solid #b9c3d6;margin-top:24px;padding-top:18px}figure{margin:30px 0}figure img{display:block;width:100%;height:auto}figcaption{font-size:14px}.ar-scan{break-before:page}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid #b9c3d6;padding:7px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}a{color:#2458bd;overflow-wrap:anywhere}nav{display:flex;flex-wrap:wrap;gap:16px}.table-scroll{overflow-x:auto}
+@page{size:A4;margin:15mm}@media print{body{margin:0;padding:0;font-size:10pt;max-width:none}.ar-latin{font-size:12pt}h1{font-size:25pt}h2{font-size:18pt}h3{font-size:14pt}.ar-note,figcaption{font-size:9pt}.ar-scan img{width:auto;max-width:100%;height:225mm;object-fit:contain;margin:auto}.ar-scan{break-after:page}table{font-size:8pt}a{color:inherit}nav{display:none}svg{max-height:155mm}pre{font-size:7pt}}
+</style></head><body><header><p>Gonia / Vitruvius VI.8.3-4 and a modern experiment</p><h1>The arch and the pier</h1><p>${ae(archVerdict(snapshot))}</p><p>${ae(ARCH_SCOPE)}</p><nav>${native(archRecord(snapshot), "application/json", "gonia-arch.json", "Editable JSON")}${native(archCsv(snapshot), "text/csv", "gonia-arch-contacts.csv", "Joint CSV")}${native(archSvg(snapshot, "", true), "image/svg+xml", "gonia-arch.svg", "Section SVG")}${native(JSON.stringify(sourceManifest, null, 2), "application/json", "gonia-arch-sources.json", "Source identities")}</nav></header>
+<main><section><h2>Your experiment</h2>${archSvg(snapshot, "", true)}${archFacts(snapshot)}<p>The blue line joins interface contacts to guide the eye. It is not a continuous stress solution inside the stones.</p><p>Contact need not stay within the middle third: joints may open partly under this ideal model. Edge contact is a limiting state with no finite stress solution. No joint friction or material strength is evaluated.</p><h3>Selected joint ${snapshot.joint}, rotated and enlarged</h3><div class="ar-contact-figure">${contactSvg(snapshot)}</div><div class="table-scroll">${archTable(snapshot)}</div></section>
+<section><h2>Read Vitruvius</h2><p>Latin: F. Krohn's 1912 edition, printed p. 141. New English and notes for Gonia. Joined line-end hyphens; sentence punctuation adapted for parallel reading. Readings 3 and 4 form one sentence. These passages describe relieving arches and their supports, not the equations of modern limit analysis.</p>${archReadingHtml(false)}<h2>Words in this passage</h2>${archWordHtml()}</section>
+<section><h2>Assumptions and a reproducible model</h2><p>Thirteen equal-angle annular sectors. Self-weight acts at each exact area centroid and sums to W = 1. Symmetric vertical extra loads have their own stated magnitudes. Symmetry fixes the vertical reaction at each spring to half the total load. At each radial joint the resultant is located from force and moment equilibrium. A complete interval calculation tests every inner/outer edge pair; it does not sample trial paths.</p><p>Every pier has a symmetric base, width b, height h = 1 and independent weight P. Its base resultant's outward eccentricity is e = (C + Hh - V)/(V + P). It fits when |e| is at most b/2. The support head is shaped to meet the spring joint; its weight is idealized on its centreline.</p><p>No tension, no sliding, unlimited compressive strength. There is no mortar, soil bearing, settlement, crushing, elastic response, earthquake, construction sequence or three-dimensional restraint. The finite interface check is not a continuous stress solution. No dimensions or loads are a survey of a historical structure. A failed trial does not prove that every path fails. A fitted path is one equilibrium witness under these assumptions.</p><p><a href="https://github.com/antonsoo/gonia/blob/main/docs/arch-model.md">Full model and formulas</a>. <a href="https://doi.org/10.1016/0020-7683(66)90018-7">Heyman, The stone skeleton (1966)</a>; <a href="https://concrete.ethz.ch/assets/brd/slides/arch-bridges-2025-04-07.pdf">ETH Zurich, Arch bridges (2025 lectures)</a>. Modern illustrations are not reproduced.</p><p><a href="https://antonsoo.github.io/gonia/arch.html${ae(archQuery(snapshot))}#ar-bench">Reopen this experiment online</a>. All pages, fonts and native downloads in this file work without scripts or a connection. External references require a connection.</p></section>
+<section><h2>Whole printed pages</h2><p>Public-domain source: Vitruvii De architectura libri decem, ed. F. Krohn (Leipzig: Teubner, 1912). Complete pages, including margins and apparatus. Derived with Poppler pdftoppm at a 2200-pixel long edge, JPEG quality 88. No cropping or reconstruction. <a href="https://archive.org/details/vitruviidearchit00vitr_1">Original scan</a>.</p>${archPages.map((p, i) => `<figure class="ar-scan"><img src="${archData(images[i] as Uint8Array, "image/jpeg")}" alt="${ae(p.title)}"><figcaption>${ae(p.title)}. ${ae(p.note)} PDF page ${p.pdfPage}. SHA-256 ${p.sha256}.</figcaption></figure>`).join("")}</section>
+<section><h2>Source record and licenses</h2><p>New English, diagrams and code: MIT, Copyright (c) 2026 Anton Soloviev. Historical pages: public domain. Noto Serif and IBM Plex Sans: SIL Open Font License 1.1. No modern third-party diagrams are bundled.</p><h3>MIT license</h3><pre>${ae(mitLicense)}</pre><h3>Source identities</h3><pre>${ae(JSON.stringify(sourceManifest, null, 2))}</pre><h3>Noto Serif license</h3><pre>${ae(new TextDecoder().decode(notoLicense))}</pre><h3>IBM Plex license</h3><pre>${ae(new TextDecoder().decode(plexLicense))}</pre><h3>Editable experiment</h3><pre>${ae(archRecord(snapshot))}</pre></section></main></body></html>`;
+}

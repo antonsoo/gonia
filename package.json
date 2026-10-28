@@ -70,7 +70,9 @@
     "verify:babylon-files": "python3 scripts/babylon-artifacts.py",
     "test:volute": "node scripts/volute-browser.mjs",
     "verify:volute-files": "python3 scripts/volute-artifacts.py",
-    "prepare:volute-sources": "python3 scripts/volute-sources.py"
+    "prepare:volute-sources": "python3 scripts/volute-sources.py",
+    "verify:arch": "node --import tsx scripts/arch-cases.ts | uv run --with scipy==1.18.1 scripts/arch-oracle.py",
+    "test:arch": "node scripts/arch-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

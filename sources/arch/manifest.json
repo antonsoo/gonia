@@ -1,0 +1,58 @@
+{
+  "original": {
+    "url": "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf",
+    "sha256": "b13a68789a8a1dc567b6f9b47eabe6a37a306329fbfc2c1a027a6c30a90d5139",
+    "edition": "Vitruvii De architectura libri decem, ed. F. Krohn, Leipzig: Teubner, 1912",
+    "rights": "Public domain. Complete printed pages, including critical apparatus."
+  },
+  "retrieved": "2026-10-27",
+  "pages": [
+    {
+      "file": "krohn-141.jpg",
+      "pdfPage": 159,
+      "title": "Vitruvius VI.8.1-6, Krohn 1912, p. 141",
+      "note": "Radial wedges, relieving arches and wider outer piers. The complete apparatus remains below the text.",
+      "bytes": 611151,
+      "sha256": "63c035dae4114c03c8404171f624f93690fe122eedd301e9913c0525cd7f781d"
+    },
+    {
+      "file": "krohn-140.jpg",
+      "pdfPage": 158,
+      "title": "Vitruvius VI.7-8.1, Krohn 1912, p. 140",
+      "note": "The chapter's opening and preceding context. Chapter VI.8 begins near the foot of this page.",
+      "bytes": 636181,
+      "sha256": "8b96d1e71530256a99c36b6c1784678fcc8d8d4b484860aa6d61c60e23b69a44"
+    },
+    {
+      "file": "krohn-title.jpg",
+      "pdfPage": 5,
+      "title": "Krohn 1912, title page",
+      "note": "Identifies the printed edition. This is a twentieth-century edition of an ancient work.",
+      "bytes": 224511,
+      "sha256": "68759b0280fd89928d457f303d70fc7984265b283b0c61ad09540267f4b5d9a6"
+    }
+  ],
+  "derivation": "Poppler pdftoppm, complete page at longest edge 2200 px, JPEG quality 88. No cropping, retouching or reconstruction.",
+  "relatedAssets": {
+    "fonts/IBMPlexSans-Regular.woff2": {
+      "bytes": 63020,
+      "sha256": "ba711a3085ff9f27440b6b9c4550cfc47c97bf36591d5da958b975bb3add8c1a"
+    },
+    "fonts/IBMPlexSans-SemiBold.woff2": {
+      "bytes": 67060,
+      "sha256": "f78048030eab62e860efa39a0df79e2e5581bf122eb95b9bc42c0b8a4988d205"
+    },
+    "fonts/NotoSerif-Regular.ttf": {
+      "bytes": 444064,
+      "sha256": "5473d2e43bdd018ee124a4addba8091fd0a29894b121cbb741023af6549662b6"
+    },
+    "fonts/IBMPlex-OFL.txt": {
+      "bytes": 4456,
+      "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+    },
+    "fonts/NotoSerif-OFL.txt": {
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    }
+  }
+}

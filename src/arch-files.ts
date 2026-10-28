@@ -26,7 +26,7 @@ export function archFacts(s: ArchState): string {
 }
 export function archTable(s: ArchState): string {
   const m = archAnalysis(s);
-  return `<table><thead><tr><th scope="col">Joint</th><th scope="col">Contact from inner edge</th><th scope="col">Normal force, W</th><th scope="col">Shear, W</th><th scope="col">Contact</th><th scope="col">Required |T|/N</th><th scope="col">Friction</th></tr></thead><tbody>${m.contacts.map((j) => `<tr><th scope="row">${j.index}</th><td>${an(j.fraction * 100, 4)}%</td><td>${an(j.normal, 6)}</td><td>${an(j.shear, 6)}</td><td>${j.fits ? (j.edge ? "At edge" : "Inside") : "Outside"}</td><td>${an(j.requiredFriction, 6)}</td><td>${s.friction === null ? "Not checked" : j.frictionFits ? "Within limit" : "Exceeded"}</td></tr>`).join("")}</tbody></table>`;
+  return `<table><thead><tr><th scope="col">Joint</th><th scope="col">Contact from inner edge</th><th scope="col">Normal force, W</th><th scope="col">Shear, W</th><th scope="col">Contact</th><th scope="col">Required μ</th><th scope="col">Friction</th></tr></thead><tbody>${m.contacts.map((j) => `<tr><th scope="row">${j.index}</th><td>${an(j.fraction * 100, 4)}%</td><td>${an(j.normal, 6)}</td><td>${an(j.shear, 6)}</td><td>${j.fits ? (j.edge ? "At edge" : "Inside") : "Outside"}</td><td>${an(j.requiredFriction, 6)}</td><td>${s.friction === null ? "Not checked" : j.frictionFits ? "Within limit" : "Exceeded"}</td></tr>`).join("")}</tbody></table>`;
 }
 export async function archStudy(s: ArchState): Promise<string> {
   const snapshot = structuredClone(s);

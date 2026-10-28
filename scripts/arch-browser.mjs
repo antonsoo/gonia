@@ -7,7 +7,7 @@ import AxeBuilder from "@axe-core/playwright";
 import { chromium, firefox } from "playwright";
 
 const base = process.argv[2] ?? "http://127.0.0.1:4446/gonia/";
-const out = path.resolve(process.argv[3] ?? "/tmp/claude-1000/gonia-arch/browser");
+const out = path.resolve(process.argv[3] ?? "/tmp/gonia-arch-review");
 await mkdir(out, { recursive: true });
 const manifest = JSON.parse(await readFile("public/sources/arch/manifest.json", "utf8"));
 const results = [];

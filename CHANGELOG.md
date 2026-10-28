@@ -1,5 +1,21 @@
 # Changelog
 
+## 0.15.0 - 2026-10-28
+
+- Test finite static Coulomb friction at all fourteen arch joints and both pier
+  bases, independently of no-tension contact positions. Intersect the full
+  thrust interval with every friction inequality.
+- Compare selected-joint and base force-direction cones. Operate a failed trial
+  that another path repairs, a coefficient with no possible path, and a sliding
+  base whose required friction changes with weight but not width.
+- Preserve the original no-sliding assumption when opening version 1 JSON and
+  complete older links. Version 2 records, CSV, SVG and the retained illustrated
+  reading keep the chosen coefficient and separate checks.
+- Prevent a delayed JSON import from replacing a newer trial or newer file.
+  Keep source readings, complete scans, fonts, licenses and native downloads in
+  the standalone reading.
+
+
 ## Unreleased
 
 - Add the arch-and-pier workshop: adjust circular rise, radial thickness,

@@ -1,6 +1,6 @@
 {
   "name": "@antonsoloviev/gonia",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "private": true,
   "description": "Measured ancient architecture: Greek temple geometry, Babylonian building evidence, transport, acoustics and water screws.",
   "type": "module",

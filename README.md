@@ -6,7 +6,7 @@
 
 Fifteen problems you can inspect and measure:
 - [The arch and the pier](https://antonsoo.github.io/gonia/arch.html#ar-bench):
-  can every arch joint fit while the pier bases still need more restraint?
+  can every contact fit while friction still fails? Test the joints and bases separately.
 - [The Doric corner](https://antonsoo.github.io/gonia/): which alignment gives
   way when columns and a triglyph frieze meet at a corner?
 - [The space between columns](https://antonsoo.github.io/gonia/spacing.html):
@@ -59,8 +59,9 @@ with an uncomfortable result: every joint contact fits, yet no choice of arch
 force fits the selected pier bases. Widen each base from 0.5 to 1 half-span;
 the existing trial then fits both checks while pier weight stays the same.
 Choose **Arch and pier** from the root workshop, or open `/gonia/arch.html`
-locally after the quickstart below. This addition has a
-[local review](docs/arch-review.md); public delivery is a separate claim.
+locally after the quickstart below. The [original publication](docs/arch-publication.md)
+records the earlier contact-only model. The [finite-friction review](docs/arch-friction-review.md)
+records the current addition and its separate publication boundary.
 
 Change the circular rise, radial thickness, extra load and its position.
 Move the horizontal push and left bearing contact yourself. Ask for a path
@@ -69,6 +70,17 @@ admissible interval rather than treating a failed trial as proof of failure.
 A thin semicircle under its own weight supplies an infeasible example; a
 thick shallow ring exposes an unbounded ideal interval under unlimited
 compression. The automatic witness remains finite.
+
+Now test a second assumption: **can the contacts carry the shear?** Choose
+**Try a path that needs more friction**. Every contact position fits, but the
+bearings require 0.655 while the chosen coefficient is 0.65. Ask for a whole
+path: a different thrust works. Set the coefficient to 0.60 and the complete
+joint-and-friction interval is empty. **Try a sliding base** isolates a different
+failure: increasing width cannot improve H/(V+P), while extra pier weight can.
+The two force-direction cones and signed force ledger show the difference.
+The coefficient is illustrative, not a measurement of ancient materials.
+
+![Joint and base force directions with a chosen finite friction coefficient](docs/assets/arch-friction-desktop.png)
 
 Open any of the fourteen joints in an enlarged view, or read all contacts as
 ordinary table values. Follow five Latin/English readings from Vitruvius VI.8.3-4,
@@ -80,7 +92,10 @@ record the actual print, original PDF identity and reproduction command.
 Save JSON and reopen it, export every joint to CSV, or keep a section SVG.
 The illustrated HTML retains the experiment, the actual source pages, fonts,
 complete licenses and native JSON/CSV/SVG/source-identity downloads. It needs
-neither scripts nor a connection. [Actual files](examples/arch/) include a
+neither scripts nor a connection. Current [finite-friction examples](examples/arch-friction/)
+include a 15-page reading; version 2 JSON keeps the chosen friction. Original
+version 1 records and full links reopen with their no-sliding assumption.
+The earlier [contact-only files](examples/arch/) include a
 [14-page browser PDF](examples/arch/reading.pdf) and the compressed reading:
 
 ```sh
@@ -88,17 +103,19 @@ gzip -dc examples/arch/reading.html.gz > /tmp/gonia-arch-reading.html
 ```
 
 The finite model uses thirteen rigid blocks with weight at their area
-centroids. It assumes no tension, no sliding and unlimited compression. The
+centroids. It assumes no tension and unlimited compression. Sliding is either
+excluded by the original idealization or tested with uniform static Coulomb friction. The
 blue line joins interface resultants to guide the eye; it is not a continuous
 stress solution inside the stones. Pier width and weight are independent.
-No material strength, joint friction, settlement or soil bearing is checked.
+No material strength, settlement or soil bearing is checked. Static friction
+adds a force inequality, not a simulation of motion following a failed check.
 This is an experiment in equilibrium, not a structural assessment or an
 ancient numerical design rule. [Equations and limits](docs/arch-model.md).
 
 The independent SciPy/HiGHS oracle balances each block's forces and moments
 using compressive endpoint forces, separate from the TypeScript interval
-solver. The reviewed 160 shape/load cases cover 320 domains and 640 LP
-optimizations. Actual browser downloads are checked separately for equilibrium,
+solver. The reviewed 1,120 shape/load/friction cases cover 2,240 domains
+and 4,480 LP optimizations, with endpoint disagreement below 8e-14 W. Actual browser downloads are checked separately for equilibrium,
 source/font identity, complete passages, native reopening and PDF margins.
 
 ```sh

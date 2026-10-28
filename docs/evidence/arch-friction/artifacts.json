@@ -1,0 +1,77 @@
+{
+  "browserArtifacts": [
+    {
+      "case": "chromium-1440",
+      "jointEquilibria": 14,
+      "blockMomentBalances": 13,
+      "baseMomentBalance": true,
+      "jointFrictionBounds": 14,
+      "baseFrictionBounds": 2,
+      "reading": {
+        "sourceImagesByteIdentical": 3,
+        "fontsByteIdentical": 2,
+        "licensesComplete": 3,
+        "scriptCount": 0,
+        "nativeDownloads": 4
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "chromium-375",
+      "jointEquilibria": 14,
+      "blockMomentBalances": 13,
+      "baseMomentBalance": true,
+      "jointFrictionBounds": 14,
+      "baseFrictionBounds": 2,
+      "reading": {
+        "sourceImagesByteIdentical": 3,
+        "fontsByteIdentical": 2,
+        "licensesComplete": 3,
+        "scriptCount": 0,
+        "nativeDownloads": 4
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "firefox-1440",
+      "jointEquilibria": 14,
+      "blockMomentBalances": 13,
+      "baseMomentBalance": true,
+      "jointFrictionBounds": 14,
+      "baseFrictionBounds": 2,
+      "reading": {
+        "sourceImagesByteIdentical": 3,
+        "fontsByteIdentical": 2,
+        "licensesComplete": 3,
+        "scriptCount": 0,
+        "nativeDownloads": 4
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "firefox-375",
+      "jointEquilibria": 14,
+      "blockMomentBalances": 13,
+      "baseMomentBalance": true,
+      "jointFrictionBounds": 14,
+      "baseFrictionBounds": 2,
+      "reading": {
+        "sourceImagesByteIdentical": 3,
+        "fontsByteIdentical": 2,
+        "licensesComplete": 3,
+        "scriptCount": 0,
+        "nativeDownloads": 4
+      },
+      "offlineEquivalent": true
+    }
+  ],
+  "pdf": {
+    "pages": 15,
+    "completeLatinEnglishNotesParagraphs": 15,
+    "completeWordNotes": 8,
+    "sourceImages": 3,
+    "sourceJpegsByteIdentical": 3,
+    "textWithinMargins": true
+  },
+  "boundary": "Local actual browser downloads; no public deployment or physical printer claim"
+}

@@ -136,3 +136,66 @@ test("records and links preserve non-rounded automatic witnesses and reject inva
   ])
     assert.throws(() => readArchQuery(search));
 });
+
+test("friction distinguishes a failed trial, a repaired trial and an empty complete range", () => {
+  const trial = { ...ARCH_DEFAULT, width: 100, friction: 0.65 };
+  const m = archAnalysis(trial);
+  assert.ok(m.archFits && m.pierFits);
+  assert.equal(m.archFrictionFits, false);
+  assert.ok(m.whole.feasible);
+  const fit = findArchPath(trial, true);
+  assert.ok(fit);
+  const repaired = archAnalysis(fit);
+  assert.ok(
+    repaired.archFits &&
+      repaired.pierFits &&
+      repaired.archFrictionFits &&
+      repaired.baseFrictionFits,
+  );
+  assert.ok(fit.thrust < trial.thrust);
+  assert.equal(archAnalysis({ ...trial, friction: 0.6 }).arch.feasible, false);
+  assert.equal(findArchPath({ ...trial, friction: 0.6 }, true), null);
+  assert.equal(archAnalysis({ ...trial, friction: 0 }).arch.feasible, false);
+});
+
+test("a sliding base is independent of width, and added pier weight repairs this trial", () => {
+  const ideal = findArchPath({ ...ARCH_DEFAULT, rise: 40, load: 0, width: 140, mass: 25 }, false);
+  assert.ok(ideal);
+  const trial = { ...ideal, friction: 0.6 };
+  const m = archAnalysis(trial),
+    narrower = archAnalysis({ ...trial, width: 100 });
+  assert.ok(m.archFits && m.pierFits && m.archFrictionFits);
+  assert.equal(m.baseFrictionFits, false);
+  assert.equal(narrower.baseRequiredFriction, m.baseRequiredFriction);
+  assert.equal(narrower.baseFrictionFits, false);
+  const heavier = archAnalysis({ ...trial, mass: 100 });
+  assert.equal(heavier.intercept, m.intercept);
+  assert.deepEqual(heavier.contacts, m.contacts);
+  assert.ok(heavier.pierFits && heavier.baseFrictionFits);
+});
+
+test("legacy records and full links preserve their no-sliding assumption; v2 keeps finite friction", () => {
+  const modern = JSON.parse(archRecord({ ...ARCH_DEFAULT, friction: 0.65 }));
+  assert.equal(modern.version, 2);
+  const legacy = JSON.parse(archRecord(ARCH_DEFAULT));
+  legacy.version = 1;
+  delete legacy.state.friction;
+  assert.deepEqual(openArchRecord(JSON.stringify(legacy)), ARCH_DEFAULT);
+  assert.deepEqual(
+    readArchQuery(archQuery(ARCH_DEFAULT).replace("&friction=null", "")),
+    ARCH_DEFAULT,
+  );
+  assert.deepEqual(openArchRecord(JSON.stringify(modern)), modern.state);
+  assert.deepEqual(readArchQuery(archQuery(modern.state)), modern.state);
+  for (const state of [
+    { ...modern.state, friction: -1 },
+    { ...modern.state, friction: 2.1 },
+    legacy.state,
+  ])
+    assert.throws(() => openArchRecord(JSON.stringify({ ...modern, state })));
+  assert.throws(() => openArchRecord(JSON.stringify({ ...legacy, state: modern.state })));
+  const repeated = archRecord(ARCH_DEFAULT).replace('"rise": 100', '"rise": 40, "r\\u0069se": 100');
+  assert.throws(() => openArchRecord(repeated), /repeats/);
+  assert.throws(() => readArchQuery(`${archQuery(ARCH_DEFAULT)}&unknown=1`), /unknown/);
+  assert.throws(() => readArchQuery(`${archQuery(ARCH_DEFAULT)}&friction=0.6`), /repeated/);
+});

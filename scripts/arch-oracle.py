@@ -77,8 +77,19 @@ def oracle(s, bases):
                 rows.append([fx, fy, moment][axis] + side * vectors[joint][axis])
                 values.append(external)
             bounds.extend([(0, None), (0, None), (None, None)])
+    # Independent contact-force inequalities, not the app's eliminated H bounds.
+    # Two compressive endpoint forces carry total N; the free shear is T.
+    inequalities = []
+    mu = s.get("friction")
+    if mu is not None:
+        for offset in list(range(0, 42, 3)) + ([42, 45] if bases else []):
+            for sign in [1, -1]:
+                row = np.zeros(count)
+                row[offset:offset+2] = -mu
+                row[offset+2] = sign
+                inequalities.append(row)
     objective = vectors[0][0]
-    answers = [linprog(sign * objective, A_eq=rows, b_eq=values, bounds=bounds, method="highs") for sign in [1, -1]]
+    answers = [linprog(sign * objective, A_eq=rows, b_eq=values, A_ub=inequalities or None, b_ub=np.zeros(len(inequalities)) if inequalities else None, bounds=bounds, method="highs") for sign in [1, -1]]
     if any(a.status == 2 for a in answers):
         assert all(a.status == 2 for a in answers)
         return {"feasible": False}
@@ -111,7 +122,7 @@ def main():
     print(json.dumps({"geometryLoadCases": count, "domains": 2 * count, "LPOptimizations": 4 * count,
                       "feasibleDomains": feasible, "infeasibleDomains": impossible,
                       "maxEndpointErrorW": max_error, "scipy": scipy.__version__,
-                      "oracle": "Independent endpoint-pressure block force/moment LP; quadrature centroids"}, indent=2))
+                      "oracle": "Independent endpoint-pressure block force/moment LP with contact Coulomb inequalities; quadrature centroids"}, indent=2))
 
 
 if __name__ == "__main__":

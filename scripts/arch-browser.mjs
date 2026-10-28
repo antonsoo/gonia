@@ -11,6 +11,9 @@ const out = path.resolve(process.argv[3] ?? "/tmp/gonia-arch-review");
 await mkdir(out, { recursive: true });
 const manifest = JSON.parse(await readFile("public/sources/arch/manifest.json", "utf8"));
 const results = [];
+const worker = await readFile("dist/sw.js", "utf8");
+const edition = /const EDITION = "([a-f0-9]+)"/.exec(worker)[1];
+const files = JSON.parse(/const FILES = (\[[^;]+\]);/.exec(worker)[1]);
 const hash = (data) => createHash("sha256").update(data).digest("hex");
 async function observeImages(context) {
   await context.addInitScript(() => {
@@ -149,6 +152,58 @@ async function review(browser, engine, width) {
   await page.locator("#ar-fit-whole").click();
   await page.locator("#ar-joint").selectOption("4");
   await sourceIdentity(page, 0);
+  // Finite friction is distinct from contact position and from global feasibility.
+  await page.locator("#ar-slide").focus();
+  await page.keyboard.press("Enter");
+  assert.equal(await page.locator("#ar-friction").inputValue(), "0.65");
+  assert.match(await page.locator("#ar-verdict").textContent(), /contacts fit.*friction does not/);
+  assert.match(await page.locator("#ar-domain").textContent(), /0.642922.*0.65/);
+  assert.match(await page.locator("#ar-contact-note").textContent(), /Friction limit exceeded/);
+  await page.locator(".ar-friction-desk").screenshot({ path: path.join(dir, "friction.png") });
+  await page.locator("#ar-bench").screenshot({ path: path.join(dir, "finite-bench.png") });
+  assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), true);
+  const finiteAxe = await new AxeBuilder({ page })
+    .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+    .analyze();
+  assert.deepEqual(finiteAxe.violations, []);
+  await page.locator("#ar-fit-whole").click();
+  assert.match(await page.locator("#ar-verdict").textContent(), /meets the contact and friction/);
+  assert.equal(await page.locator(".ar-outside").count(), 0);
+  await page.locator("#ar-friction").fill("0.6");
+  await page.locator("#ar-friction").press("Tab");
+  assert.match(await page.locator("#ar-domain").textContent(), /No H/);
+  const failedThrust = await page.locator("#ar-thrust").inputValue();
+  await page.locator("#ar-fit-whole").click();
+  assert.equal(await page.locator("#ar-thrust").inputValue(), failedThrust);
+  await page.locator("#ar-friction-mode").selectOption("ideal");
+  assert.equal(await page.locator("#ar-thrust").inputValue(), failedThrust);
+  assert.equal(await page.locator("#ar-friction").isDisabled(), true);
+  await page.locator("#ar-base-slide").click();
+  assert.match(
+    await page.locator("#ar-friction-summary").textContent(),
+    /fits at all fourteen joints.*Base friction is exceeded/,
+  );
+  const baseNeed = await page.locator("#ar-base-friction-note").textContent();
+  await range(page, "ar-width", 100);
+  assert.equal(await page.locator("#ar-base-friction-note").textContent(), baseNeed);
+  await range(page, "ar-width", 140);
+  assert.equal(await page.locator("#ar-base-friction-note").textContent(), baseNeed);
+  await range(page, "ar-mass", 100);
+  assert.match(await page.locator("#ar-verdict").textContent(), /meets the contact and friction/);
+  const legacy = JSON.parse(await readFile("examples/arch/experiment.json", "utf8"));
+  assert.equal(legacy.version, 1);
+  assert.equal(legacy.state.friction, undefined);
+  await page.locator("#ar-open").setInputFiles({
+    name: "legacy.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(legacy)),
+  });
+  await page.waitForFunction(() =>
+    document.getElementById("ar-save-status").textContent.includes("reopened"),
+  );
+  assert.equal(await page.locator("#ar-friction-mode").inputValue(), "ideal");
+  await page.locator("#ar-slide").click();
+  await page.locator("#ar-fit-whole").click();
   const nativeFile = await download(page, "#ar-json", path.join(dir, "experiment.json"));
   await download(page, "#ar-csv", path.join(dir, "contacts.csv"));
   await download(page, "#ar-svg", path.join(dir, "section.svg"));
@@ -173,6 +228,9 @@ async function review(browser, engine, width) {
     mimeType: "application/json",
     buffer: Buffer.from(JSON.stringify(bad)),
   });
+  await page.waitForFunction(() =>
+    document.getElementById("ar-save-status").textContent.includes("invalid settings"),
+  );
   assert.match(await page.locator("#ar-save-status").textContent(), /valid settings/);
   await page.locator("#ar-reset").click();
   await page.locator("#ar-open").setInputFiles(nativeFile);
@@ -186,14 +244,30 @@ async function review(browser, engine, width) {
     null,
     { timeout: 60000 },
   );
-  const inventory = await page.evaluate(async () => {
-    const keys = await caches.keys();
-    return Promise.all(
-      keys
-        .filter((k) => k.startsWith("gonia-"))
-        .map(async (k) => ({ name: k, files: (await (await caches.open(k)).keys()).length })),
-    );
-  });
+  const inventory = await page.evaluate(
+    async ({ edition, files }) => {
+      const controller = navigator.serviceWorker.controller;
+      if (!controller) throw new Error("No current controller");
+      const status = await new Promise((resolve) => {
+        const channel = new MessageChannel();
+        channel.port1.onmessage = (e) => resolve(e.data);
+        controller.postMessage({ type: "GONIA_INSPECT" }, [channel.port2]);
+      });
+      if (status.edition !== edition || !status.complete)
+        throw new Error("Wrong or incomplete edition");
+      const cache = await caches.open(`gonia-${edition}`);
+      for (const file of files)
+        if (!(await cache.match(file))) throw new Error(`Missing offline file ${file}`);
+      const keys = await caches.keys();
+      return Promise.all(
+        keys
+          .filter((k) => k.startsWith("gonia-"))
+          .map(async (k) => ({ name: k, files: (await (await caches.open(k)).keys()).length })),
+      );
+    },
+    { edition, files },
+  );
+  assert.ok(inventory.some((c) => c.name === `gonia-${edition}` && c.files === files.length));
   await context.setOffline(true);
   await page.reload();
   await page.locator("#ar-title").waitFor();
@@ -276,6 +350,14 @@ async function review(browser, engine, width) {
     axeViolations: 0,
     pageErrors: errors,
     externalRequests: outside,
+    friction: {
+      finiteTrialRepair: true,
+      emptyRange: true,
+      baseWeightVersusWidth: true,
+      legacyRecordPreserved: true,
+    },
+    base,
+    edition,
     downloadedRecordSha256: hash(await readFile(nativeFile)),
   };
 }
@@ -338,6 +420,8 @@ async function integrityReview(browser) {
     await exportHeld;
     await route.continue();
   });
+  await p.locator("#ar-slide").click();
+  await p.locator("#ar-page").selectOption("2");
   const exported = p.waitForEvent("download");
   await p.locator("#ar-html").click();
   await exportEntered;
@@ -352,15 +436,70 @@ async function integrityReview(browser) {
   );
   assert.ok(encoded);
   const snapshotRecord = JSON.parse(Buffer.from(encoded[1], "base64").toString("utf8"));
-  assert.equal(snapshotRecord.state.width, 50);
+  assert.equal(snapshotRecord.state.width, 100);
+  assert.equal(snapshotRecord.state.friction, 0.65);
   assert.equal(snapshotRecord.state.page, 2);
   await race.close();
+  const imports = await browser.newContext({ serviceWorkers: "block" }),
+    ip = await imports.newPage();
+  await imports.addInitScript(() => {
+    const original = File.prototype.text;
+    window.__releaseImports = [];
+    File.prototype.text = function () {
+      if (this.name.startsWith("held"))
+        return new Promise((resolve) =>
+          window.__releaseImports.push(async () => resolve(await original.call(this))),
+        );
+      return original.call(this);
+    };
+  });
+  await ip.goto(`${base}arch.html`);
+  await ip.locator("#ar-title").waitFor();
+  const old = JSON.parse(await readFile("examples/arch/experiment.json", "utf8"));
+  await ip.locator("#ar-open").setInputFiles({
+    name: "held-old.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(old)),
+  });
+  await ip.waitForFunction(() => window.__releaseImports.length === 1);
+  await ip.locator("#ar-slide").click();
+  await ip.evaluate(async () => {
+    await window.__releaseImports[0]();
+  });
+  await ip.waitForFunction(() => document.getElementById("ar-open").value === "");
+  assert.equal(await ip.locator("#ar-friction-mode").inputValue(), "finite");
+  assert.equal(await ip.locator("#ar-friction").inputValue(), "0.65");
+  await ip.locator("#ar-open").setInputFiles({
+    name: "held-second.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(old)),
+  });
+  await ip.waitForFunction(() => window.__releaseImports.length === 2);
+  const modern = { ...old, version: 2, state: { ...old.state, friction: 0.7, width: 120 } };
+  await ip.locator("#ar-open").setInputFiles({
+    name: "newer.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify(modern)),
+  });
+  await ip.waitForFunction(() => document.getElementById("ar-width").value === "120");
+  await ip.evaluate(async () => {
+    await window.__releaseImports[1]();
+  });
+  await ip.waitForFunction(() => document.getElementById("ar-open").value === "");
+  assert.equal(await ip.locator("#ar-friction").inputValue(), "0.7");
+  assert.equal(await ip.locator("#ar-width").inputValue(), "120");
+  await ip.locator("#ar-friction-mode").selectOption("ideal");
+  await ip.locator("#ar-friction-mode").selectOption("finite");
+  assert.equal(await ip.locator("#ar-friction").inputValue(), "0.7");
+  await imports.close();
   return {
     wrong200ImageRefused: true,
     wrongImageExportRefused: true,
     retryWorked: true,
     lateSourceDidNotReplaceSelectedPage: true,
     exportKeptClickTimeSnapshot: true,
+    lateImportPreservedNewerTrial: true,
+    earlierImportCouldNotReplaceNewerFile: true,
   };
 }
 for (const [engine, type] of [

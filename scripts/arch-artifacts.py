@@ -69,6 +69,7 @@ def check_equilibrium(native, rows):
     end = math.acos(1 / r)
     step = (math.pi - 2 * end) / 13
     h = s["thrust"]
+    assert native["version"] == 2 and s["friction"] == 0.65
     for index, row in enumerate(rows):
         x, y = float(row["x_half_span"]), float(row["y_half_span"])
         radius = math.hypot(x, y - cy)
@@ -79,6 +80,17 @@ def check_equilibrium(native, rows):
         assert math.isclose(x, radius * math.cos(theta), abs_tol=1e-10)
         assert math.isclose(y, cy + radius * math.sin(theta), abs_tol=1e-10)
         assert math.isclose(float(row["normal_W"]), h * math.sin(theta) - float(row["vertical_W"]) * math.cos(theta), abs_tol=1e-10)
+        normal=float(row["normal_W"])
+        shear=h*math.cos(theta)+float(row["vertical_W"])*math.sin(theta)
+        assert math.isclose(shear,float(row["shear_W"]),abs_tol=1e-10)
+        required=abs(shear)/normal
+        assert math.isclose(required,float(row["required_joint_friction_abs_T_over_N"]),abs_tol=1e-10)
+        assert required <= s["friction"] + 1e-10
+        assert row["joint_friction_fits"] == "true"
+        assert float(row["friction_coefficient_or_ideal"]) == s["friction"]
+        base_required=h/((1+s["load"]/100)/2+s["mass"]/100)
+        assert math.isclose(base_required,float(row["required_base_friction"]),abs_tol=1e-10)
+        assert row["base_friction_fits"] == "true" and base_required <= s["friction"] + 1e-10
     for i in range(13):
         left, right = rows[i:i+2]
         theta = math.pi - end - (i + 0.5) * step
@@ -104,6 +116,7 @@ def check_equilibrium(native, rows):
 
 def check_svg(data, rows):
     root = ET.fromstring(data)
+    assert (ROOT / "LICENSE").read_text().strip() in "".join(root.itertext())
     assert len([p for p in root.iter() if p.attrib.get("data-stone")]) == 13
     contacts = [p for p in root.iter() if "ar-contact" in p.attrib.get("class", "").split()]
     assert len(contacts) == 14
@@ -155,7 +168,7 @@ def main():
         html = check_html((folder / "reading.html").read_text(), native, csv_bytes)
         check_html((folder / "offline-reading.html").read_text(), native, csv_bytes)
         receipts.append({"case": folder.name, "jointEquilibria": 14, "blockMomentBalances": 13,
-                         "baseMomentBalance": True, "reading": html, "offlineEquivalent": True})
+                         "baseMomentBalance": True, "jointFrictionBounds":14,"baseFrictionBounds":2, "reading": html, "offlineEquivalent": True})
     pdf = out / "chromium-1440/reading.pdf"
     pdf_text = words(subprocess.check_output(["pdftotext", "-layout", str(pdf), "-"], text=True))
     html = (out / "chromium-1440/reading.html").read_text()
@@ -182,10 +195,17 @@ def main():
             assert 30 <= float(word.attrib["yMin"]) <= float(word.attrib["yMax"]) <= height - 30, word.attrib
     image_lines = subprocess.check_output(["pdfimages", "-list", str(pdf)], text=True).splitlines()[2:]
     assert len([line for line in image_lines if line.strip()]) == 3
+    extracted=out / "pdf-images"
+    extracted.mkdir(exist_ok=True)
+    subprocess.run(["pdfimages","-j",str(pdf),str(extracted / "source")],check=True)
+    jpeg_files=sorted(extracted.glob("*.jpg"))
+    assert len(jpeg_files)==3
+    for file,page in zip(jpeg_files,MANIFEST["pages"]):
+        assert digest(file.read_bytes())==page["sha256"], file
     info = subprocess.check_output(["pdfinfo", str(pdf)], text=True)
     pages = int(re.search(r"Pages:\s+(\d+)", info)[1])
     report = {"browserArtifacts": receipts, "pdf": {"pages": pages, "completeLatinEnglishNotesParagraphs": 15,
-              "completeWordNotes": 8, "sourceImages": 3, "textWithinMargins": True},
+              "completeWordNotes": 8, "sourceImages": 3,"sourceJpegsByteIdentical":3, "textWithinMargins": True},
               "boundary": "Local actual browser downloads; no public deployment or physical printer claim"}
     (out / "artifacts.json").write_text(json.dumps(report, indent=2) + "\n")
     print(json.dumps(report, indent=2))

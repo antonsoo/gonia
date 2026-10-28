@@ -1,0 +1,12 @@
+npm notice run @antonsoloviev/gonia@0.14.0 verify:arch
+npm notice run node --import tsx scripts/arch-cases.ts | uv run --with scipy==1.18.1 scripts/arch-oracle.py
+{
+  "geometryLoadCases": 1120,
+  "domains": 2240,
+  "LPOptimizations": 4480,
+  "feasibleDomains": 1339,
+  "infeasibleDomains": 901,
+  "maxEndpointErrorW": 7.815970093361102e-14,
+  "scipy": "1.18.1",
+  "oracle": "Independent endpoint-pressure block force/moment LP with contact Coulomb inequalities; quadrature centroids"
+}

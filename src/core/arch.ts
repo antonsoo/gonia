@@ -1,6 +1,6 @@
 /** A symmetric, two-dimensional rigid-block experiment. Length unit: half-span.
  * Force unit W: the arch's own weight, renormalized to 1 for every geometry.
- * No tension, no sliding, unlimited compression. These are model assumptions.
+ * No tension, unlimited compression; sliding either excluded or limited by Coulomb friction.
  */
 export const STONES = 13;
 export const PIER_HEIGHT = 1;
@@ -15,6 +15,8 @@ export interface ArchState {
   bearing: number;
   joint: number;
   page: number;
+  /** null retains the original no-sliding idealization; finite values are illustrative. */
+  friction: number | null;
 }
 export const ARCH_DEFAULT: ArchState = {
   rise: 100,
@@ -27,6 +29,7 @@ export const ARCH_DEFAULT: ArchState = {
   bearing: 96,
   joint: 3,
   page: 0,
+  friction: null,
 };
 export interface Point {
   x: number;
@@ -125,30 +128,31 @@ export function archGeometry(s: ArchState): ArchGeometry {
 }
 
 /** Eliminate C from all lower(H) <= C <= upper(H), without a search grid or H cap. */
-export function boundDomain(lower: Bound[], upper: Bound[]): Domain {
+export function boundDomain(lower: Bound[], upper: Bound[], inequalities: Bound[] = []): Domain {
   let min = 0,
     max = Number.POSITIVE_INFINITY,
     impossible = false;
   let minFrom = "positive horizontal compression",
     maxFrom = "unbounded";
-  for (const l of lower)
-    for (const u of upper) {
-      const a = l.a - u.a,
-        b = u.b - l.b;
-      const label = `${l.label} / ${u.label}`;
-      if (Math.abs(a) < 1e-12) {
-        if (b < -1e-12) {
-          impossible = true;
-          minFrom = label;
-        }
-      } else if (a > 0 && b / a < max) {
-        max = b / a;
-        maxFrom = label;
-      } else if (a < 0 && b / a > min) {
-        min = b / a;
+  // Each direct inequality is a H <= b. Friction has no dependence on C.
+  const constrain = ({ a, b, label }: Bound) => {
+    if (Math.abs(a) < 1e-12) {
+      if (b < -1e-12) {
+        impossible = true;
         minFrom = label;
       }
+    } else if (a > 0 && b / a < max) {
+      max = b / a;
+      maxFrom = label;
+    } else if (a < 0 && b / a > min) {
+      min = b / a;
+      minFrom = label;
     }
+  };
+  for (const l of lower)
+    for (const u of upper)
+      constrain({ a: l.a - u.a, b: u.b - l.b, label: `${l.label} / ${u.label}` });
+  for (const inequality of inequalities) constrain(inequality);
   return {
     lower,
     upper,
@@ -185,7 +189,29 @@ export function archDomain(s: ArchState, g = archGeometry(s), includePiers = fal
       label: "pier base, outer edge",
     });
   }
-  return boundDomain(lower, upper);
+  const inequalities: Bound[] = [];
+  if (s.friction !== null) {
+    const mu = s.friction;
+    for (const j of g.joints) {
+      const sin = Math.sin(j.angle),
+        cos = Math.cos(j.angle);
+      // N = H sin(theta) - Q cos(theta); T = H cos(theta) + Q sin(theta).
+      // Both signs of shear must satisfy |T| <= mu N.
+      for (const sign of [1, -1])
+        inequalities.push({
+          a: sign * cos - mu * sin,
+          b: -j.vertical * (sign * sin + mu * cos),
+          label: `joint ${j.index}, friction (${sign > 0 ? "+T" : "-T"})`,
+        });
+    }
+    if (includePiers)
+      inequalities.push({
+        a: 1,
+        b: mu * (g.vertical + s.mass / 100),
+        label: "pier base, friction",
+      });
+  }
+  return boundDomain(lower, upper, inequalities);
 }
 export function interceptInterval(d: Domain, thrust: number) {
   return {
@@ -215,7 +241,16 @@ export function archAnalysis(s: ArchState) {
   const r = g.inner + ((g.outer - g.inner) * s.bearing) / 100;
   const p = pointAt(r, left.angle, g.cy);
   const intercept = s.thrust * p.y - g.vertical * p.x;
-  const contacts = g.joints.map((j) => jointContact(j, g, s.thrust, intercept));
+  const contacts = g.joints.map((j) => {
+    const contact = jointContact(j, g, s.thrust, intercept);
+    return {
+      ...contact,
+      requiredFriction: Math.abs(contact.shear) / contact.normal,
+      frictionFits:
+        s.friction === null ||
+        (contact.normal > 0 && Math.abs(contact.shear) <= s.friction * contact.normal + 1e-10),
+    };
+  });
   const pierWeight = s.mass / 100;
   const eccentricity =
     (intercept + s.thrust * PIER_HEIGHT - g.vertical) / (g.vertical + pierWeight);
@@ -226,6 +261,14 @@ export function archAnalysis(s: ArchState) {
     contacts,
     eccentricity,
     pierFits,
+    archFrictionFits: contacts.every((j) => j.frictionFits),
+    baseRequiredFriction: s.thrust / (g.vertical + pierWeight),
+    baseFrictionFits:
+      s.friction === null || s.thrust <= s.friction * (g.vertical + pierWeight) + 1e-10,
+    requiredFriction: Math.max(
+      s.thrust / (g.vertical + pierWeight),
+      ...contacts.map((j) => j.requiredFriction),
+    ),
     archFits: contacts.every((j) => j.fits),
     arch: archDomain(s, g),
     whole: archDomain(s, g, true),
@@ -256,6 +299,7 @@ const keys = [
   "bearing",
   "joint",
   "page",
+  "friction",
 ] as const;
 export function validArchState(value: unknown): value is ArchState {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
@@ -278,25 +322,34 @@ export function validArchState(value: unknown): value is ArchState {
     number("thrust", 0.001, 20, false) &&
     number("bearing", 0, 100, false) &&
     number("joint", 0, STONES) &&
-    number("page", 0, 2)
+    number("page", 0, 2) &&
+    (v.friction === null || number("friction", 0, 2, false))
   );
 }
 export function archQuery(s: ArchState): string {
   return `?${new URLSearchParams(keys.map((k) => [k, String(s[k])]))}`;
 }
 export function readArchQuery(search: string): ArchState {
+  if (search.length > 2048) throw new Error("The arch link is too long.");
   const q = new URLSearchParams(search);
+  for (const key of q.keys())
+    if (!(keys as readonly string[]).includes(key))
+      throw new Error("The arch link has an unknown setting.");
   if (!keys.some((k) => q.has(k))) return { ...ARCH_DEFAULT };
+  // Complete legacy links contain ten settings; absence of friction means no sliding.
+  if (!q.has("friction")) q.set("friction", "null");
   if (keys.some((k) => q.getAll(k).length !== 1))
     throw new Error("The arch link has missing or repeated settings.");
   const value = Object.fromEntries(
     keys.map((k) => [
       k,
-      k === "loading"
-        ? q.get(k)
-        : /^(?:\d+\.?\d*|\d*\.\d+)(?:e-?\d+)?$/.test(q.get(k) ?? "")
-          ? Number(q.get(k))
-          : NaN,
+      k === "friction" && q.get(k) === "null"
+        ? null
+        : k === "loading"
+          ? q.get(k)
+          : /^(?:\d+\.?\d*|\d*\.\d+)(?:e-?\d+)?$/.test(q.get(k) ?? "")
+            ? Number(q.get(k))
+            : NaN,
     ]),
   );
   if (!validArchState(value))
@@ -305,12 +358,17 @@ export function readArchQuery(search: string): ArchState {
 }
 export const ARCH_SCOPE =
   "Modern 13-block symmetric equilibrium experiment; no tension, no sliding, unlimited compression. Joint resultants and pier-base overturning only. Not an ancient design rule or a structural safety assessment.";
+export function archScope(s: ArchState): string {
+  return s.friction === null
+    ? ARCH_SCOPE
+    : `Modern 13-block symmetric equilibrium experiment; no tension, unlimited compression, static Coulomb friction |T| <= μN with uniform illustrative μ = ${s.friction} at every joint and both pier bases. Not a measured ancient material, an ancient design rule or a structural safety assessment.`;
+}
 export function archRecord(s: ArchState): string {
   return JSON.stringify(
     {
       format: "gonia-arch",
-      version: 1,
-      scope: ARCH_SCOPE,
+      version: 2,
+      scope: archScope(s),
       units: "length: half-span; force W: arch own weight = 1",
       state: s,
     },
@@ -320,16 +378,45 @@ export function archRecord(s: ArchState): string {
 }
 export function openArchRecord(text: string): ArchState {
   if (text.length > 16000) throw new Error("Choose an arch record smaller than 16 KB.");
-  let v: { format?: unknown; version?: unknown; state?: unknown };
+  let v: { format?: unknown; version?: unknown; state?: unknown; scope?: unknown; units?: unknown };
   try {
+    // All schema field names are distinct, including across envelope and state.
+    const fields = new Set<string>();
+    for (const token of text.matchAll(/"(?:\\.|[^"\\])*"/g)) {
+      if (!/^\s*:/.test(text.slice((token.index ?? 0) + token[0].length))) continue;
+      const key = JSON.parse(token[0]) as string;
+      if (fields.has(key)) throw new Error("The arch record repeats a field.");
+      fields.add(key);
+    }
     v = JSON.parse(text);
-  } catch {
-    throw new Error("This file is not valid JSON.");
+  } catch (error) {
+    throw new Error(`Cannot read the arch JSON: ${(error as Error).message}`);
   }
-  if (v?.format !== "gonia-arch" || v.version !== 1 || !validArchState(v.state))
-    throw new Error("Choose a version 1 Gonia arch record with valid settings.");
+  if (
+    !v ||
+    Array.isArray(v) ||
+    Object.keys(v).sort().join() !== "format,scope,state,units,version" ||
+    v.format !== "gonia-arch" ||
+    ![1, 2].includes(v.version as number) ||
+    typeof v.scope !== "string" ||
+    v.units !== "length: half-span; force W: arch own weight = 1"
+  )
+    throw new Error("Choose a version 1 or 2 Gonia arch record with valid settings.");
+  if (v.version === 1) {
+    if (
+      !v.state ||
+      typeof v.state !== "object" ||
+      Array.isArray(v.state) ||
+      Object.hasOwn(v.state, "friction") ||
+      Object.keys(v.state).length !== keys.length - 1
+    )
+      throw new Error("A version 1 record has ten settings and assumes no sliding.");
+    v.state = { ...v.state, friction: null };
+  }
+  if (!validArchState(v.state)) throw new Error("The arch record has invalid settings.");
   return v.state;
 }
+
 export function archCsv(s: ArchState): string {
   const m = archAnalysis(s);
   const rows: (string | number | boolean)[][] = [
@@ -348,6 +435,11 @@ export function archCsv(s: ArchState): string {
       "C_W_half_span",
       "pier_outward_eccentricity_half_span",
       "pier_base_fits",
+      "friction_coefficient_or_ideal",
+      "required_joint_friction_abs_T_over_N",
+      "joint_friction_fits",
+      "required_base_friction",
+      "base_friction_fits",
       "scope",
     ],
   ];
@@ -367,7 +459,12 @@ export function archCsv(s: ArchState): string {
       m.intercept,
       m.eccentricity,
       m.pierFits,
-      ARCH_SCOPE,
+      s.friction === null ? "no sliding assumed" : s.friction,
+      j.requiredFriction,
+      s.friction === null ? "not checked" : j.frictionFits,
+      m.baseRequiredFriction,
+      s.friction === null ? "not checked" : m.baseFrictionFits,
+      archScope(s),
     ]);
   return rows
     .map((r) => r.map((v) => `"${String(v).replaceAll('"', '""')}"`).join(","))

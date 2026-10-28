@@ -59,7 +59,7 @@ export const archWords = [
   {
     word: "coagmentum · coagmenta",
     gloss: "joint · joints",
-    note: "The meeting of pieces. per coagmenta means ‘through the joints’. The model checks where a resultant crosses each radial joint; it does not model joint friction.",
+    note: "The meeting of pieces. per coagmenta means ‘through the joints’. The model checks where a resultant crosses each radial joint; it tests joint friction only in the optional modern finite-friction model.",
     part: "joint",
   },
   {

@@ -735,7 +735,7 @@ It serves `dist/` itself and writes its screenshots and saved documents beside
 the requested report.
 
 [Contributing](CONTRIBUTING.md) explains the source and review standards.
-Code, original drawings and translations: [MIT](LICENSE), Anton Soloviev, 2026.
+Code, original drawings and translations: [MIT](LICENSE), Anthony Mercer, 2026.
 Source scans and fonts have the terms described in [THIRD_PARTY.md](THIRD_PARTY.md).
 
 The [retained-source development review](docs/source-json-development.md) records

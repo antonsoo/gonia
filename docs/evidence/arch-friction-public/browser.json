@@ -1,0 +1,130 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "https://antonsoo.github.io/gonia/",
+    "edition": "677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "https://antonsoo.github.io/gonia/",
+    "edition": "677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "chromium",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true,
+      "lateImportPreservedNewerTrial": true,
+      "earlierImportCouldNotReplaceNewerFile": true
+    }
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "https://antonsoo.github.io/gonia/",
+    "edition": "677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+        "files": 141
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "https://antonsoo.github.io/gonia/",
+    "edition": "677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "firefox",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true,
+      "lateImportPreservedNewerTrial": true,
+      "earlierImportCouldNotReplaceNewerFile": true
+    }
+  }
+]

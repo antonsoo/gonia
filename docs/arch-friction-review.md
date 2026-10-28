@@ -67,8 +67,22 @@ is implied by a local run. [Retained receipts](evidence/arch-friction/).
 
 ## Publication boundary
 
-This review describes the locally reviewed finite-friction addition. The user
-has explicitly authorized publication when ready. Hosted file identity,
-public browser operation, the catalogue journey, remote source refs and CI
-execution must be recorded separately after publication. Earlier arch receipts
-refer to the older contact-only edition.
+The user explicitly authorized publication. Source `45f6ec2` and fast-forward
+Pages `82e90aa` were pushed on 2026-10-28. All 142 canonical files matched the
+fresh Node 24 build, before and after the public browser workflows. Chromium
+and Firefox at 1440 and 375 pixels operated the actual hosted lesson, saved and
+reopened real native files, preserved version 1's assumption, read source blobs,
+and reloaded all fifteen rooms offline after the matching current controller
+and complete 141-file inventory. [Public receipts](evidence/arch-friction-public/).
+
+The actual hosted downloads pass the independent force/moment, friction,
+source/font/license and native-equivalence audit. Their 15-page PDF keeps all
+fifteen Latin/English/note paragraphs, eight word notes and three byte-identical
+original source JPEGs, with text inside checked margins. Local printed-output
+review caught and corrected a crowded table heading before publication.
+
+Production edition: `677bbcf202b8df298cbe57a3e3bfb2baea706903cf541e6bb04617d9a2728635`.
+CI run 40666609625 failed with no executed check steps; it is not validation
+evidence. Legacy Pages build/deploy run 40666626716 succeeded independently.
+Earlier arch receipts refer to the older contact-only edition. This record
+makes no physical structure, physical printer or independent philology claim.

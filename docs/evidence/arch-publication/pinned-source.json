@@ -1,0 +1,37 @@
+[
+  {
+    "path": "docs/arch-review.md",
+    "url": "https://raw.githubusercontent.com/antonsoo/gonia/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-review.md",
+    "bytes": 7980,
+    "sha256": "3e0132ba1274ad42ec3714e20c850e3a20cfc1ca54bd0014b23b24748a8e9e87",
+    "byteIdentical": true
+  },
+  {
+    "path": "docs/arch-sources.md",
+    "url": "https://raw.githubusercontent.com/antonsoo/gonia/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/arch-sources.md",
+    "bytes": 4092,
+    "sha256": "333cb157d22d037db481cda57c04f55db0c6169ed5e45645fa9954603a65bc89",
+    "byteIdentical": true
+  },
+  {
+    "path": "docs/assets/arch-desktop.png",
+    "url": "https://raw.githubusercontent.com/antonsoo/gonia/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/docs/assets/arch-desktop.png",
+    "bytes": 124421,
+    "sha256": "bacebda9b88720a1e2189bdd1ddb95056166af61b898e093231b94fa732e7798",
+    "byteIdentical": true
+  },
+  {
+    "path": "examples/arch/reading.pdf",
+    "url": "https://raw.githubusercontent.com/antonsoo/gonia/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/examples/arch/reading.pdf",
+    "bytes": 1632949,
+    "sha256": "6ff4a103c191eba1aad6411f3819ed83d350daf2e9f95c5e0a40a92abb33926e",
+    "byteIdentical": true
+  },
+  {
+    "path": "public/sources/arch/manifest.json",
+    "url": "https://raw.githubusercontent.com/antonsoo/gonia/da1e3c9ad5fb626be4363d0a56fdfaba90c5851c/public/sources/arch/manifest.json",
+    "bytes": 2336,
+    "sha256": "513326847cde8a024465ee0b3875175aa92edd148c51ba88ce5c82a0fdf82375",
+    "byteIdentical": true
+  }
+]

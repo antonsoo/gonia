@@ -741,3 +741,5 @@ Source scans and fonts have the terms described in [THIRD_PARTY.md](THIRD_PARTY.
 The [retained-source development review](docs/source-json-development.md) records
 Node 24 quickstarts, raw/downloaded JSON identity, source edit/restoration and
 complete study downloads without Vite public-import warnings.
+
+The arch workshop is [published and independently reviewed](docs/arch-publication.md), with canonical hosted-byte, real browser, offline and native-file receipts.

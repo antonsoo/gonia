@@ -1046,3 +1046,19 @@ footer button.offline-check {
   letter-spacing: 0;
   text-transform: none;
 }
+
+@media (max-width: 650px) {
+  footer:has(button.offline-check) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  footer:has(button.offline-check) > span {
+    margin: 0;
+  }
+  footer button.offline-check {
+    width: auto;
+    max-width: 100%;
+  }
+}

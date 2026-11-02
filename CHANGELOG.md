@@ -18,6 +18,18 @@
 
 ## Unreleased
 
+- Verify saved bytes throughout the shared offline edition; withdraw damaged-file
+  readiness across controlled tabs and add check, repair and first-install retry
+  controls in every room. Use verified saved documents during 503, maintenance
+  and stalled navigation responses.
+- Resume interrupted installations from verified progress, including a native
+  worker lifetime interruption; reserve foreground capacity while saving the
+  complete corpus. Make hoist study saving cancellable and use body inactivity
+  rather than a total active-transfer timeout.
+- Keep full project/font licenses in the hoist reading and code/diagram notices
+  in native JSON, SVG and CSV. Preserve earlier editable records. Separate phone
+  footer controls and keep wheel numbers clear of the supporting frame.
+
 - Add selectable turning-wheel tension transfer to the hoist: unequal upward
   pulls, axle-relative rope travel, per-wheel dissipated work and whole-system
   efficiency. Keep the windlass ideal and distinguish the stationary first wheel

@@ -1,0 +1,9 @@
+{
+  "method": "Exact rational linear equilibrium at each wheel; independent source-route and relative-travel fixtures",
+  "cases": 1530,
+  "comparisons": 64388,
+  "max_relative_error": 5.716621368871225e-14,
+  "rendered_states": 104,
+  "downloaded_csv_rows": 844,
+  "passed": true
+}

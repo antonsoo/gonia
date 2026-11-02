@@ -1,0 +1,38 @@
+[
+  {
+    "browser": "chromium",
+    "corrupt": {
+      "reply": {
+        "type": "GONIA_EDITION",
+        "edition": "2fd3412c88917eb226cb871217e6d7da3fdf4292902172e1d063db00c7939154",
+        "complete": true
+      },
+      "status": "Workshop & source saved offline"
+    },
+    "errorPage": "Maintenance screen",
+    "maintenancePage": "Maintenance screen",
+    "stalledExportAfter3Seconds": {
+      "buttonDisabled": true,
+      "cancelControls": 0,
+      "status": "Checking the source pages and preparing your illustrated reading…"
+    }
+  },
+  {
+    "browser": "firefox",
+    "corrupt": {
+      "reply": {
+        "type": "GONIA_EDITION",
+        "edition": "2fd3412c88917eb226cb871217e6d7da3fdf4292902172e1d063db00c7939154",
+        "complete": true
+      },
+      "status": "Workshop & source saved offline"
+    },
+    "errorPage": "Maintenance screen",
+    "maintenancePage": "Maintenance screen",
+    "stalledExportAfter3Seconds": {
+      "buttonDisabled": true,
+      "cancelControls": 0,
+      "status": "Checking the source pages and preparing your illustrated reading…"
+    }
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "checkedAt": "2026-11-02T06:07:44.476Z",
+  "browser": "153.0.8010.12",
+  "sharedPayloadBudgetBytesPerSecond": 128000,
+  "exportMs": 68530,
+  "fullEditionReadyMs": 500331,
+  "lifecycle": [
+    {
+      "atMs": 1037,
+      "event": "worker-created"
+    },
+    {
+      "atMs": 302662,
+      "event": "worker-created"
+    }
+  ],
+  "observedWorkerStates": [
+    {
+      "worker": 1,
+      "state": "installing",
+      "atMs": 2529.5999999940395
+    },
+    {
+      "worker": 1,
+      "state": "redundant",
+      "atMs": 302532.1999999881
+    },
+    {
+      "worker": 2,
+      "state": "installing",
+      "atMs": 303682.7999999821
+    },
+    {
+      "worker": 2,
+      "state": "installed",
+      "atMs": 500036.2999999821
+    },
+    {
+      "worker": 2,
+      "state": "activating",
+      "atMs": 500036.40000000596
+    },
+    {
+      "worker": 2,
+      "state": "activated",
+      "atMs": 500037.5
+    }
+  ],
+  "foregroundCompletedBeforeOfflineEdition": true,
+  "statusAtExport": "Downloading workshop & sources for offline use…",
+  "bytesSent": 63318209,
+  "requests": 186,
+  "completeVerifiedInventory": {
+    "type": "GONIA_EDITION",
+    "edition": "8b93eae917b0c440f3b42e6811c5a0d0baf8b80456cc8ed006a3e04519431ad1",
+    "busy": false,
+    "complete": true,
+    "missing": 0,
+    "corrupt": 0
+  },
+  "retainedClickTimeState": true,
+  "originDisabledReload": true,
+  "pageErrors": [],
+  "workerSha256": "89069d8e71b6a96918f29f12a25aa1e25ac29b776b6d123c21e7151ddcb5ff73"
+}

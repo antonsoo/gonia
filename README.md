@@ -319,7 +319,7 @@ constant and discover the smaller rise. Turn a chosen windlass with a longer
 arm: hand force falls, hand path grows, and ideal work agrees at the load,
 rope and hand. White dots follow material positions along the actual rope.
 
-The local loss extension asks a second question: **does 90% at each wheel mean
+The loss extension asks a second question: **does 90% at each wheel mean
 90% for the whole machine?** Set the three-wheel source route to the chosen 90%
 tension transfer. The supporting pulls become unequal, and whole efficiency is
 81.3%. A 600 N load raised one metre takes about 738.007 J of input work;
@@ -341,7 +341,14 @@ Older records reopen at the original ideal setting.
 [Actual saved reading, gzip](examples/hoist-loss/reading.html.gz) ·
 [Printed reading](examples/hoist-loss/reading.pdf) ·
 [Measurement CSV](examples/hoist-loss/measurements.csv).
-This extension has been verified locally; the public demo remains a separate edition.
+The [independent follow-up audit](docs/hoist-audit.md) reproduces damaged-cache
+readiness and server-maintenance failures, adds a byte-checked repair action in
+all fifteen rooms, and makes an interrupted hoist save cancellable. Its shared
+slow-transfer review also exercises native worker interruption and recovery.
+The [current retained reading](examples/hoist-audit/reading.html.gz),
+[15-page PDF](examples/hoist-audit/reading.pdf), and
+[measurements](examples/hoist-audit/measurements.csv) keep the license notices
+with the source and calculation. Hosted delivery is checked separately.
 
 Seven excerpts with new English, twenty-eight contextual Latin and Greek notes,
 five complete printed pages and visible editorial additions connect the model

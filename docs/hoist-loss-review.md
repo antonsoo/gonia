@@ -1,5 +1,8 @@
 # Same rope, unequal pulls
 
+This is the original local review at `6b97277`. The
+[follow-up audit](hoist-audit.md) records repaired failure paths and newer evidence.
+
 This is a local extension of the existing hoist room, reviewed on 2026-11-01
 (Pacific time). No new repository or room was added. The public demo, remote
 source, local checkout and CI are separate verification boundaries; nothing

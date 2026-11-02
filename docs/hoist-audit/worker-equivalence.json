@@ -1,0 +1,7 @@
+{
+  "sustainedTransferSource": "1a5a0c8",
+  "finalSource": "dfa8b6f",
+  "workerAlgorithmByteIdentical": true,
+  "compiledAlgorithmSha256": "8e19cb21ac792eeba2f31281b12f3435fb8e7c25b07be5262c523848618e10ea",
+  "boundary": "Final edition identifiers, filenames, inventory hashes and small UI assets differ; the compiled worker algorithm is identical."
+}

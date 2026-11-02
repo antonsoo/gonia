@@ -1,0 +1,13 @@
+{
+  "format": "gonia-hoist-v2",
+  "notice": "Code and original diagrams: PolyForm-Noncommercial-1.0.0. Required Notice: Copyright (c) 2026 Anthony Mercer (https://github.com/antonsoo/gonia).",
+  "state": {
+    "rig": "three",
+    "anchor": "moving",
+    "hold": "rise",
+    "distance": 1,
+    "weight": 600,
+    "arm": 2,
+    "efficiency": 90
+  }
+}

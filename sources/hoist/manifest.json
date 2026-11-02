@@ -11,7 +11,7 @@
     "233": 251
   },
   "rendering": "pdftoppm -scale-to 2100 -jpeg -jpegopt quality=88; complete pages without crop or retouch",
-  "license": "Historical text and scans: public domain. New translations, notes and diagrams: MIT, Anton Soloviev, 2026. Fonts retain their OFL notices.",
+  "license": "Historical text and scans: public domain. New translations, notes and diagrams: PolyForm Noncommercial, Anthony Mercer, 2026. Fonts retain their OFL notices.",
   "assets": {
     "sources/hoist/krohn-226.jpg": "3c2dd884b56c4b59394ded867ba313f875205fb505a24913a8845a182c266ec7",
     "sources/hoist/krohn-227.jpg": "32e70bf472c586f9267bc934a8da0b1b8876d1e60e79f5fa35b233d7e785bd19",

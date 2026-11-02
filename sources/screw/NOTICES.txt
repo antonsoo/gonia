@@ -7,7 +7,7 @@ The twelve Latin excerpts are selected learning passages, not a complete
 chapter or a new critical edition. Line-end hyphens are joined; paragraph
 and sentence punctuation are normalized. Ellipses mark workshop omissions.
 New English, contextual word notes, diagrams and application code:
-Copyright (c) 2026 Anton Soloviev. MIT license (see repository LICENSE).
+Copyright (c) 2026 Anthony Mercer. PolyForm Noncommercial license (see repository LICENSE).
 
 The water-capacity model is a modern ideal analysis. Reference:
 Chris Rorres (2000), The Turn of the Screw: Optimal Design of an Archimedes
@@ -19,4 +19,4 @@ All workshop diagrams and implementation are original.
 
 Self-hosted Noto Serif and IBM Plex Sans retain their SIL OFL 1.1 notices
 in public/fonts. The portable reading embeds the complete font notices and
-the original-code MIT license alongside its source pages.
+the original-code PolyForm Noncommercial license alongside its source pages.

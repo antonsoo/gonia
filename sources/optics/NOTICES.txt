@@ -24,7 +24,7 @@ columns in the background are not the object under discussion. This photograph
 locates the capital; it supplies no measured tilt for the upper building.
 
 TEACHING TEXT, CODE AND DIAGRAMS
-Copyright (c) 2026 Anton Soloviev. MIT; see the repository LICENSE.
+Copyright (c) 2026 Anthony Mercer. PolyForm Noncommercial; see the repository LICENSE.
 English translations, contextual notes, diagrams and the pinhole analysis are
 new. Ancient Greek companion words are learning aids, not a Greek original of
 Vitruvius. In particular, epistylia is connected with the Greek headword

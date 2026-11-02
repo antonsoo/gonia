@@ -108,3 +108,33 @@
   stroke: #315f81;
   stroke-width: 5;
 }
+
+.hw-wheel-number {
+  font:
+    600 19px Plex,
+    Arial,
+    sans-serif;
+  fill: #315f81;
+}
+.hw-energy {
+  padding: 8px 16px;
+}
+.hw-energy h3 {
+  margin: 5px 0 20px;
+}
+.hw-energy dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 20px 0;
+}
+.hw-energy dt {
+  font-size: 14px;
+}
+.hw-energy dd {
+  margin: 4px 0 0;
+  font-size: 22px;
+}
+.hw-energy p {
+  font-size: 14px;
+}

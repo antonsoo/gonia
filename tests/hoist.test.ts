@@ -92,3 +92,58 @@ test("shared and editable experiments reject incomplete, repeated, off-grid and 
   ])
     assert.throws(() => readHoist(text));
 });
+
+test("raising losses retain load balance, account for local work, and skip a stationary wheel", () => {
+  for (const rig of ["single", "three", "five"] as const)
+    for (const anchor of rig === "single" ? (["moving"] as const) : (["moving", "fixed"] as const))
+      for (const efficiency of [50, 90, 99, 100])
+        for (const distance of [0, 0.05, 2]) {
+          const s = { ...HOIST_DEFAULT, rig, anchor, efficiency, distance },
+            m = hoistModel(s);
+          near(
+            m.supportTensions.reduce((a, b) => a + b, 0),
+            s.weight,
+          );
+          near(m.work + m.loss, m.handWork);
+          near(m.ropeWork, m.handWork);
+          assert(m.loss >= 0);
+          assert(m.supportTensions.every((t) => t > 0));
+          if (anchor === "fixed") {
+            near(m.wheels[0]?.loss ?? -1, 0);
+            near(m.wheels[0]?.travel ?? -1, 0);
+          }
+        }
+  const m = hoistModel({ ...HOIST_DEFAULT, efficiency: 90 });
+  near(m.efficiency, 0.813);
+  near(m.tension, 600000 / 2439);
+});
+
+test("legacy links and version-one records reopen as ideal, while new loss settings are strict", () => {
+  const { efficiency: _ignored, ...legacy } = HOIST_DEFAULT;
+  assert.deepEqual(
+    readHoist(JSON.stringify({ format: "gonia-hoist-v1", state: legacy })),
+    HOIST_DEFAULT,
+  );
+  const q = new URLSearchParams(Object.entries(legacy).map(([k, v]) => [k, String(v)]));
+  assert.deepEqual(parseHoist(`?${q}`), { state: HOIST_DEFAULT, invalid: false });
+  const lossy = { ...HOIST_DEFAULT, efficiency: 90 };
+  assert.deepEqual(readHoist(hoistJson(lossy)), lossy);
+  assert.deepEqual(parseHoist(hoistQuery(lossy)), { state: lossy, invalid: false });
+  for (const efficiency of [null, "90", [], 49, 101, 90.5])
+    assert.throws(() =>
+      readHoist(JSON.stringify({ format: "gonia-hoist-v2", state: { ...lossy, efficiency } })),
+    );
+  for (const rig of [["three"], {}, null])
+    assert.throws(() =>
+      readHoist(JSON.stringify({ format: "gonia-hoist-v2", state: { ...lossy, rig } })),
+    );
+  assert.throws(() => readHoist(JSON.stringify({ format: "gonia-hoist-v1", state: lossy })));
+  assert.equal(parseHoist(`${hoistQuery(lossy)}&efficiency=80`).invalid, true);
+  assert.equal(parseHoist(hoistQuery(lossy).replace("efficiency=90", "efficiency=")).invalid, true);
+});
+
+test("record format tags must be strings", () => {
+  assert.throws(() =>
+    readHoist(JSON.stringify({ format: ["gonia-hoist-v2"], state: HOIST_DEFAULT })),
+  );
+});

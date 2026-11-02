@@ -1,4 +1,4 @@
-/** Ideal, quasi-static parallel-strand model. SI dimensions are teaching choices. */
+/** Quasi-static raising with parallel strands. SI dimensions and losses are teaching choices. */
 export type HoistState = {
   rig: "single" | "three" | "five";
   anchor: "moving" | "fixed";
@@ -6,6 +6,7 @@ export type HoistState = {
   distance: number;
   weight: number;
   arm: 1 | 2 | 4;
+  efficiency: number;
 };
 export const HOIST_DEFAULT: HoistState = {
   rig: "three",
@@ -14,6 +15,7 @@ export const HOIST_DEFAULT: HoistState = {
   distance: 1,
   weight: 600,
   arm: 2,
+  efficiency: 100,
 };
 export const HOIST_NAMES = {
   single: "One fixed wheel",
@@ -40,12 +42,15 @@ export function validHoist(value: unknown): value is HoistState {
   if (!value || typeof value !== "object" || Array.isArray(value)) return false;
   const s = value as Record<string, unknown>;
   return (
-    Object.keys(s).length === 6 &&
+    Object.keys(s).length === 7 &&
     Object.keys(HOIST_DEFAULT).every((k) => Object.hasOwn(s, k)) &&
-    ["single", "three", "five"].includes(String(s.rig)) &&
-    ["moving", "fixed"].includes(String(s.anchor)) &&
+    typeof s.rig === "string" &&
+    ["single", "three", "five"].includes(s.rig) &&
+    typeof s.anchor === "string" &&
+    ["moving", "fixed"].includes(s.anchor) &&
     !(s.rig === "single" && s.anchor !== "moving") &&
-    ["rise", "rope"].includes(String(s.hold)) &&
+    typeof s.hold === "string" &&
+    ["rise", "rope"].includes(s.hold) &&
     typeof s.distance === "number" &&
     Number.isFinite(s.distance) &&
     s.distance >= 0 &&
@@ -57,7 +62,11 @@ export function validHoist(value: unknown): value is HoistState {
     s.weight <= 2000 &&
     s.weight % 100 === 0 &&
     [1, 2, 4].includes(Number(s.arm)) &&
-    typeof s.arm === "number"
+    typeof s.arm === "number" &&
+    typeof s.efficiency === "number" &&
+    Number.isInteger(s.efficiency) &&
+    s.efficiency >= 50 &&
+    s.efficiency <= 100
   );
 }
 export function hoistQuery(s: HoistState): string {
@@ -74,16 +83,19 @@ export function parseHoist(query: string): { state: HoistState; invalid: boolean
     distance: Number(p.get("distance")),
     weight: Number(p.get("weight")),
     arm: Number(p.get("arm")),
+    efficiency: p.has("efficiency") ? Number(p.get("efficiency")) : 100,
   };
   const invalid =
-    p.size !== 6 ||
-    keys.some((k) => p.getAll(k).length !== 1 || p.get(k) === "") ||
+    (p.size !== 6 && p.size !== 7) ||
+    keys.some(
+      (k) => (k !== "efficiency" || p.has(k)) && (p.getAll(k).length !== 1 || p.get(k) === ""),
+    ) ||
     [...p.keys()].some((k) => !keys.includes(k)) ||
     !validHoist(candidate);
   return { state: invalid ? { ...HOIST_DEFAULT } : (candidate as HoistState), invalid };
 }
 export function hoistJson(s: HoistState): string {
-  return `${JSON.stringify({ format: "gonia-hoist-v1", state: s }, null, 2)}\n`;
+  return `${JSON.stringify({ format: "gonia-hoist-v2", state: s }, null, 2)}\n`;
 }
 export function readHoist(text: string): HoistState {
   if (new TextEncoder().encode(text).length > 65536)
@@ -109,14 +121,25 @@ export function readHoist(text: string): HoistState {
     Array.isArray(data) ||
     Object.keys(data).length !== 2 ||
     !("format" in data) ||
-    data.format !== "gonia-hoist-v1" ||
+    typeof data.format !== "string" ||
+    !["gonia-hoist-v1", "gonia-hoist-v2"].includes(data.format) ||
     !("state" in data) ||
-    !validHoist(data.state)
+    !data.state ||
+    typeof data.state !== "object" ||
+    Array.isArray(data.state)
   )
     throw new Error(
-      "This is not a complete gonia-hoist-v1 experiment. Check its six settings; nothing has changed.",
+      "Choose a complete gonia-hoist-v1 or gonia-hoist-v2 experiment; nothing has changed.",
     );
-  return { ...data.state };
+  const raw = data.state as Record<string, unknown>;
+  const state = data.format === "gonia-hoist-v1" ? { ...raw, efficiency: 100 } : raw;
+  if (
+    (data.format === "gonia-hoist-v1" &&
+      (Object.keys(raw).length !== 6 || Object.hasOwn(raw, "efficiency"))) ||
+    !validHoist(state)
+  )
+    throw new Error("Check the experiment settings; nothing has changed.");
+  return { ...state };
 }
 export const HOIST_RADIUS = 0.16,
   HOIST_TOP = 1.1,
@@ -187,11 +210,55 @@ export function hoistModel(s: HoistState) {
     initialLength = ropeLength(hoistRoute(s, 0)),
     length = ropeLength(route);
   const rope = initialLength - length,
-    tension = s.weight / supports,
+    eta = s.efficiency / 100,
+    advantage = Array.from({ length: supports }, (_, i) => eta ** (i + 1)).reduce(
+      (a, b) => a + b,
+      0,
+    ),
+    tension = s.weight / advantage,
     hand = tension / s.arm,
     handPath = rope * s.arm;
+  // Walk from the tied end. Each support before a wheel adds one rise to
+  // the rope travel relative to that wheel's axle. The first upper wheel in
+  // the fixed-tie alteration has zero relative travel and no modeled loss.
+  let passedSupports = 0,
+    wheel = 0,
+    current = tension * eta ** supports;
+  const supportTensions: number[] = [];
+  const wheels: {
+    index: number;
+    side: "upper" | "lower";
+    travel: number;
+    before: number;
+    after: number;
+    loss: number;
+  }[] = [];
+  for (const part of route) {
+    if (part.kind === "line" && part.support) {
+      supportTensions.push(current);
+      passedSupports++;
+    } else if (part.kind === "arc") {
+      const before = current;
+      if (passedSupports > 0) current /= eta;
+      const travel = passedSupports * rise;
+      wheels.push({
+        index: ++wheel,
+        side: part.side,
+        travel,
+        before,
+        after: current,
+        loss: (current - before) * travel,
+      });
+    }
+  }
+  const loss = wheels.reduce((sum, wheel) => sum + wheel.loss, 0);
   return {
     supports,
+    supportTensions,
+    wheels,
+    advantage,
+    efficiency: advantage / supports,
+    loss,
     rise,
     rope,
     tension,

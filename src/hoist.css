@@ -393,3 +393,16 @@
 .hw-diagram-pan:focus-visible {
   outline-offset: -4px;
 }
+
+.hw-loss-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px;
+  align-items: center;
+}
+@media (max-width: 850px) {
+  .hw-loss-layout {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

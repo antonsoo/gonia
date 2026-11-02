@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-02T06:52:32.125Z",
+  "sourceRevision": "e95faa0277497f1e57c601a1518277ad6f347e61",
+  "cleanTreeAtCheck": true,
+  "files": [
+    {
+      "file": "docs/hoist-audit.md",
+      "bytes": 12703,
+      "sha256": "2fcf6e66cc3644aced10aceb499c73d59a36f34d09424593212a5c4824c14992",
+      "matches": true
+    },
+    {
+      "file": "docs/hoist-audit/build.json",
+      "bytes": 14748,
+      "sha256": "89ce840635af991ca58da9d6348172ff1a58d452433088b14330378684a6fa3e",
+      "matches": true
+    },
+    {
+      "file": "docs/hoist-audit/offline.json",
+      "bytes": 2063,
+      "sha256": "28c3c68966d34cf2d7a99b4de485c16799c44934365a45aed295d2db619a2367",
+      "matches": true
+    },
+    {
+      "file": "docs/hoist-audit/cold-two-requests.json",
+      "bytes": 1474,
+      "sha256": "461bd5ffc9d4ed5c37e66208caca957a78981bd666cd8ee55446e38a6137ab69",
+      "matches": true
+    },
+    {
+      "file": "examples/hoist-audit/reading.html.gz",
+      "bytes": 2950927,
+      "sha256": "0bff242b49c1ed4d650465a85a9ac160006cc054d57b1bc7370434d7475da4ac",
+      "matches": true
+    }
+  ]
+}

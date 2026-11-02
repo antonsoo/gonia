@@ -1,0 +1,586 @@
+{
+  "checkedAt": "2026-11-02T06:52:28.701Z",
+  "hosted": "https://antonsoo.github.io/gonia/",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "rooms": [
+        {
+          "room": "index.html",
+          "control": "#beam",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "spacing.html",
+          "control": "#front-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "entasis.html",
+          "control": "#entasis-station",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "fluting.html",
+          "control": "#width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "transport.html",
+          "control": "#stone-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "colonnade.html",
+          "control": "#col-gap",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "theatre.html",
+          "control": "#th-diameter",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "echea.html",
+          "control": "#ec-reference",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "hoist.html",
+          "control": "#hw-efficiency",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "optics.html",
+          "control": "#vp-distance",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "screw.html",
+          "control": "#sc-lead",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "ledger.html",
+          "control": "#lg-extra-0",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "babylon.html",
+          "control": "#bb-supplied",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "volute.html",
+          "control": "#vo-draw",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "arch.html",
+          "control": "#ar-rise",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        }
+      ],
+      "originRefused": false,
+      "browserOffline": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "rooms": [
+        {
+          "room": "index.html",
+          "control": "#beam",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "spacing.html",
+          "control": "#front-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "entasis.html",
+          "control": "#entasis-station",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "fluting.html",
+          "control": "#width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "transport.html",
+          "control": "#stone-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "colonnade.html",
+          "control": "#col-gap",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "theatre.html",
+          "control": "#th-diameter",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "echea.html",
+          "control": "#ec-reference",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "hoist.html",
+          "control": "#hw-efficiency",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "optics.html",
+          "control": "#vp-distance",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "screw.html",
+          "control": "#sc-lead",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "ledger.html",
+          "control": "#lg-extra-0",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "babylon.html",
+          "control": "#bb-supplied",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "volute.html",
+          "control": "#vo-draw",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        },
+        {
+          "room": "arch.html",
+          "control": "#ar-rise",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 128,
+          "buttonHeight": 44
+        }
+      ],
+      "originRefused": false,
+      "browserOffline": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "rooms": [
+        {
+          "room": "index.html",
+          "control": "#beam",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "spacing.html",
+          "control": "#front-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "entasis.html",
+          "control": "#entasis-station",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "fluting.html",
+          "control": "#width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "transport.html",
+          "control": "#stone-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "colonnade.html",
+          "control": "#col-gap",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "theatre.html",
+          "control": "#th-diameter",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.4000244140625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "echea.html",
+          "control": "#ec-reference",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.4000244140625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "hoist.html",
+          "control": "#hw-efficiency",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.4000244140625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "optics.html",
+          "control": "#vp-distance",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.4000244140625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "screw.html",
+          "control": "#sc-lead",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "ledger.html",
+          "control": "#lg-extra-0",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.4000244140625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "babylon.html",
+          "control": "#bb-supplied",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "volute.html",
+          "control": "#vo-draw",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        },
+        {
+          "room": "arch.html",
+          "control": "#ar-rise",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39996337890625,
+          "buttonHeight": 44
+        }
+      ],
+      "originRefused": false,
+      "browserOffline": true,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "rooms": [
+        {
+          "room": "index.html",
+          "control": "#beam",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "spacing.html",
+          "control": "#front-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "entasis.html",
+          "control": "#entasis-station",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "fluting.html",
+          "control": "#width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "transport.html",
+          "control": "#stone-width",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "colonnade.html",
+          "control": "#col-gap",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "theatre.html",
+          "control": "#th-diameter",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "echea.html",
+          "control": "#ec-reference",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "hoist.html",
+          "control": "#hw-efficiency",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "optics.html",
+          "control": "#vp-distance",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "screw.html",
+          "control": "#sc-lead",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "ledger.html",
+          "control": "#lg-extra-0",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "babylon.html",
+          "control": "#bb-supplied",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "volute.html",
+          "control": "#vo-draw",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        },
+        {
+          "room": "arch.html",
+          "control": "#ar-rise",
+          "changedRenderedMeasurements": true,
+          "offlineCheckWorked": true,
+          "pageOverflow": false,
+          "buttonWidth": 129.39999389648438,
+          "buttonHeight": 44
+        }
+      ],
+      "originRefused": false,
+      "browserOffline": true,
+      "pageErrors": []
+    }
+  ]
+}

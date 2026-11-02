@@ -40,7 +40,7 @@ export function hoistDrawing(s: HoistState, id = "hoist"): string {
     .filter((p) => p.kind === "arc")
     .map((p, i) =>
       p.kind === "arc"
-        ? `<ellipse cx="${x(p.cx)}" cy="${y(p.cy)}" rx="${260 * r - 5}" ry="${78 * r - 3}" class="hw-wheel ${p.side === "lower" ? "hw-moving" : ""}"/><circle cx="${x(p.cx)}" cy="${y(p.cy)}" r="3" class="hw-axle"/><text x="${x(p.cx)}" y="${y(p.cy) - 22}" text-anchor="middle" class="hw-wheel-number">${i + 1}</text><path d="M ${x(p.cx)} ${y(p.cy)} V ${p.side === "upper" ? 92 : beam}" class="hw-frame ${p.side === "lower" ? "hw-load-frame" : ""}"/>`
+        ? `<ellipse cx="${x(p.cx)}" cy="${y(p.cy)}" rx="${260 * r - 5}" ry="${78 * r - 3}" class="hw-wheel ${p.side === "lower" ? "hw-moving" : ""}"/><circle cx="${x(p.cx)}" cy="${y(p.cy)}" r="3" class="hw-axle"/><text x="${x(p.cx) + 20}" y="${y(p.cy) - 22}" text-anchor="middle" class="hw-wheel-number">${i + 1}</text><path d="M ${x(p.cx)} ${y(p.cy)} V ${p.side === "upper" ? 92 : beam}" class="hw-frame ${p.side === "lower" ? "hw-load-frame" : ""}"/>`
         : "",
     )
     .join("");

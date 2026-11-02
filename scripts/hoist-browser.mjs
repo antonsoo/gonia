@@ -161,6 +161,7 @@ for (const [name, engine] of [
           distance: 1,
           weight: 1200,
           arm: 4,
+          efficiency: 100,
         });
         await page.locator("#hw-rig").selectOption("single");
         await page

@@ -32,7 +32,7 @@ for folder in sorted(root.glob('*-*')):
     svg = ET.fromstring((folder / 'diagram.svg').read_text())
     ns = {'s': 'http://www.w3.org/2000/svg'}
     saved = json.loads(svg.find('s:metadata', ns).text)['state']
-    assert saved == {'rig': 'five', 'anchor': 'moving', 'hold': 'rise', 'distance': 1, 'weight': 1200, 'arm': 4}
+    assert saved == {'rig': 'five', 'anchor': 'moving', 'hold': 'rise', 'distance': 1, 'weight': 1200, 'arm': 4, 'efficiency': 100}
     route = next(p for p in svg.findall('s:path', ns) if p.get('data-route') == 'true')
     # Independent literal path in displayed coordinates: three upper arcs,
     # two lower arcs, five shortening runs and the final fixed drum run.

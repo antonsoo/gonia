@@ -72,7 +72,9 @@
     "verify:volute-files": "python3 scripts/volute-artifacts.py",
     "prepare:volute-sources": "python3 scripts/volute-sources.py",
     "verify:arch": "node --import tsx scripts/arch-cases.ts | uv run --with scipy==1.18.1 scripts/arch-oracle.py",
-    "test:arch": "node scripts/arch-browser.mjs"
+    "test:arch": "node scripts/arch-browser.mjs",
+    "verify:hoist-loss": "node --import tsx scripts/hoist-loss-cases.ts | python3 scripts/hoist-loss-oracle.py",
+    "test:hoist-loss": "node scripts/hoist-loss-browser.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

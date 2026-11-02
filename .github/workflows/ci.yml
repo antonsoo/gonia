@@ -35,6 +35,9 @@ jobs:
       - run: npm run test:transport -- /tmp/gonia-transport
       - run: node --import tsx scripts/transport-cases.ts | python3 scripts/transport-oracle.py /tmp/gonia-transport/review.json
       - run: npm run verify:hoist
+      - run: npm run verify:hoist-loss
+      - run: npm run test:hoist-loss -- /tmp/gonia-hoist-loss
+      - run: node --import tsx scripts/hoist-loss-cases.ts | python3 scripts/hoist-loss-oracle.py /tmp/gonia-hoist-loss
       - run: npm run test:hoist -- /tmp/gonia-hoist
       - run: npm run verify:hoist-files -- /tmp/gonia-hoist
       - name: Install PDF inspection tools

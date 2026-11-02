@@ -26,7 +26,9 @@ function el<T extends HTMLElement = HTMLElement>(id: string): T {
 }
 const parsed = parseHoist(location.search);
 let state = parsed.state,
-  passage = 1;
+  passage = 1,
+  stateRevision = 0,
+  importRequest = 0;
 el("app").innerHTML =
   `<a class="skip" href="#hw-workshop">Skip to the hoist</a><header class="masthead"><a class="wordmark" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Main"><a href="./">Doric corner</a><a href="./spacing.html">Spacing</a><a href="./entasis.html">Entasis</a><a href="./fluting.html">Fluting</a><a href="./transport.html">Transport</a><a href="./colonnade.html">Temple plan</a><a href="./theatre.html">Theatre</a><a href="./echea.html">Sounding vessels</a><a href="./hoist.html" aria-current="page">Hoist</a><a href="./optics.html">Viewpoint</a><a href="./ledger.html">Building accounts</a></nav></header><main>
 <section class="hw-intro"><h1>Where you tie the rope<br>changes the lift.</h1><div><p>Vitruvius describes a three-wheel hoist with its rope end tied to the lower block.</p><p>Keep the wheels. Move that tie to the fixed support. Find the missing upward pull. Then <a href="#hw-losses">introduce turning-wheel losses</a> and follow the unequal tensions.</p><a href="#hw-workshop">Follow the rope and lift the load</a></div></section>
@@ -44,6 +46,7 @@ el("app").innerHTML =
 <section class="hw-section hw-save"><div><h2>Keep the route<br>and the reading.</h2><p>The illustrated reading embeds the selected rig, both tied-end alternatives, all seven excerpts and their notes, five full source pages, fonts and exact measurements. It opens and prints offline.</p></div><div><div class="hw-actions"><button type="button" id="hw-save-reading">Save illustrated reading</button><button type="button" id="hw-save-svg">Save diagram (SVG)</button><button type="button" id="hw-save-csv">Save measurements (CSV)</button></div><div class="hw-actions"><button type="button" id="hw-save-json">Save experiment (JSON)</button><label class="hw-file-label" for="hw-open-json">Open experiment (JSON)</label><input type="file" id="hw-open-json" accept=".json,application/json"><button type="button" id="hw-share">Share this experiment</button></div><p id="hw-save-status" role="status"></p><label id="hw-share-label" for="hw-share-url" hidden>Link to these settings<input type="url" id="hw-share-url" readonly></label></div></section>
 <section class="hw-section hw-limits"><h2>The route is evidence.<br>The numbers are a model.</h2><div><p>${HOIST_LIMITS}</p><p>The three- and five-wheel routes use the lower-block tie in X.2.1. Moving that tie to the fixed support and the single-wheel control are our comparisons. The spread-out wheels, load shape and drum are explanatory diagrams. No lifting frame or stone grip is reconstructed.</p><p><a href="./transport.html">Before the lift: roll a column drum or architrave</a></p></div></section></main><footer><span>Gonia · measured ancient architecture</span><span id="hw-offline" role="status">Checking offline edition…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
 function update() {
+  stateRevision++;
   const m = hoistModel(state);
   for (const key of ["rig", "anchor", "hold", "distance", "weight", "arm", "efficiency"] as const)
     el<HTMLInputElement>(`hw-${key}`).value = String(state[key]);
@@ -222,20 +225,29 @@ el("hw-open-json").addEventListener("change", async () => {
   const input = el<HTMLInputElement>("hw-open-json"),
     file = input.files?.[0];
   if (!file) return;
+  const revision = stateRevision,
+    request = ++importRequest;
   try {
     if (file.size > 65536) throw new Error("Choose a hoist JSON file smaller than 64 KiB.");
     const next = readHoist(await file.text());
+    if (request !== importRequest) return;
+    if (revision !== stateRevision) {
+      el("hw-save-status").textContent =
+        "Your settings changed while that file was opening. Choose the file again to replace them.";
+      return;
+    }
     state = next;
     update();
     el("hw-save-status").textContent =
       "Experiment opened. The settings and raising model are restored.";
   } catch (error) {
+    if (request !== importRequest) return;
     el("hw-save-status").textContent =
       error instanceof Error
         ? error.message
         : "Could not read this experiment; nothing has changed.";
   } finally {
-    input.value = "";
+    if (request === importRequest) input.value = "";
   }
 });
 el("hw-save-reading").addEventListener("click", async () => {

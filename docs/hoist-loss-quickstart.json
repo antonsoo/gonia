@@ -1,0 +1,42 @@
+{
+  "node": "24.22.1",
+  "from": "fresh source archive; npm ci; npm run dev",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "width": 1440,
+      "overflow": false,
+      "background": "rgb(248, 250, 251)",
+      "offline": "Development preview",
+      "workers": 0,
+      "illustratedDownload": true
+    },
+    {
+      "browser": "chromium",
+      "width": 375,
+      "overflow": false,
+      "background": "rgb(248, 250, 251)",
+      "offline": "Development preview",
+      "workers": 0,
+      "illustratedDownload": true
+    },
+    {
+      "browser": "firefox",
+      "width": 1440,
+      "overflow": false,
+      "background": "rgb(248, 250, 251)",
+      "offline": "Development preview",
+      "workers": 0,
+      "illustratedDownload": true
+    },
+    {
+      "browser": "firefox",
+      "width": 375,
+      "overflow": false,
+      "background": "rgb(248, 250, 251)",
+      "offline": "Development preview",
+      "workers": 0,
+      "illustratedDownload": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-11-02T05:04:32.134Z",
+  "workerSha256": "a2cf02c664e9182051ba0d40e634c7ed2b1fc6004ccc23c7e6be47907d40b862",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 1440,
+      "renderedStates": 26,
+      "keyboard": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": 0,
+      "sourceHashes": 5,
+      "clickTimeSnapshot": true,
+      "legacyJson": true,
+      "delayedImportPreservesNewerSettings": true,
+      "legacyQuery": true,
+      "originDisabled": true,
+      "offlineExport": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "width": 375,
+      "renderedStates": 26,
+      "keyboard": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": 0,
+      "sourceHashes": 5,
+      "clickTimeSnapshot": true,
+      "legacyJson": true,
+      "delayedImportPreservesNewerSettings": true,
+      "legacyQuery": true,
+      "originDisabled": true,
+      "offlineExport": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 1440,
+      "renderedStates": 26,
+      "keyboard": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": 0,
+      "sourceHashes": 5,
+      "clickTimeSnapshot": true,
+      "legacyJson": true,
+      "delayedImportPreservesNewerSettings": true,
+      "legacyQuery": true,
+      "originDisabled": true,
+      "offlineExport": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "width": 375,
+      "renderedStates": 26,
+      "keyboard": true,
+      "axeViolations": 0,
+      "portableRemoteRequests": 0,
+      "sourceHashes": 5,
+      "clickTimeSnapshot": true,
+      "legacyJson": true,
+      "delayedImportPreservesNewerSettings": true,
+      "legacyQuery": true,
+      "originDisabled": true,
+      "offlineExport": true
+    }
+  ]
+}

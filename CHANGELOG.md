@@ -18,6 +18,15 @@
 
 ## Unreleased
 
+- Add selectable turning-wheel tension transfer to the hoist: unequal upward
+  pulls, axle-relative rope travel, per-wheel dissipated work and whole-system
+  efficiency. Keep the windlass ideal and distinguish the stationary first wheel
+  on the fixed-tie alteration.
+- Retain the complete loss experiment in native downloads and script-free studies;
+  open version-one records and old links as ideal. Prevent a delayed JSON read
+  from replacing a newer experiment. Check the model with exact rational force
+  balance and actual rendered/downloaded results in both browsers.
+
 - Add the arch-and-pier workshop: adjust circular rise, radial thickness,
   symmetric loading, horizontal thrust and bearing position. Inspect all
   fourteen radial joints and distinguish a fitted arch from base overturning.

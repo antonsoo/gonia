@@ -319,6 +319,30 @@ constant and discover the smaller rise. Turn a chosen windlass with a longer
 arm: hand force falls, hand path grows, and ideal work agrees at the load,
 rope and hand. White dots follow material positions along the actual rope.
 
+The local loss extension asks a second question: **does 90% at each wheel mean
+90% for the whole machine?** Set the three-wheel source route to the chosen 90%
+tension transfer. The supporting pulls become unequal, and whole efficiency is
+81.3%. A 600 N load raised one metre takes about 738.007 J of input work;
+600 J lifts it and 138.007 J is dissipated. Switch to five wheels: less hand
+force, more total work in this stated modern raising model.
+
+![Chosen turning-wheel losses, unequal tensions and the complete work ledger](docs/assets/hoist-loss-desktop.png)
+
+After starting locally, open `hoist.html#hw-losses` and choose **Try three wheels
+at 90%**. The wheel ledger follows tensions and rope travel relative to each
+axle. The first upper wheel on the fixed-tie route does not turn and is assigned
+zero resisting torque. The windlass stays ideal; no ancient efficiency,
+starting friction or lowering behavior is inferred. The percentage, complete
+ledger and work division travel with JSON, CSV, SVG and the illustrated study.
+Older records reopen at the original ideal setting.
+
+[Model and exact assumptions](docs/hoist-loss-model.md) ·
+[Local browser and source review](docs/hoist-loss-review.md) ·
+[Actual saved reading, gzip](examples/hoist-loss/reading.html.gz) ·
+[Printed reading](examples/hoist-loss/reading.pdf) ·
+[Measurement CSV](examples/hoist-loss/measurements.csv).
+This extension has been verified locally; the public demo remains a separate edition.
+
 Seven excerpts with new English, twenty-eight contextual Latin and Greek notes,
 five complete printed pages and visible editorial additions connect the model
 to Krohn's 1912 text. Save a complete script-free illustrated reading, SVG,

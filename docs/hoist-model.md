@@ -1,5 +1,8 @@
 # Follow the tied end
 
+This records the original ideal model. The [raising-loss extension](hoist-loss-model.md)
+adds unequal tensions and an explicit work ledger while preserving old records.
+
 ## Historical witness
 
 Vitruvius, _De architectura_ X.2.1–3 and X.3.1–3, ed. F. Krohn,

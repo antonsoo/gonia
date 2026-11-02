@@ -48,10 +48,10 @@ async function inspect() {
     if (inspection === job) inspection = undefined;
   }
 }
-async function concurrent<T>(items: readonly T[], action: (item: T) => Promise<void>) {
+async function concurrent<T>(items: readonly T[], action: (item: T) => Promise<void>, limit = 4) {
   let index = 0;
   await Promise.all(
-    Array.from({ length: Math.min(4, items.length) }, async () => {
+    Array.from({ length: Math.min(limit, items.length) }, async () => {
       while (index < items.length) {
         const item = items[index++];
         if (item !== undefined) await action(item);
@@ -148,31 +148,39 @@ async function fill(installing: boolean) {
       });
   };
   try {
-    await concurrent(FILES, async (url) => {
-      controller.signal.throwIfAborted();
-      if (!(await cached(url))) {
-        const response = await network(url, controller.signal, progress);
-        await store(url, response, installing);
-      }
-      finished++;
-      if (finished > persisted) {
-        const verified = finished;
-        persisted = verified;
-        marker = marker
-          .then(() =>
-            store(
-              progressUrl,
-              new Response(JSON.stringify({ edition: EDITION, verified }), {
-                headers: { "Content-Type": "application/json" },
-              }),
-              installing,
-            ),
-          )
-          .catch(() => {});
-        await marker;
-      }
-      progress();
-    });
+    // Start large files early so a native lifetime limit interrupts small
+    // remaining reads. Two background requests leave room for foreground
+    // sources and fonts under the browser's per-origin connection limit.
+    const order = [...FILES].sort((a, b) => (SIZES[b] ?? 0) - (SIZES[a] ?? 0));
+    await concurrent(
+      order,
+      async (url) => {
+        controller.signal.throwIfAborted();
+        if (!(await cached(url))) {
+          const response = await network(url, controller.signal, progress);
+          await store(url, response, installing);
+        }
+        finished++;
+        if (finished > persisted) {
+          const verified = finished;
+          persisted = verified;
+          marker = marker
+            .then(() =>
+              store(
+                progressUrl,
+                new Response(JSON.stringify({ edition: EDITION, verified }), {
+                  headers: { "Content-Type": "application/json" },
+                }),
+                installing,
+              ),
+            )
+            .catch(() => {});
+          await marker;
+        }
+        progress();
+      },
+      2,
+    );
   } catch (error) {
     controller.abort(error);
     throw error;

@@ -19,7 +19,7 @@
     124
   ],
   "rendering": "New pages: pdftoppm -scale-to 1800 -jpeg -jpegopt quality=85; p.106 reuses the existing theatre asset. Full pages including apparatus.",
-  "rights": "Public domain edition. New English translations, drawings and notes MIT.",
+  "rights": "Public domain edition. New English translations, drawings and notes PolyForm Noncommercial.",
   "hashes": {
     "sources/echea/krohn-102.jpg": "b91f89e77f67a04bf7a9ecf5e8fb7da41373c4554dabf7dcccd22cec1e9ffb2a",
     "sources/echea/krohn-103.jpg": "3b1e1ed9e2ff62c4695d5a2e339d819c1011f38171ec48ce8797589a9a58540d",

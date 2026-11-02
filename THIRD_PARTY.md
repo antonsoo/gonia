@@ -1,6 +1,6 @@
 # Third-party material
 
-Gonia's code, diagrams and English translations are MIT licensed. The following
+Gonia's code, diagrams and English translations are licensed under PolyForm Noncommercial. The following
 materials retain their own provenance and terms.
 
 ## The arch and the pier
@@ -12,7 +12,7 @@ choices, rights and reproduction command. The [manifest](public/sources/arch/man
 pins every image and the related font/license files. No modern structural
 diagram is reused. The five English readings, eight word notes and all
 interactive drawings are new. The illustrated export contains the actual
-source images, two font files and the complete MIT and both OFL licenses.
+source images, two font files and the complete PolyForm Noncommercial and both OFL licenses.
 
 ## The omitted-colonnade room
 
@@ -79,7 +79,7 @@ entries in Logeion: [κνώδαξ](https://logeion.uchicago.edu/κνώδαξ),
 [ἐπιστύλιον](https://logeion.uchicago.edu/ἐπιστύλιον). Definitions and grammar
 notes are newly written; no modern dictionary article is bundled. These
 headwords explain the Latin technical loans, rather than supplying a Greek
-original of Vitruvius. The new English and diagrams are MIT.
+original of Vitruvius. The new English and diagrams are PolyForm Noncommercial.
 
 Saved readings verify and embed the original two JPEGs, Noto Serif and IBM
 Plex Sans, together with both full font copyright/license texts. The complete
@@ -219,7 +219,7 @@ provided the scans. [Source identities and decisions](docs/fluting-sources.md)
 record the full PDFs, exact image hashes, page mapping and editorial brackets.
 The short Greek transcription was also checked against Perseus's Bywater TEI
 (CC BY-SA 4.0); that complete digital text is not bundled. All new English
-translations, grammar notes and geometric drawings are MIT, Anton Soloviev, 2026.
+translations, grammar notes and geometric drawings are PolyForm Noncommercial, Anthony Mercer, 2026.
 The standalone HTML reading embeds Noto Serif and IBM Plex Sans with their
 complete OFL copyright and license notices inside the file.
 
@@ -231,8 +231,8 @@ of Toronto / Gerstein scan at Internet Archive. Heiberg edited the Greek and
 made the modern Latin translation. [The source note](docs/segments-sources.md)
 records the original PDF identity, page mapping, transcription and the
 distinction between the angle in a segment and the angle of a segment.
-New comparison drawings, English, explanations and code are MIT,
-Anton Soloviev, 2026.
+New comparison drawings, English, explanations and code are PolyForm Noncommercial,
+Anthony Mercer, 2026.
 
 ## Sounding vessels
 
@@ -244,7 +244,7 @@ mapping, rendering settings and SHA-256 hashes. The
 decisions. All five pages were visually inspected.
 
 New English translations, language notes, SVG drawings and sounds generated
-from the documented modern equation are MIT, Anton Soloviev, 2026. No modern
+from the documented modern equation are PolyForm Noncommercial, Anthony Mercer, 2026. No modern
 research illustration, modern translation or instrument recording is bundled.
 Saved readings embed the existing Noto Serif and IBM Plex font bytes with
 their full OFL notices.
@@ -255,7 +255,7 @@ their full OFL notices.
 1912 Vitruvius: title, 226–227 and 232–233. The manifest records the freshly
 verified original PDF identity, exact page mapping, render settings and hashes.
 No page is cropped or retouched. New English, Latin/Greek notes, diagrams and
-model are MIT, Anton Soloviev, 2026. The source's editorial additions remain
+model are PolyForm Noncommercial, Anthony Mercer, 2026. The source's editorial additions remain
 visible. Saved readings embed the existing fonts and complete OFL notices.
 
 ## Erechtheion building accounts
@@ -279,6 +279,6 @@ aids in the app explicitly join line breaks and replace selected long vowels.
 Stephen Lambert and Robin Osborne’s modern AIO translation is linked and used
 for checking and interpretation; it is not redistributed. The museum object
 record and photograph are linked. New English explanations, the allocation
-activity and numeral outlines are MIT, Anton Soloviev, 2026. The standalone
+activity and numeral outlines are PolyForm Noncommercial, Anthony Mercer, 2026. The standalone
 reading includes attribution, complete source pages and the bundled fonts’
 full OFL notices. See [source decisions](docs/ledger-model.md).

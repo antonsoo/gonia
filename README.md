@@ -2,7 +2,7 @@
 
 **Measured experiments in ancient architecture, with Greek words, Latin instructions, Akkadian measurements and the printed evidence.**
 
-[Live workshop](https://antonsoo.github.io/gonia/) · [MIT license](LICENSE)
+[Live workshop](https://antonsoo.github.io/gonia/) · [PolyForm Noncommercial license](LICENSE)
 
 Fifteen problems you can inspect and measure:
 - [The arch and the pier](https://antonsoo.github.io/gonia/arch.html#ar-bench):
@@ -752,7 +752,9 @@ It serves `dist/` itself and writes its screenshots and saved documents beside
 the requested report.
 
 [Contributing](CONTRIBUTING.md) explains the source and review standards.
-Code, original drawings and translations: [MIT](LICENSE), Anthony Mercer, 2026.
+New versions are released under the [PolyForm Noncommercial License 1.0.0](LICENSE). It is free for any noncommercial purpose, including personal study, teaching and research, and for use by charities, schools, universities, research organizations and government institutions. Commercial use needs written permission from Anthony Mercer (anthony@praviel.com). Versions up to commit [`dcc8866`](https://github.com/antonsoo/gonia/tree/dcc8866) (2026-11-01) were released under the MIT License, and copies of those versions keep it.
+
+Code, original drawings and translations: [PolyForm Noncommercial 1.0.0](LICENSE), Anthony Mercer, 2026.
 Source scans and fonts have the terms described in [THIRD_PARTY.md](THIRD_PARTY.md).
 
 The [retained-source development review](docs/source-json-development.md) records

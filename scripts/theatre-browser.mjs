@@ -359,7 +359,7 @@ for (const [name, engine] of [
           });
         }
         const html = await readFile(files.html, "utf8");
-        assert.match(html, /MIT License/);
+        assert.match(html, /PolyForm Noncommercial License 1.0.0/);
         assert.match(html, /SIL OPEN FONT LICENSE/);
         assert.match(html, /IBMPlex-OFL/);
         const images = [...html.matchAll(/data:image\/jpeg;base64,([A-Za-z0-9+/=]+)/g)];

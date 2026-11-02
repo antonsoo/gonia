@@ -5,7 +5,7 @@
   "description": "Measured ancient architecture: Greek temple geometry, Babylonian building evidence, transport, acoustics and water screws.",
   "type": "module",
   "author": "Anthony Mercer <anthony@praviel.com>",
-  "license": "MIT",
+  "license": "PolyForm-Noncommercial-1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/antonsoo/gonia.git"

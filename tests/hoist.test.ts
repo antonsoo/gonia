@@ -147,3 +147,12 @@ test("record format tags must be strings", () => {
     readHoist(JSON.stringify({ format: ["gonia-hoist-v2"], state: HOIST_DEFAULT })),
   );
 });
+
+test("native records retain a license notice and accept earlier version-two records", () => {
+  const saved = JSON.parse(hoistJson(HOIST_DEFAULT));
+  assert.match(saved.notice, /PolyForm-Noncommercial-1.0.0/);
+  assert.deepEqual(readHoist(JSON.stringify(saved)), HOIST_DEFAULT);
+  delete saved.notice;
+  assert.deepEqual(readHoist(JSON.stringify(saved)), HOIST_DEFAULT);
+  assert.throws(() => readHoist(JSON.stringify({ ...saved, notice: "unrelated" })));
+});

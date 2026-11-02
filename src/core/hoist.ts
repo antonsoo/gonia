@@ -94,8 +94,10 @@ export function parseHoist(query: string): { state: HoistState; invalid: boolean
     !validHoist(candidate);
   return { state: invalid ? { ...HOIST_DEFAULT } : (candidate as HoistState), invalid };
 }
+export const HOIST_NOTICE =
+  "Code and original diagrams: PolyForm-Noncommercial-1.0.0. Required Notice: Copyright (c) 2026 Anthony Mercer (https://github.com/antonsoo/gonia).";
 export function hoistJson(s: HoistState): string {
-  return `${JSON.stringify({ format: "gonia-hoist-v2", state: s }, null, 2)}\n`;
+  return `${JSON.stringify({ format: "gonia-hoist-v2", notice: HOIST_NOTICE, state: s }, null, 2)}\n`;
 }
 export function readHoist(text: string): HoistState {
   if (new TextEncoder().encode(text).length > 65536)
@@ -119,7 +121,9 @@ export function readHoist(text: string): HoistState {
     !data ||
     typeof data !== "object" ||
     Array.isArray(data) ||
-    Object.keys(data).length !== 2 ||
+    (Object.keys(data).length !== 2 && Object.keys(data).length !== 3) ||
+    Object.keys(data).some((key) => !["format", "state", "notice"].includes(key)) ||
+    ("notice" in data && data.notice !== HOIST_NOTICE) ||
     !("format" in data) ||
     typeof data.format !== "string" ||
     !["gonia-hoist-v1", "gonia-hoist-v2"].includes(data.format) ||

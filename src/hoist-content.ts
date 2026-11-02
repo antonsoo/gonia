@@ -1,7 +1,7 @@
 export const HOIST_SOURCE =
   "https://archive.org/download/vitruviidearchit00vitr_1/vitruviidearchit00vitr_1.pdf";
 export const HOIST_LIMITS =
-  "An ideal, quasi-static model with a massless inextensible rope, parallel vertical portions and either ideal wheels or a chosen constant tension-transfer ratio at each turning wheel during raising. The stated weight includes the load and moving hardware. No ancient efficiency is supplied by the text. A non-turning wheel is assigned zero resisting torque. The windlass remains ideal. Frame geometry, strength, starting friction, lowering, acceleration, rope layers on the drum and operator capacity are outside the model. The dimensions, newtons and metres are modern teaching choices, not measured ancient equipment.";
+  "A quasi-static model with a massless inextensible rope, parallel vertical portions and either ideal wheels or a chosen constant tension-transfer ratio at each turning wheel during raising. The stated weight includes the load and moving hardware. No ancient efficiency is supplied by the text. A non-turning wheel is assigned zero resisting torque. The windlass remains ideal. Frame geometry, strength, starting friction, lowering, acceleration, rope layers on the drum and operator capacity are outside the model. The dimensions, newtons and metres are modern teaching choices, not measured ancient equipment.";
 export const hoistSources = [
   { key: "title", pdf: 5, title: "Title and 1912 imprint" },
   { key: "226", pdf: 244, title: "X.2.1 begins; the upper wheels" },

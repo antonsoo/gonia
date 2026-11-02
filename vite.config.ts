@@ -1,7 +1,7 @@
 import { createHash } from "node:crypto";
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
-import { defineConfig, type Plugin } from "vite";
+import { defineConfig, type Plugin, transformWithOxc } from "vite";
 
 const base = "/gonia/";
 
@@ -119,6 +119,15 @@ export default defineConfig(async ({ command }) => {
               ]),
             ),
           );
+          const sizes = Object.fromEntries(
+            await Promise.all(
+              files.map(async (file, index) => [urls[index], (await readFile(file)).byteLength]),
+            ),
+          );
+          const worker = await transformWithOxc(
+            await readFile("src/offline-worker.ts", "utf8"),
+            "offline-worker.ts",
+          );
           await writeFile(
             "dist/sw.js",
             `/* Offline edition ${edition}. Generated from the complete build. */
@@ -127,37 +136,8 @@ const EDITION = ${JSON.stringify(edition)};
 const BASE = ${JSON.stringify(base)};
 const FILES = ${JSON.stringify(urls)};
 const INTEGRITY = ${JSON.stringify(integrity)};
-self.addEventListener("install", event => {
-  // HTTP success does not establish edition identity. A stale entry page or
-  // substituted scan must fail the complete install before this worker activates.
-  const requests = FILES.map(url => new Request(url, { cache: "reload", integrity: INTEGRITY[url] }));
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(requests)).then(() => self.skipWaiting()));
-});
-self.addEventListener("activate", event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("gonia-") && key !== CACHE).map(key => caches.delete(key)))).then(() => self.clients.claim()));
-});
-self.addEventListener("message", event => {
-  if (event.data?.type === "GONIA_ACTIVATE") {
-    event.waitUntil(self.skipWaiting());
-    return;
-  }
-  if (event.data?.type !== "GONIA_INSPECT" || !event.ports[0]) return;
-  // A late reply from a superseded worker must not recreate its deleted cache.
-  event.waitUntil(Promise.all(FILES.map(file => caches.match(file, { cacheName: CACHE }))).then(saved => {
-    event.ports[0].postMessage({ type: "GONIA_EDITION", edition: EDITION, complete: saved.every(Boolean) });
-  }).catch(() => event.ports[0].postMessage({ type: "GONIA_EDITION", edition: EDITION, complete: false })));
-});
-self.addEventListener("fetch", event => {
-  const url = new URL(event.request.url);
-  if (event.request.method !== "GET" || url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
-  if (event.request.mode === "navigate") {
-    const page = url.pathname === BASE || url.pathname === BASE + "index.html" ? BASE + "index.html" : url.pathname;
-    if (FILES.includes(page)) event.respondWith(fetch(event.request).catch(() => caches.match(page, { cacheName: CACHE })));
-  } else if (FILES.includes(url.pathname)) {
-    event.respondWith(caches.match(url.pathname, { cacheName: CACHE }).then(cached => cached || fetch(event.request)));
-  }
-});
-`,
+const SIZES = ${JSON.stringify(sizes)};
+${worker.code}`,
           );
         },
       },

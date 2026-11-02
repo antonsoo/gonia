@@ -43,8 +43,8 @@ el("app").innerHTML =
 <section class="hw-section hw-windlass"><div><h2>Less hand force.<br>A longer hand path.</h2><p>The source turns the windlass with bars. Choose a longer arm and compare the hand’s path with the rope wound onto the drum.</p><label for="hw-arm">Effort arm / drum radius</label><select id="hw-arm"><option value="1">1 · arm 0.15 m</option><option value="2">2 · arm 0.30 m</option><option value="4">4 · arm 0.60 m</option></select><p class="hw-small">Chosen drum radius 0.15 m; perpendicular hand force and constant winding radius. This detail has its own scale.</p><dl class="hw-readout"><div><dt>Tangential hand force</dt><dd id="hw-hand"></dd></div><div><dt>Hand path along its circle</dt><dd id="hw-hand-path"></dd></div></dl><div id="hw-work"></div><p>The arm trades force for hand travel. With ideal wheels, input work equals lifting work. With losses, the difference is dissipated.</p></div><div id="hw-windlass"></div></section>
 <section class="hw-section"><h2>Compare the same task.</h2><p id="hw-compare-note"></p><div id="hw-table" class="hw-table" tabindex="0" role="region" aria-label="Force, travel and work comparison; scroll horizontally"></div><details><summary>Inspect the rope constraint and the modern equations</summary><p>Let n be the number of supporting vertical portions, W the total hanging weight, h the rise and s the rope wound in. Every moving straight portion shortens by h; the half-circular arcs retain their length. The route therefore gives s = n h. With ideal wheels, equal tension gives n T = W. With losses, add the individually calculated supporting tensions instead.</p><p>For the chosen windlass, hand force F at perpendicular arm L balances rope tension at drum radius R: F L = T R. The hand moves through (L/R)s. For ideal wheels, W h = T s = F × hand path. In the raising-loss model, the hauling-side tension increases across each turning wheel: T_before = η T_after. A wheel with relative rope travel d dissipates (T_after − T_before)d. Sum these losses: hand work = load work + dissipated work. The first upper wheel on the fixed-tie route does not turn and keeps equal tensions. Work is in joules: one newton through one metre is one joule.</p><p>The wheel drawing is unrolled and horizontally expanded. Only its reported vertical travel is quantitative; it is not a scale restoration. White dots stay at equal material distances along the same rope, measured from the tied end; dots reaching the drum are wound in. A constant-radius drum is assumed even after multiple turns.</p><p><a href="https://openstax.org/books/college-physics-2e/pages/9-5-simple-machines">Modern mechanics background: OpenStax, Simple Machines</a>. These equations analyse the edited source route; they are not quoted numerical laws from Vitruvius.</p></details></section>
 <section id="hw-reading" class="hw-section" aria-labelledby="hw-reading-title"><h2 id="hw-reading-title" tabindex="-1">Follow the words<br>that fasten the rope.</h2><p>Seven excerpts, new English and contextual Latin and Greek notes. The five complete printed pages include the title and critical apparatus.</p><div class="hw-reading-layout"><div><label for="hw-passage">Choose a passage</label><select id="hw-passage">${hoistPassages.map((p, i) => `<option value="${i}">${i + 1}. ${p.title}</option>`).join("")}</select><p id="hw-ref" class="hw-small"></p><h3 id="hw-passage-title"></h3><p id="hw-latin" lang="la" class="hw-latin"></p><p id="hw-english"></p><div id="hw-words" class="hw-words" role="group" aria-label="Words in this passage"></div><p id="hw-word-note" class="hw-word-note" aria-live="polite"></p><p id="hw-reading-note" class="hw-small"></p><div class="hw-actions"><button type="button" id="hw-prev">Previous passage</button><button type="button" id="hw-next">Next passage</button><button type="button" id="hw-find-source">Find it on the page</button></div><p class="hw-small">Excerpts, not complete chapters. Line-end hyphens are joined. ⟨Angle brackets⟩ retain editorial additions; … marks our omissions. Greek forms are quoted within this Latin edition. Compare the apparatus.</p></div><div><label for="hw-source">Printed evidence</label><select id="hw-source">${hoistSources.map((p, i) => `<option value="${i}">${p.key === "title" ? "Title" : `p. ${p.key}`} · ${p.title}</option>`).join("")}</select><p id="hw-source-note" class="hw-small"></p><label for="hw-zoom">Enlarge the page <output id="hw-zoom-value" for="hw-zoom">100%</output></label><input type="range" id="hw-zoom" min="100" max="250" step="25" value="100"><div class="hw-source-pan" id="hw-source-pan" tabindex="0" role="region" aria-label="Complete printed source; use arrow keys to pan"><img id="hw-source-image" alt=""><p id="hw-source-error" role="status" hidden>The page is unavailable. Reload online or follow the original volume link.</p></div><div class="hw-source-links"><a id="hw-full-source" target="_blank" rel="noreferrer">Open full page</a><a href="${HOIST_SOURCE}" target="_blank" rel="noreferrer">Original volume</a><a href="./sources/hoist/manifest.json">Provenance and hashes</a></div></div></div></section>
-<section class="hw-section hw-save"><div><h2>Keep the route<br>and the reading.</h2><p>The illustrated reading embeds the selected rig, both tied-end alternatives, all seven excerpts and their notes, five full source pages, fonts and exact measurements. It opens and prints offline.</p></div><div><div class="hw-actions"><button type="button" id="hw-save-reading">Save illustrated reading</button><button type="button" id="hw-save-svg">Save diagram (SVG)</button><button type="button" id="hw-save-csv">Save measurements (CSV)</button></div><div class="hw-actions"><button type="button" id="hw-save-json">Save experiment (JSON)</button><label class="hw-file-label" for="hw-open-json">Open experiment (JSON)</label><input type="file" id="hw-open-json" accept=".json,application/json"><button type="button" id="hw-share">Share this experiment</button></div><p id="hw-save-status" role="status"></p><label id="hw-share-label" for="hw-share-url" hidden>Link to these settings<input type="url" id="hw-share-url" readonly></label></div></section>
-<section class="hw-section hw-limits"><h2>The route is evidence.<br>The numbers are a model.</h2><div><p>${HOIST_LIMITS}</p><p>The three- and five-wheel routes use the lower-block tie in X.2.1. Moving that tie to the fixed support and the single-wheel control are our comparisons. The spread-out wheels, load shape and drum are explanatory diagrams. No lifting frame or stone grip is reconstructed.</p><p><a href="./transport.html">Before the lift: roll a column drum or architrave</a></p></div></section></main><footer><span>Gonia · measured ancient architecture</span><span id="hw-offline" role="status">Checking offline edition…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
+<section class="hw-section hw-save"><div><h2>Keep the route<br>and the reading.</h2><p>The illustrated reading embeds the selected rig, both tied-end alternatives, all seven excerpts and their notes, five full source pages, fonts and exact measurements. It opens and prints offline.</p></div><div><div class="hw-actions"><button type="button" id="hw-save-reading">Save illustrated reading</button><button type="button" id="hw-cancel-reading" hidden>Cancel saving</button><button type="button" id="hw-save-svg">Save diagram (SVG)</button><button type="button" id="hw-save-csv">Save measurements (CSV)</button></div><div class="hw-actions"><button type="button" id="hw-save-json">Save experiment (JSON)</button><label class="hw-file-label" for="hw-open-json">Open experiment (JSON)</label><input type="file" id="hw-open-json" accept=".json,application/json"><button type="button" id="hw-share">Share this experiment</button></div><p id="hw-save-status" role="status"></p><label id="hw-share-label" for="hw-share-url" hidden>Link to these settings<input type="url" id="hw-share-url" readonly></label></div></section>
+<section class="hw-section hw-limits"><h2>The route is evidence.<br>The numbers are a model.</h2><div><p>${HOIST_LIMITS}</p><p>The three- and five-wheel routes use the lower-block tie in X.2.1. Moving that tie to the fixed support and the single-wheel control are our comparisons. The spread-out wheels, load shape and drum are explanatory diagrams. No lifting frame or stone grip is reconstructed.</p><p><a href="./transport.html">Before the lift: roll a column drum or architrave</a></p></div></section></main><footer><span>Gonia · measured ancient architecture</span><span id="hw-offline" role="status">Checking offline edition…</span><a href="https://github.com/antonsoo/gonia">Code &amp; diagrams: PolyForm Noncommercial 1.0.0</a></footer>`;
 function update() {
   stateRevision++;
   const m = hoistModel(state);
@@ -250,24 +250,43 @@ el("hw-open-json").addEventListener("change", async () => {
     if (request === importRequest) input.value = "";
   }
 });
+let currentSave: AbortController | undefined;
+el("hw-cancel-reading").addEventListener("click", () => currentSave?.abort());
+window.addEventListener("pagehide", () => currentSave?.abort());
 el("hw-save-reading").addEventListener("click", async () => {
   const button = el<HTMLButtonElement>("hw-save-reading"),
-    snapshot = { ...state };
+    snapshot = { ...state },
+    controller = new AbortController(),
+    cancel = el<HTMLButtonElement>("hw-cancel-reading");
+  currentSave = controller;
+  cancel.hidden = false;
   button.disabled = true;
   el("hw-save-status").textContent =
     "Checking the source pages and preparing your illustrated reading…";
   try {
-    const html = await hoistReading(snapshot);
+    const html = await hoistReading(snapshot, {
+      signal: controller.signal,
+      progress: (done, total) => {
+        el("hw-save-status").textContent =
+          `Checking source pages and fonts: ${done} of ${total} verified…`;
+      },
+    });
+    controller.signal.throwIfAborted();
     saveHoist(html, "gonia-hoist-reading.html", "text/html;charset=utf-8");
     el("hw-save-status").textContent =
       "Illustrated reading saved with the settings at the moment you clicked.";
   } catch (error) {
-    el("hw-save-status").textContent =
-      error instanceof Error
+    el("hw-save-status").textContent = controller.signal.aborted
+      ? "Save cancelled. Your current experiment is retained."
+      : error instanceof Error
         ? error.message
         : "Could not prepare this reading. Reload online and try again.";
   } finally {
+    const restoreFocus = document.activeElement === cancel;
+    cancel.hidden = true;
+    currentSave = undefined;
     button.disabled = false;
+    if (restoreFocus) button.focus();
   }
 });
 el("hw-share").addEventListener("click", () => {

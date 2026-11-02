@@ -1037,3 +1037,12 @@ footer [lang] {
     gap: 12px 22px;
   }
 }
+
+.offline-check {
+  min-height: 44px;
+  padding: 8px 12px;
+  font: inherit;
+  font-size: 13px;
+  letter-spacing: 0;
+  text-transform: none;
+}

@@ -1,0 +1,7 @@
+{
+  "origin": "http://127.0.0.1:4328",
+  "matchedFiles": 142,
+  "edition": "eefdaed4727ebbaa15240579396e70e59dd502fecd5f064637ef4ec986e309ce",
+  "workerSha256": "896ce7a1fda36c7dcabc980af2f9a7038ba9efbaa9984fa0768f80977f908953",
+  "claim": "Local served files match dist; no public or remote check"
+}

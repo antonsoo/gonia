@@ -18,6 +18,15 @@
 
 ## Unreleased
 
+- Search every admissible arch pressure path for the least modeled uniform
+  friction, separately for joints alone and with pier bases. Retain a failing
+  lower coefficient and a feasible upper coefficient less than 0.000001 apart.
+- Draw the joint/base requirements against thrust, apply either numerical bound,
+  and compare two counterexamples: a low-friction arch path that cannot carry its
+  bases, and wider bases that admit a better path while leaving the current
+  path's friction unchanged. Keep the graph and native search CSV in the
+  standalone reading.
+
 - Verify saved bytes throughout the shared offline edition; withdraw damaged-file
   readiness across controlled tabs and add check, repair and first-install retry
   controls in every room. Use verified saved documents during 503, maintenance

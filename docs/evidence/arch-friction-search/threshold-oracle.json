@@ -1,0 +1,10 @@
+{
+  "geometries": 50,
+  "brackets": 72,
+  "geometry_failures": 28,
+  "above_range": 0,
+  "lp_optimizations": 344,
+  "max_bracket_width": 9.5367431640625e-7,
+  "scipy": "1.18.1",
+  "oracle": "Independent endpoint-pressure and shear LP, both actual endpoints, primal/dual tolerance 1e-9"
+}

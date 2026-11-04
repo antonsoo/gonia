@@ -1,0 +1,19 @@
+{
+  "format": "gonia-arch",
+  "version": 2,
+  "scope": "Modern 13-block symmetric equilibrium experiment; no tension, unlimited compression, static Coulomb friction |T| <= μN with uniform illustrative μ = 0.42659950256347656 at every joint and both pier bases. Not a measured ancient material, an ancient design rule or a structural safety assessment.",
+  "units": "length: half-span; force W: arch own weight = 1",
+  "state": {
+    "rise": 40,
+    "thickness": 24,
+    "load": 0,
+    "loading": "crown",
+    "width": 140,
+    "mass": 25,
+    "thrust": 0.3199495312052072,
+    "bearing": 0.000020898967464007712,
+    "joint": 0,
+    "page": 0,
+    "friction": 0.42659950256347656
+  }
+}

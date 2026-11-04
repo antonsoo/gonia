@@ -1,0 +1,58 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "searchCsvSha256": "f17237a1402a8c2e077af096f3f0a515148ebe3f672e36ed5c144eba879ffbd3",
+    "readingBytes": 2767697,
+    "standaloneReading": true,
+    "embeddedCsvMatches": true,
+    "offlineSearchAndExport": true,
+    "keyboardButtonsAndChart": true,
+    "noHorizontalPageOverflow": true,
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": []
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "searchCsvSha256": "f17237a1402a8c2e077af096f3f0a515148ebe3f672e36ed5c144eba879ffbd3",
+    "readingBytes": 2767697,
+    "standaloneReading": true,
+    "embeddedCsvMatches": true,
+    "offlineSearchAndExport": true,
+    "keyboardButtonsAndChart": true,
+    "noHorizontalPageOverflow": true,
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": []
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "searchCsvSha256": "f961804ded7e2bacad57c3ad422e4e4a1cc57fe07023e9cb426ea1ef87e80112",
+    "readingBytes": 2767722,
+    "standaloneReading": true,
+    "embeddedCsvMatches": true,
+    "offlineSearchAndExport": true,
+    "keyboardButtonsAndChart": true,
+    "noHorizontalPageOverflow": true,
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": []
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "searchCsvSha256": "f961804ded7e2bacad57c3ad422e4e4a1cc57fe07023e9cb426ea1ef87e80112",
+    "readingBytes": 2767722,
+    "standaloneReading": true,
+    "embeddedCsvMatches": true,
+    "offlineSearchAndExport": true,
+    "keyboardButtonsAndChart": true,
+    "noHorizontalPageOverflow": true,
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": []
+  }
+]

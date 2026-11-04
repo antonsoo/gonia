@@ -1,0 +1,14 @@
+{
+  "examples/arch-friction-search/experiment.json": {
+    "bytes": 687,
+    "sha256": "b7060961e68b41a3a4ba9efdbc166c40db4307b203d1bf423dcf5df8a0f1a4dd"
+  },
+  "examples/arch-friction-search/reading.html.gz": {
+    "bytes": 1858274,
+    "sha256": "2b0c3967ed6205683baace0e0ea0ec70486855cef02e3060eefdcac3bf1ac25c"
+  },
+  "examples/arch-friction-search/search.csv": {
+    "bytes": 1196,
+    "sha256": "f17237a1402a8c2e077af096f3f0a515148ebe3f672e36ed5c144eba879ffbd3"
+  }
+}

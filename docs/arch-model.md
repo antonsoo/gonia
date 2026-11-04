@@ -130,6 +130,8 @@ family without sampling. At either base, N = V + P and |T| = H, so include
 capacity but does not change the base friction requirement for a fixed H.
 Extra pier weight changes both. The app reports the selected trial's greatest
 required |T|/N; it does **not** call that a global minimum over all paths.
+The separate [friction search](arch-friction-search.md) now bounds the least
+coefficient admitted across every path and compares joints alone with bases.
 
 | Example                                                               | Selected trial                                    | Complete finite-friction range                           |
 | --------------------------------------------------------------------- | ------------------------------------------------- | -------------------------------------------------------- |

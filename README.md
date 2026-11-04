@@ -80,6 +80,35 @@ failure: increasing width cannot improve H/(V+P), while extra pier weight can.
 The two force-direction cones and signed force ledger show the difference.
 The coefficient is illustrative, not a measurement of ancient materials.
 
+### Can another path need less friction?
+
+[Search across every force and bearing position](https://antonsoo.github.io/gonia/arch.html#ar-threshold).
+The new comparison finds a numerical transition bracket separately for the arch
+joints and for the arch with its bases. Draw a witness at the feasible upper
+bound, then try the nearby failing coefficient. The force-versus-friction graph
+shows why the path with the least joint friction need not carry the bases.
+Its curves are illustrative; the solver checks complete intervals rather than
+sampling those curves.
+
+Choose **Compare a shallow arch with light piers**. In that example, the arch-only
+transition lies between **0.0358428955078125 and 0.035843849182128906**; including
+the bases puts it between **0.42659854888916016 and 0.42659950256347656**.
+The two witnesses use different forces and bearing positions. Open **Can a wider
+base change the best path?** for a second experiment: widening keeps the current
+path's friction requirement unchanged, while allowing a different path with a
+lower requirement. In that example the better path actually has **more** thrust.
+
+![Joint and base friction requirements against thrust, with the two numerical search results](docs/assets/arch-friction-search-desktop.png)
+
+Save the geometry, full-precision bounds, conflicting constraints and witness
+settings as CSV. The illustrated reading retains the graph, both search results,
+and that same native CSV alongside the complete Latin source pages.
+[Model and verification](docs/arch-friction-search.md) ·
+[Editable example](examples/arch-friction-search/experiment.json) ·
+[Search CSV](examples/arch-friction-search/search.csv) ·
+[Script-free reading, gzip](examples/arch-friction-search/reading.html.gz).
+Decompress the reading before opening it.
+
 ![Joint and base force directions with a chosen finite friction coefficient](docs/assets/arch-friction-desktop.png)
 
 Open any of the fourteen joints in an enlarged view, or read all contacts as

@@ -62,7 +62,7 @@ separately from the ancient text.
 The 1912 pages are public domain. New English, diagrams and code use the
 repository's [MIT license](../LICENSE). The local Noto Serif and IBM Plex fonts
 use SIL OFL 1.1; the illustrated reading embeds two actual font files, both
-complete OFL notices, and the complete MIT license. Its source-identity download
+complete OFL notices, and the complete PolyForm Noncommercial license. Its source-identity download
 retains the original and derivative identities. The SVG uses the viewer's
 Arial or sans-serif font; its geometry is portable, but its text is not a
 font-embedded facsimile.

@@ -36,7 +36,7 @@ def geometry(s):
     return inner, outer, cy, angles, blocks
 
 
-def oracle(s, bases):
+def oracle(s, bases, options=None):
     inner, outer, cy, angles, blocks = geometry(s)
     # At each radial joint: n_inner >= 0, n_outer >= 0, shear free.
     # F_j is force transmitted from the left body to the right body.
@@ -89,7 +89,7 @@ def oracle(s, bases):
                 row[offset+2] = sign
                 inequalities.append(row)
     objective = vectors[0][0]
-    answers = [linprog(sign * objective, A_eq=rows, b_eq=values, A_ub=inequalities or None, b_ub=np.zeros(len(inequalities)) if inequalities else None, bounds=bounds, method="highs") for sign in [1, -1]]
+    answers = [linprog(sign * objective, A_eq=rows, b_eq=values, A_ub=inequalities or None, b_ub=np.zeros(len(inequalities)) if inequalities else None, bounds=bounds, method="highs", options=options) for sign in [1, -1]]
     if any(a.status == 2 for a in answers):
         assert all(a.status == 2 for a in answers)
         return {"feasible": False}

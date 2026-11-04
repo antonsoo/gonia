@@ -39,3 +39,26 @@ for (const width of [40, 140]) {
     }),
   );
 }
+
+let seed = 491781;
+const random = (n: number) => {
+  seed = (1664525 * seed + 1013904223) >>> 0;
+  return Math.floor((seed / 2 ** 32) * n);
+};
+for (let i = 0; i < 64; i++) {
+  const state = {
+    ...ARCH_DEFAULT,
+    rise: 30 + random(71),
+    thickness: 10 + random(31),
+    load: random(201),
+    loading: random(2) ? ("crown" as const) : ("shoulders" as const),
+    width: 40 + random(101),
+    mass: 25 + random(576),
+  };
+  console.log(
+    JSON.stringify({
+      state,
+      results: [frictionThreshold(state, false), frictionThreshold(state, true)],
+    }),
+  );
+}

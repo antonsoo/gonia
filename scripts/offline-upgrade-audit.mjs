@@ -10,6 +10,16 @@ const previous = path.resolve(process.argv[2] ?? ""),
   out = path.resolve(process.argv[4] ?? "/tmp/gonia-upgrade-audit");
 if (!process.argv[2]) throw Error("Supply the previous built edition.");
 await mkdir(out, { recursive: true });
+const entryScript = async (root) => {
+  const html = await readFile(path.join(root, "hoist.html"), "utf8");
+  const script = html.match(/<script[^>]*src="([^"]+)"/);
+  assert.ok(script, "The built hoist entry has a module script");
+  return script[1];
+};
+const previousScript = await entryScript(previous),
+  currentScript = await entryScript(current);
+assert.notEqual(previousScript, currentScript, "Provide distinct built editions");
+
 const report = { checkedAt: new Date().toISOString(), configurations: [] };
 const types = {
   ".html": "text/html",
@@ -122,7 +132,10 @@ for (const [name, engine] of [
         online = false;
         await page.reload();
         await page.locator("#hw-rig").waitFor();
-        assert.equal(await page.locator("#hw-cancel-reading").count(), 0);
+        assert.equal(
+          await page.locator('script[type="module"][src]').getAttribute("src"),
+          previousScript,
+        );
         await page.locator("#hw-try-loss").click();
         await page.locator("#hw-efficiency").fill("80");
         assert.match(await page.locator("#hw-loss-finding").innerText(), /65.07%/);
@@ -133,8 +146,23 @@ for (const [name, engine] of [
         await page.evaluate(async () => {
           void (await navigator.serviceWorker.getRegistration()).update().catch(() => {});
         });
+        // An old document stays on its own verified edition while installing.
+        // After activation it offers a reload; operate that actual handoff.
+        await page.waitForFunction(
+          () =>
+            document.querySelector("#hw-offline").textContent ===
+              "Workshop & source saved offline" ||
+            document.querySelector(".offline-check")?.textContent === "Reload workshop",
+          null,
+          { timeout: 90000 },
+        );
+        const reload = page.getByRole("button", { name: "Reload workshop", exact: true });
+        if (await reload.count()) await reload.click();
         await ready(page);
-        assert.equal(await page.locator("#hw-cancel-reading").count(), 1);
+        assert.equal(
+          await page.locator('script[type="module"][src]').getAttribute("src"),
+          currentScript,
+        );
         assert.equal(await page.locator("#hw-efficiency").inputValue(), "80");
         await oldTab.waitForFunction(
           () =>

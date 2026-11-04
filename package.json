@@ -80,7 +80,8 @@
     "test:offline-upgrade-audit": "node scripts/offline-upgrade-audit.mjs",
     "test:cold-source": "node scripts/cold-source-audit.mjs",
     "verify:arch-friction": "node --import tsx scripts/arch-friction-cases.ts | uv run --with scipy==1.18.1 scripts/arch-friction-oracle.py",
-    "test:arch-friction": "node scripts/arch-friction-browser.mjs"
+    "test:arch-friction": "node scripts/arch-friction-browser.mjs",
+    "test:arch-transfer": "node scripts/arch-transfer-audit.mjs"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.14.0",

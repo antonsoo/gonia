@@ -63,3 +63,4 @@ jobs:
       - run: npm run verify:arch
       - run: npm run verify:arch-friction
       - run: npm run test:arch-friction -- http://127.0.0.1:4328/gonia/ /tmp/gonia-arch-friction
+      - run: npm run test:arch-transfer -- dist /tmp/gonia-arch-transfer

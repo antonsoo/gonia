@@ -387,14 +387,14 @@ async function integrityReview(browser) {
   await page.goto(`${base}arch.html`);
   await page.locator("#ar-title").waitFor();
   await page.waitForFunction(() =>
-    document.getElementById("ar-source-caption").textContent.includes("does not match"),
+    document.getElementById("ar-source-caption").textContent.match(/does not match|recorded size/),
   );
   assert.equal(await page.locator("#ar-source-image").isVisible(), false);
   const downloads = [];
   page.on("download", (d) => downloads.push(d.suggestedFilename()));
   await page.locator("#ar-html").click();
   await page.waitForFunction(() =>
-    document.getElementById("ar-save-status").textContent.includes("does not match"),
+    document.getElementById("ar-save-status").textContent.match(/does not match|recorded size/),
   );
   assert.deepEqual(downloads, []);
   await context.unroute("**/sources/arch/krohn-141.jpg");

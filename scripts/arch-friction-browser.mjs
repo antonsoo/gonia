@@ -45,7 +45,14 @@ for (const [engine, driver] of [
         if (/^https?:/.test(r.url()) && new URL(r.url()).origin !== new URL(base).origin)
           outside.push(r.url());
       });
-      await page.goto(`${base}arch.html#ar-threshold`);
+      await page.goto(base);
+      await page.getByRole("link", { name: "Arch and pier", exact: true }).focus();
+      await page.keyboard.press("Enter");
+      await page
+        .getByRole("link", { name: "Can another path need less friction?", exact: true })
+        .focus();
+      await page.keyboard.press("Enter");
+      assert.equal(new URL(page.url()).hash, "#ar-threshold");
       assert.match(
         await page.locator("#ar-threshold-results").textContent(),
         /No contact path exists/,

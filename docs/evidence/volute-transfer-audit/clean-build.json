@@ -2,10 +2,7 @@
   "sourceCommit": "5d85da67cb49ddf270525a4f1909af2c69d018fd",
   "node": "v26.7.0",
   "freshArchive": true,
-  "commands": [
-    "npm ci",
-    "npm run check"
-  ],
+  "commands": ["npm ci", "npm run check"],
   "lint": "passed",
   "typecheck": "passed",
   "unitTests": 77,

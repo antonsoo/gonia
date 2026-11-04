@@ -1,0 +1,34 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "sameSourceKeyboardRetry": true,
+    "emptyErrorPaneHidden": true,
+    "unverifiedImageLinkHidden": true,
+    "verifiedControlsRestored": true
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "sameSourceKeyboardRetry": true,
+    "emptyErrorPaneHidden": true,
+    "unverifiedImageLinkHidden": true,
+    "verifiedControlsRestored": true
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "sameSourceKeyboardRetry": true,
+    "emptyErrorPaneHidden": true,
+    "unverifiedImageLinkHidden": true,
+    "verifiedControlsRestored": true
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "sameSourceKeyboardRetry": true,
+    "emptyErrorPaneHidden": true,
+    "unverifiedImageLinkHidden": true,
+    "verifiedControlsRestored": true
+  }
+]

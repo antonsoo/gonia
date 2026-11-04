@@ -31,19 +31,25 @@ export function archTable(s: ArchState): string {
   const m = archAnalysis(s);
   return `<table><thead><tr><th scope="col">Joint</th><th scope="col">Contact from inner edge</th><th scope="col">Normal force, W</th><th scope="col">Shear, W</th><th scope="col">Contact</th><th scope="col">Required μ</th><th scope="col">Friction</th></tr></thead><tbody>${m.contacts.map((j) => `<tr><th scope="row">${j.index}</th><td>${an(j.fraction * 100, 4)}%</td><td>${an(j.normal, 6)}</td><td>${an(j.shear, 6)}</td><td>${j.fits ? (j.edge ? "At edge" : "Inside") : "Outside"}</td><td>${an(j.requiredFriction, 6)}</td><td>${s.friction === null ? "Not checked" : j.frictionFits ? "Within limit" : "Exceeded"}</td></tr>`).join("")}</tbody></table>`;
 }
-export async function archStudy(s: ArchState): Promise<string> {
-  const snapshot = structuredClone(s);
-  const paths = archPages.map((p) => `sources/arch/${p.file}`);
-  const [images, font, plex, notoLicense, plexLicense] = await Promise.all([
-    Promise.all(paths.map(archAsset)),
-    archAsset("fonts/NotoSerif-Regular.ttf"),
-    archAsset("fonts/IBMPlexSans-Regular.woff2"),
-    archAsset("fonts/NotoSerif-OFL.txt"),
-    archAsset("fonts/IBMPlex-OFL.txt"),
-  ]);
-  const native = (data: string, mime: string, name: string, label: string) =>
-    `<a download="${name}" href="${archData(new TextEncoder().encode(data), mime)}">${label}</a>`;
-  return `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Gonia: the arch and the pier, retained experiment</title><style>
+export async function archStudy(s: ArchState, signal?: AbortSignal): Promise<string> {
+  const controller = new AbortController();
+  const abort = () => controller.abort(signal?.reason);
+  signal?.addEventListener("abort", abort, { once: true });
+  if (signal?.aborted) abort();
+  try {
+    const snapshot = structuredClone(s);
+    const paths = archPages.map((p) => `sources/arch/${p.file}`);
+    const [images, font, plex, notoLicense, plexLicense] = await Promise.all([
+      Promise.all(paths.map((path) => archAsset(path, controller.signal))),
+      archAsset("fonts/NotoSerif-Regular.ttf", controller.signal),
+      archAsset("fonts/IBMPlexSans-Regular.woff2", controller.signal),
+      archAsset("fonts/NotoSerif-OFL.txt", controller.signal),
+      archAsset("fonts/IBMPlex-OFL.txt", controller.signal),
+    ]);
+    controller.signal.throwIfAborted();
+    const native = (data: string, mime: string, name: string, label: string) =>
+      `<a download="${name}" href="${archData(new TextEncoder().encode(data), mime)}">${label}</a>`;
+    return `<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; font-src data:; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><title>Gonia: the arch and the pier, retained experiment</title><style>
 @font-face{font-family:Noto;src:url('${archData(font, "font/ttf")}')}@font-face{font-family:Plex;src:url('${archData(plex, "font/woff2")}')}
 *{box-sizing:border-box}body{font:16px/1.65 Plex,Arial,sans-serif;color:#24304d;background:#fff;max-width:1000px;margin:30px auto;padding:0 24px}h1{font-size:38px;line-height:1.15}h2{font-size:28px;line-height:1.25;margin-top:40px}h3{font-size:21px;line-height:1.35}.ar-latin{font:19px/1.75 Noto,serif}.ar-note{font-size:14px;color:#4c5872}svg{display:block;width:100%;height:auto}.ar-contact-figure{max-width:450px}.ar-facts div{padding:9px 0;break-inside:avoid}dl div{break-inside:avoid}h2,h3,dt{break-after:avoid}dt{font-weight:bold}dd{margin:0 0 16px}.ar-reading{break-inside:avoid;border-top:1px solid #b9c3d6;margin-top:24px;padding-top:18px}figure{margin:30px 0}figure img{display:block;width:100%;height:auto}figcaption{font-size:14px}.ar-scan{break-before:page}table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;border-bottom:1px solid #b9c3d6;padding:7px}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}a{color:#2458bd;overflow-wrap:anywhere}nav{display:flex;flex-wrap:wrap;gap:16px}.table-scroll,.ar-search-scroll{overflow-x:auto}.ar-search-scroll svg{min-width:650px}.ar-threshold-table{overflow-wrap:anywhere}.ar-threshold-table caption{text-align:left}.ar-threshold-value{font-size:22px;font-weight:bold}@media(max-width:650px){.ar-threshold-table,.ar-threshold-table tbody,.ar-threshold-table tr,.ar-threshold-table th,.ar-threshold-table td,.ar-threshold-table caption{display:block;width:100%}.ar-threshold-table thead{display:none}.ar-threshold-table th{background:#edf1f7}.ar-threshold-table tr{margin-bottom:24px}}@media print{details{display:block}.ar-search-scroll svg{min-width:0}}
 @page{size:A4;margin:15mm}@media print{body{margin:0;padding:0;font-size:10pt;max-width:none}.ar-latin{font-size:12pt}h1{font-size:25pt}h2{font-size:18pt}h3{font-size:14pt}.ar-note,figcaption{font-size:9pt}.ar-scan img{width:auto;max-width:100%;height:225mm;object-fit:contain;margin:auto}.ar-scan{break-after:page}table{font-size:8pt}a{color:inherit}nav{display:none}svg{max-height:155mm}pre{font-size:7pt}}
@@ -54,4 +60,10 @@ export async function archStudy(s: ArchState): Promise<string> {
 <section><h2>Assumptions and a reproducible model</h2><p>Thirteen equal-angle annular sectors. Self-weight acts at each exact area centroid and sums to W = 1. Symmetric vertical extra loads have their own stated magnitudes. Symmetry fixes the vertical reaction at each spring to half the total load. At each radial joint the resultant is located from force and moment equilibrium. A complete interval calculation tests every inner/outer edge pair and, in finite-friction mode, intersects the two Coulomb shear bounds at each joint and base. It does not sample trial paths.</p><p>Every pier has a symmetric base, width b, height h = 1 and independent weight P. Its base resultant's outward eccentricity is e = (C + Hh - V)/(V + P). It fits when |e| is at most b/2. The support head is shaped to meet the spring joint; its weight is idealized on its centreline.</p><p>${ae(archScope(snapshot))} There is no mortar, soil bearing, settlement, crushing, elastic response, earthquake, construction sequence or three-dimensional restraint. The finite interface check is not a continuous stress solution. No dimensions or loads are a survey of a historical structure. A failed trial does not prove that every path fails. A fitted path is one equilibrium witness under these assumptions.</p><p><a href="https://github.com/antonsoo/gonia/blob/main/docs/arch-model.md">Full model and formulas</a>. <a href="https://doi.org/10.1016/0020-7683(66)90018-7">Heyman, The stone skeleton (1966)</a>; <a href="https://concrete.ethz.ch/assets/brd/slides/arch-bridges-2025-04-07.pdf">ETH Zurich, Arch bridges (2025 lectures)</a>. <a href="https://drake.mit.edu/doxygen_cxx/group__friction__model.html">Drake: static Coulomb friction</a>. Modern illustrations are not reproduced.</p><p><a href="https://antonsoo.github.io/gonia/arch.html${ae(archQuery(snapshot))}#ar-bench">Reopen this experiment online</a>. All pages, fonts and native downloads in this file work without scripts or a connection. External references require a connection.</p></section>
 <section><h2>Whole printed pages</h2><p>Public-domain source: Vitruvii De architectura libri decem, ed. F. Krohn (Leipzig: Teubner, 1912). Complete pages, including margins and apparatus. Derived with Poppler pdftoppm at a 2200-pixel long edge, JPEG quality 88. No cropping or reconstruction. <a href="https://archive.org/details/vitruviidearchit00vitr_1">Original scan</a>.</p>${archPages.map((p, i) => `<figure class="ar-scan"><img src="${archData(images[i] as Uint8Array, "image/jpeg")}" alt="${ae(p.title)}"><figcaption>${ae(p.title)}. ${ae(p.note)} PDF page ${p.pdfPage}. SHA-256 ${p.sha256}.</figcaption></figure>`).join("")}</section>
 <section><h2>Source record and licenses</h2><p>New English, diagrams and code: PolyForm Noncommercial, Copyright (c) 2026 Anthony Mercer. Historical pages: public domain. Noto Serif and IBM Plex Sans: SIL Open Font License 1.1. No modern third-party diagrams are bundled.</p><h3>PolyForm Noncommercial license</h3><pre>${ae(mitLicense)}</pre><h3>Source identities</h3><pre>${ae(JSON.stringify(sourceManifest, null, 2))}</pre><h3>Noto Serif license</h3><pre>${ae(new TextDecoder().decode(notoLicense))}</pre><h3>IBM Plex license</h3><pre>${ae(new TextDecoder().decode(plexLicense))}</pre><h3>Editable experiment</h3><pre>${ae(archRecord(snapshot))}</pre></section></main></body></html>`;
+  } catch (error) {
+    controller.abort(error);
+    throw error;
+  } finally {
+    signal?.removeEventListener("abort", abort);
+  }
 }

@@ -387,9 +387,13 @@ document.querySelectorAll<HTMLButtonElement>("[data-widen]").forEach((b) => {
   });
 });
 
+let sourceController: AbortController | undefined;
+let readingController: AbortController | undefined;
 let sourceAttempt = 0,
   sourceUrl = "";
 async function loadSource() {
+  sourceController?.abort();
+  sourceController = new AbortController();
   stateRevision++;
   const attempt = ++sourceAttempt,
     index = state.page,
@@ -400,7 +404,7 @@ async function loadSource() {
   img.removeAttribute("src");
   el("ar-source-caption").textContent = `Loading and checking ${page.title}…`;
   try {
-    const bytes = await archAsset(`sources/arch/${page.file}`);
+    const bytes = await archAsset(`sources/arch/${page.file}`, sourceController.signal);
     if (attempt !== sourceAttempt || index !== state.page) return;
     if (sourceUrl) URL.revokeObjectURL(sourceUrl);
     sourceUrl = URL.createObjectURL(new Blob([bytes], { type: "image/jpeg" }));
@@ -462,7 +466,40 @@ saving("ar-threshold-csv", frictionThresholdCsv, "gonia-arch-friction.csv", "tex
 saving("ar-json", archRecord, "gonia-arch.json", "application/json");
 saving("ar-csv", archCsv, "gonia-arch-contacts.csv", "text/csv");
 saving("ar-svg", (s) => archSvg(s, "", true), "gonia-arch.svg", "image/svg+xml");
-saving("ar-html", archStudy, "gonia-arch-reading.html", "text/html");
+el("ar-html").addEventListener("click", async () => {
+  if (readingController) {
+    readingController.abort(
+      new DOMException("Saving cancelled. No reading was downloaded.", "AbortError"),
+    );
+    return;
+  }
+  const controller = new AbortController();
+  readingController = controller;
+  const button = el<HTMLButtonElement>("ar-html");
+  button.textContent = "Cancel reading save";
+  el("ar-save-status").textContent =
+    "Preparing the experiment you selected. Source transfers may take a few minutes; you can cancel this save.";
+  try {
+    const data = await archStudy(structuredClone(state), controller.signal);
+    controller.signal.throwIfAborted();
+    saveArch(data, "gonia-arch-reading.html", "text/html");
+    el("ar-save-status").textContent = "Saved gonia-arch-reading.html.";
+  } catch (error) {
+    el("ar-save-status").textContent = (error as Error).message;
+  } finally {
+    if (readingController === controller) readingController = undefined;
+    button.textContent = "Save illustrated reading";
+  }
+});
+addEventListener("pagehide", () => {
+  sourceController?.abort();
+  readingController?.abort(
+    new DOMException("Reading save stopped because the page closed.", "AbortError"),
+  );
+});
+addEventListener("pageshow", (event) => {
+  if (event.persisted) void loadSource();
+});
 el("ar-open").addEventListener("change", async () => {
   const input = el<HTMLInputElement>("ar-open"),
     file = input.files?.[0];

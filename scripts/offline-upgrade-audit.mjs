@@ -34,7 +34,7 @@ const types = {
 };
 const ready = (p) =>
   p.waitForFunction(
-    () => document.querySelector("#hw-offline").textContent === "Workshop & source saved offline",
+    () => document.querySelector("#hw-offline")?.textContent === "Workshop & source saved offline",
     null,
     { timeout: 90000 },
   );
@@ -107,7 +107,7 @@ for (const [name, engine] of [
         if (mode === "held") {
           await page.waitForFunction(
             () =>
-              document.querySelector("#hw-offline").textContent !==
+              document.querySelector("#hw-offline")?.textContent !==
               "Workshop & source saved offline",
           );
           await page.waitForTimeout(5000);
@@ -117,7 +117,7 @@ for (const [name, engine] of [
             return (
               !r.installing &&
               !r.waiting &&
-              document.querySelector("#hw-offline").textContent !==
+              document.querySelector("#hw-offline")?.textContent !==
                 "Workshop & source saved offline"
             );
           });
@@ -150,7 +150,7 @@ for (const [name, engine] of [
         // After activation it offers a reload; operate that actual handoff.
         await page.waitForFunction(
           () =>
-            document.querySelector("#hw-offline").textContent ===
+            document.querySelector("#hw-offline")?.textContent ===
               "Workshop & source saved offline" ||
             document.querySelector(".offline-check")?.textContent === "Reload workshop",
           null,
@@ -166,7 +166,8 @@ for (const [name, engine] of [
         assert.equal(await page.locator("#hw-efficiency").inputValue(), "80");
         await oldTab.waitForFunction(
           () =>
-            document.querySelector("#hw-offline").textContent !== "Workshop & source saved offline",
+            document.querySelector("#hw-offline")?.textContent !==
+            "Workshop & source saved offline",
         );
         const oldTabStatus = await oldTab.locator("#hw-offline").innerText();
         assert.match(oldTabStatus, /different|updated|Downloading/);

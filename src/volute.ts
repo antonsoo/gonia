@@ -45,7 +45,7 @@ app.innerHTML = `<a class="skip" href="#vo-bench">Skip to the compass desk</a>
 <div class="vo-inspection"><div><p class="vo-kicker">Meeting and turning</p><h2>A shared point<br>is only half the question.</h2><label for="vo-join">Inspect a direction after</label><select id="vo-join"></select><div id="vo-join-drawing"></div><p id="vo-join-note"></p></div><div class="vo-repair"><h3>Move one compass pin</h3><p>For two circular arcs to meet with the same tangent, their two centres and the meeting point must lie on one line, with the radii pointing the same way.</p><button type="button" id="vo-repair" aria-pressed="false">Align the next centre</button><p id="vo-repair-note" aria-live="polite"></p><p class="vo-note">This is a local modern intervention. It moves one next centre, then draws another 90° arc. It does not alter your committed outline, move the eye circle, or propose a lost ancient recipe.</p></div></div>
 <details class="vo-measurements"><summary>Inspect coordinates, compass radii and every join</summary><div class="vo-table-pan" tabindex="0" role="region" aria-label="Compass measurements; scroll horizontally if needed" id="vo-table"></div></details><p class="vo-boundary">${VOLUTE_LIMITS}</p></section>
 <section id="vo-reading"><div class="vo-section-head"><h2>The ancient instruction.<br>The later drawing.</h2><p>Latin with new English and grammar notes. The brackets matter.</p></div><p>Vitruvius, <cite>De architectura</cite> III.5.5–8, Krohn’s 1912 edition, pp. 71–72. Line wraps and end-of-line hyphens are removed; punctuation is lightly regularized. Angle-bracketed supplements remain visible. Greek headwords below explain technical borrowings; they are not a Greek original of this Latin text.</p><p><button type="button" data-vo-page="6">Compare with the surviving Sardis capital</button> The museum photograph records a restored display, not a test of our compass recipe.</p><div class="vo-readings">${voluteReadingHtml()}</div><details class="vo-words"><summary>Read seven words from the drawing desk</summary><dl>${voluteWordHtml()}</dl></details>
-<div class="vo-source"><h3>Inspect the page or the surviving capital</h3><label for="vo-page">Source page</label><select id="vo-page">${volutePages.map((p, i) => `<option value="${i}">${p.title}</option>`).join("")}</select><p id="vo-source-note"></p><div class="vo-source-actions"><button type="button" id="vo-zoom" aria-pressed="false">Enlarge source page</button><a id="vo-source-image" target="_blank" rel="noopener">Open verified image</a><a id="vo-source-original" target="_blank" rel="noopener">Original source record</a></div><figure><div id="vo-source-frame" class="vo-source-frame" tabindex="0" role="region" aria-label="Complete printed source; use arrow keys to pan when enlarged"></div><figcaption id="vo-source-caption" role="status"></figcaption></figure><p class="vo-note">Whole pages, including the apparatus. ${manifest.derivation} The later plate’s line is not precision evidence for an actual ancient capital.</p></div></section>
+<div class="vo-source"><h3>Inspect the page or the surviving capital</h3><label for="vo-page">Source page</label><select id="vo-page">${volutePages.map((p, i) => `<option value="${i}">${p.title}</option>`).join("")}</select><p id="vo-source-note"></p><div class="vo-source-actions"><button type="button" id="vo-zoom" aria-pressed="false">Enlarge source page</button><button type="button" id="vo-source-retry" hidden>Retry selected source</button><a id="vo-source-image" target="_blank" rel="noopener">Open verified image</a><a id="vo-source-original" target="_blank" rel="noopener">Original source record</a></div><figure><div id="vo-source-frame" class="vo-source-frame" tabindex="0" role="region" aria-label="Complete printed source; use arrow keys to pan when enlarged"></div><figcaption id="vo-source-caption" role="status"></figcaption></figure><p class="vo-note">Whole pages, including the apparatus. ${manifest.derivation} The later plate’s line is not precision evidence for an actual ancient capital.</p></div></section>
 <section id="vo-keep"><div class="vo-section-head"><h2>Take the compass<br>back to paper.</h2><p>Keep the actual pin sequence, source pages and measurements.</p></div><div class="vo-keep-grid"><div><label for="vo-eye">Printed eye diameter</label><div class="vo-eye-control"><input id="vo-eye" type="number" min="6" max="18" step="1"><span>mm · a chosen model size</span></div><p class="vo-note">The SVG has physical millimetre dimensions and a 50 mm calibration bar. Print at 100% and check the bar. An unusually wide sequence can require a sheet larger than A4; its dimensions are written on the sheet.</p><div class="vo-actions"><button type="button" id="vo-save-svg">Save compass sheet (SVG)</button><button type="button" id="vo-save-html">Save illustrated reading (HTML)</button></div></div><div><h3>Continue the same experiment</h3><div class="vo-actions"><button type="button" id="vo-save-json">Save editable JSON</button><button type="button" id="vo-save-csv">Save measurements (CSV)</button><button type="button" id="vo-share">Copy drawing link</button></div><label for="vo-open">Reopen a saved JSON</label><input id="vo-open" type="file" accept=".json,application/json"><p class="vo-note">The illustrated reading opens without scripts or a connection. It contains all six full source pages, the museum photograph, fonts, licenses, the drawing and the native files above.</p></div></div><p id="vo-action-status" role="status">${ve(initialError)}</p><details class="vo-method"><summary>How the exact construction is calculated</summary><p>Set e/12 as the coordinate unit. The eye is centred on (0,0), its radius is 6 and the start is (0,54). The first four centres use (±3,±3); the next four use (±2,±2); the last four use (±1,±1), starting at upper left and continuing clockwise in each group.</p><p>A quarter turn maps P to C + (Pᵧ − Cᵧ, −Pₓ + Cₓ). These coordinates and squared radii stay integers. Angles use atan2 of the absolute cross product and dot product of the two radius vectors. The full printed sequence ends at (0,6): contact with the eye is exact, while its final direction difference is about 8.13°. The guide’s axis distances are not its compass radii.</p><p>The local alignment projects the next centre onto the incoming radius. Its floating-point result is used only for the inspection overlay. The saved committed arcs stay exact quarter circles. This is an interpretation of this edition’s named points and centre divisions, not a claim about all historical volute constructions.</p><p><a href="https://architectura.univ-tours.fr/en/livres-notice/goldman1649c490/">Losito’s research notice on Goldmann</a> explains another later construction and its different continuity choices. The desk does not implement Goldmann’s design.</p><p><a href="./fluting.html">Continue with the cuts in a column</a> or <a href="./">return to the Doric corner</a>.</p></details></section></main><footer class="vo-footer"><a href="./">Gonia · measured ancient architecture</a><span id="vo-offline" role="status">Preparing offline workshop…</span><a href="https://github.com/antonsoo/gonia">Source &amp; license</a></footer>`;
 
 function el<T extends HTMLElement = HTMLElement>(id: string): T {
@@ -155,12 +155,20 @@ el("vo-eye").addEventListener("change", () => {
   draw();
 });
 
+let sourceController: AbortController | undefined;
+let readingController: AbortController | undefined;
 let pageAttempt = 0,
   sourceUrl: string | null = null;
 async function loadPage(): Promise<void> {
+  sourceController?.abort();
+  sourceController = new AbortController();
   const attempt = ++pageAttempt,
     page = volutePages[state.page];
   if (!page) return;
+  el("vo-source-retry").hidden = true;
+  el("vo-source-frame").hidden = false;
+  el("vo-source-image").hidden = true;
+  el<HTMLButtonElement>("vo-zoom").disabled = true;
   el("vo-source-frame").setAttribute("aria-busy", "true");
   el("vo-source-frame").replaceChildren();
   el<HTMLAnchorElement>("vo-source-image").removeAttribute("href");
@@ -169,7 +177,7 @@ async function loadPage(): Promise<void> {
   el("vo-source-caption").textContent = "Loading and checking the selected page…";
   el("vo-source-note").textContent = page.note;
   try {
-    const bytes = await voluteAsset(`sources/volute/${page.file}`);
+    const bytes = await voluteAsset(`sources/volute/${page.file}`, sourceController.signal);
     if (attempt !== pageAttempt) return;
     const url = URL.createObjectURL(new Blob([bytes], { type: "image/jpeg" }));
     const img = new Image();
@@ -189,17 +197,22 @@ async function loadPage(): Promise<void> {
     sourceUrl = url;
     el("vo-source-frame").replaceChildren(img);
     el<HTMLAnchorElement>("vo-source-image").href = url;
+    el("vo-source-image").hidden = false;
+    el<HTMLButtonElement>("vo-zoom").disabled = false;
     el("vo-source-caption").textContent =
       `${page.title}. ${page.pdfPage ? `Whole PDF page ${page.pdfPage}` : "Whole museum photograph"}; ${page.width} × ${page.height} pixels. Image identity verified.`;
     el("vo-source-frame").scrollTo(0, 0);
   } catch (error) {
-    if (attempt === pageAttempt)
-      el("vo-source-caption").textContent =
-        `${(error as Error).message} Select the page again to retry.`;
+    if (attempt === pageAttempt) {
+      el("vo-source-caption").textContent = (error as Error).message;
+      el("vo-source-retry").hidden = false;
+      el("vo-source-frame").hidden = true;
+    }
   } finally {
     if (attempt === pageAttempt) el("vo-source-frame").setAttribute("aria-busy", "false");
   }
 }
+el("vo-source-retry").addEventListener("click", () => void loadPage());
 el("vo-page").addEventListener("change", () => {
   state.page = Number(el<HTMLSelectElement>("vo-page").value);
   void loadPage();
@@ -243,7 +256,42 @@ function save(
 save("vo-save-json", voluteRecord, "gonia-volute.json", "application/json");
 save("vo-save-csv", voluteCsv, "gonia-volute.csv", "text/csv");
 save("vo-save-svg", voluteSvg, "gonia-volute-compass.svg", "image/svg+xml");
-save("vo-save-html", voluteStudy, "gonia-volute-reading.html", "text/html");
+el("vo-save-html").addEventListener("click", async () => {
+  if (readingController) {
+    readingController.abort(
+      new DOMException("Saving cancelled. No reading was downloaded.", "AbortError"),
+    );
+    return;
+  }
+  const controller = new AbortController();
+  readingController = controller;
+  const button = el<HTMLButtonElement>("vo-save-html");
+  const label = button.textContent;
+  button.textContent = "Cancel reading save";
+  say(
+    "Preparing your selected drawing and complete sources. Transfers may take a few minutes; you can cancel this save.",
+  );
+  try {
+    const data = await voluteStudy(structuredClone(state), controller.signal);
+    controller.signal.throwIfAborted();
+    saveVolute(data, "gonia-volute-reading.html", "text/html");
+    say("Saved gonia-volute-reading.html.");
+  } catch (error) {
+    say((error as Error).message);
+  } finally {
+    if (readingController === controller) readingController = undefined;
+    button.textContent = label;
+  }
+});
+addEventListener("pagehide", () => {
+  sourceController?.abort();
+  readingController?.abort(
+    new DOMException("Reading save stopped because the page closed.", "AbortError"),
+  );
+});
+addEventListener("pageshow", (event) => {
+  if (event.persisted) void loadPage();
+});
 el("vo-share").addEventListener("click", async () => {
   const url = `${location.origin}${location.pathname}${voluteQuery(state)}#vo-bench`;
   try {

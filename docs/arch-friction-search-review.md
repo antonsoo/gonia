@@ -77,10 +77,11 @@ neither historical reconstruction nor structural design advice. See
 ## Delivery
 
 `npm run build` writes the complete static edition to `dist/`, with base
-`/gonia/`. `npm run dev` and `npm run preview` use port 4328. Only local work
-was authorized by the house publication rules: no push, tag, deployment or
-registry publication was performed. Hosted bytes and remote behavior have not
-been verified for this change.
+`/gonia/`. `npm run dev` and `npm run preview` use port 4328. At this initial
+local checkpoint, no push, tag, deployment or registry publication had been
+performed. The later [transfer and publication audit](arch-transfer-audit.md)
+supersedes this delivery checkpoint; the evidence above describes the original
+local feature review.
 
 Suggested repository description: **Measured ancient architecture: operate the
 geometry, read the original languages, and keep the evidence.**

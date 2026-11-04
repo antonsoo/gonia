@@ -1,0 +1,117 @@
+{
+  "engine": "firefox",
+  "checkedAt": "2026-11-04T20:34:55.913Z",
+  "browser": "155.0",
+  "sharedPayloadBudgetBytesPerSecond": 128000,
+  "exportMs": 28550,
+  "fullEditionReadyMs": 470033,
+  "lifecycle": [],
+  "observedWorkerStates": [
+    {
+      "worker": 1,
+      "state": "installing",
+      "atMs": 3787
+    },
+    {
+      "worker": 1,
+      "state": "redundant",
+      "atMs": 64452
+    },
+    {
+      "worker": 2,
+      "state": "installing",
+      "atMs": 64855
+    },
+    {
+      "worker": 2,
+      "state": "redundant",
+      "atMs": 125418
+    },
+    {
+      "worker": 3,
+      "state": "installing",
+      "atMs": 127020
+    },
+    {
+      "worker": 3,
+      "state": "redundant",
+      "atMs": 187802
+    },
+    {
+      "worker": 4,
+      "state": "installing",
+      "atMs": 188336
+    },
+    {
+      "worker": 4,
+      "state": "redundant",
+      "atMs": 248419
+    },
+    {
+      "worker": 5,
+      "state": "installing",
+      "atMs": 248823
+    },
+    {
+      "worker": 5,
+      "state": "redundant",
+      "atMs": 309370
+    },
+    {
+      "worker": 6,
+      "state": "installing",
+      "atMs": 309759
+    },
+    {
+      "worker": 6,
+      "state": "redundant",
+      "atMs": 369901
+    },
+    {
+      "worker": 7,
+      "state": "installing",
+      "atMs": 370239
+    },
+    {
+      "worker": 7,
+      "state": "redundant",
+      "atMs": 430277
+    },
+    {
+      "worker": 8,
+      "state": "installing",
+      "atMs": 430764
+    },
+    {
+      "worker": 8,
+      "state": "installed",
+      "atMs": 465692
+    },
+    {
+      "worker": 8,
+      "state": "activating",
+      "atMs": 465692
+    },
+    {
+      "worker": 8,
+      "state": "activated",
+      "atMs": 465714
+    }
+  ],
+  "foregroundCompletedBeforeOfflineEdition": true,
+  "statusAtExport": "Downloading workshop & sources for offline use…",
+  "bytesSent": 53784220,
+  "requests": 174,
+  "completeVerifiedInventory": {
+    "type": "GONIA_EDITION",
+    "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+    "busy": false,
+    "complete": true,
+    "missing": 0,
+    "corrupt": 0
+  },
+  "retainedClickTimeState": true,
+  "originDisabledReload": true,
+  "pageErrors": [],
+  "workerSha256": "5979e8a4fd0b173e6f5e9a4bb9a14b866d6de5ed9489dd16eed62c17befcca75"
+}

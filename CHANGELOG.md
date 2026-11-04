@@ -18,6 +18,16 @@
 
 ## Unreleased
 
+- Retain small verified offline checkpoints before large downloads and give
+  each background transfer the remaining bandwidth. Allow a native Firefox
+  installation interruption to resume instead of stalling before any file
+  finishes. Keep foreground study saving independent of whole-edition readiness.
+
+- Repair arch source reads that aborted after thirty seconds of active transfer.
+  Bound reads by exact retained size, body inactivity and a total ceiling;
+  refuse bad bytes before caching. Cancel an export independently of the source
+  viewer, stop superseded viewer requests, and allow a clean retry.
+
 - Search every admissible arch pressure path for the least modeled uniform
   friction, separately for joints alone and with pier bases. Retain a failing
   lower coefficient and a feasible upper coefficient less than 0.000001 apart.

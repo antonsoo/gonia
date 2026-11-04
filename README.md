@@ -80,6 +80,12 @@ failure: increasing width cannot improve H/(V+P), while extra pier weight can.
 The two force-direction cones and signed force ledger show the difference.
 The coefficient is illustrative, not a measurement of ancient materials.
 
+Source reads verify their exact recorded size and hash. Slow transfers can keep
+arriving beyond thirty seconds; a silent body stops after twenty seconds and
+an individual read has a three-minute ceiling. Cancel a reading save without
+stopping the source page you are reading. Changing source pages cancels the
+older transfer. [Transfer and publication audit](docs/arch-transfer-audit.md).
+
 ### Can another path need less friction?
 
 [Search across every force and bearing position](https://antonsoo.github.io/gonia/arch.html#ar-threshold).

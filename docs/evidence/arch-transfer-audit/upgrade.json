@@ -1,0 +1,57 @@
+{
+  "checkedAt": "2026-11-04T20:38:01.393Z",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "mode": "held",
+      "heldOrSubstitutedRequests": 1,
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "priorEditionRetainedWhileIncomplete": true,
+      "currentSelectionRetained": true,
+      "oldTabWithdrewReady": true,
+      "oldTabStatus": "A different offline edition is saved. Reload to open it.",
+      "oldCacheRemovedAfterSuccess": true,
+      "upgradedEditionWorkedWithOriginRefused": true
+    },
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "mode": "substituted",
+      "heldOrSubstitutedRequests": 2,
+      "pendingStatus": "Checking saved workshop files…",
+      "priorEditionRetainedWhileIncomplete": true,
+      "currentSelectionRetained": true,
+      "oldTabWithdrewReady": true,
+      "oldTabStatus": "A different offline edition is saved. Reload to open it.",
+      "oldCacheRemovedAfterSuccess": true,
+      "upgradedEditionWorkedWithOriginRefused": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "mode": "held",
+      "heldOrSubstitutedRequests": 1,
+      "pendingStatus": "Downloading the updated workshop & sources…",
+      "priorEditionRetainedWhileIncomplete": true,
+      "currentSelectionRetained": true,
+      "oldTabWithdrewReady": true,
+      "oldTabStatus": "A different offline edition is saved. Reload to open it.",
+      "oldCacheRemovedAfterSuccess": true,
+      "upgradedEditionWorkedWithOriginRefused": true
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "mode": "substituted",
+      "heldOrSubstitutedRequests": 2,
+      "pendingStatus": "Continuing the offline download from verified saved files…",
+      "priorEditionRetainedWhileIncomplete": true,
+      "currentSelectionRetained": true,
+      "oldTabWithdrewReady": true,
+      "oldTabStatus": "A different offline edition is saved. Reload to open it.",
+      "oldCacheRemovedAfterSuccess": true,
+      "upgradedEditionWorkedWithOriginRefused": true
+    }
+  ]
+}

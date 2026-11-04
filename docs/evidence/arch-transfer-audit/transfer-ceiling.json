@@ -1,0 +1,100 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "elapsedSeconds": 38.663,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "stall",
+    "elapsedSeconds": 20.277,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "truncated",
+    "elapsedSeconds": 0.424,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "oversize",
+    "elapsedSeconds": 0.678,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 0.428,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "deadline",
+    "elapsedSeconds": 180.23,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "elapsedSeconds": 39.451,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "stall",
+    "elapsedSeconds": 20.763,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "truncated",
+    "elapsedSeconds": 0.72,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "oversize",
+    "elapsedSeconds": 0.821,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 0.741,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "deadline",
+    "elapsedSeconds": 180.597,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  }
+]

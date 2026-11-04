@@ -1,0 +1,76 @@
+{
+  "checkedAt": "2026-11-04T20:33:11.027Z",
+  "workerSha256": "5979e8a4fd0b173e6f5e9a4bb9a14b866d6de5ed9489dd16eed62c17befcca75",
+  "configurations": [
+    {
+      "browser": "chromium",
+      "version": "153.0.8010.12",
+      "corruptCacheRejected": 1,
+      "missingCacheRejected": 141,
+      "multipleTabsWithdrawReady": true,
+      "repairVerifiedBytes": true,
+      "navigationFallback": [
+        {
+          "mode": "error",
+          "milliseconds": 235,
+          "retainedSelection": true
+        },
+        {
+          "mode": "maintenance",
+          "milliseconds": 219,
+          "retainedSelection": true
+        },
+        {
+          "mode": "stall",
+          "milliseconds": 2321,
+          "retainedSelection": true
+        }
+      ],
+      "originDisabledStudy": true,
+      "firstRegistrationRetry": true,
+      "firstInstallationRetry": true,
+      "failedOfflineRetryHandled": true,
+      "cancelledReadAborted": true,
+      "idleFailureMs": 20011,
+      "substitutedSourceRejected": true,
+      "activeTransferMs": 30019,
+      "abortedServerStreams": 3,
+      "pageErrors": []
+    },
+    {
+      "browser": "firefox",
+      "version": "155.0",
+      "corruptCacheRejected": 1,
+      "missingCacheRejected": 141,
+      "multipleTabsWithdrawReady": true,
+      "repairVerifiedBytes": true,
+      "navigationFallback": [
+        {
+          "mode": "error",
+          "milliseconds": 282,
+          "retainedSelection": true
+        },
+        {
+          "mode": "maintenance",
+          "milliseconds": 463,
+          "retainedSelection": true
+        },
+        {
+          "mode": "stall",
+          "milliseconds": 2433,
+          "retainedSelection": true
+        }
+      ],
+      "originDisabledStudy": true,
+      "firstRegistrationRetry": true,
+      "firstInstallationRetry": true,
+      "failedOfflineRetryHandled": true,
+      "cancelledReadAborted": true,
+      "idleFailureMs": 20376,
+      "substitutedSourceRejected": true,
+      "activeTransferMs": 30113,
+      "abortedServerStreams": 3,
+      "pageErrors": []
+    }
+  ]
+}

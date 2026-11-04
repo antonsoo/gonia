@@ -1,0 +1,150 @@
+[
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+        "files": 141,
+        "unexpected": [],
+        "progress": {
+          "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+          "verified": 141
+        }
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "http://127.0.0.1:4328/gonia/",
+    "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+        "files": 141,
+        "unexpected": [],
+        "progress": {
+          "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+          "verified": 141
+        }
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "http://127.0.0.1:4328/gonia/",
+    "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "chromium",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true,
+      "lateImportPreservedNewerTrial": true,
+      "earlierImportCouldNotReplaceNewerFile": true
+    }
+  },
+  {
+    "engine": "firefox",
+    "width": 1440,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+        "files": 141,
+        "unexpected": [],
+        "progress": {
+          "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+          "verified": 141
+        }
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "http://127.0.0.1:4328/gonia/",
+    "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "firefox",
+    "width": 375,
+    "allJoints": 14,
+    "wordNotes": 8,
+    "sourceImagesVerified": 3,
+    "offlineRooms": 15,
+    "inventory": [
+      {
+        "name": "gonia-87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+        "files": 141,
+        "unexpected": [],
+        "progress": {
+          "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+          "verified": 141
+        }
+      }
+    ],
+    "axeViolations": 0,
+    "pageErrors": [],
+    "externalRequests": [],
+    "friction": {
+      "finiteTrialRepair": true,
+      "emptyRange": true,
+      "baseWeightVersusWidth": true,
+      "legacyRecordPreserved": true
+    },
+    "base": "http://127.0.0.1:4328/gonia/",
+    "edition": "87948410642d4201e33a4b38b662498a50b57190c981d5834e9ab4293f114786",
+    "downloadedRecordSha256": "fb7905f5bbcabadbed21c2481894c88e8929e951ff57ba5400dc24c069f14d97"
+  },
+  {
+    "engine": "firefox",
+    "integrity": {
+      "wrong200ImageRefused": true,
+      "wrongImageExportRefused": true,
+      "retryWorked": true,
+      "lateSourceDidNotReplaceSelectedPage": true,
+      "exportKeptClickTimeSnapshot": true,
+      "lateImportPreservedNewerTrial": true,
+      "earlierImportCouldNotReplaceNewerFile": true
+    }
+  }
+]

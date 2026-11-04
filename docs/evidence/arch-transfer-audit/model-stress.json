@@ -1,0 +1,12 @@
+{
+  "seed": 673491,
+  "generatedStates": 12000,
+  "loadingCounts": {
+    "crown": 5993,
+    "shoulders": 6007
+  },
+  "cases": 24000,
+  "brackets": 22080,
+  "geometryFailures": 1920,
+  "scope": "Deterministic production invariants, not an independent force-balance oracle"
+}

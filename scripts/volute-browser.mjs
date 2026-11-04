@@ -242,7 +242,10 @@ try {
     await Promise.all([1440, 375].map((width) => caseReview(browser, engine, width)));
   }
   // Network-level evidence must use a context outside the service worker.
-  const context = await chrome.newContext({ serviceWorkers: "block" });
+  const context = await chrome.newContext({
+    serviceWorkers: "block",
+    viewport: { width: 375, height: 1000 },
+  });
   const page = await context.newPage();
   await context.route("**/sources/volute/krohn-071.jpg", async (route) => {
     await new Promise((resolve) => setTimeout(resolve, 650));
@@ -260,12 +263,17 @@ try {
   );
   await page.locator("#vo-page").selectOption("1");
   await page.waitForFunction(() =>
-    document.getElementById("vo-source-caption").textContent.includes("does not match"),
+    document.getElementById("vo-source-caption").textContent.match(/does not match|recorded size/),
   );
   assert.equal(await page.locator("#vo-source-frame img").count(), 0);
+  assert.equal(await page.locator("#vo-source-frame").isVisible(), false);
+  assert.equal(await page.locator("#vo-source-image").isVisible(), false);
+  await page
+    .locator(".vo-source")
+    .screenshot({ path: path.join(output, "source-retry-phone.png") });
   await context.unroute("**/sources/volute/krohn-072.jpg");
-  await page.locator("#vo-page").selectOption("2");
-  await page.locator("#vo-page").selectOption("1");
+  await page.locator("#vo-source-retry").focus();
+  await page.keyboard.press("Enter");
   await page.waitForFunction(() =>
     document.getElementById("vo-source-caption").textContent.includes("Image identity verified"),
   );
@@ -278,7 +286,7 @@ try {
   );
   await page.locator("#vo-save-svg").click();
   await page.waitForFunction(() =>
-    document.getElementById("vo-action-status").textContent.includes("does not match"),
+    document.getElementById("vo-action-status").textContent.match(/does not match|recorded size/),
   );
   assert.equal(unexpectedDownload, false);
   await context.unroute("**/fonts/IBMPlexSans-Regular.woff2");
@@ -287,7 +295,7 @@ try {
     sourceRace: "late first page cannot replace selected later plate",
     substitutedSource: "rejected with no stale image",
     substitutedFont: "export withheld",
-    retry: "same source and export succeed after bytes restored",
+    retry: "keyboard retry of the same source and export succeed after bytes restored",
   });
   await context.close();
   await writeFile(

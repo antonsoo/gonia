@@ -4,11 +4,31 @@ import { createServer } from "node:http";
 import path from "node:path";
 import { chromium, firefox } from "playwright";
 
+const volute = process.env.GONIA_TRANSFER_ROOM === "volute";
+const room = volute ? "volute" : "arch";
+const source = volute ? "sardis-dp144130.jpg" : "krohn-141.jpg";
+const sourceBytes = volute ? 2337058 : 611151;
+const pageIndex = volute ? "6" : "0";
+const ids = volute
+  ? {
+      caption: "vo-source-caption",
+      image: "vo-source-frame img",
+      save: "vo-save-html",
+      status: "vo-action-status",
+      page: "vo-page",
+    }
+  : {
+      caption: "ar-source-caption",
+      image: "ar-source-image",
+      save: "ar-html",
+      status: "ar-save-status",
+      page: "ar-page",
+    };
 const root = path.resolve(process.argv[2] ?? "dist");
 const out = path.resolve(process.argv[3] ?? "/tmp/claude-1000/gonia-arch-transfer");
 await mkdir(out, { recursive: true });
 let mode = "normal",
-  target = "krohn-141.jpg",
+  target = source,
   nextId = 0;
 const jobs = [];
 const types = {
@@ -77,7 +97,16 @@ const server = createServer(async (req, res) => {
             return;
           }
           const end = Math.min(
-            at + (selected === "slow" ? 1600 : selected === "deadline" ? 325 : 32768),
+            at +
+              (selected === "slow"
+                ? volute
+                  ? 4096
+                  : 1600
+                : selected === "deadline"
+                  ? volute
+                    ? 1200
+                    : 325
+                  : 32768),
             bytes.length,
           );
           res.write(bytes.subarray(at, end));
@@ -102,11 +131,16 @@ const base = `http://127.0.0.1:${server.address().port}/gonia/`;
 const results = [];
 async function verified(page) {
   await page.waitForFunction(
-    () => document.getElementById("ar-source-caption").textContent.includes("identity verified"),
-    null,
+    (id) => document.getElementById(id).textContent.includes("identity verified"),
+    ids.caption,
     { timeout: 65000 },
   );
-  await page.locator("#ar-source-image").evaluate((img) => img.decode());
+  await page.locator(`#${ids.image}`).evaluate((img) => img.decode());
+}
+async function retry(page) {
+  if (volute) {
+    await page.getByRole("button", { name: "Retry selected source", exact: true }).click();
+  } else await page.locator("#ar-source-retry").click();
 }
 async function waitFor(check) {
   const end = Date.now() + 5000;
@@ -133,7 +167,7 @@ try {
             ...(process.env.ARCH_TOTAL_DEADLINE === "1" ? ["deadline"] : []),
           ]) {
         mode = scenario;
-        target = "krohn-141.jpg";
+        target = source;
         const first = nextId,
           started = Date.now();
         const context = await browser.newContext({ serviceWorkers: "block" });
@@ -142,51 +176,72 @@ try {
           downloads = [];
         page.on("pageerror", (e) => errors.push(String(e)));
         page.on("download", (d) => downloads.push(d.suggestedFilename()));
-        await page.goto(`${base}arch.html`);
+        await page.goto(`${base}${room}.html`);
+        if (volute) await page.locator(`#${ids.page}`).selectOption(pageIndex);
         if (scenario === "deadline") {
           await page.waitForFunction(
-            () => document.getElementById("ar-source-caption").textContent.includes("three-minute"),
-            null,
+            (id) => document.getElementById(id).textContent.includes("three-minute"),
+            ids.caption,
             { timeout: 195000 },
           );
           assert.ok(Date.now() - started >= 175000 && Date.now() - started < 195000);
           const job = jobs.find((j) => j.id > first && j.path.endsWith(target));
           await waitFor(() => job.closed);
-          assert.ok(job.sent > 500000 && job.sent < 611151);
+          assert.ok(job.sent > (volute ? 2000000 : 500000) && job.sent < sourceBytes);
           mode = "normal";
-          await page.locator("#ar-source-retry").click();
+          await retry(page);
           await verified(page);
         } else if (scenario === "slow") {
+          let packet;
+          if (volute) {
+            packet = page.waitForEvent("download", { timeout: 80000 });
+            await page.locator(`#${ids.save}`).click();
+            await page.locator("#vo-eye").fill("15");
+            await page.locator("#vo-eye").dispatchEvent("change");
+          }
           await verified(page);
+          if (packet) {
+            const download = await packet;
+            assert.equal(await download.failure(), null);
+            const file = path.join(out, `${engine}-slow-reading.html`);
+            await download.saveAs(file);
+            const html = await readFile(file, "utf8");
+            const record =
+              /download="gonia-volute.json" href="data:application\/json;base64,([^"]+)"/.exec(
+                html,
+              );
+            assert.ok(record, "Slow reading must retain its editable record");
+            assert.equal(JSON.parse(Buffer.from(record[1], "base64").toString()).state.eye, 12);
+            assert.equal(await page.locator("#vo-eye").inputValue(), "15");
+          }
           assert.ok(Date.now() - started > 35000);
         } else {
           await page.waitForFunction(
-            () =>
+            (id) =>
               /stopped arriving|recorded size|does not match/.test(
-                document.getElementById("ar-source-caption").textContent,
+                document.getElementById(id).textContent,
               ),
-            null,
+            ids.caption,
             { timeout: 35000 },
           );
-          assert.equal(await page.locator("#ar-source-image").isVisible(), false);
+          assert.equal(await page.locator(`#${ids.image}`).isVisible(), false);
           const job = jobs.find((j) => j.id > first && j.path.endsWith(target));
           await waitFor(() => job.closed);
           if (scenario === "stall")
             assert.ok(Date.now() - started > 19000 && Date.now() - started < 35000);
           if (scenario === "oversize")
-            assert.ok(job.sent < 1024 * 1024, `Read too much: ${job.sent}`);
+            assert.ok(job.sent < sourceBytes + 512 * 1024, `Read too much: ${job.sent}`);
           // Bad bytes must also refuse export and never enter the verified memo.
           if (scenario !== "stall") {
-            await page.locator("#ar-html").click();
-            await page.waitForFunction(() =>
-              /recorded size|does not match/.test(
-                document.getElementById("ar-save-status").textContent,
-              ),
+            await page.locator(`#${ids.save}`).click();
+            await page.waitForFunction(
+              (id) => /recorded size|does not match/.test(document.getElementById(id).textContent),
+              ids.status,
             );
             assert.deepEqual(downloads, []);
           }
           mode = "normal";
-          await page.locator("#ar-source-retry").click();
+          await retry(page);
           await verified(page);
         }
         assert.deepEqual(errors, []);
@@ -195,7 +250,8 @@ try {
           scenario,
           elapsedSeconds: (Date.now() - started) / 1000,
           verifiedAfterRetry: scenario !== "slow",
-          refusedBadDownloads: downloads.length === 0,
+          refusedBadDownloads: scenario === "slow" ? null : downloads.length === 0,
+          ...(volute && scenario === "slow" ? { slowPacketSnapshotPreserved: true } : {}),
         });
         console.log(JSON.stringify(results.at(-1)));
         await context.close();
@@ -208,21 +264,24 @@ try {
       const page = await context.newPage(),
         downloads = [];
       page.on("download", (d) => downloads.push(d.suggestedFilename()));
-      await page.goto(`${base}arch.html`);
+      await page.goto(`${base}${room}.html`);
       await verified(page);
       mode = "stall";
-      target = "krohn-140.jpg";
+      target = volute ? "sardis-dp144130.jpg" : "krohn-140.jpg";
       const first = nextId;
-      await page.locator("#ar-html").click();
+      await page.locator(`#${ids.save}`).click();
       await waitFor(() => jobs.some((j) => j.id > first && j.path.endsWith(target)));
       const exportJob = jobs.find((j) => j.id > first && j.path.endsWith(target));
-      await page.locator("#ar-page").selectOption("1");
+      await page.locator(`#${ids.page}`).selectOption(volute ? "6" : "1");
       await waitFor(() => jobs.filter((j) => j.id > first && j.path.endsWith(target)).length === 2);
       const viewerJob = jobs.filter((j) => j.id > first && j.path.endsWith(target))[1];
-      await page.locator("#ar-keep").screenshot({ path: path.join(out, `${engine}-cancel.png`) });
+      await page
+        .locator(`#${ids.save}`)
+        .screenshot({ path: path.join(out, `${engine}-cancel.png`) });
       await page.getByRole("button", { name: "Cancel reading save", exact: true }).click();
-      await page.waitForFunction(() =>
-        document.getElementById("ar-save-status").textContent.includes("Saving cancelled"),
+      await page.waitForFunction(
+        (id) => document.getElementById(id).textContent.includes("Saving cancelled"),
+        ids.status,
       );
       try {
         await waitFor(() => exportJob.closed);
@@ -240,20 +299,21 @@ try {
       viewerJob.release();
       await verified(page);
       const downloaded = page.waitForEvent("download");
-      await page.getByRole("button", { name: "Save illustrated reading", exact: true }).click();
+      await page.locator(`#${ids.save}`).click();
       await (await downloaded).saveAs(path.join(out, `${engine}-retry-reading.html`));
       assert.equal(downloads.length, 1);
       await context.close();
       // Replacing a stalled viewer must stop its own transfer immediately.
       mode = "stall";
-      target = "krohn-141.jpg";
+      target = source;
       const replacement = await browser.newContext({ serviceWorkers: "block" });
       const p = await replacement.newPage(),
         before = nextId;
-      await p.goto(`${base}arch.html`);
+      await p.goto(`${base}${room}.html`);
+      if (volute) await p.locator(`#${ids.page}`).selectOption(pageIndex);
       await waitFor(() => jobs.some((j) => j.id > before && j.path.endsWith(target)));
       const old = jobs.find((j) => j.id > before && j.path.endsWith(target));
-      await p.locator("#ar-page").selectOption("2");
+      await p.locator(`#${ids.page}`).selectOption("2");
       await verified(p);
       await waitFor(() => old.closed);
       await replacement.close();

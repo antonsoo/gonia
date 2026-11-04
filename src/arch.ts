@@ -4,6 +4,8 @@ import { archAsset } from "./arch-assets";
 import { ae, an, archPages, archReadingHtml, archWords } from "./arch-content";
 import { archSvg, archVerdict, contactSvg, frictionSvg } from "./arch-drawing";
 import { archFacts, archStudy, archTable, saveArch } from "./arch-files";
+import { frictionSearchTable } from "./arch-friction-content";
+import { frictionSearchSvg } from "./arch-friction-drawing";
 import {
   ARCH_DEFAULT,
   type ArchState,
@@ -16,6 +18,12 @@ import {
   openArchRecord,
   readArchQuery,
 } from "./core/arch";
+import {
+  type FrictionThreshold,
+  frictionGeometryKey,
+  frictionThreshold,
+  frictionThresholdCsv,
+} from "./core/arch-friction";
 import { offlineStatus } from "./offline";
 
 function el<T extends HTMLElement = HTMLElement>(id: string): T {
@@ -36,7 +44,7 @@ const range = (id: string, label: string, min: number, max: number, step = "1") 
 el("app").innerHTML = `
 <a class="skip" href="#ar-bench">Skip to the experiment</a>
 <header class="ar-masthead"><a class="ar-brand" href="./">Gonia <span lang="grc">γωνία</span></a><nav aria-label="Arch workshop"><a href="./">Doric corner</a><a href="./volute.html">Ionic volute</a><a href="#ar-reading">Read Vitruvius</a><a href="#ar-keep">Keep the experiment</a></nav></header>
-<main class="ar-main"><section class="ar-intro" aria-labelledby="ar-title"><div><p>Vitruvius VI.8 / a modern force experiment</p><h1 id="ar-title">The arch and the pier</h1></div><div><p>A wedge cannot pull its neighbour back. It has to pass the load on by pushing.</p><p>Find a pressure path through thirteen stones. Then follow the force all the way to the ground.</p><a href="#ar-bench">Begin with an arch that fits but bases that miss</a></div></section>
+<main class="ar-main"><section class="ar-intro" aria-labelledby="ar-title"><div><p>Vitruvius VI.8 / a modern force experiment</p><h1 id="ar-title">The arch and the pier</h1></div><div><p>A wedge cannot pull its neighbour back. It has to pass the load on by pushing.</p><p>Find a pressure path through thirteen stones. Then follow the force all the way to the ground.</p><a href="#ar-bench">Begin with an arch that fits but bases that miss</a><p><a href="#ar-threshold">Can another path need less friction?</a></p></div></section>
 <section id="ar-bench" aria-labelledby="ar-bench-title"><div class="ar-section-head"><div><h2 id="ar-bench-title">Where does the push go?</h2><p>The blue dots are joint contacts. A dot beyond a joint means this trial needs tension.</p></div><button type="button" id="ar-reset">Reset the opening example</button></div>
 <div class="ar-bench"><aside class="ar-controls" aria-label="Geometry and loading"><h3>Shape and load</h3>
 ${range("rise", "Centreline rise / half-span", 30, 100)}${range("thickness", "Radial thickness / half-span", 10, 40)}
@@ -56,6 +64,7 @@ ${range("bearing", "Left bearing: inner edge 0%, outer edge 100%", 0, 100, "any"
 <div class="ar-friction-settings"><h3>Sliding resistance</h3><label class="ar-select-label" for="ar-friction-mode">Contact assumption</label><select id="ar-friction-mode"><option value="ideal">No sliding assumed (original model)</option><option value="finite">Test finite friction</option></select>
 <div class="ar-control"><label for="ar-friction">Illustrative friction coefficient μ</label><input id="ar-friction" type="number" min="0" max="2" step="any" inputmode="decimal" value="0.65"><label for="ar-friction-range" class="ar-note">Move μ</label><input id="ar-friction-range" type="range" min="0" max="2" step="0.01" value="0.65"></div><p class="ar-note">The same μ applies at all joints and both bases. Choose a value to investigate; these are not measurements of ancient masonry.</p>
 </div><div class="ar-force-directions"><figure><div id="ar-joint-friction"></div><figcaption id="ar-joint-friction-note"></figcaption></figure><figure><div id="ar-base-friction"></div><figcaption id="ar-base-friction-note"></figcaption></figure></div><p id="ar-friction-summary" aria-live="polite"></p><p id="ar-friction-domain" class="ar-note"></p><p class="ar-note">The shaded cone contains force directions with |T| ≤ μN; its half-angle is arctan μ. Arrows have equal length to compare directions. Widening a base helps its contact position, but only extra weight or less thrust changes its required H/(V + P). This is a static test: a failed check does not predict the ensuing motion.</p></section>
+<section id="ar-threshold" class="ar-threshold" aria-labelledby="ar-threshold-title"><h3 id="ar-threshold-title">Can another pressure path need less friction?</h3><p>The coefficient required by your trial is not the least coefficient the arch can admit. Search all forces and bearing positions while keeping your geometry and loads.</p><button type="button" id="ar-threshold-example">Compare a shallow arch with light piers</button><p>Blue traces the largest joint requirement; gold traces H/(V + P) at a base. A path must fit the contact strips as well as both friction requirements. The dots mark the two search witnesses.</p><div class="ar-search-scroll" tabindex="0" role="region" aria-label="Friction against thrust diagram; scroll horizontally"><div id="ar-threshold-chart"></div></div><p class="ar-note">The top contact strip (blue) fits the arch joints. The lower strip (gold) also fits the base positions; no gold strip means no contact path fits the bases. Shaded thrusts fail arch contact geometry. Curves are illustrative samples; the search checks the complete intervals.</p><div id="ar-threshold-results"></div><p>Use the feasible upper bound to draw its witness. Then try the failing lower bound: changing only the pressure path cannot make that coefficient work. Edge contact is allowed as a limiting state; this is not a safety margin.</p><p class="ar-note">Changing the trial force, bearing or μ keeps this search fixed. Changing geometry, load, pier width or pier weight runs it again. A wider base cannot reduce friction for a fixed path, but it can admit a different path with a lower friction requirement.</p><details class="ar-width-question"><summary>Can a wider base change the best path?</summary><p>Start with narrow bases carrying a shoulder-loaded arch. Then widen them while keeping their weight and the chosen pressure path. This trial needs the same friction, but the search can now admit another path with a lower requirement.</p><div class="ar-actions"><button type="button" id="ar-threshold-narrow">Start with narrow bases</button><button type="button" id="ar-threshold-widen">Set base width to 1.4; keep path and weight</button></div></details><button type="button" id="ar-threshold-csv">Save friction search CSV</button><p id="ar-threshold-status" role="status"></p></section>
 <details class="ar-details"><summary>Read every contact as numbers</summary><div class="ar-table-scroll" tabindex="0" role="region" aria-label="All fourteen joint contacts; scroll horizontally"><div id="ar-table"></div></div><div id="ar-facts"></div></details>
 <p id="ar-status" role="status">${ae(startup)}</p></section>
 <section id="ar-reading" class="ar-section" aria-labelledby="ar-reading-title"><div class="ar-reading-head"><div><h2 id="ar-reading-title">“The outer piers must be broader.”</h2><p>Vitruvius first describes a relieving arch above timber, then the outer supports of buildings carried on piers. His words connect the stones to their supports; they give no numerical thrust formula.</p></div><p class="ar-note">Latin: F. Krohn's 1912 edition, printed p. 141. New English and language notes for Gonia. Line-end hyphens joined; punctuation adapted for parallel reading. Readings 3 and 4 are one sentence.</p></div>
@@ -66,6 +75,8 @@ ${archReadingHtml()}
 <section id="ar-keep" class="ar-section ar-keep" aria-labelledby="ar-keep-title"><div><h2 id="ar-keep-title">Keep the whole argument</h2><p>Save your chosen geometry, contacts and pier resultants. The illustrated reading includes all five Latin/English readings, eight word notes, three complete printed pages, fonts and licenses. It works without a connection or scripts.</p><p class="ar-note">Use your browser's Print command on the saved reading for a PDF. Native JSON, CSV and SVG downloads remain available in that file.</p></div><div><div class="ar-actions"><button type="button" id="ar-json">Save editable JSON</button><button type="button" id="ar-csv">Save joint CSV</button><button type="button" id="ar-svg">Save section SVG</button><button type="button" id="ar-html">Save illustrated reading</button><button type="button" id="ar-share">Copy experiment link</button></div><label class="ar-file-label" for="ar-open">Reopen an editable experiment</label><input type="file" id="ar-open" accept=".json,application/json"><p id="ar-save-status" role="status"></p></div></section>
 </main><footer class="ar-footer"><a href="./">More Gonia workshops</a><span id="ar-offline" role="status">Preparing the offline edition…</span><a href="https://github.com/antonsoo/gonia">Source and licenses</a></footer>`;
 
+let searchKey = "";
+let searchResults: FrictionThreshold[] = [];
 let stateRevision = 0,
   importAttempt = 0;
 const say = (message: string) => {
@@ -141,6 +152,14 @@ function draw() {
     input.disabled = state.friction === null;
     if (state.friction !== null) input.value = String(state.friction);
   }
+  const nextSearchKey = frictionGeometryKey(state);
+  if (nextSearchKey !== searchKey) {
+    searchKey = nextSearchKey;
+    searchResults = [frictionThreshold(state, false), frictionThreshold(state, true)];
+    el("ar-threshold-results").innerHTML = frictionSearchTable(searchResults, true);
+    el("ar-threshold-status").textContent = "";
+  }
+  el("ar-threshold-chart").innerHTML = frictionSearchSvg(state, searchResults);
   el("ar-table").innerHTML = archTable(state);
   el("ar-facts").innerHTML = archFacts(state);
   el("ar-drawing")
@@ -185,6 +204,55 @@ for (const id of ["ar-friction", "ar-friction-range"]) {
     draw();
   });
 }
+el("ar-threshold-example").addEventListener("click", () => {
+  const trial = { ...ARCH_DEFAULT, rise: 40, load: 0, width: 140, mass: 25, joint: 0 };
+  state = { ...(findArchPath(trial, false) ?? trial), friction: 0.6 };
+  draw();
+  el("ar-threshold-status").textContent =
+    "The shallow arch and light piers are now on the bench. Compare the blue joint minimum with the gold joint-and-base minimum, then draw each witness.";
+});
+el("ar-threshold-narrow").addEventListener("click", () => {
+  const trial = {
+    ...ARCH_DEFAULT,
+    rise: 30,
+    thickness: 16,
+    load: 100,
+    loading: "shoulders" as const,
+    width: 40,
+    mass: 400,
+  };
+  const result = frictionThreshold(trial, true);
+  if (result.kind !== "bracket") return;
+  state = result.witness;
+  draw();
+  el("ar-threshold-status").textContent =
+    "Narrow bases: width 0.4, each pier weight 4 W. This fitted path is near the least joint-and-base friction admitted. Widen the bases and compare the search while this trial stays fixed.";
+});
+el("ar-threshold-widen").addEventListener("click", () => {
+  state.width = 140;
+  draw();
+  el("ar-threshold-status").textContent =
+    "Base width is now 1.4. Force, bearing, coefficient and pier weight are unchanged. The search above uses the broader contact interval; its best path may need less friction.";
+});
+el("ar-threshold-results").addEventListener("click", (event) => {
+  const button = (event.target as Element).closest<HTMLButtonElement>("button");
+  if (!button) return;
+  const feasible = button.hasAttribute("data-friction-witness");
+  const index = Number(button.dataset.frictionWitness ?? button.dataset.frictionFail);
+  const result = searchResults[index];
+  if (result?.kind !== "bracket") return;
+  // A search witness changes only the path and coefficient. Preserve the
+  // learner's current inspected joint and source page, even for cached results.
+  if (feasible) {
+    state.thrust = result.witness.thrust;
+    state.bearing = result.witness.bearing;
+  }
+  state.friction = feasible ? result.upper : result.lower;
+  draw();
+  el("ar-threshold-status").textContent = feasible
+    ? `Using μ = ${result.upper} and its fitted ${index ? "joint-and-base" : "arch-only"} path. Inspect the section and force cones above. ${index ? "All modeled checks pass." : "The pier bases are checked separately; this witness need not fit them."}`
+    : `Using μ = ${result.lower}. No path meets the ${index ? "joint-and-base" : "arch joint"} checks at this lower bound. Your trial force and bearing are unchanged.`;
+});
 el("ar-slide").addEventListener("click", () => {
   state = { ...ARCH_DEFAULT, width: 100, friction: 0.65, joint: 0 };
   chosenFriction = 0.65;
@@ -390,6 +458,7 @@ function saving(
     }
   });
 }
+saving("ar-threshold-csv", frictionThresholdCsv, "gonia-arch-friction.csv", "text/csv");
 saving("ar-json", archRecord, "gonia-arch.json", "application/json");
 saving("ar-csv", archCsv, "gonia-arch-contacts.csv", "text/csv");
 saving("ar-svg", (s) => archSvg(s, "", true), "gonia-arch.svg", "image/svg+xml");

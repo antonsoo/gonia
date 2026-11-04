@@ -693,6 +693,75 @@
   border-bottom: 1px solid #b9c3d6;
   padding-bottom: 1rem;
 }
+.ar-threshold {
+  margin: 36px 0;
+  max-width: 1100px;
+}
+.ar-threshold > p {
+  max-width: 75ch;
+}
+.ar-threshold-table {
+  margin: 24px 0;
+  table-layout: fixed;
+  overflow-wrap: anywhere;
+}
+.ar-threshold-value {
+  font-size: 24px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.ar-threshold-table details p {
+  margin-top: 14px;
+}
+.ar-threshold-table caption {
+  text-align: left;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.ar-threshold-table th:first-child {
+  width: 20%;
+}
+.ar-threshold-table th:last-child:not(:first-child) {
+  width: 26%;
+}
+.ar-threshold-table p {
+  margin: 0 0 12px;
+}
+.ar-threshold-actions {
+  display: grid;
+  gap: 12px;
+}
+#ar-threshold-status {
+  min-height: 30px;
+  color: #5a3150;
+}
+@media (max-width: 650px) {
+  .ar-threshold-table,
+  .ar-threshold-table tbody,
+  .ar-threshold-table tr,
+  .ar-threshold-table th,
+  .ar-threshold-table td {
+    display: block;
+    width: 100%;
+  }
+  .ar-threshold-table caption {
+    display: block;
+    width: 100%;
+  }
+  .ar-threshold-table thead {
+    display: none;
+  }
+  .ar-threshold-table th:first-child {
+    width: 100%;
+    background: #edf1f7;
+  }
+  .ar-threshold-table tr {
+    margin-bottom: 24px;
+  }
+  .ar-threshold-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 .ar-friction-settings h3 {
   grid-column: 1 / -1;
 }
@@ -726,4 +795,17 @@
   .ar-friction-settings .ar-control {
     margin: 0.5rem 0;
   }
+}
+
+.ar-search-scroll {
+  overflow-x: auto;
+  margin-block: 24px;
+  border: 1px solid var(--line);
+  background: white;
+}
+#ar-threshold-chart svg {
+  display: block;
+  width: 100%;
+  min-width: 650px;
+  height: auto;
 }

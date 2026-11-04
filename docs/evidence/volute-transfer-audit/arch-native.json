@@ -1,0 +1,86 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "elapsedSeconds": 39.942,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "stall",
+    "elapsedSeconds": 22.566,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "truncated",
+    "elapsedSeconds": 4.653,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "oversize",
+    "elapsedSeconds": 4.018,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 3.525,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "elapsedSeconds": 42.048,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "stall",
+    "elapsedSeconds": 21.307,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "truncated",
+    "elapsedSeconds": 1.493,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "oversize",
+    "elapsedSeconds": 1.237,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 0.976,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  }
+]

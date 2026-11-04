@@ -1,0 +1,88 @@
+[
+  {
+    "engine": "chromium",
+    "scenario": "slow",
+    "elapsedSeconds": 61.89,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": null,
+    "slowPacketSnapshotPreserved": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "stall",
+    "elapsedSeconds": 20.771,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "truncated",
+    "elapsedSeconds": 0.719,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "oversize",
+    "elapsedSeconds": 1.389,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 0.712,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "chromium",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "slow",
+    "elapsedSeconds": 60.186,
+    "verifiedAfterRetry": false,
+    "refusedBadDownloads": null,
+    "slowPacketSnapshotPreserved": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "stall",
+    "elapsedSeconds": 21.078,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "truncated",
+    "elapsedSeconds": 0.829,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "oversize",
+    "elapsedSeconds": 1.545,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "scenario": "wrong-hash",
+    "elapsedSeconds": 0.835,
+    "verifiedAfterRetry": true,
+    "refusedBadDownloads": true
+  },
+  {
+    "engine": "firefox",
+    "cancellationStoppedExport": true,
+    "cancellationPreservedViewer": true,
+    "retryExportWorked": true,
+    "supersededViewerStopped": true
+  }
+]

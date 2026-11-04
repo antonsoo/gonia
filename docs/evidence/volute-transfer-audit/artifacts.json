@@ -1,0 +1,152 @@
+{
+  "scope": "Actual downloaded files from the supplied browser-output directory; the browser receipt records their origin",
+  "records": [
+    {
+      "case": "chromium-1440",
+      "independentAxisAndCircleChecks": 12,
+      "stencil": {
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "reading": {
+        "sourceImagesByteIdentical": 7,
+        "fontsVerified": 3,
+        "licensesVerified": 2,
+        "nativeFiles": 4,
+        "scriptCount": 0,
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "chromium-375",
+      "independentAxisAndCircleChecks": 12,
+      "stencil": {
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "reading": {
+        "sourceImagesByteIdentical": 7,
+        "fontsVerified": 3,
+        "licensesVerified": 2,
+        "nativeFiles": 4,
+        "scriptCount": 0,
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "firefox-1440",
+      "independentAxisAndCircleChecks": 12,
+      "stencil": {
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "reading": {
+        "sourceImagesByteIdentical": 7,
+        "fontsVerified": 3,
+        "licensesVerified": 2,
+        "nativeFiles": 4,
+        "scriptCount": 0,
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "offlineEquivalent": true
+    },
+    {
+      "case": "firefox-375",
+      "independentAxisAndCircleChecks": 12,
+      "stencil": {
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "reading": {
+        "sourceImagesByteIdentical": 7,
+        "fontsVerified": 3,
+        "licensesVerified": 2,
+        "nativeFiles": 4,
+        "scriptCount": 0,
+        "sheetMm": [
+          210.0,
+          297.0
+        ],
+        "eyeMm": 15,
+        "physicalRadii": 12,
+        "calibrationMm": 50
+      },
+      "offlineEquivalent": true
+    }
+  ],
+  "pdf": {
+    "pages": 19,
+    "preservedImageDimensions": [
+      [
+        1414,
+        2200
+      ],
+      [
+        1414,
+        2200
+      ],
+      [
+        1487,
+        2200
+      ],
+      [
+        1487,
+        2200
+      ],
+      [
+        1487,
+        2200
+      ],
+      [
+        1487,
+        2200
+      ],
+      [
+        3738,
+        3790
+      ]
+    ],
+    "javascript": false,
+    "sha256": "fa6ea214a5227a216cd4dba563f3aee1ad28ccb8842265643eff34cd6a44c74a"
+  }
+}

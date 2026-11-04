@@ -1,0 +1,17 @@
+{
+  "sourceCommit": "5d85da67cb49ddf270525a4f1909af2c69d018fd",
+  "node": "v26.7.0",
+  "freshArchive": true,
+  "commands": [
+    "npm ci",
+    "npm run check"
+  ],
+  "lint": "passed",
+  "typecheck": "passed",
+  "unitTests": 77,
+  "unitFailures": 0,
+  "build": "passed",
+  "workingAndCleanFilesByteIdentical": 143,
+  "workerSha256": "40a0b7ea2bca9b308c9ce4101d62c1b10e9da852c2a0771da0343d3b67615307",
+  "edition": "1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b"
+}

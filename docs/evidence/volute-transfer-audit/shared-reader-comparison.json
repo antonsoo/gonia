@@ -1,0 +1,7 @@
+{
+  "archReadBodyUnchangedFrom": "0e72f0a10dfa350e9295e9b180f57ab61092d668",
+  "archReadBodyIdentical": true,
+  "offlineWorkerProgramIdentical": true,
+  "workerProgramSha256": "fc5e075edb622e6242c4f152f77a73a7096af05e164bf2b894b6e802ce0a40e0",
+  "scope": "Source body comparison; generated inventory and edition differ. Slow-install receipts of the previous edition are not receipts of this inventory."
+}

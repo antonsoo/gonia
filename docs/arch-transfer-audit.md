@@ -218,3 +218,24 @@ worker program byte-identical; [the program comparison](evidence/arch-transfer-a
 records that distinction. Slow-install timings are not presented as new timing
 measurements for the later inventory. The working-state reload and public
 workflows are rerun on the final edition.
+
+## Public reload checkpoint and shared reader
+
+The address-retention edition was built from source
+`0e72f0a10dfa350e9295e9b180f57ab61092d668` and published on Pages commit
+`f9812ca466af4e7ab8dfb1060b0e25a9f4bfd43a`.
+[Public byte comparison](evidence/arch-transfer-audit/hosted-reload.json) records
+142/142 canonical files matching, including the worker, at 21:08 UTC on
+2026-11-04. [Public browser receipt](evidence/arch-transfer-audit/public-reload-browser.json)
+records all four browser/viewport combinations, full-state restoration online
+and offline, the 700-input history check, and actual downloadable readings.
+These are receipts for that specific edition.
+
+The subsequent [Ionic source-reader audit](volute-transfer-audit.md) extracts
+this reader for reuse by the volute desk. Its source comparison confirms that
+the arch's read-body implementation and the worker program are unchanged;
+the new shared build file changes the edition inventory. Earlier slow-install
+receipts remain evidence of the recorded earlier inventory, rather than a new
+full bandwidth test of its successor. Fresh arch browser and native-transfer
+receipts, all-room offline checks and publication checks are retained with the
+Ionic audit.

@@ -179,6 +179,8 @@ Open the [compass desk](https://antonsoo.github.io/gonia/volute.html), or choose
 **Ionic volute** from the root workshop. The [publication record](docs/volute-publication.md)
 records pushed source, canonical public bytes, actual downloads and offline
 behavior separately from the earlier [local review](docs/volute-review.md).
+The [source-transfer audit](docs/volute-transfer-audit.md) documents slow museum-photo
+reading, bounded identity checks, independent cancellation and retry.
 For local use, `npm ci && npm run dev` serves `/gonia/volute.html`.
 
 Place twelve compass centres on the enlarged eye. Every command draws a real

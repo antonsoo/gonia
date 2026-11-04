@@ -148,10 +148,12 @@ async function fill(installing: boolean) {
       });
   };
   try {
-    // Start large files early so a native lifetime limit interrupts small
-    // remaining reads. Two background requests leave room for foreground
-    // sources and fonts under the browser's per-origin connection limit.
-    const order = [...FILES].sort((a, b) => (SIZES[b] ?? 0) - (SIZES[a] ?? 0));
+    // Retain small verified checkpoints before fetching large files. Firefox
+    // can end an installing worker before two competing multi-megabyte reads
+    // finish; without a checkpoint the page cannot distinguish that from a
+    // persistent failure. One background transfer also gives a large file the
+    // full remaining bandwidth once foreground reading/export has finished.
+    const order = [...FILES].sort((a, b) => (SIZES[a] ?? 0) - (SIZES[b] ?? 0));
     await concurrent(
       order,
       async (url) => {
@@ -179,7 +181,7 @@ async function fill(installing: boolean) {
         }
         progress();
       },
-      2,
+      1,
     );
   } catch (error) {
     controller.abort(error);

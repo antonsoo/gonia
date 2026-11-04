@@ -262,12 +262,26 @@ async function review(browser, engine, width) {
       return Promise.all(
         keys
           .filter((k) => k.startsWith("gonia-"))
-          .map(async (k) => ({ name: k, files: (await (await caches.open(k)).keys()).length })),
+          .map(async (k) => {
+            const saved = await caches.open(k);
+            const paths = (await saved.keys()).map((r) => new URL(r.url).pathname);
+            const progressPath = new URL(".offline-progress", location.href).pathname;
+            const marker = await saved.match(progressPath);
+            return {
+              name: k,
+              files: paths.filter((p) => files.includes(p)).length,
+              unexpected: paths.filter((p) => !files.includes(p) && p !== progressPath),
+              progress: marker ? await marker.json() : null,
+            };
+          }),
       );
     },
     { edition, files },
   );
-  assert.ok(inventory.some((c) => c.name === `gonia-${edition}` && c.files === files.length));
+  const currentCache = inventory.find((c) => c.name === `gonia-${edition}`);
+  assert.equal(currentCache?.files, files.length);
+  assert.deepEqual(currentCache?.unexpected, []);
+  assert.deepEqual(currentCache?.progress, { edition, verified: files.length });
   await context.setOffline(true);
   await page.reload();
   await page.locator("#ar-title").waitFor();

@@ -59,3 +59,7 @@ jobs:
       - run: npm run verify:babylon-files -- /tmp/gonia-babylon
       - run: npm run test:volute -- http://127.0.0.1:4328/gonia/ /tmp/gonia-volute
       - run: npm run verify:volute-files -- /tmp/gonia-volute
+      - uses: astral-sh/setup-uv@v10.3.0
+      - run: npm run verify:arch
+      - run: npm run verify:arch-friction
+      - run: npm run test:arch-friction -- http://127.0.0.1:4328/gonia/ /tmp/gonia-arch-friction

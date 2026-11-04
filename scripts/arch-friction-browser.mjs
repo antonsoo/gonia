@@ -28,7 +28,9 @@ for (const [engine, driver] of [
   ["chromium", chromium],
   ["firefox", firefox],
 ]) {
-  const browser = await driver.launch();
+  const browser = await driver.launch(
+    engine === "chromium" ? { ignoreDefaultArgs: ["--disable-ipc-flooding-protection"] } : {},
+  );
   try {
     for (const width of [1440, 375]) {
       const dir = path.join(out, `${engine}-${width}`);
@@ -39,8 +41,13 @@ for (const [engine, driver] of [
       });
       const page = await context.newPage(),
         errors = [],
-        outside = [];
+        outside = [],
+        historyWarnings = [];
       page.on("pageerror", (e) => errors.push(String(e)));
+      page.on("console", (message) => {
+        if (/Throttling navigation|too many.*history/i.test(message.text()))
+          historyWarnings.push(message.text());
+      });
       page.on("request", (r) => {
         if (/^https?:/.test(r.url()) && new URL(r.url()).origin !== new URL(base).origin)
           outside.push(r.url());
@@ -158,6 +165,21 @@ for (const [engine, driver] of [
         .screenshot({ path: path.join(dir, "saved-search.png") });
       assert.deepEqual(savedErrors, []);
       await savedContext.close();
+      // Ordinary reload and the worker's reload offer use this same address.
+      await page.locator("#ar-joint").selectOption("12");
+      await page.locator("#ar-page").selectOption("2");
+      const beforeReload = await download(page, "#ar-json", path.join(dir, "reload-before.json"));
+      const address = new URL(page.url());
+      assert.equal(address.searchParams.get("joint"), "12");
+      assert.equal(address.searchParams.get("page"), "2");
+      assert.equal(address.hash, "#ar-threshold");
+      await page.reload();
+      assert.equal(await page.locator("#ar-joint").inputValue(), "12");
+      assert.equal(await page.locator("#ar-page").inputValue(), "2");
+      const afterReload = await download(page, "#ar-json", path.join(dir, "reload-after.json"));
+      assert.deepEqual(JSON.parse(afterReload), JSON.parse(beforeReload));
+      await page.locator("#ar-joint").selectOption("0");
+      await page.locator("#ar-page").selectOption("0");
       const axe = await new AxeBuilder({ page })
         .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
         .analyze();
@@ -190,6 +212,12 @@ for (const [engine, driver] of [
       await page.waitForFunction(() => navigator.serviceWorker.controller !== null);
       await context.setOffline(true);
       await page.reload();
+      const offlineState = await download(
+        page,
+        "#ar-json",
+        path.join(dir, "offline-restored.json"),
+      );
+      assert.deepEqual(JSON.parse(offlineState), JSON.parse(json));
       await page.locator("#ar-threshold-example").click();
       await page.locator('[data-friction-witness="1"]').click();
       const offlineCsv = await download(
@@ -200,6 +228,25 @@ for (const [engine, driver] of [
       assert.deepEqual(offlineCsv, csv);
       const offlineHtml = await download(page, "#ar-html", path.join(dir, "offline-reading.html"));
       assert.match(offlineHtml.toString(), /0\.42659950256347656/);
+      const burst = await page.evaluate(() => {
+        const length = history.length;
+        const slider = document.getElementById("ar-bearing");
+        for (let i = 0; i < 700; i++) {
+          slider.value = String(i % 100);
+          slider.dispatchEvent(new Event("input", { bubbles: true }));
+        }
+        slider.dispatchEvent(new Event("change", { bubbles: true }));
+        return {
+          before: length,
+          after: history.length,
+          bearing: new URL(location.href).searchParams.get("bearing"),
+        };
+      });
+      assert.equal(burst.after, burst.before);
+      assert.equal(burst.bearing, "99");
+      assert.deepEqual(historyWarnings, []);
+      await page.reload();
+      assert.equal(await page.locator("#ar-bearing").inputValue(), "99");
       assert.deepEqual(errors, []);
       assert.deepEqual(outside, []);
       receipt.push({
@@ -211,6 +258,8 @@ for (const [engine, driver] of [
         embeddedCsvMatches: true,
         offlineSearchAndExport: true,
         keyboardButtonsAndChart: true,
+        onlineAndOfflineReloadPreservedFullState: true,
+        normalHistoryProtectionWith700Inputs: true,
         noHorizontalPageOverflow: true,
         axeViolations: axe.violations.length,
         pageErrors: errors,

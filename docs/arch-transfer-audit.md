@@ -184,3 +184,37 @@ local build by SHA-256. Preserved older hashed assets on Pages are outside that
 canonical inventory. The separate public browser review operates discovery,
 controls, source pages, native files and offline exports; a matching HTTP body
 alone does not establish those behaviors.
+
+
+## Reloading the working experiment
+
+A further public probe found that selecting the shallow example, joint 12 and
+source page 2 did not change the address. Ordinary reload reset base width from
+1.4 to 0.5, joint 12 to 3, and source page 2 to 0. That also affected the explicit
+reload offered after an edition update. The native JSON already retained every
+necessary field; the current address did not.
+
+The address now retains the complete valid experiment, including unrounded
+force/bearing values and the selected joint and source page. Replacing the
+current entry avoids a history entry for every slider movement. Drag writes are
+coalesced at 100 ms; completed changes, clicks, key releases, imports and reload
+shortcuts flush the final selection immediately. Identical addresses cause no
+write. A 700-input burst with Chromium's normal IPC flooding protection exposed
+why writing on every input was insufficient: the control ended at 99 while the
+address silently stopped at 97. Playwright normally disables that protection;
+the updated browser runner explicitly leaves it enabled.
+
+The updated workflow compares native editable JSON before/after online reload
+and after a controlled offline reload, then checks 700 range inputs followed by
+a committed change, unchanged history length, the final address, and a further
+offline reload. It passes in both engines at both viewport widths, without
+history-throttling warnings. The [before probe](evidence/arch-transfer-audit/reload-loss-before.json)
+and [reload browser receipt](evidence/arch-transfer-audit/reload-browser.json)
+retain the observed behavior.
+
+The cold-install receipts above belong to the preceding transfer release. The
+address-retention patch changes the generated edition inventory but leaves the
+worker program byte-identical; [the program comparison](evidence/arch-transfer-audit/worker-program-comparison.json)
+records that distinction. Slow-install timings are not presented as new timing
+measurements for the later inventory. The working-state reload and public
+workflows are rerun on the final edition.

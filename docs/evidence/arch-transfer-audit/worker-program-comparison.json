@@ -1,0 +1,7 @@
+{
+  "comparison": "Transfer release versus address-retention candidate",
+  "transferReleaseWorkerSha256": "5979e8a4fd0b173e6f5e9a4bb9a14b866d6de5ed9489dd16eed62c17befcca75",
+  "addressRetentionWorkerSha256": "b572dfc9837ee305511e6e784ccdc259c828213d99dc6c5e03c391c66c6c881f",
+  "workerProgramSha256": "fc5e075edb622e6242c4f152f77a73a7096af05e164bf2b894b6e802ce0a40e0",
+  "workerProgramUnchanged": true
+}

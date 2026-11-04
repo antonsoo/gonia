@@ -82,8 +82,22 @@ let stateRevision = 0,
 const say = (message: string) => {
   el("ar-status").textContent = message;
 };
+let locationTimer: ReturnType<typeof setTimeout> | undefined;
+function flushLocation() {
+  clearTimeout(locationTimer);
+  locationTimer = undefined;
+  const next = `${location.pathname}${archQuery(state)}${location.hash}`;
+  if (next !== `${location.pathname}${location.search}${location.hash}`)
+    history.replaceState(null, "", next);
+}
+function retainLocation() {
+  // Dragging can exceed a normal browser's history IPC limit. Keep rendering
+  // every input; write at most ten intermediate addresses per second.
+  if (locationTimer === undefined) locationTimer = setTimeout(flushLocation, 100);
+}
 function draw() {
   stateRevision++;
+  retainLocation();
   if (state.friction !== null) chosenFriction = state.friction;
   const m = archAnalysis(state);
   el("ar-drawing").innerHTML = archSvg(state, word);
@@ -399,6 +413,7 @@ async function loadSource() {
     index = state.page,
     page = archPages[index];
   if (!page) return;
+  retainLocation();
   const img = el<HTMLImageElement>("ar-source-image");
   img.hidden = true;
   img.removeAttribute("src");
@@ -492,6 +507,8 @@ el("ar-html").addEventListener("click", async () => {
   }
 });
 addEventListener("pagehide", () => {
+  clearTimeout(locationTimer);
+  locationTimer = undefined;
   sourceController?.abort();
   readingController?.abort(
     new DOMException("Reading save stopped because the page closed.", "AbortError"),
@@ -513,6 +530,7 @@ el("ar-open").addEventListener("change", async () => {
     const opened = openArchRecord(text);
     state = opened;
     draw();
+    flushLocation();
     void loadSource();
     el("ar-save-status").textContent = "Editable arch reopened with its original settings.";
   } catch (error) {
@@ -543,6 +561,16 @@ addEventListener("popstate", () => {
     say((error as Error).message);
   }
 });
+// Flush before a reload-button handler and after controls commit their state.
+el("app").addEventListener("click", flushLocation, true);
+el("app").addEventListener("click", flushLocation);
+el("app").addEventListener("change", flushLocation);
+el("app").addEventListener("keyup", flushLocation);
+addEventListener("keydown", (event) => {
+  if (event.key === "F5" || ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "r"))
+    flushLocation();
+});
 draw();
+flushLocation();
 void loadSource();
 void offlineStatus(el("ar-offline"));

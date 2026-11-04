@@ -18,6 +18,10 @@
 
 ## Unreleased
 
+- Keep the complete arch experiment in the address as controls change, including
+  the inspected joint, printed page, coefficient and unrounded fitted path.
+  Ordinary reloads and offline-edition reloads restore the actual working state.
+
 - Retain small verified offline checkpoints before large downloads and give
   each background transfer the remaining bandwidth. Allow a native Firefox
   installation interruption to resume instead of stalling before any file

@@ -124,6 +124,10 @@ The ancient request for wider outer piers is kept separate from the modern
 force calculation and its assumptions. [Sources and transcription](docs/arch-sources.md)
 record the actual print, original PDF identity and reproduction command.
 
+The address keeps the current geometry, force, bearing, friction, inspected joint
+and printed page. An ordinary reload restores those choices online or offline;
+slider writes are coalesced and completed selections are flushed immediately,
+without adding a history entry for every movement.
 Save JSON and reopen it, export every joint to CSV, or keep a section SVG.
 The illustrated HTML retains the experiment, the actual source pages, fonts,
 complete licenses and native JSON/CSV/SVG/source-identity downloads. It needs

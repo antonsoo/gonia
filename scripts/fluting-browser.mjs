@@ -132,7 +132,14 @@ async function save(page, kind, id) {
   );
   await dl.saveAs(file);
   const bytes = await readFile(file);
-  report.files.push({ kind, state, path: file, bytes: bytes.length, sha256: hash(bytes) });
+  // Record the name inside the output folder, not this machine's absolute path.
+  report.files.push({
+    kind,
+    state,
+    path: path.relative(directory, file),
+    bytes: bytes.length,
+    sha256: hash(bytes),
+  });
   return file;
 }
 try {

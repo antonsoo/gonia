@@ -1,11 +1,11 @@
 {
   "examples/optics-reading.pdf": {
-    "bytes": 4433122,
-    "sha256": "35a261bbb7fbaa7a2d8026f15b4ae8dd77d2545320640491d6506151ab39780e"
+    "bytes": 4437193,
+    "sha256": "67f80065e374a82b62ed77611a419441e8978a23ec91154a494e85087aebb755"
   },
   "examples/optics-reading.html.gz": {
-    "bytes": 4644856,
-    "sha256": "fd2ba37c35fd4c0961ebf575a51a6e7f2592cb029002fbee5c264f9096d64ee7"
+    "bytes": 4642112,
+    "sha256": "3e8d45b50ee06904a8f1716615e7894e2935f7a8a35e9a22f68a1fd20dc1ec34"
   },
   "examples/optics.svg": {
     "bytes": 3733,

@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T22:28:03.683Z",
+  "checkedAt": "2026-11-25T23:01:10.007Z",
   "base": "local production build",
   "configurations": [
     {
@@ -8,7 +8,7 @@
       "keyboard": true,
       "drag": true,
       "history": true,
-      "sourcePages": 3,
+      "sourcePages": 5,
       "offlineRooms": 4,
       "nativeReading": true,
       "embeddedCsvEqual": true,
@@ -22,7 +22,7 @@
       "keyboard": true,
       "drag": true,
       "history": true,
-      "sourcePages": 3,
+      "sourcePages": 5,
       "offlineRooms": 4,
       "nativeReading": true,
       "embeddedCsvEqual": true,
@@ -36,7 +36,7 @@
       "keyboard": true,
       "drag": true,
       "history": true,
-      "sourcePages": 3,
+      "sourcePages": 5,
       "offlineRooms": 4,
       "nativeReading": true,
       "embeddedCsvEqual": true,
@@ -50,7 +50,7 @@
       "keyboard": true,
       "drag": true,
       "history": true,
-      "sourcePages": 3,
+      "sourcePages": 5,
       "offlineRooms": 4,
       "nativeReading": true,
       "embeddedCsvEqual": true,
@@ -493,8 +493,8 @@
         "compare": true
       },
       "path": "chromium-1440-ionic-120mm-gonia-ionic-120mm.svg",
-      "bytes": 1411,
-      "sha256": "95779c22a92526966082b603063434ae03d0be2c3e035fd3b0cbd1a6a263ff34"
+      "bytes": 1419,
+      "sha256": "8027dcf2e0328460453edb7faa4306af2af23d53bda6c030b7f0e1bb604847d8"
     },
     {
       "kind": "csv",
@@ -521,8 +521,8 @@
         "compare": true
       },
       "path": "chromium-1440-flat-120mm-gonia-flat-120mm.svg",
-      "bytes": 1427,
-      "sha256": "84f83f97e1cb0f3727834aab114232bfc001cbc0f77bddd9dfe30861793c42e3"
+      "bytes": 1435,
+      "sha256": "9f9e25e49cac7a271830bc82844fbc535891849f07f6378e1ee721f9f270b68b"
     },
     {
       "kind": "csv",
@@ -549,8 +549,8 @@
         "compare": false
       },
       "path": "chromium-1440-doric-100mm-gonia-doric-100mm.svg",
-      "bytes": 1641,
-      "sha256": "3c68262748a7cbb1b96de4131c8b42360be9218c724a02700ceac15d62a1b553"
+      "bytes": 1649,
+      "sha256": "33a7282527b3944e9ef4b49ff3968fe13683a20213fcf1f2b99dd22621e1cdce"
     },
     {
       "kind": "csv",
@@ -577,8 +577,8 @@
         "compare": false
       },
       "path": "chromium-1440-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381704,
-      "sha256": "8aa2896beef75a3d5fa8baf5d4c349c465563325f9338f4506b16a4fb23d359d"
+      "bytes": 4766523,
+      "sha256": "aeee8f603bf872f6db8d1931da2b34b8bcb662a25e1ba6c6e124019cf8f7f4b5"
     },
     {
       "kind": "template",
@@ -591,8 +591,8 @@
         "compare": true
       },
       "path": "chromium-375-ionic-120mm-gonia-ionic-120mm.svg",
-      "bytes": 1411,
-      "sha256": "95779c22a92526966082b603063434ae03d0be2c3e035fd3b0cbd1a6a263ff34"
+      "bytes": 1419,
+      "sha256": "8027dcf2e0328460453edb7faa4306af2af23d53bda6c030b7f0e1bb604847d8"
     },
     {
       "kind": "csv",
@@ -619,8 +619,8 @@
         "compare": true
       },
       "path": "chromium-375-flat-120mm-gonia-flat-120mm.svg",
-      "bytes": 1427,
-      "sha256": "84f83f97e1cb0f3727834aab114232bfc001cbc0f77bddd9dfe30861793c42e3"
+      "bytes": 1435,
+      "sha256": "9f9e25e49cac7a271830bc82844fbc535891849f07f6378e1ee721f9f270b68b"
     },
     {
       "kind": "csv",
@@ -647,8 +647,8 @@
         "compare": false
       },
       "path": "chromium-375-doric-100mm-gonia-doric-100mm.svg",
-      "bytes": 1641,
-      "sha256": "3c68262748a7cbb1b96de4131c8b42360be9218c724a02700ceac15d62a1b553"
+      "bytes": 1649,
+      "sha256": "33a7282527b3944e9ef4b49ff3968fe13683a20213fcf1f2b99dd22621e1cdce"
     },
     {
       "kind": "csv",
@@ -675,8 +675,8 @@
         "compare": false
       },
       "path": "chromium-375-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381704,
-      "sha256": "8aa2896beef75a3d5fa8baf5d4c349c465563325f9338f4506b16a4fb23d359d"
+      "bytes": 4766523,
+      "sha256": "aeee8f603bf872f6db8d1931da2b34b8bcb662a25e1ba6c6e124019cf8f7f4b5"
     },
     {
       "kind": "reading",
@@ -689,8 +689,8 @@
         "compare": false
       },
       "path": "chromium-recovered-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381704,
-      "sha256": "8aa2896beef75a3d5fa8baf5d4c349c465563325f9338f4506b16a4fb23d359d"
+      "bytes": 4766523,
+      "sha256": "aeee8f603bf872f6db8d1931da2b34b8bcb662a25e1ba6c6e124019cf8f7f4b5"
     },
     {
       "kind": "template",
@@ -703,8 +703,8 @@
         "compare": true
       },
       "path": "firefox-1440-ionic-120mm-gonia-ionic-120mm.svg",
-      "bytes": 1411,
-      "sha256": "95779c22a92526966082b603063434ae03d0be2c3e035fd3b0cbd1a6a263ff34"
+      "bytes": 1419,
+      "sha256": "8027dcf2e0328460453edb7faa4306af2af23d53bda6c030b7f0e1bb604847d8"
     },
     {
       "kind": "csv",
@@ -731,8 +731,8 @@
         "compare": true
       },
       "path": "firefox-1440-flat-120mm-gonia-flat-120mm.svg",
-      "bytes": 1427,
-      "sha256": "84f83f97e1cb0f3727834aab114232bfc001cbc0f77bddd9dfe30861793c42e3"
+      "bytes": 1435,
+      "sha256": "9f9e25e49cac7a271830bc82844fbc535891849f07f6378e1ee721f9f270b68b"
     },
     {
       "kind": "csv",
@@ -759,8 +759,8 @@
         "compare": false
       },
       "path": "firefox-1440-doric-100mm-gonia-doric-100mm.svg",
-      "bytes": 1641,
-      "sha256": "3c68262748a7cbb1b96de4131c8b42360be9218c724a02700ceac15d62a1b553"
+      "bytes": 1649,
+      "sha256": "33a7282527b3944e9ef4b49ff3968fe13683a20213fcf1f2b99dd22621e1cdce"
     },
     {
       "kind": "csv",
@@ -787,8 +787,8 @@
         "compare": false
       },
       "path": "firefox-1440-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381599,
-      "sha256": "1f58f779564360fbb41c0df4179d1db573cb65a69d77416763a8a3b1f7863957"
+      "bytes": 4766455,
+      "sha256": "3f7851b5dac310c7720a67b3cd6a641e6265c171ad8a0da93a5cd083d41ac772"
     },
     {
       "kind": "template",
@@ -801,8 +801,8 @@
         "compare": true
       },
       "path": "firefox-375-ionic-120mm-gonia-ionic-120mm.svg",
-      "bytes": 1411,
-      "sha256": "95779c22a92526966082b603063434ae03d0be2c3e035fd3b0cbd1a6a263ff34"
+      "bytes": 1419,
+      "sha256": "8027dcf2e0328460453edb7faa4306af2af23d53bda6c030b7f0e1bb604847d8"
     },
     {
       "kind": "csv",
@@ -829,8 +829,8 @@
         "compare": true
       },
       "path": "firefox-375-flat-120mm-gonia-flat-120mm.svg",
-      "bytes": 1427,
-      "sha256": "84f83f97e1cb0f3727834aab114232bfc001cbc0f77bddd9dfe30861793c42e3"
+      "bytes": 1435,
+      "sha256": "9f9e25e49cac7a271830bc82844fbc535891849f07f6378e1ee721f9f270b68b"
     },
     {
       "kind": "csv",
@@ -857,8 +857,8 @@
         "compare": false
       },
       "path": "firefox-375-doric-100mm-gonia-doric-100mm.svg",
-      "bytes": 1641,
-      "sha256": "3c68262748a7cbb1b96de4131c8b42360be9218c724a02700ceac15d62a1b553"
+      "bytes": 1649,
+      "sha256": "33a7282527b3944e9ef4b49ff3968fe13683a20213fcf1f2b99dd22621e1cdce"
     },
     {
       "kind": "csv",
@@ -885,8 +885,8 @@
         "compare": false
       },
       "path": "firefox-375-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381599,
-      "sha256": "1f58f779564360fbb41c0df4179d1db573cb65a69d77416763a8a3b1f7863957"
+      "bytes": 4766455,
+      "sha256": "3f7851b5dac310c7720a67b3cd6a641e6265c171ad8a0da93a5cd083d41ac772"
     },
     {
       "kind": "reading",
@@ -899,8 +899,8 @@
         "compare": false
       },
       "path": "firefox-recovered-doric-100mm-gonia-fluting-reading.html",
-      "bytes": 3381599,
-      "sha256": "1f58f779564360fbb41c0df4179d1db573cb65a69d77416763a8a3b1f7863957"
+      "bytes": 4766455,
+      "sha256": "3f7851b5dac310c7720a67b3cd6a641e6265c171ad8a0da93a5cd083d41ac772"
     }
   ],
   "adversarial": [

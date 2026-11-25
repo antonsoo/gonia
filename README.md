@@ -135,7 +135,7 @@ neither scripts nor a connection. Current [finite-friction examples](examples/ar
 include a 15-page reading; version 2 JSON keeps the chosen friction. Original
 version 1 records and full links reopen with their no-sliding assumption.
 The earlier [contact-only files](examples/arch/) include a
-[14-page browser PDF](examples/arch/reading.pdf) and the compressed reading:
+[17-page browser PDF](examples/arch/reading.pdf) and the compressed reading:
 
 ```sh
 gzip -dc examples/arch/reading.html.gz > /tmp/gonia-arch-reading.html
@@ -292,7 +292,7 @@ Neither number is a claim about hydraulic efficiency or measured ancient output.
 
 Twelve Latin readings with new English and word notes accompany five complete
 Krohn 1912 pages. Save a script-free illustrated reading with sources and fonts,
-an actual [24-page PDF example](examples/screw-reading.pdf), numerical CSV and a
+an actual [25-page PDF example](examples/screw-reading.pdf), numerical CSV and a
 one-pitch paper wrap for a 30 mm core. The wrap includes a 25 mm calibration bar;
 physical assembly has not been tested.
 
@@ -336,7 +336,7 @@ unchanged Met photograph locates an Ionic capital; its upper building is
 absent and its restored museum display supplies no measured tilt.
 
 Save a script-free illustrated reading, SVG or comparative CSV. The retained
-[twenty-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
+[twenty-two-page PDF](examples/optics-reading.pdf) preserves all 74 language fields
 and all five original JPEGs; the [exact saved HTML](examples/optics-reading.html.gz)
 is compressed for the repository. Decompress it before opening.
 All thirteen rooms share one integrity-checked offline edition. The independent
@@ -395,7 +395,7 @@ Seven excerpts with new English, twenty-eight contextual Latin and Greek notes,
 five complete printed pages and visible editorial additions connect the model
 to Krohn's 1912 text. Save a complete script-free illustrated reading, SVG,
 211-row CSV or strict editable JSON; reopen settings and share a link. The
-repository retains a [13-page PDF](examples/hoist-reading.pdf) printed from the
+repository retains a [15-page PDF](examples/hoist-reading.pdf) printed from the
 [actual saved reading](examples/hoist-reading.html).
 That earlier nine-room production edition was cached with file-integrity checks.
 
@@ -754,6 +754,8 @@ The browser review exercises real keyboard controls, all treatments and
 vocabulary entries, source-to-drawing links, exported documents, and offline
 reloads with the origin's sockets actually disabled. It runs in Chromium and
 Firefox at 1440 and 375 pixels and includes automated accessibility checks.
+The retained examples were regenerated on 2026-11-25 for the author-name and
+license change ([what changed](docs/regeneration-2026-11-25.md)).
 See [verification notes](docs/verification.md) for the reviewed revision and
 the scope of those results. These checks establish the application's behavior,
 not historical certainty.

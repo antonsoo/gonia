@@ -430,8 +430,13 @@ for (const [name, engine] of [
           async ({ edition, inventory }) => {
             const worker = navigator.serviceWorker.controller;
             if (!worker) throw Error("No controller");
+            // The cache also holds the offline-edition progress marker (since 2026-11-01).
+            const progressPath = new URL(".offline-progress", location.href).pathname;
             const c = await caches.open(`gonia-${edition}`),
-              keys = (await c.keys()).map((r) => new URL(r.url).pathname).sort();
+              keys = (await c.keys())
+                .map((r) => new URL(r.url).pathname)
+                .filter((p) => p !== progressPath)
+                .sort();
             if (JSON.stringify(keys) !== JSON.stringify([...inventory].sort()))
               throw Error("Incomplete current inventory");
             return { controller: worker.scriptURL, cache: `gonia-${edition}`, files: keys.length };

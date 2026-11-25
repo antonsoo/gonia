@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T03:03:58.349Z",
+  "checkedAt": "2026-11-25T22:42:49.648Z",
   "scope": "Both built pages; actual rendered SVG geometry, native controls, exact embedded scans, deliberate alteration, failed source substitution and origin-disabled offline journeys. Geometry checked independently by spacing-oracle.py.",
   "configurations": [
     {
@@ -530,8 +530,8 @@
       ],
       "alteredSharedState": true,
       "sourceImagesExact": true,
-      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
-      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "standaloneStudyHash": "ca0d4cb61be28b5aa0a00baa826a84864fb82761e62824d18a0edebddf49baca",
+      "alteredStudyHash": "d3412de48d66f2006f46192545a7538295e39ab805546f67e799441520378589",
       "offlineBothPagesAndExport": true,
       "pageErrors": [],
       "externalRequests": [],
@@ -542,7 +542,7 @@
       "browser": "chromium",
       "version": "153.0.8010.12",
       "width": 375,
-      "sharedLanding": 63.53125,
+      "sharedLanding": 64.484375,
       "geometry": [
         {
           "parameters": {
@@ -1071,8 +1071,8 @@
       ],
       "alteredSharedState": true,
       "sourceImagesExact": true,
-      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
-      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "standaloneStudyHash": "ca0d4cb61be28b5aa0a00baa826a84864fb82761e62824d18a0edebddf49baca",
+      "alteredStudyHash": "d3412de48d66f2006f46192545a7538295e39ab805546f67e799441520378589",
       "offlineBothPagesAndExport": true,
       "pageErrors": [],
       "externalRequests": [],
@@ -1607,8 +1607,8 @@
       ],
       "alteredSharedState": true,
       "sourceImagesExact": true,
-      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
-      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "standaloneStudyHash": "ca0d4cb61be28b5aa0a00baa826a84864fb82761e62824d18a0edebddf49baca",
+      "alteredStudyHash": "d3412de48d66f2006f46192545a7538295e39ab805546f67e799441520378589",
       "offlineBothPagesAndExport": true,
       "pageErrors": [],
       "externalRequests": [],
@@ -2148,8 +2148,8 @@
       ],
       "alteredSharedState": true,
       "sourceImagesExact": true,
-      "standaloneStudyHash": "7df15308fe290e4e3684c47ef3d0e6d14e585359b9fcfdc0f34c0b4f525f35b0",
-      "alteredStudyHash": "2f22cbea310d57954744d720bf6a107a7a0305ba5cee2a4493045950b36f7015",
+      "standaloneStudyHash": "ca0d4cb61be28b5aa0a00baa826a84864fb82761e62824d18a0edebddf49baca",
+      "alteredStudyHash": "d3412de48d66f2006f46192545a7538295e39ab805546f67e799441520378589",
       "offlineBothPagesAndExport": true,
       "pageErrors": [],
       "externalRequests": [],

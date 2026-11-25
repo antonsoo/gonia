@@ -80,7 +80,9 @@ Inspect the actual [illustrated HTML](../examples/transport-reading.html),
 the canonical public application. The older entasis packet is now gzip packed
 to keep its tracked artifact below 5 MB; decompression preserves its original
 SHA-256 `d921fe00efe64d5b032b4b1306a2e569d1814d30838fca14729fb4fca62efa71`.
-Its published history was retained.
+Its published history was retained. (On 2026-11-25 the packet was regenerated
+for the author-name and license change; it now decompresses to
+`4eeff3e17ab1c6625f55b88c50780967faea7a0ff2ce24661a7693fa0b2990c8`.)
 
 The transport room was introduced in
 [`35f8d1d`](https://github.com/antonsoo/gonia/commit/35f8d1d), with subsequent

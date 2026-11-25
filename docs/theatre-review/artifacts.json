@@ -1,13 +1,13 @@
 [
   {
     "file": "examples/theatre-reading.html",
-    "bytes": 3420221,
-    "sha256": "b76eb967f2ded5f2c461fadef89165e84799529250c53b90d591dd272787ae87"
+    "bytes": 3423823,
+    "sha256": "b99b4bf1cefbd15dfc701562415af8b49e943da57fb9f368087832cc40cdefd2"
   },
   {
     "file": "examples/theatre-reading.pdf",
-    "bytes": 2166556,
-    "sha256": "5ac48caf64047b5653213cfbf1d0f6b9591515b1c7b27ce9e7a7d1cacfb8e19e"
+    "bytes": 2166584,
+    "sha256": "8a7e0eff975135f14f58f7dd55cec12532107f517562366ac87d959a4c8cef09"
   },
   {
     "file": "examples/theatre.csv",
@@ -16,7 +16,7 @@
   },
   {
     "file": "examples/theatre.svg",
-    "bytes": 11424,
-    "sha256": "2ee792c2f372c3ca874e180c69e8f99235700f07100c1e01f550d42b33af3bdc"
+    "bytes": 15007,
+    "sha256": "47198825c5f6182b07d8c2a7023e98a9fb091e2379dc8641c097ea350537dc1b"
   }
 ]

@@ -3,6 +3,7 @@ import base64, csv, hashlib, json, math, re, subprocess, sys, unicodedata
 from pathlib import Path
 from xml.etree import ElementTree as ET
 root=Path(sys.argv[1]);repo=Path(__file__).resolve().parents[1]
+NOTICE='Required Notice: Copyright (c) 2026 Anthony Mercer (https://github.com/antonsoo/gonia)'
 manifest=json.loads((repo/'public/sources/optics/manifest.json').read_text())
 fields=json.loads(subprocess.check_output(['node','--import','tsx','--input-type=module','-e',"import {opticsPassages} from './src/optics-content.ts'; console.log(JSON.stringify(opticsPassages.flatMap(p=>[p.latin,p.english,p.note,...p.words.flatMap(w=>[w.word,w.gloss,w.note,...(w.greek?[w.greek]:[])])])));"],cwd=repo))
 def norm(s):return re.sub(r'\s+',' ',unicodedata.normalize('NFKC',s)).strip()
@@ -31,13 +32,14 @@ for folder in sorted(root.glob('*-*')):
     image_hashes=[hashlib.sha256(base64.b64decode(s)).hexdigest() for s in re.findall(r'<img[^>]*src="data:image/jpeg;base64,([^"]+)"',book)]
     expected_hashes=[v for k,v in manifest['assets'].items() if k.endswith('.jpg')]
     assert sorted(image_hashes)==sorted(expected_hashes)
-    assert 'Permission is hereby granted, free of charge' in book
+    # New versions are PolyForm Noncommercial (2026-11-01); the reading must carry its notice and terms.
+    assert NOTICE in book and 'PolyForm Noncommercial License 1.0.0' in book
     assert 'Study edition:' in book
     rows.append({'configuration':folder.name,'actualCSVDataRows':len(data),'CSVGeometryComparisons':len(data)*9,'sourceAndLanguageFieldsInHTML':len(fields),'originalJPEGsInHTML':len(image_hashes),'SVGSettings':saved['settings']})
 assert len(rows)==4
 pdf=root/'chromium-1440/reading.pdf';txt=subprocess.check_output(['pdftotext','-layout',str(pdf),'-']).decode();text=norm(txt)
 for field in fields:assert norm(field) in text,('PDF field missing',field)
-assert 'Permission is hereby granted, free of charge' in text
+assert NOTICE in text and 'PolyForm Noncommercial License 1.0.0' in text
 compact=lambda value: ''.join(unicodedata.normalize('NFKC',value).split())
 assert compact((repo/'LICENSE').read_text()) in compact(txt)
 extracted=root/'pdf-images';extracted.mkdir(exist_ok=True)

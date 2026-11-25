@@ -70,10 +70,12 @@ a public base URL as its third argument; that replay disables browser networking
 after installation, whereas the local replay disables the actual test origin.
 
 The [compressed native HTML](../examples/screw-reading.html.gz) expands to
-3,343,708 bytes, SHA-256
-`c41ab1d586029c71856e47ff8484dab09584ca8aab3557e0959a2c5d77e115b7`.
+3,350,900 bytes, SHA-256
+`7d90341d0de80d142d2da3504c47cf3c6e2d6f8989408406087d926fd16dbe06`.
 The PDF is SHA-256
-`8cf0e34291c3440297b8bceb03ea6c6a3ced8bcea20889fa16c125d5c405902d`.
+`df6c1b80113464c554353e828a0195e9aa6172585a542cab32b784f6005c0ed4`
+(both regenerated on 2026-11-25 for the author-name and license change; see
+[the regeneration note](regeneration-2026-11-25.md)).
 Other native downloads are the [machine SVG](../examples/screw-diagram.svg),
 [paper wrap](../examples/screw-wrap.svg) and [measurements](../examples/screw-measurements.csv).
 

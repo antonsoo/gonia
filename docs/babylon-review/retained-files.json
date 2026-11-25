@@ -4,16 +4,16 @@
   "files": [
     {
       "file": "examples/babylon-reading.html.gz",
-      "bytes": 3148896,
-      "sha256": "24ef64b2a7593c910c3df259c0260ee87a5ee40a42729689a0ce2b4b7fab7c23",
+      "bytes": 3148849,
+      "sha256": "24ff2fb9db62aaf2b4232e773a966e36a4fbab032f218e45f84edb9f300cc985",
       "downloadBytes": 4559962,
       "downloadSha256": "434c3b3e976ba4ebeb68e21c39c40f659be90285d34c94ba94f87696e7c860c6",
       "matchesActualDownload": true
     },
     {
       "file": "examples/babylon-reading.pdf",
-      "bytes": 3794648,
-      "sha256": "16deaa4b0c56d8933013dd83cc993fbd1efe7b4cfdce202e3ab746484c104660",
+      "bytes": 3799407,
+      "sha256": "7f34195a08d47023bd00325dc618546ef8999bfb24cc1b065100d1497e518fca",
       "downloadBytes": 3794648,
       "downloadSha256": "16deaa4b0c56d8933013dd83cc993fbd1efe7b4cfdce202e3ab746484c104660",
       "matchesActualDownload": true
@@ -36,8 +36,8 @@
     },
     {
       "file": "examples/babylon-plate.svg",
-      "bytes": 100903,
-      "sha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "bytes": 104542,
+      "sha256": "526b8f32106a7efdfe90e6d860174a42b36b16d4be22191a38d8c3fd1f4a8217",
       "downloadBytes": 100903,
       "downloadSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
       "matchesActualDownload": true

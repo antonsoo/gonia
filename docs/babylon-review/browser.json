@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-27T01:07:39.688Z",
+  "checkedAt": "2026-11-25T23:18:53.458Z",
   "scope": "Local production; actual origin stopped for offline review",
   "base": null,
-  "edition": "3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
+  "edition": "1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b",
   "graphicsEnvironment": {
     "VK_DRIVER_FILES": "/usr/share/vulkan/icd.d/lvp_icd.json",
     "VK_ICD_FILENAMES": "/usr/share/vulkan/icd.d/lvp_icd.json",
@@ -1187,9 +1187,9 @@
         "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
       ],
       "cache": {
-        "controller": "http://127.0.0.1:45897/gonia/sw.js",
-        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
-        "files": 123
+        "controller": "http://127.0.0.1:42279/gonia/sw.js",
+        "cache": "gonia-1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b",
+        "files": 142
       },
       "record": {
         "supplied": false,
@@ -1200,9 +1200,9 @@
         "selected": 5,
         "page": "tcl6-lx"
       },
-      "savedHtmlSha256": "434c3b3e976ba4ebeb68e21c39c40f659be90285d34c94ba94f87696e7c860c6",
-      "savedHtmlBytes": 4559962,
-      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "savedHtmlSha256": "ebbffafc5c83206923f3e678f6136eb1e6de43fb0a0bfa1e6a5edb30cd13dec6",
+      "savedHtmlBytes": 4563560,
+      "svgSha256": "526b8f32106a7efdfe90e6d860174a42b36b16d4be22191a38d8c3fd1f4a8217",
       "scan": {
         "triangles": 189027,
         "textureAndLightAndCameraChangePixels": true,
@@ -2388,9 +2388,9 @@
         "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
       ],
       "cache": {
-        "controller": "http://127.0.0.1:45413/gonia/sw.js",
-        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
-        "files": 123
+        "controller": "http://127.0.0.1:41951/gonia/sw.js",
+        "cache": "gonia-1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b",
+        "files": 142
       },
       "record": {
         "supplied": false,
@@ -2401,9 +2401,9 @@
         "selected": 5,
         "page": "tcl6-lx"
       },
-      "savedHtmlSha256": "6cb51bf337da7ec0e83a33af54cb34a277d7a8db51bf2f3b1d62e8278f88dda3",
-      "savedHtmlBytes": 4227734,
-      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "savedHtmlSha256": "8da2cab4bf5094cec4b39e17f3a18c26a5219cf966fafa0ad9bceb40bf65556a",
+      "savedHtmlBytes": 4231332,
+      "svgSha256": "526b8f32106a7efdfe90e6d860174a42b36b16d4be22191a38d8c3fd1f4a8217",
       "scan": {
         "triangles": 189027,
         "textureAndLightAndCameraChangePixels": true,
@@ -3589,9 +3589,9 @@
         "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
       ],
       "cache": {
-        "controller": "http://127.0.0.1:46539/gonia/sw.js",
-        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
-        "files": 123
+        "controller": "http://127.0.0.1:43867/gonia/sw.js",
+        "cache": "gonia-1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b",
+        "files": 142
       },
       "record": {
         "supplied": false,
@@ -3602,9 +3602,9 @@
         "selected": 5,
         "page": "tcl6-lx"
       },
-      "savedHtmlSha256": "15eb43b72e76d0c44e0b654d58339a779fceb119c1af6cd0b9beaa67e6185336",
-      "savedHtmlBytes": 4437786,
-      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "savedHtmlSha256": "9fcfda16443d370289b67cdfe5f4fddfca4e4acbd1a4abb86e2ed7be1d5bb489",
+      "savedHtmlBytes": 4441384,
+      "svgSha256": "526b8f32106a7efdfe90e6d860174a42b36b16d4be22191a38d8c3fd1f4a8217",
       "scan": {
         "triangles": 189027,
         "textureAndLightAndCameraChangePixels": true,
@@ -4790,9 +4790,9 @@
         "AN.TA · elû\n\nupper. The upper sanctum belongs above the terraces. Its 4 by 3¾ nindanu footprint is rectangular; the drawing below shows a front elevation, not a square plan."
       ],
       "cache": {
-        "controller": "http://127.0.0.1:46203/gonia/sw.js",
-        "cache": "gonia-3a065d168539ecb2430e914a48b00c12087c1b5f27dd3e7ef4566f830a0a8828",
-        "files": 123
+        "controller": "http://127.0.0.1:43237/gonia/sw.js",
+        "cache": "gonia-1da3c58b213bbe3b6535b53dbe511e6dfa363621696a918ab97d1f124757624b",
+        "files": 142
       },
       "record": {
         "supplied": false,
@@ -4803,9 +4803,9 @@
         "selected": 5,
         "page": "tcl6-lx"
       },
-      "savedHtmlSha256": "0d06c4e292c67cf606f0daa2f6eea1a910840b43744ca59524c23ed7c50e4c35",
-      "savedHtmlBytes": 4169382,
-      "svgSha256": "1b31fd74fcd1b6c21c635e2e8936c991fd6bc7cdc37e5ca87dcc9c9db41a3f8e",
+      "savedHtmlSha256": "5146a70c11ce9e1b5011cb639b263c750d88abf43d52b8f23e099c0bf1fafe75",
+      "savedHtmlBytes": 4172980,
+      "svgSha256": "526b8f32106a7efdfe90e6d860174a42b36b16d4be22191a38d8c3fd1f4a8217",
       "scan": {
         "triangles": 189027,
         "textureAndLightAndCameraChangePixels": true,

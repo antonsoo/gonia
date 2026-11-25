@@ -1,5 +1,5 @@
 {
-  "scope": "Actual local browser downloads, not published artifacts",
+  "scope": "Actual downloaded files from the supplied browser-output directory; the browser receipt records their origin",
   "records": [
     {
       "case": "chromium-1440",
@@ -91,7 +91,7 @@
     }
   ],
   "pdf": {
-    "pages": 18,
+    "pages": 19,
     "preservedImageDimensions": [
       [1414, 2200],
       [1414, 2200],
@@ -102,6 +102,6 @@
       [3738, 3790]
     ],
     "javascript": false,
-    "sha256": "333fefbd391b396037ca3bafb2942de36e5e874fc2e6db83383865e108b53ce1"
+    "sha256": "4f9046118ce0980d75f32a7957df42c1679753a890bc72548a67bff57ab9292d"
   }
 }

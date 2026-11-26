@@ -3,7 +3,7 @@
 No application import. Also accepts real-browser receipts to inspect exported
 CSV, actual SVG arc commands, printed dimensions and vector calibration bars.
 """
-import csv,io,json,math,re,sys,xml.etree.ElementTree as ET
+import csv,io,json,math,os,re,sys,xml.etree.ElementTree as ET
 checks=0
 worst=0.0
 by_tolerance={}
@@ -100,6 +100,8 @@ if len(sys.argv)==1:
  report={'cases':len(data['cases'])}
 else:
  data=json.load(open(sys.argv[1]));rows=0
+ # Receipts name files inside their own folder (since 383a50e), not absolute paths.
+ base=os.path.dirname(os.path.abspath(sys.argv[1]));here=lambda p:os.path.join(base,p)
  for view in data['geometry']:
   s=view['state'];ref=reference(s);x,y,angle,miss=gauge(s,ref)
   if s['recipe']!='flat':near(view['point'][0],100*x/s['width'],1e-6);near(view['point'][1],100*y/s['width'],1e-6)
@@ -107,9 +109,9 @@ else:
   near(view['depth'],ref['point'](.5)[1],.0006)
   if s['recipe']!='flat':near(view['angle'],angle,.0006);near(view['miss'],miss,.0006)
  for item in data['files']:
-  if item['kind']=='template':paper(open(item['path']).read(),item['state'])
+  if item['kind']=='template':paper(open(here(item['path'])).read(),item['state'])
   if item['kind']!='csv':continue
-  source_rows=list(csv.DictReader(io.StringIO(open(item['path']).read())))
+  source_rows=list(csv.DictReader(io.StringIO(open(here(item['path'])).read())))
   assert len(source_rows)==276+(984 if item['state']['recipe']=='ionic' else 820)
   assert {r['recipe'] for r in source_rows if r['kind']=='section'}=={item['state']['recipe']}
   for row in source_rows:
